@@ -2,6 +2,11 @@ name: Stapply scan
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "pipeline_config.json"
+      - "scripts/fetch_stapply.py"
+      - ".github/workflows/stapply-scan.yml"
   schedule:
     - cron: "15 0 * * *" # 05:45 Asia/Kolkata
 
