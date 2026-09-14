@@ -1,0 +1,235 @@
+{
+  "version": 1,
+  "generated_at": "2026-09-14T11:50:00+05:30",
+  "rules": {
+    "auto_send_requires": ["explicit_public_current", "mailbox_verified"],
+    "blocked_email_source": "hacker_news",
+    "max_same_company_per_day": 1,
+    "max_batch_size": 5,
+    "post_send_bounce_check": true
+  },
+  "queue": [
+    {
+      "email": "jobs@deployment.io",
+      "company": "Deployment.io",
+      "role": "Forward Deployed Engineer",
+      "location": "Remote - India / US",
+      "fit": "excellent",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://deployment.io/careers/",
+      "application_method": "email",
+      "contact_context": "Founder Ankit reads applications directly",
+      "status": "ready_to_send"
+    },
+    {
+      "email": "contact@deployment.inc",
+      "company": "Deployment Inc",
+      "role": "Forward Deployed Engineer",
+      "location": "Gurugram",
+      "fit": "strong",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://deployment.inc/careers/forward-deployed-engineer/",
+      "application_method": "form_plus_email",
+      "status": "ready_to_send"
+    },
+    {
+      "email": "careers@pinaca.org",
+      "company": "Pinaca",
+      "role": "Forward Deployed Engineer",
+      "location": "Gurugram / customer sites",
+      "fit": "strong",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://careers.pinaca.org/j/forward-deployed-engineer",
+      "application_method": "form_plus_email",
+      "status": "ready_to_send"
+    },
+    {
+      "email": "careers@plutustech.io",
+      "company": "Plutus Tech",
+      "role": "Forward Deployed Engineer",
+      "location": "Remote / India",
+      "fit": "strong",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://www.plutustech.io/career/software-engineer",
+      "application_method": "email_or_form",
+      "status": "ready_to_send"
+    },
+    {
+      "email": "jobs@ucs.tech",
+      "company": "UCS",
+      "role": "Forward Deployed / Production AI Engineer",
+      "location": "Varies by engagement",
+      "fit": "excellent",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://ucs.tech/careers/",
+      "application_method": "email_expression_of_interest",
+      "status": "ready_to_send"
+    },
+    {
+      "email": "jayanth.babu@avaamo.ai",
+      "company": "Avaamo",
+      "role": "Forward Deployed Engineer",
+      "location": "Bengaluru",
+      "fit": "excellent",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://avaamo.ai/forward-deployed-engineer/",
+      "application_method": "email",
+      "contact_context": "Named application contact",
+      "status": "ready_to_send"
+    },
+    {
+      "email": "careers@kognitive.net",
+      "company": "Kognitive Networks",
+      "role": "Backend Engineer",
+      "location": "Bengaluru / Chennai / Gurugram",
+      "fit": "good",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://jobs.hydeparkvp.com/companies/kognitive-networks/jobs/69805401-backend-engineer",
+      "application_method": "email",
+      "status": "ready_to_send"
+    },
+    {
+      "email": "careers@pingaura.ai",
+      "company": "PingAura",
+      "role": "Applied AI Engineer",
+      "location": "India",
+      "fit": "excellent",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://www.pingaura.ai/careers/applied-ai-engineer",
+      "application_method": "email",
+      "status": "ready_to_send"
+    },
+    {
+      "email": "careers@araviai.com",
+      "company": "Aravi AI",
+      "role": "Founding Engineer, MCP & Agent Integrations / Applied AI Engineer",
+      "location": "Remote - India preferred",
+      "fit": "excellent",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://www.araviai.com/company/careers",
+      "application_method": "email",
+      "status": "ready_to_send"
+    },
+    {
+      "email": "info@ameotech.com",
+      "company": "Ameotech",
+      "role": "Applied AI Engineer",
+      "location": "Remote - India",
+      "fit": "strong",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://ameotech.com/careers",
+      "application_method": "email",
+      "status": "ready_to_send"
+    },
+    {
+      "email": "careers@trustra.ai",
+      "company": "Trustra.ai",
+      "role": "Founding Engineer - Platform / SDK & Integrations",
+      "location": "Remote",
+      "fit": "excellent",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://www.trustra.ai/careers",
+      "application_method": "email",
+      "status": "ready_to_send"
+    },
+    {
+      "email": "careers@livingai.in",
+      "company": "LivingAI",
+      "role": "Applied AI Engineer",
+      "location": "Bengaluru",
+      "fit": "strong",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://in.linkedin.com/jobs/view/applied-ai-engineer-at-livingai-4403756168",
+      "application_method": "email",
+      "status": "ready_to_send"
+    },
+    {
+      "email": "careers@irisidea.com",
+      "company": "Irisidea",
+      "role": "AI Engineer",
+      "location": "Remote-first",
+      "fit": "excellent",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://in.indeed.com/viewjob?jk=f1a5ea2216f16e2d",
+      "application_method": "email",
+      "status": "ready_to_send"
+    },
+    {
+      "email": "careers@nextuple.com",
+      "company": "Nextuple",
+      "role": "Software Engineer",
+      "location": "India",
+      "fit": "good",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://www.nextuple.com/careers/software-engineer",
+      "application_method": "form_or_email",
+      "status": "ready_to_send"
+    },
+    {
+      "email": "hiring@designyourinvention.com",
+      "company": "Design Your Invention",
+      "role": "Founding Engineer",
+      "location": "Hyderabad",
+      "fit": "excellent",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://designyourinvention.com/careers/founding-engineer/",
+      "application_method": "email",
+      "status": "ready_to_send"
+    },
+    {
+      "email": "careers@meraev.com",
+      "company": "MeraEV",
+      "role": "Backend Engineer - Node.js / AI roles",
+      "location": "Mumbai / Remote",
+      "fit": "strong",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://www.meraev.com/career",
+      "application_method": "email",
+      "status": "ready_to_send"
+    },
+    {
+      "email": "careers@zame.ai",
+      "company": "Zame AI",
+      "role": "AI/ML Engineer - Founding Team",
+      "location": "Hyderabad",
+      "fit": "excellent",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://www.zame.ai/careers",
+      "application_method": "email",
+      "status": "ready_to_send"
+    },
+    {
+      "email": "careers@c4scale.com",
+      "company": "C4Scale",
+      "role": "Agentic Engineer",
+      "location": "Bangalore / Chennai hybrid",
+      "fit": "excellent",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://c4scale.com/careers/",
+      "application_method": "email",
+      "status": "ready_to_send"
+    },
+    {
+      "email": "hiring@allysai.com",
+      "company": "AllysAI",
+      "role": "Artificial Intelligence Engineer",
+      "location": "India",
+      "fit": "excellent",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://in.linkedin.com/jobs/view/artificial-intelligence-engineer-at-allysai-ai-native-enterprise-4347936503",
+      "application_method": "email",
+      "status": "ready_to_send"
+    },
+    {
+      "email": "jobs@6sense.com",
+      "company": "6sense",
+      "role": "Software Engineering - Bengaluru",
+      "location": "Bengaluru",
+      "fit": "good",
+      "verification": "explicit_public_current",
+      "evidence_url": "https://job-boards.greenhouse.io/6sense/jobs/7707006",
+      "application_method": "form_plus_email",
+      "status": "ready_to_send"
+    }
+  ]
+}
