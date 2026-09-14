@@ -1,0 +1,82 @@
+{
+  "source": "stapply_jobhive",
+  "fresh_days": 7,
+  "max_experience_years": 5,
+  "max_candidates": 40,
+  "queries": [
+    "AI Engineer",
+    "Applied AI Engineer",
+    "LLM Engineer",
+    "Agent Engineer",
+    "Machine Learning Engineer",
+    "Forward Deployed Engineer",
+    "Backend Engineer",
+    "Full Stack Engineer",
+    "Software Engineer",
+    "Founding Engineer"
+  ],
+  "preferred_keywords": [
+    "llm",
+    "agent",
+    "agents",
+    "eval",
+    "evaluation",
+    "rag",
+    "tool calling",
+    "observability",
+    "python",
+    "typescript",
+    "node",
+    "next.js",
+    "postgres",
+    "backend",
+    "full stack",
+    "infrastructure"
+  ],
+  "location_keywords": [
+    "india",
+    "bengaluru",
+    "bangalore",
+    "remote",
+    "worldwide",
+    "global",
+    "apac"
+  ],
+  "exclude_title_keywords": [
+    "intern",
+    "internship",
+    "principal",
+    "staff",
+    "director",
+    "vp ",
+    "vice president"
+  ],
+  "contact_priority": [
+    "job_poster_or_recruiter",
+    "hiring_manager",
+    "engineering_manager_or_team_lead",
+    "head_of_ai_or_engineering",
+    "cto_or_technical_founder",
+    "founder"
+  ],
+  "identity_sources": [
+    "linkedin_public_profiles",
+    "company_team_page",
+    "company_careers_page",
+    "github_org"
+  ],
+  "email_sources": [
+    "company_website",
+    "public_professional_profile_or_personal_site",
+    "github_or_oss_metadata",
+    "npm_pypi_or_package_metadata",
+    "public_press_or_company_contact_source",
+    "company_email_pattern_inference"
+  ],
+  "blocked_email_source": "hacker_news",
+  "links": {
+    "portfolio": "https://devansh.aurat.ai",
+    "linkedin": "https://www.linkedin.com/in/devansh-m12",
+    "github": "https://github.com/8dazo"
+  }
+}
