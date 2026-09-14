@@ -60,6 +60,24 @@
       "email_confidence": "failed-inference",
       "application_status": "not_submitted_from_chat",
       "notes": "Stapply test run. Gmail accepted send, then remote server returned Address not found. Keep in ledger to prevent retrying this invalid variant. Hacker News was not used as an email source."
+    },
+    {
+      "email": "recruiting@certifyos.com",
+      "person": null,
+      "mapped_recruiter": "Sachi Shukla",
+      "mapped_recruiter_title": "Talent Partner",
+      "company": "CertifyOS",
+      "role": "AI & Support Automation - Engineer",
+      "status": "sent",
+      "sent_at": "2026-09-14",
+      "gmail_message_id": "1a09e8422334df10",
+      "job_source": "https://jobs.ashbyhq.com/certifyos/4f4e27fb-b4c0-4b86-8783-3bcf14928a1a",
+      "mapped_recruiter_linkedin": "https://in.linkedin.com/in/sachishukla12",
+      "contact_source": "email explicitly published on the current CertifyOS job posting",
+      "contact_source_url": "https://in.linkedin.com/jobs/view/ai-support-automation-engineer-at-certifyos-4463898301",
+      "email_confidence": "explicit-public",
+      "application_status": "not_submitted_from_chat",
+      "notes": "Fallback after inferred Sachi address bounced. Personalized outreach sent with resume, portfolio, LinkedIn, and GitHub. No immediate bounce detected. Hacker News was not used as an email source."
     }
   ]
 }
