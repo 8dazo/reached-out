@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 import json
-import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-
 from ats_scrapers import search
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -30,25 +28,19 @@ def score(row):
     desc = norm(row.get("description")).lower()
     loc = norm(row.get("location")).lower()
     text = f"{title}\n{desc}"
-    s = 0
-    reasons = []
-
+    s, reasons = 0, []
     for kw in CONFIG["preferred_keywords"]:
         if kw.lower() in text:
             s += 2
             reasons.append(kw)
-
-    if any(k in title for k in ["ai", "llm", "agent", "machine learning", "backend", "full stack", "founding", "forward deployed"]):
+    if any(k in title for k in ["ai", "llm", "agent", "machine learning", "backend", "full stack", "founding", "forward deployed", "software engineer"]):
         s += 5
-
     if bool(row.get("is_remote")):
         s += 4
         reasons.append("remote")
-
     if any(k in loc for k in CONFIG["location_keywords"]):
         s += 4
         reasons.append("location-fit")
-
     exp = row.get("experience")
     try:
         if exp is not None and int(exp) <= CONFIG["max_experience_years"]:
@@ -56,26 +48,23 @@ def score(row):
             reasons.append(f"experience<={CONFIG['max_experience_years']}")
     except Exception:
         pass
-
     return s, sorted(set(reasons))
 
 
 def main():
-    seen_ids = set()
-    candidates = []
     cutoff = datetime.now(timezone.utc) - timedelta(days=CONFIG["fresh_days"])
-
-    # Existing contacted companies/emails remain visible to the later outreach stage.
-    ledger = {"contacts": []}
-    if LEDGER.exists():
-        ledger = json.loads(LEDGER.read_text())
+    ledger = json.loads(LEDGER.read_text()) if LEDGER.exists() else {"contacts": []}
     contacted_companies = {norm(x.get("company")).lower() for x in ledger.get("contacts", []) if x.get("company")}
+    seen_ids, candidates = set(), []
 
-    for query in CONFIG["queries"]:
+    # Fast path: query the three startup-heavy ATS slices once each instead of
+    # repeatedly scanning the full Stapply dataset for every role keyword.
+    for ats in ("ashby", "greenhouse", "lever"):
         try:
-            df = search(query=query, limit=250)
+            df = search(query="engineer", ats=ats, limit=500)
+            print(f"{ats}: fetched {len(df)} engineer rows")
         except Exception as exc:
-            print(f"search failed for {query!r}: {exc}")
+            print(f"{ats}: search failed: {exc}")
             continue
 
         for _, raw_row in df.iterrows():
@@ -88,9 +77,7 @@ def main():
             title_l = norm(row.get("title")).lower()
             if any(k in title_l for k in CONFIG["exclude_title_keywords"]):
                 continue
-
-            emp = norm(row.get("employment_type")).upper()
-            if emp == "INTERN":
+            if norm(row.get("employment_type")).upper() == "INTERN":
                 continue
 
             when = dt(row.get("posted_at")) or dt(row.get("fetched_at"))
@@ -108,9 +95,8 @@ def main():
                 pass
 
             s, reasons = score(row)
-            if s < 7:
+            if s < 9:
                 continue
-
             company = norm(row.get("company"))
             candidates.append({
                 "global_id": gid,
@@ -130,29 +116,19 @@ def main():
                 "score": s,
                 "match_reasons": reasons,
                 "company_previously_contacted": company.lower() in contacted_companies if company else False,
-                "people_research": {
-                    "recruiter_or_job_poster": [],
-                    "hiring_manager": [],
-                    "engineering_lead": [],
-                    "head_of_ai_or_engineering": [],
-                    "cto_or_founder": []
-                },
                 "status": "needs_people_research"
             })
 
-    # Prefer fresh/high-fit roles and cap daily workload.
     candidates.sort(key=lambda x: (x["company_previously_contacted"], -x["score"], x["company"].lower(), x["title"].lower()))
     candidates = candidates[: CONFIG["max_candidates"]]
-
-    payload = {
+    OUT.write_text(json.dumps({
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source": "Stapply JobHive / ats-scrapers",
         "count": len(candidates),
         "next_stage": "LinkedIn/current-team research -> contact ranking -> professional email discovery -> dedupe -> apply -> personalized outreach",
         "candidates": candidates
-    }
-    OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
-    print(f"wrote {len(candidates)} candidates to {OUT}")
+    }, indent=2, ensure_ascii=False) + "\n")
+    print(f"wrote {len(candidates)} candidates")
 
 
 if __name__ == "__main__":
