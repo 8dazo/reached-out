@@ -42,6 +42,23 @@
       "contact_source": "public professional company email",
       "contact_source_url": "https://www.vcnewsdaily.com/Outmarket%20AI/venture-funding.php",
       "notes": "Test run. Dedupe checked before send; ledger updated only after Gmail confirmed SENT."
+    },
+    {
+      "email": "sachi@certifyos.com",
+      "person": "Sachi Shukla",
+      "title": "Talent Partner",
+      "company": "CertifyOS",
+      "role": "AI & Support Automation - Engineer",
+      "status": "sent",
+      "sent_at": "2026-09-14",
+      "gmail_message_id": "1a09e82dafb8f4cd",
+      "job_source": "https://jobs.ashbyhq.com/certifyos/4f4e27fb-b4c0-4b86-8783-3bcf14928a1a",
+      "linkedin_url": "https://in.linkedin.com/in/sachishukla12",
+      "contact_source": "current LinkedIn Talent Partner identity + public company email-pattern inference",
+      "contact_source_url": "https://leadiq.com/c/certifyos/6194188fb861d1aa19b4af88/email-format",
+      "email_confidence": "high-inferred",
+      "application_status": "not_submitted_from_chat",
+      "notes": "Stapply test run. Full JD verified before outreach. Exact role strongly matched Captar/Stride experience. Dedupe checked before send; Gmail confirmed SENT before ledger update. Hacker News was not used as an email source."
     }
   ]
 }
