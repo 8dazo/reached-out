@@ -1,0 +1,37 @@
+name: Stapply scan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 0 * * *" # 05:45 Asia/Kolkata
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Stapply JobHive client
+        run: pip install "ats-scrapers[parquet]"
+
+      - name: Fetch and score jobs
+        run: python scripts/fetch_stapply.py
+
+      - name: Commit refreshed shortlist
+        run: |
+          git config user.name "reached-out-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add stapply_candidates.json
+          if git diff --cached --quiet; then
+            echo "No shortlist changes"
+          else
+            git commit -m "Refresh Stapply candidate shortlist"
+            git push
+          fi
