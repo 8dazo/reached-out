@@ -11,6 +11,7 @@ CONFIG = json.loads((ROOT / "pipeline_config.json").read_text())
 OUT = ROOT / "stapply_candidates.json"
 LEDGER = ROOT / "reached_out.json"
 
+ATS_SOURCES = ("ashby", "greenhouse", "lever", "workable", "keka")
 INDIA_TERMS = (
     "india", "bengaluru", "bangalore", "pune", "hyderabad", "gurugram",
     "gurgaon", "noida", "delhi", "mumbai", "chennai", "vadodara", "ahmedabad"
@@ -33,7 +34,7 @@ def norm(v):
     return "" if s.lower() in {"nan", "nat", "none"} else s
 
 
-def dt(value):
+def parse_dt(value):
     value = norm(value)
     if not value:
         return None
@@ -64,38 +65,31 @@ def location_eligible(row):
     loc = norm(row.get("location")).lower()
     desc = norm(row.get("description")).lower()
     combined = f"{loc}\n{desc}"
-
     if any(term in loc for term in INDIA_TERMS):
         return True, "india"
     if any(term in combined for term in GLOBAL_REMOTE_TERMS) and (
         bool(row.get("is_remote")) or "remote" in combined
     ):
         return True, "global/apac remote"
-
-    # Generic remote is acceptable only when the source doesn't explicitly
-    # restrict it to another country/region.
     if bool(row.get("is_remote")) or "remote" in loc:
         if not any(term in loc for term in REMOTE_BLOCK_TERMS):
             return True, "remote-unrestricted-by-location-field"
     return False, "geo-mismatch"
 
 
-def score(row, min_years, geo_reason):
+def score(row, min_years, geo_reason, freshness_known):
     title = norm(row.get("title")).lower()
     desc = norm(row.get("description")).lower()
     text = f"{title}\n{desc}"
     s, reasons = 0, []
-
     for kw in CONFIG["preferred_keywords"]:
         if kw.lower() in text:
             s += 2
             reasons.append(kw)
-
     if any(k in title for k in ("ai", "llm", "agent", "machine learning", "backend", "full stack", "fullstack", "founding", "forward deployed")):
         s += 7
     elif "software engineer" in title or "software developer" in title:
         s += 4
-
     if geo_reason == "india":
         s += 10
         reasons.append("India")
@@ -105,14 +99,12 @@ def score(row, min_years, geo_reason):
     else:
         s += 4
         reasons.append("remote")
-
     if min_years is not None:
-        if min_years <= CONFIG["max_experience_years"]:
-            s += 4
-            reasons.append(f"requires~{min_years}y")
-        else:
-            s -= 20
-
+        s += 4
+        reasons.append(f"requires~{min_years}y")
+    if freshness_known:
+        s += 2
+        reasons.append("fresh")
     return s, sorted(set(reasons))
 
 
@@ -121,19 +113,19 @@ def main():
     contacted_companies = {
         norm(x.get("company")).lower() for x in ledger.get("contacts", []) if x.get("company")
     }
-    seen_ids, candidates = set(), []
     client = Client(prefer_parquet=True)
     now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(days=CONFIG["fresh_days"])
+    seen_ids, candidates = set(), []
 
-    # Stapply publishes small daily deltas across all ATS sources. Reading these
-    # keeps the scan fresh and avoids downloading the multi-GB full snapshot.
-    for offset in range(CONFIG["fresh_days"]):
-        day = (now - timedelta(days=offset)).date().isoformat()
+    # Load each Stapply ATS slice exactly once. This is fast enough for Actions,
+    # covers startup-heavy sources, and avoids the multi-GB all-jobs snapshot.
+    for ats in ATS_SOURCES:
         try:
-            df = client.load(date=day)
-            print(f"{day}: loaded {len(df)} changed jobs")
+            df = client.load(ats=ats)
+            print(f"{ats}: loaded {len(df)} live jobs")
         except Exception as exc:
-            print(f"{day}: delta unavailable: {exc}")
+            print(f"{ats}: unavailable: {exc}")
             continue
 
         for _, raw_row in df.iterrows():
@@ -152,24 +144,31 @@ def main():
             if "intern" in title_l or norm(row.get("employment_type")).upper() == "INTERN":
                 continue
 
+            when = parse_dt(row.get("posted_at")) or parse_dt(row.get("fetched_at"))
+            freshness_known = when is not None
+            if when is not None:
+                if when.tzinfo is None:
+                    when = when.replace(tzinfo=timezone.utc)
+                if when < cutoff:
+                    continue
+
             eligible, geo_reason = location_eligible(row)
             if not eligible:
                 continue
 
             desc = norm(row.get("description"))
             min_years = inferred_min_years(desc)
-            structured_exp = row.get("experience")
+            structured_exp = norm(row.get("experience"))
             try:
-                if structured_exp is not None and norm(structured_exp):
-                    structured_exp = int(float(structured_exp))
-                    min_years = max(min_years or 0, structured_exp)
+                if structured_exp:
+                    min_years = max(min_years or 0, int(float(structured_exp)))
             except Exception:
                 pass
             if min_years is not None and min_years > CONFIG["max_experience_years"]:
                 continue
 
-            s, reasons = score(row, min_years, geo_reason)
-            if s < 10:
+            s, reasons = score(row, min_years, geo_reason, freshness_known)
+            if s < 12:
                 continue
 
             company = norm(row.get("company"))
@@ -186,7 +185,7 @@ def main():
                 "fetched_at": norm(row.get("fetched_at")),
                 "url": norm(row.get("url")),
                 "apply_url": norm(row.get("apply_url")) or norm(row.get("url")),
-                "ats_type": norm(row.get("ats_type")),
+                "ats_type": norm(row.get("ats_type")) or ats,
                 "department": norm(row.get("department")),
                 "team": norm(row.get("team")),
                 "score": s,
@@ -195,7 +194,6 @@ def main():
                 "status": "needs_full_jd_and_people_research"
             })
 
-    # India first, then global/APAC remote; within each group prioritize fit.
     geo_rank = {"india": 0, "global/apac remote": 1, "remote-unrestricted-by-location-field": 2}
     candidates.sort(key=lambda x: (
         x["company_previously_contacted"],
@@ -208,7 +206,7 @@ def main():
 
     OUT.write_text(json.dumps({
         "generated_at": now.isoformat(),
-        "source": "Stapply JobHive daily deltas / ats-scrapers",
+        "source": "Stapply JobHive live ATS slices / ats-scrapers",
         "count": len(candidates),
         "next_stage": "full JD verification -> LinkedIn/current-team mapping -> recruiter + technical contact ranking -> public professional email discovery -> dedupe -> apply -> personalized outreach",
         "candidates": candidates
