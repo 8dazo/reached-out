@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-14T10:41:00+05:30",
+  "contacts": [
+    {
+      "email": "vishnu.swaroop@aimi.technology",
+      "person": "Vishnu Swaroop",
+      "company": "AiMi",
+      "status": "sent",
+      "sent_at": "2026-09-14",
+      "contact_source": "previous_outreach",
+      "notes": "Seeded from outreach sent before the dedupe ledger was created."
+    },
+    {
+      "email": "recruiting@starbridge.ai",
+      "person": null,
+      "company": "Starbridge",
+      "status": "sent",
+      "sent_at": "2026-09-14",
+      "contact_source": "previous_outreach",
+      "notes": "Seeded from outreach sent before the dedupe ledger was created."
+    },
+    {
+      "email": "julian@astronomer.io",
+      "person": "Julian LaNeve",
+      "company": "Astronomer",
+      "status": "sent",
+      "sent_at": "2026-09-14",
+      "contact_source": "previous_outreach",
+      "notes": "Seeded from outreach sent before the dedupe ledger was created."
+    }
+  ]
+}
