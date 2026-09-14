@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-14",
+  "applications": [
+    {
+      "company": "Deployment.io",
+      "role": "Forward Deployed Engineer",
+      "job_url": "https://deployment.io/careers/",
+      "application_method": "email",
+      "status": "applied",
+      "applied_at": "2026-09-14",
+      "evidence": "gmail:1a09e988d3afdc0a"
+    },
+    {
+      "company": "Avaamo",
+      "role": "Forward Deployed Engineer",
+      "job_url": "https://avaamo.ai/forward-deployed-engineer/",
+      "application_method": "email",
+      "status": "applied",
+      "applied_at": "2026-09-14",
+      "evidence": "gmail:1a09e98b22dbad14"
+    },
+    {
+      "company": "PingAura",
+      "role": "Applied AI Engineer",
+      "job_url": "https://www.pingaura.ai/careers/applied-ai-engineer",
+      "application_method": "email",
+      "status": "applied",
+      "applied_at": "2026-09-14",
+      "evidence": "gmail:1a09e98d8c72a324"
+    },
+    {
+      "company": "Trustra.ai",
+      "role": "Founding Engineer - Platform / SDK & Integrations",
+      "job_url": "https://www.trustra.ai/careers",
+      "application_method": "email",
+      "status": "applied",
+      "applied_at": "2026-09-14",
+      "evidence": "gmail:1a09e98f50c27ce3"
+    },
+    {
+      "company": "Design Your Invention",
+      "role": "Founding Engineer",
+      "job_url": "https://designyourinvention.com/careers/founding-engineer/",
+      "application_method": "email",
+      "status": "applied",
+      "applied_at": "2026-09-14",
+      "evidence": "gmail:1a09e9916ed7b775"
+    }
+  ]
+}
