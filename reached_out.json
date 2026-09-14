@@ -59,7 +59,7 @@
       "contact_source_url": "https://leadiq.com/c/certifyos/6194188fb861d1aa19b4af88/email-format",
       "email_confidence": "failed-inference",
       "application_status": "not_submitted_from_chat",
-      "notes": "Stapply test run. Gmail accepted send, then remote server returned Address not found. Keep in ledger to prevent retrying this invalid variant. Hacker News was not used as an email source."
+      "notes": "Gmail accepted send, then remote server returned Address not found. Keep in ledger to prevent retrying this invalid variant. Hacker News was not used as an email source."
     },
     {
       "email": "recruiting@certifyos.com",
@@ -77,7 +77,77 @@
       "contact_source_url": "https://in.linkedin.com/jobs/view/ai-support-automation-engineer-at-certifyos-4463898301",
       "email_confidence": "explicit-public",
       "application_status": "not_submitted_from_chat",
-      "notes": "Fallback after inferred Sachi address bounced. Personalized outreach sent with resume, portfolio, LinkedIn, and GitHub. No immediate bounce detected. Hacker News was not used as an email source."
+      "notes": "Personalized outreach sent with resume, portfolio, LinkedIn, and GitHub. No immediate bounce detected. Hacker News was not used as an email source."
+    },
+    {
+      "email": "jobs@deployment.io",
+      "person": "Ankit (founder mailbox)",
+      "company": "Deployment.io",
+      "role": "Forward Deployed Engineer",
+      "status": "sent",
+      "sent_at": "2026-09-14",
+      "gmail_message_id": "1a09e988d3afdc0a",
+      "job_source": "https://deployment.io/careers/",
+      "contact_source": "explicit current careers-page application email",
+      "email_confidence": "explicit-public",
+      "application_status": "applied_by_email",
+      "notes": "First scheduled-pipeline batch; personalized email with resume and profile links; no immediate bounce detected."
+    },
+    {
+      "email": "jayanth.babu@avaamo.ai",
+      "person": "Jayanth Babu",
+      "company": "Avaamo",
+      "role": "Forward Deployed Engineer",
+      "status": "sent",
+      "sent_at": "2026-09-14",
+      "gmail_message_id": "1a09e98b22dbad14",
+      "job_source": "https://avaamo.ai/forward-deployed-engineer/",
+      "contact_source": "named application email explicitly published on current careers page",
+      "email_confidence": "explicit-public",
+      "application_status": "applied_by_email",
+      "notes": "Personalized email with resume and profile links; no immediate bounce detected."
+    },
+    {
+      "email": "careers@pingaura.ai",
+      "person": null,
+      "company": "PingAura",
+      "role": "Applied AI Engineer",
+      "status": "sent",
+      "sent_at": "2026-09-14",
+      "gmail_message_id": "1a09e98d8c72a324",
+      "job_source": "https://www.pingaura.ai/careers/applied-ai-engineer",
+      "contact_source": "explicit current careers-page application email",
+      "email_confidence": "explicit-public",
+      "application_status": "applied_by_email",
+      "notes": "Personalized email with resume and profile links; no immediate bounce detected."
+    },
+    {
+      "email": "careers@trustra.ai",
+      "person": null,
+      "company": "Trustra.ai",
+      "role": "Founding Engineer - Platform / SDK & Integrations",
+      "status": "sent",
+      "sent_at": "2026-09-14",
+      "gmail_message_id": "1a09e98f50c27ce3",
+      "job_source": "https://www.trustra.ai/careers",
+      "contact_source": "explicit current careers-page application email",
+      "email_confidence": "explicit-public",
+      "application_status": "applied_by_email",
+      "notes": "Personalized around Captar guardrails, tracing, SDKs and evals; resume attached; no immediate bounce detected."
+    },
+    {
+      "email": "hiring@designyourinvention.com",
+      "person": null,
+      "company": "Design Your Invention",
+      "role": "Founding Engineer",
+      "status": "sent",
+      "sent_at": "2026-09-14",
+      "gmail_message_id": "1a09e9916ed7b775",
+      "job_source": "https://designyourinvention.com/careers/founding-engineer/",
+      "contact_source": "explicit current careers-page application email",
+      "email_confidence": "explicit-public",
+      "application_status": "applied_by_email",
+      "notes": "Personalized around TypeScript, AI tooling, 0-to-1 ownership and competitive programming; resume attached; no immediate bounce detected."
     }
   ]
 }
