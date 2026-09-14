@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-14T10:41:00+05:30",
+  "updated_at": "2026-09-14",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -28,6 +28,20 @@
       "sent_at": "2026-09-14",
       "contact_source": "previous_outreach",
       "notes": "Seeded from outreach sent before the dedupe ledger was created."
+    },
+    {
+      "email": "vishal@outmarket.ai",
+      "person": "Vishal Sankhla",
+      "title": "Co-Founder & CEO",
+      "company": "Outmarket AI",
+      "role": "Forward Deployed AI Engineer",
+      "status": "sent",
+      "sent_at": "2026-09-14",
+      "gmail_message_id": "1a09e6923635860a",
+      "job_source": "https://outmarket.ai/careers/forward-deployed-ai-engineer",
+      "contact_source": "public professional company email",
+      "contact_source_url": "https://www.vcnewsdaily.com/Outmarket%20AI/venture-funding.php",
+      "notes": "Test run. Dedupe checked before send; ledger updated only after Gmail confirmed SENT."
     }
   ]
 }
