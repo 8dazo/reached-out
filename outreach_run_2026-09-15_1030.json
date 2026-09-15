@@ -1,0 +1,19 @@
+{
+  "run_at": "2026-09-15T10:30:00+05:30",
+  "purpose": "authoritative reconciliation record for source-of-truth files",
+  "sent": [
+    {"email":"careers@pebb.dev","company":"Pebb","role":"Founding Engineer","gmail_message_id":"1a0a376fa0b1f98c","status":"bounced","bounce_message_id":"1a0a3770409909f3","application_status":"failed_bounce","evidence_url":"https://pebb.dev/careers"},
+    {"email":"careers@hibilter.com","company":"Hibilter","role":"Founding Engineer (Full-stack / AI)","gmail_message_id":"1a0a377199f34a94","status":"bounced","bounce_message_id":"1a0a3774bebfbe96","application_status":"failed_bounce","evidence_url":"https://hibilter.com/careers.html"},
+    {"email":"careers@nextgendigitalcraft.com","company":"NextGen Digital Craft","role":"Full-Stack Engineer · Next.js + Node.js","gmail_message_id":"1a0a3773aa37e408","status":"sent","application_status":"applied_by_email","evidence_url":"https://www.nextgendigitalcraft.com/careers"},
+    {"email":"jobs@ucs.tech","company":"UCS","role":"Forward Deployed / Production AI Engineer","gmail_message_id":"1a0a37759013de7e","status":"sent","application_status":"applied_by_email","evidence_url":"https://ucs.tech/careers/"},
+    {"email":"hello@puch.ai","company":"Puch AI","role":"AI Engineer","gmail_message_id":"1a0a3777beee1771","status":"sent","application_status":"pending_form","evidence_url":"https://puch.ai/careers/ai-engineer"},
+    {"email":"careers@fyord.io","company":"Fyord","role":"Full-Stack Engineer (Pricing Engine)","gmail_message_id":"1a0a3779d19f447e","status":"sent","application_status":"applied_by_email","evidence_url":"https://fyord.io/careers"},
+    {"email":"careers@zenture.in","company":"Zenture IT Solutions","role":"Full Stack Developer","gmail_message_id":"1a0a377b9d20d81e","status":"sent","application_status":"applied_by_email","evidence_url":"https://www.zenture.in/careers"},
+    {"email":"careers@pinaca.org","company":"Pinaca","role":"Forward Deployed Engineer","gmail_message_id":"1a0a377ddb69397b","status":"sent","application_status":"pending_form","evidence_url":"https://careers.pinaca.org/j/forward-deployed-engineer"}
+  ],
+  "skipped": [
+    {"email":"founders@amorphiclabs.com","company":"Amorphic Labs","reason":"already present in Gmail sent history","existing_gmail_message_id":"1a09fecc4038b20c"}
+  ],
+  "summary": {"attempted":8,"sent_no_immediate_bounce":6,"immediate_bounces":2,"skipped_existing":1},
+  "required_next_reconciliation": "Before any future send, merge this run into outreach_queue.json, reached_out.json and applications.json; blacklist the two bounced addresses and mark duplicate queue rows consistently."
+}
