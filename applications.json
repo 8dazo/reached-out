@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-14",
+  "updated_at": "2026-09-15",
   "applications": [
     {"company":"Deployment.io","role":"Forward Deployed Engineer","job_url":"https://deployment.io/careers/","application_method":"email","status":"applied","applied_at":"2026-09-14","evidence":"gmail:1a09e988d3afdc0a"},
     {"company":"Avaamo","role":"Forward Deployed Engineer","job_url":"https://avaamo.ai/forward-deployed-engineer/","application_method":"email","status":"applied","applied_at":"2026-09-14","evidence":"gmail:1a09e98b22dbad14"},
@@ -10,12 +10,24 @@
     {"company":"Aravi AI","role":"Founding Engineer, MCP & Agent Integrations","job_url":"https://www.araviai.com/company/careers","application_method":"email","status":"applied","applied_at":"2026-09-14","evidence":"gmail:1a09eada2da1216b"},
     {"company":"Irisidea","role":"AI Engineer","job_url":"https://in.indeed.com/viewjob?jk=f1a5ea2216f16e2d","application_method":"email","status":"applied","applied_at":"2026-09-14","evidence":"gmail:1a09eadc850111ed"},
     {"company":"Zame AI","role":"AI/ML Engineer (Founding Team Member)","job_url":"https://www.zame.ai/careers/ai-ml-engineer-founding","application_method":"email","status":"applied","applied_at":"2026-09-14","evidence":"gmail:1a09eadeecbd0e86"},
-    {"company":"MeraEV","role":"ML Engineer - NLP / Backend AI","job_url":"https://www.meraev.com/career","application_method":"email","status":"failed_bounce","attempted_at":"2026-09-14","evidence":"gmail:1a09eae1cb994b13","notes":"careers@meraev.com returned 550 5.1.1"},
+    {"company":"MeraEV","role":"ML Engineer - NLP / Backend AI","job_url":"https://www.meraev.com/career","application_method":"email","status":"failed_bounce","attempted_at":"2026-09-14","evidence":"gmail:1a09eae1cb994b13"},
     {"company":"C4Scale","role":"Agentic Engineer","job_url":"https://c4scale.com/careers/","application_method":"email","status":"applied","applied_at":"2026-09-14","evidence":"gmail:1a09eae60fb61c88"},
     {"company":"Plutus Tech","role":"Forward Deployed Engineer","job_url":"https://www.plutustech.io/workwithus","application_method":"email","status":"applied","applied_at":"2026-09-14","evidence":"gmail:1a09eae83e31fda4"},
     {"company":"Kognitive Networks","role":"Backend Engineer","job_url":"https://jobs.hydeparkvp.com/companies/kognitive-networks/jobs/69805401-backend-engineer","application_method":"email","status":"applied","applied_at":"2026-09-14","evidence":"gmail:1a09eaeb1eb99f67"},
     {"company":"Deployment Inc","role":"Forward Deployed Engineer","job_url":"https://deployment.inc/careers/forward-deployed-engineer/","application_method":"form_plus_email","status":"pending_form","outreach_at":"2026-09-14","evidence":"gmail:1a09eaece357517d"},
     {"company":"Creedom","role":"Founding AI Engineer","job_url":"https://in.linkedin.com/jobs/view/founding-ai-engineer-at-creedom-4371794029","application_method":"email","status":"applied","applied_at":"2026-09-14","evidence":"gmail:1a09eaef21d78f54"},
-    {"company":"VIVA360","role":"Applied AI Engineer — LLM Evals","job_url":"https://viva360.ai/careers","application_method":"email","status":"applied","applied_at":"2026-09-14","evidence":"gmail:1a09eaf10dbe0894"}
+    {"company":"VIVA360","role":"Applied AI Engineer — LLM Evals","job_url":"https://viva360.ai/careers","application_method":"email","status":"applied","applied_at":"2026-09-14","evidence":"gmail:1a09eaf10dbe0894"},
+    {"company":"FinB","role":"Founding Product Engineer","job_url":"https://in.linkedin.com/in/agawani","application_method":"email","status":"applied","applied_at":"2026-09-15","evidence":"gmail:1a0a29360daa96fa"},
+    {"company":"Diversifi","role":"Founding Engineer — Backend / AI Systems","job_url":"https://in.linkedin.com/jobs/view/founding-engineer-backend-ai-systems-at-diversifi-4389806099","application_method":"email","status":"applied","applied_at":"2026-09-15","evidence":"gmail:1a0a2937888805eb"},
+    {"company":"Vela","role":"Founding Engineer — India","job_url":"https://www.ycombinator.com/companies/vela/jobs/qoFg7EJ-founding-engineer-vela-solving-scheduling-india","application_method":"yc_form_plus_founder_email","status":"pending_form","outreach_at":"2026-09-15","evidence":"gmail:1a0a2938daead90a"},
+    {"company":"Ressl AI","role":"Founding Engineer","job_url":"https://www.ycombinator.com/companies/ressl-ai/jobs/2iuXFf0-founding-engineer","application_method":"yc_form_plus_founder_email","status":"pending_form","outreach_at":"2026-09-15","evidence":"gmail:1a0a293a1bd5103e"},
+    {"company":"Heizen","role":"Forward Deployed Engineer","job_url":"https://www.heizen.work/careers/forward-deployed-engineer","application_method":"email","status":"applied","applied_at":"2026-09-15","evidence":"gmail:1a0a293b4ad299e0"},
+    {"company":"uCube.ai","role":"AI Engineer","job_url":"https://ucube.ai/careers","application_method":"email","status":"applied","applied_at":"2026-09-15","evidence":"gmail:1a0a293c4707ac38"},
+    {"company":"StatStream","role":"Full Stack Engineer","job_url":"https://www.statstream.ai/careers/","application_method":"email","status":"applied","applied_at":"2026-09-15","evidence":"gmail:1a0a293d7188795d"},
+    {"company":"AMB AI Solutions","role":"LLM / Agentic AI Engineer","job_url":"https://ambaisolutions.com/careers","application_method":"email","status":"failed_bounce","attempted_at":"2026-09-15","evidence":"gmail:1a0a293effac6e87","notes":"Published mailbox domain did not resolve."},
+    {"company":"Viaje Holidays","role":"AI / ML Engineer","job_url":"https://viaje.in/careers.html","application_method":"email","status":"failed_bounce","attempted_at":"2026-09-15","evidence":"gmail:1a0a294010ad276a","notes":"550 5.1.1"},
+    {"company":"IoTReady","role":"Full Stack Engineer","job_url":"https://iotready.com/careers/full-stack-engineer","application_method":"email","status":"applied","applied_at":"2026-09-15","evidence":"gmail:1a0a29419f020fe3"},
+    {"company":"Activatr","role":"Full Stack Engineer","job_url":"https://www.goactivatr.com/company/careers/full-stack-engineer","application_method":"form_plus_email","status":"pending_form","outreach_at":"2026-09-15","evidence":"gmail:1a0a2945606c3144"},
+    {"company":"FrontCrew Technologies","role":"AI Engineer","job_url":"https://www.frontcrewtech.com/careers/ai-engineer","application_method":"email","status":"applied","applied_at":"2026-09-15","evidence":"gmail:1a0a2946774effbe"}
   ]
 }
