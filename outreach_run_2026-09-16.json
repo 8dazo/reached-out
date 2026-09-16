@@ -1,0 +1,34 @@
+{
+  "date":"2026-09-16",
+  "reconciliation":{"prior_unreconciled_sends":[
+    {"email":"careers@pebb.dev","company":"Pebb","gmail_message_id":"1a0a376fa0b1f98c","result":"bounced","bounce_message_id":"1a0a3770409909f3"},
+    {"email":"careers@hibilter.com","company":"Hibilter","gmail_message_id":"1a0a377199f34a94","result":"bounced","bounce_message_id":"1a0a3774bebfbe96"},
+    {"email":"careers@nextgendigitalcraft.com","company":"NextGen Digital Craft","gmail_message_id":"1a0a3773aa37e408","result":"sent"},
+    {"email":"jobs@ucs.tech","company":"UCS","gmail_message_id":"1a0a37759013de7e","result":"sent"},
+    {"email":"hello@puch.ai","company":"Puch AI","gmail_message_id":"1a0a3777beee1771","result":"sent"},
+    {"email":"careers@fyord.io","company":"Fyord","gmail_message_id":"1a0a3779d19f447e","result":"sent"},
+    {"email":"careers@zenture.in","company":"Zenture IT Solutions","gmail_message_id":"1a0a377b9d20d81e","result":"sent"},
+    {"email":"careers@pinaca.org","company":"Pinaca","gmail_message_id":"1a0a377ddb69397b","result":"sent"},
+    {"email":"founders@amorphiclabs.com","company":"Amorphic Labs","gmail_message_id":"1a09fecc4038b20c","result":"sent","source":"manual user-requested outreach"},
+    {"email":"pulkit@tsenta.com","company":"Tsenta","gmail_message_id":"1a0a32574cc97229","result":"sent","source":"manual user-requested outreach"}
+  ]},
+  "discovery":{"hard_target":60,"new_verified_sendable_found":15,"target_met":false,"reason":"Fresh multi-pass search found many current roles, but most exposed only application forms, required 4-8+ years, were stale/closed, or lacked an explicit/verified professional mailbox. Quality gate was not lowered. Several addresses explicitly published on current career pages also proved invalid at delivery and were blacklisted."},
+  "send_attempts":[
+    {"email":"careers@jobpeer.in","company":"Jobpeer","role":"Full Stack Engineer","gmail_message_id":"1a0a7b94813a08ac","result":"sent_no_immediate_bounce","evidence_url":"https://www.jobpeer.in/careers"},
+    {"email":"careers@webuildtech.in","company":"WeBuildTech","role":"Gen AI / Full Stack Engineer","gmail_message_id":"1a0a7b95a9f2e730","result":"bounced","bounce_message_id":"1a0a7b9616497e8b","evidence_url":"https://webuildtech.in/careers"},
+    {"email":"careers@electricpe.com","company":"ElectricPe","role":"Full-Stack Engineer, Platform","gmail_message_id":"1a0a7b96ebaec567","result":"bounced","bounce_message_id":"1a0a7b9728f46a97","evidence_url":"https://www.electricpe.com/careers/fullstack-engineer-platform"},
+    {"email":"careers@unicoconnect.com","company":"Unico Connect","role":"Full Stack Engineer","gmail_message_id":"1a0a7b982e96d042","result":"sent_no_immediate_bounce","evidence_url":"https://unicoconnect.com/careers/full-stack-engineer"},
+    {"email":"careers@krenx.in","company":"Krenx Technologies","role":"Full Stack / ML Engineer","gmail_message_id":"1a0a7b99422e76b9","result":"sent_no_immediate_bounce","evidence_url":"https://krenx.in/career.php"},
+    {"email":"contact@ninthmoon.ai","company":"NinthMoon","role":"Full Stack Engineer","gmail_message_id":"1a0a7b9a94cb3721","result":"sent_no_immediate_bounce","evidence_url":"https://ninthmoon.ai/careers/full-stack-engineer"},
+    {"email":"engghiring@gnani.ai","company":"Gnani.ai","role":"Full-Stack + AI Engineer","gmail_message_id":"1a0a7b9bb51c0da8","result":"sent_no_immediate_bounce","evidence_url":"https://careers.gnani.ai/apply/Ful-Pro-2026-08-13-122"},
+    {"email":"contact@cosx.ai","company":"CosX AI","role":"AI / Runtime Engineer open outreach","gmail_message_id":"1a0a7b9d1c90ec17","result":"sent_no_immediate_bounce","evidence_url":"https://www.cosx.ai/careers"},
+    {"email":"info@sharonaiinfotech.com","company":"Sharon AI Infotech","role":"Full-Stack Engineer","gmail_message_id":"1a0a7b9f74044a79","result":"bounced","bounce_message_id":"1a0a7b9fe0c909d6","evidence_url":"https://sharoninfotechai.com/careers/"},
+    {"email":"contact@flyhii.in","company":"Flyhii","role":"AI Solutions / Backend Engineer","gmail_message_id":"1a0a7ba0cdbbcbbe","result":"bounced_blocked","bounce_message_id":"1a0a7ba1df902ddd","evidence_url":"https://www.flyhii.com/careers"},
+    {"email":"careers@saaya.ai","company":"Saaya","role":"ML Engineer, Speech & Language","gmail_message_id":"1a0a7ba38e8c7422","result":"bounced","bounce_message_id":"1a0a7ba3cda3971a","evidence_url":"https://saaya.ai/careers"},
+    {"email":"careers@solvitrontech.com","company":"Solvitron Technologies","role":"Full Stack Engineer","gmail_message_id":"1a0a7ba495109550","result":"sent_no_immediate_bounce","evidence_url":"https://careers.solvitrontech.com/"},
+    {"email":"careers@themerakisventures.com","company":"The Merakis Ventures","role":"AI Engineer — GenAI / RAG / LLM","gmail_message_id":"1a0a7ba5cb6e69c5","result":"sent_no_immediate_bounce","evidence_url":"https://in.linkedin.com/company/themerakisventures"},
+    {"email":"sales@javinex.in","company":"Javinex Technologies","role":"AI Engineer","gmail_message_id":"1a0a7ba88b598949","result":"sent_no_immediate_bounce","evidence_url":"https://javinex.in/careers/ai-engineer/"},
+    {"email":"jobs@dietowl.in","company":"DietOwl","role":"Full-Stack Engineer","gmail_message_id":"1a0a7ba9966465f2","result":"sent_no_immediate_bounce","evidence_url":"https://www.dietowl.in.selektial.com/careers/"}
+  ],
+  "summary":{"attempts":15,"successful_non_bounced":10,"bounced_or_blocked":5,"resume_recovered":true,"resume_attachment_note":"Resume was recovered from Gmail, but the recovered connector file reference was blocked from egress when passed to send_email, so this run could not physically attach it despite recovery."}
+}
