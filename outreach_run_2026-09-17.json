@@ -1,0 +1,18 @@
+{
+  "date":"2026-09-17",
+  "reconciliation":{"prior_run_checked":"outreach_run_2026-09-16.json","notes":["Prior run record was read before discovery.","Gmail delivery history shows a permanent failure for manual GitLab outreach to karthik.kirupanithi@gitlab.com; this address must be blacklisted.","Older deliveries to jayanth.babu@avaamo.ai, careers@nextgendigitalcraft.com, careers@fyord.io and info@frontcrewtech.com currently have delay notices, not permanent failures; no resend was attempted."]},
+  "discovery":{"hard_target":60,"new_verified_sendable_found":19,"target_met":false,"reason":"Multi-pass current web/LinkedIn/careers discovery produced many role matches, but only 19 new companies cleared all of: current role, India/APAC/remote-compatible geography, <=5-year experience gate or justified close fit, explicit current professional mailbox, and dedupe against known contacted companies. The remaining results were form-only, lacked an explicit/verified mailbox, were stale/closed, exceeded seniority/experience, or were already contacted. Quality gates were not lowered."},
+  "send_attempts":[
+    {"email":"hiring@servicerobotco.com","company":"Service Robot Co.","gmail_message_id":"1a0ace3303edebbb","result":"sent_no_immediate_bounce"},
+    {"email":"careers@navasys.co.in","company":"NavaSys Technologies","gmail_message_id":"1a0ace349628ccca","result":"sent_no_immediate_bounce"},
+    {"email":"info@strivesteam.com","company":"StriveSteam","gmail_message_id":"1a0ace362dacd36f","result":"sent_no_immediate_bounce"},
+    {"email":"hr@itlabz.in","company":"ITLabz","gmail_message_id":"1a0ace37f465e9e3","result":"sent_no_immediate_bounce"},
+    {"email":"resume@neuleap.ai","company":"NeuLeap","gmail_message_id":"1a0ace39eed1de87","result":"sent_no_immediate_bounce"},
+    {"email":"jobs@iqudinformatics.com","company":"iQud Informatics","gmail_message_id":"1a0ace3b887f09e8","result":"sent_no_immediate_bounce"},
+    {"email":"talent@mediassist.in","company":"Medi Assist","gmail_message_id":"1a0ace3d59b9fad9","result":"sent_no_immediate_bounce"},
+    {"email":"pavan.dange@quest-global.com","company":"Quest Global","gmail_message_id":"1a0ace3f06a18e58","result":"sent_no_immediate_bounce"},
+    {"email":"madhumita@grizmolabs.com","company":"Grizmo Labs","gmail_message_id":"1a0ace40f1933014","result":"sent_no_immediate_bounce"},
+    {"email":"careers@devanlabs.com","company":"Devan Labs","gmail_message_id":"1a0ace47f9c56959","result":"sent_no_immediate_bounce"}
+  ],
+  "summary":{"attempts":10,"successful_non_bounced":10,"bounced_or_blocked":0,"ready_for_later_batches":9,"resume_recovered":true,"resume_attachment_note":"Devansh_Mahant_Resume.pdf was recovered from a recent sent Gmail message and also from Drive, but Gmail connector egress rejected both recovered file references. To avoid falsely claiming an attachment, each email included the direct Drive resume URL instead."}
+}
