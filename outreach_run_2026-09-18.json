@@ -1,0 +1,33 @@
+{
+  "date":"2026-09-18",
+  "hard_target_new":60,
+  "target_met":false,
+  "discovery_note":"Fresh multi-pass web discovery did not yield 60 NEW contacts satisfying all gates. Search results were dominated by companies already contacted/queued, form-only applications, stale roles, >5 YOE roles, or addresses that failed delivery. Quality threshold was not lowered.",
+  "resume":{"drive_file":"Devansh_Mahant_Resume.pdf","attachment_attempt":"blocked_file_reference","fallback":"direct Drive resume link included"},
+  "reconciliation":[
+    {"email":"careers@devanlabs.com","status":"bounced","evidence":"gmail DSN 550 5.1.1"},
+    {"email":"jayanth.babu@avaamo.ai","status":"bounced","evidence":"gmail permanent delivery failure"},
+    {"email":"careers@securewithtechies.com","status":"bounced","evidence":"gmail DSN address not found"},
+    {"email":"careers@servsy.in","status":"bounced","evidence":"gmail DSN address not found"},
+    {"email":"careers@sparrowhost.in","status":"bounced","evidence":"gmail DSN blocked"},
+    {"email":"careers@jsmon.sh","status":"bounced","evidence":"gmail DSN address not found"}
+  ],
+  "successful_no_immediate_bounce":[
+    {"email":"hr@liberintechnologies.com","company":"Liberin Technologies","gmail_message_id":"1a0b208a097eb396"},
+    {"email":"hr@tgnext.com","company":"TGNEXT","gmail_message_id":"1a0b208b92d14ef1"},
+    {"email":"hr@areta360.com","company":"ARETA360","gmail_message_id":"1a0b208dc29fc588"},
+    {"email":"careers@ciperanalytics.com","company":"Ciper Analytics","gmail_message_id":"1a0b208f05cf6cea"},
+    {"email":"careers@blu-ocean.net","company":"BlueoceanDigital India","gmail_message_id":"1a0b2090536de08d"},
+    {"email":"hr@singhaitechnologies.com","company":"Singhai Technologies","gmail_message_id":"1a0b20919a3e1fdc"},
+    {"email":"careers@xentovia.ai","company":"Xentovia Tech","gmail_message_id":"1a0b209403427f2d"},
+    {"email":"careers@unicoconnect.com","company":"Unico Connect","gmail_message_id":"1a0b20983750b440"},
+    {"email":"support@ebuilding.in","company":"E Building","gmail_message_id":"1a0b209b56a6c5c2"},
+    {"email":"sales@javinex.in","company":"Javinex Technologies","gmail_message_id":"1a0b209cf4cfeea4"}
+  ],
+  "failed_this_run":[
+    {"email":"careers@servsy.in","company":"Servsy","gmail_message_id":"1a0b2092d0025808","status":"bounced"},
+    {"email":"careers@securewithtechies.com","company":"Secure With Techies","gmail_message_id":"1a0b20954aa8a310","status":"bounced"},
+    {"email":"careers@sparrowhost.in","company":"SparrowHost","gmail_message_id":"1a0b20969fc82921","status":"bounced"},
+    {"email":"careers@jsmon.sh","company":"Jsmon","gmail_message_id":"1a0b209979934283","status":"bounced"}
+  ]
+}
