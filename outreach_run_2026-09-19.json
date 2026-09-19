@@ -1,0 +1,32 @@
+{
+  "date":"2026-09-19",
+  "hard_target_new":60,
+  "target_met":false,
+  "new_verified_sendable_found":18,
+  "discovery_note":"Multi-pass fresh discovery across current company career pages and current professional hiring posts produced 18 new company-level contacts that cleared geography/experience/role/email gates. The 60-new target was not padded with duplicates, stale posts, form-only applications, >5 YOE roles, or guessed addresses.",
+  "prior_run_reconciliation":{"source":"outreach_run_2026-09-18.json","note":"Prior run identifies 10 successful sends and 6 permanent bounce/blacklist addresses. Legacy reached_out.json/applications.json remain behind the run records; this run preserves prior-run evidence and does not treat any prior-run company/address as new."},
+  "successful_no_immediate_bounce":[
+    {"email":"prajwal@polygnan.org","company":"Polygnan","role":"Founding AI Engineer","gmail_message_id":"1a0b72b8f4f324dc","source":"https://www.polygnan.org/careers"},
+    {"email":"bhavana@techjays.com","company":"Techjays","role":"AI Engineer","gmail_message_id":"1a0b72ba593a45fc","source":"https://in.linkedin.com/in/bhavana-r-7a48771b1"},
+    {"email":"priyes@colabtools.com","company":"ColabTools","role":"AI & Backend Engineer (SDE1/SDE2)","gmail_message_id":"1a0b72bbb4557789","source":"https://in.linkedin.com/in/priyes-bamne"},
+    {"email":"arbazk@opexil.com","company":"Opexil","role":"Full-Stack AI Engineer","gmail_message_id":"1a0b72bd2289ab92","source":"https://www.linkedin.com/company/opexil-com"},
+    {"email":"careers@cyrino.com","company":"Cyrino","role":"Generative AI Engineer","gmail_message_id":"1a0b72bf95df8d87","source":"https://www.linkedin.com/posts/dia2003_hiring-generativeai-aiengineer-activity-7491438988243652609-G3_J"},
+    {"email":"careers@geniaz.com","company":"Geniaz Technologies","role":"Full Stack Developer","gmail_message_id":"1a0b72c112a00967","source":"https://in.linkedin.com/jobs/view/full-stack-engineer-at-geniaz-technlogies-pvt-ltd-4453950012"},
+    {"email":"hr@alphabin.co","company":"Alphabin","role":"Backend Engineer (Azure)","gmail_message_id":"1a0b72c2895d57cf","source":"https://www.linkedin.com/in/disha-patel-568361238"},
+    {"email":"varnika.gupta@statsby.ai","company":"Statsby Solutions","role":"AI Engineer","gmail_message_id":"1a0b72c3c48ff8e8","source":"https://in.linkedin.com/in/varnika-gupta-a7837432"},
+    {"email":"career@orbisystechnology.com","company":"Orbisys Technology","role":"Full Stack Developer","gmail_message_id":"1a0b72c5058a1f67","source":"https://www.linkedin.com/company/orbisys-technology"},
+    {"email":"hr@ovntech.com","company":"OVN Technologies","role":"Full Stack Engineer","gmail_message_id":"1a0b72c668382fed","source":"https://ovntech.com/company/careers/"}
+  ],
+  "immediate_bounce_check":{"query":"mailer-daemon newer_than:1h","result":"none"},
+  "additional_verified_candidates":[
+    {"email":"faisal@prohq.ai","company":"ProHQ","role":"Full Stack Engineer","source":"https://prohq.ai/careers/"},
+    {"email":"hra@heaptrace.com","company":"HeapTrace","role":"Full Stack Engineer","source":"https://www.heaptrace.com/job-positions/full-stack-engineer"},
+    {"email":"contact@neuzenai.com","company":"NEUZEN AI","role":"AI Engineer","source":"https://in.linkedin.com/in/ungarala-naga-venkata-raviteja-8b1342237"},
+    {"email":"adityachauhan@aisolv.io","company":"AiSolv","role":"Backend Engineer","source":"https://www.linkedin.com/in/aditya-chauhan-99a5a331b"},
+    {"email":"hr@psitech.co.in","company":"Psitech Consultancy Services","role":"Full Stack Developer","source":"https://se.linkedin.com/company/psitech-consultancy-services-pvt-ltd."},
+    {"email":"hr@evincedev.com","company":"Evince Development","role":"AI/ML Engineer","source":"https://www.linkedin.com/posts/maulikpandya_bengaluru-ahmedabad-marketing-activity-7415469142431940608-L9j-"},
+    {"email":"careers@decisioai.in","company":"DecisioAI","role":"AI / ML Engineer","source":"https://decisioai.in/p/careers"},
+    {"email":"careers@clerivon.com","company":"Clerivon AI","role":"Senior Agentic AI Engineer","source":"https://clerivon.com/careers"}
+  ],
+  "resume":{"available_profile_source":"Devansh_Mahant_Resume.pdf","physical_attachment":"not attached in this run"}
+}
