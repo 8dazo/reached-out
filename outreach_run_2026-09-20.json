@@ -1,0 +1,30 @@
+{
+  "date":"2026-09-20",
+  "hard_target_new":60,
+  "target_met":false,
+  "new_verified_sendable_found":6,
+  "discovery_note":"Fresh multi-pass discovery found 6 new company-level contacts that cleared current-role, India-compatible geography, <=5 YOE, explicit-public-current mailbox and dedupe gates. Search results were otherwise dominated by already-contacted companies, application-form-only roles, stale posts, >5 YOE roles, or roles without an explicit/verified mailbox. Quality gates were not lowered.",
+  "reconciliation":{"prior_runs_read":["outreach_run_2026-09-16.json","outreach_run_2026-09-17.json","outreach_run_2026-09-18.json","outreach_run_2026-09-19.json"],"new_bounce_evidence":[{"email":"careers@nextgendigitalcraft.com","status":"bounced","evidence":"Gmail DSN 2026-09-18"},{"email":"careers@fyord.io","status":"bounced","evidence":"Gmail DSN 2026-09-18"},{"email":"info@frontcrewtech.com","status":"bounced","evidence":"Gmail DSN 2026-09-17"}],"note":"Prior run records remain authoritative for sends not yet copied into legacy reached_out.json/applications.json; all prior-run companies/emails were excluded from fresh discovery."},
+  "fresh_verified_contacts":[
+    {"email":"hr@jusbid.in","company":"JusBid / Rudrohom Comtrade","role":"AI Engineer","verification":"explicit_public_current","source":"https://in.linkedin.com/in/rudrohom-comtrade-private-limited-039b66413","fit":"Udaipur onsite; 2-4 years; Python, LLMs, GenAI, deployed AI features"},
+    {"email":"hr@logibee.ai","company":"Logibee","role":"AI Engineer","verification":"explicit_public_current","source":"https://www.logibee.ai/careers/ai-engineer","fit":"Remote India; 3+ years; Python AI/ML, evaluation, monitoring, productionization"},
+    {"email":"abhinav@yarnit.app","company":"Yarnit","role":"Generative AI Engineer","verification":"explicit_public_current","source":"https://in.linkedin.com/jobs/view/generative-ai-engineer-at-yarnit-3903659921","fit":"Bengaluru; 2-4 years; Python, RAG, LLM APIs, production AI services"},
+    {"email":"careers@easycred.co.in","company":"EASYCRED","role":"AI / ML Engineer","verification":"explicit_public_current","source":"https://www.easycred.co.in/about/careers","fit":"Remote India; 2-4 years; LLMs, Python, product ML"},
+    {"email":"hr@evdtechnology.com","company":"EVD Technology","role":"AI/ML Engineer","verification":"explicit_public_current","source":"https://in.linkedin.com/in/neha-agrawal-416116224","fit":"Remote/India; 2-3 years; Python, LLM/NLP, FastAPI, React/Next.js"},
+    {"email":"info@infrapulsetech.com","company":"InfraPulse","role":"React / Next.js Developer","verification":"explicit_public_current","source":"https://infrapulsetech.com/careers/react-nextjs-developer","fit":"Remote India; 2-4 years; React/Next.js; secondary full-stack fit"}
+  ],
+  "successful_no_immediate_bounce":[
+    {"email":"hr@jusbid.in","company":"JusBid / Rudrohom Comtrade","gmail_message_id":"1a0bc5302bb91a26"},
+    {"email":"hr@logibee.ai","company":"Logibee","gmail_message_id":"1a0bc53136cfe629"},
+    {"email":"abhinav@yarnit.app","company":"Yarnit","gmail_message_id":"1a0bc5323dd40028"},
+    {"email":"careers@easycred.co.in","company":"EASYCRED","gmail_message_id":"1a0bc53344509723"},
+    {"email":"hr@evdtechnology.com","company":"EVD Technology","gmail_message_id":"1a0bc5345d83b7a9"},
+    {"email":"info@infrapulsetech.com","company":"InfraPulse","gmail_message_id":"1a0bc535458f1e9f"},
+    {"email":"faisal@prohq.ai","company":"ProHQ","gmail_message_id":"1a0bc5367db691bc","carryover_from":"2026-09-19"},
+    {"email":"hra@heaptrace.com","company":"HeapTrace","gmail_message_id":"1a0bc5374f7f6b9b","carryover_from":"2026-09-19"},
+    {"email":"contact@neuzenai.com","company":"NEUZEN AI","gmail_message_id":"1a0bc5383caa91e6","carryover_from":"2026-09-19"},
+    {"email":"adityachauhan@aisolv.io","company":"AiSolv","gmail_message_id":"1a0bc53939896de4","carryover_from":"2026-09-19"}
+  ],
+  "immediate_bounce_check":{"query":"newer_than:1h (from:mailer-daemon OR from:postmaster)","result":"none"},
+  "resume":{"recovered_from_gmail":true,"filename":"Devansh_Mahant_Resume.pdf","physical_attachment":"blocked by connector egress; emails sent without falsely claiming attachment"}
+}
