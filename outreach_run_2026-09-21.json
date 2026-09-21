@@ -1,0 +1,27 @@
+{
+  "date":"2026-09-21",
+  "hard_target_new":60,
+  "target_met":false,
+  "new_verified_sendable_found":3,
+  "discovery_note":"Fresh multi-pass discovery was quality-gated against current role, India-compatible geography, <=5 YOE, explicit-public-current mailbox, and prior company/address history. Three genuinely new sendable companies cleared all gates: Synbrains Solutions, SGP India, and Passionate HR Group. Search also surfaced strong current roles at Helira, KiteFishAI, Titan Capital and Tata Teleservices, but they were not counted because a qualifying explicit/verified hiring mailbox was not established in this run. Previously bounced Flyhii and NextGen Digital Craft were excluded. Quality was not lowered to reach 60.",
+  "fresh_verified_contacts":[
+    {"email":"careers@synbrains.ai","company":"Synbrains Solutions","role":"Senior AI Engineer - Graph Systems and Intelligence","verification":"explicit_public_current","source":"https://synbrains.ai/careers","fit":"Trivandrum onsite; 3-5 years; current open AI role"},
+    {"email":"careers@sgp-india.com","company":"SGP India","role":"Python Developer - AI orchestration / agentic workflows","verification":"explicit_public_current","source":"https://in.linkedin.com/in/sowmya-anna-813b853b","fit":"India; 2-4 years; LangChain/LangGraph/CrewAI, advanced RAG, production LLM systems"},
+    {"email":"careers@passionatehr.com","company":"Passionate HR Group","role":"Generative AI Engineer","verification":"explicit_public_current","source":"https://in.linkedin.com/in/fatima-zehra-a45a20313","fit":"Chandigarh; 3-4 years; fresh GenAI hiring post"}
+  ],
+  "carryover_sent":[
+    {"email":"hr@psitech.co.in","company":"Psitech Consultancy Services","role":"Full Stack Developer","gmail_message_id":"1a0c17c2480036dc"},
+    {"email":"hr@evincedev.com","company":"Evince Development","role":"AI / ML Engineer","gmail_message_id":"1a0c17c38401bf6c"},
+    {"email":"careers@decisioai.in","company":"DecisioAI","role":"AI / ML Engineer","gmail_message_id":"1a0c17c4e25ea6b4"}
+  ],
+  "fresh_sent":[
+    {"email":"careers@synbrains.ai","company":"Synbrains Solutions","gmail_message_id":"1a0c17be0e39e82a"},
+    {"email":"careers@sgp-india.com","company":"SGP India","gmail_message_id":"1a0c17bf9715e049"},
+    {"email":"careers@passionatehr.com","company":"Passionate HR Group","gmail_message_id":"1a0c17c0df59b9b3"}
+  ],
+  "sent_no_immediate_bounce":6,
+  "eligible_queue_exhausted":true,
+  "immediate_bounce_check":{"query":"newer_than:1h (from:mailer-daemon OR from:postmaster)","result":"none"},
+  "resume":{"physical_attachment":"not attached; no reusable outbound file handle available in this run"},
+  "reconciliation_note":"Prior outreach_run records were read as authoritative dedupe evidence. Legacy reached_out.json/applications.json remain structurally behind later run records; this run does not overwrite them with a lossy reconstruction. All send IDs and evidence are preserved here for deterministic reconciliation."
+}
