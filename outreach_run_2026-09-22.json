@@ -1,0 +1,21 @@
+{
+  "date":"2026-09-22",
+  "hard_target_new":60,
+  "target_met":false,
+  "new_verified_sendable_found":2,
+  "discovery_note":"Fresh discovery re-read the latest Stapply/JobHive shortlist and searched current professional sources. Quality gates remained strict: current India/APAC/worldwide-compatible role, approximately <=5 YOE, no prior company/contact, and explicit-public-current or mailbox-verified email. Two genuinely new sendable contacts cleared all gates: Trailytics AI and HCLTech. Other strong roles surfaced (Vois AI, Autter, MaxRidge, Orvera AI, Siemens, Notion, UiPath, Pragmatike, DevRev) but were not counted because a qualifying explicit/verified hiring mailbox was not established, experience exceeded the gate, or application was form-only. Javinex, NavaSys, Outmarket and Saaya were excluded as previously contacted. No guessed pattern-only email was used.",
+  "prior_run_reconciliation":{"source":"outreach_run_2026-09-21.json","note":"Read prior run and queue as authoritative dedupe evidence. Six 2026-09-21 sends remain no-immediate-bounce; Clerivon remains held for seniority. Legacy ledgers are still behind later run records; this run preserves deterministic evidence without a lossy rewrite."},
+  "fresh_verified_contacts":[
+    {"email":"careers@trailytics.com","company":"Trailytics AI","role":"Full Stack Python Developer / Full Stack Engineer (AI/CV)","verification":"explicit_public_current","source":"https://in.linkedin.com/jobs/view/full-stack-engineer-at-trailytics-ai-4418596453","fit":"Bhopal mandatory; 2+ years; Python, React, AI workflow integration, FastAPI/Docker; current public role explicitly requests email application"},
+    {"email":"pugazhendhi.s@hcltech.com","company":"HCLTech","role":"GenAI Engineer hiring drive","verification":"explicit_public_current","source":"https://www.tymblhub.com/gen-ai-engineer-jobs-in-hyderabad-in-hcl-technologies-3-to-8-years-jid-486110","fit":"Pan-India; current Sep 17 hiring notice; LLMs, Python, PostgreSQL, vector DB, REST/FastAPI; outreach explicitly framed for experience-aligned openings"}
+  ],
+  "fresh_sent":[
+    {"email":"careers@trailytics.com","company":"Trailytics AI","gmail_message_id":"1a0c69fc3a50583b","application_method":"email","application_status":"applied_by_email"},
+    {"email":"pugazhendhi.s@hcltech.com","company":"HCLTech","gmail_message_id":"1a0c69fd8d2c844d","application_method":"email_outreach_for_hiring_drive","application_status":"outreach_sent"}
+  ],
+  "sent_no_immediate_bounce":2,
+  "eligible_queue_exhausted":true,
+  "immediate_bounce_check":{"query":"newer_than:1h (from:mailer-daemon OR from:postmaster)","result":"none"},
+  "resume":{"recovered_from_gmail":true,"source_message_id":"1a0c274083ce966e","filename":"Devansh_Mahant_Resume.pdf","physical_attachment":"connector egress rejected recovered file reference; sends proceeded without falsely claiming attachment"},
+  "shortfall_reason":"Current discovery sources were exhausted under the strict mailbox gate. Many current high-fit roles were form-only or lacked an explicit/independently mailbox-verified professional address; other results exceeded the <=5 YOE gate or were already contacted. Quality was not lowered to approach 60."
+}
