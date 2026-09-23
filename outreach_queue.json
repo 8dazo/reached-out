@@ -1,12 +1,19 @@
 {
-  "version":6,
-  "generated_at":"2026-09-22T06:45:00+05:30",
-  "last_run":{"hard_target_new":60,"new_verified_sendable_found":2,"send_attempts":2,"sent_no_immediate_bounce":2,"bounced_or_blocked":0,"target_met":false,"run_record":"outreach_run_2026-09-22.json"},
+  "version":7,
+  "generated_at":"2026-09-23T06:31:00+05:30",
+  "last_run":{"hard_target_new":60,"new_verified_sendable_found":10,"send_attempts":10,"sent_no_immediate_bounce":10,"bounced_or_blocked":0,"target_met":false,"run_record":"outreach_run_2026-09-23.json"},
   "rules":{"auto_send_requires":["explicit_public_current","mailbox_verified"],"blocked_email_source":"hacker_news","max_same_company_per_day":1,"max_batch_size":10,"post_send_bounce_check":true},
   "queue":[
-    {"email":"careers@trailytics.com","company":"Trailytics AI","role":"Full Stack Python Developer / Full Stack Engineer (AI/CV)","verification":"explicit_public_current","evidence_url":"https://in.linkedin.com/jobs/view/full-stack-engineer-at-trailytics-ai-4418596453","fit":"Bhopal; 2+ years; Python, React, AI workflow integration, FastAPI/Docker","status":"sent","gmail_message_id":"1a0c69fc3a50583b","application_method":"email","application_status":"applied_by_email"},
-    {"email":"pugazhendhi.s@hcltech.com","company":"HCLTech","role":"GenAI Engineer hiring drive","verification":"explicit_public_current","evidence_url":"https://www.tymblhub.com/gen-ai-engineer-jobs-in-hyderabad-in-hcl-technologies-3-to-8-years-jid-486110","fit":"Pan India; LLM/Python/PostgreSQL/vector DB/API; current hiring notice; message asks for experience-aligned opening","status":"sent","gmail_message_id":"1a0c69fd8d2c844d","application_method":"email_outreach_for_hiring_drive","application_status":"outreach_sent"},
-    {"email":"careers@clerivon.com","company":"Clerivon AI","role":"Senior Agentic AI Engineer","verification":"explicit_public_current","evidence_url":"https://clerivon.com/careers","fit":"Bengaluru/remote India; agent orchestration/MCP; senior-title stretch","status":"skipped","reason":"senior-title stretch; held rather than lowering quality","application_method":"email"}
+    {"email":"preksha@ifourtechnolab.com","company":"iFour Technolab","role":"Full Stack Developer (Angular + .NET + AI)","verification":"explicit_public_current","evidence_url":"https://in.linkedin.com/in/preksha-koshti-25853a400","status":"sent","gmail_message_id":"1a0cbc8f768a5b7f"},
+    {"email":"hr@inventcolabs.com","company":"Inventco","role":"MERN Stack Developer","verification":"explicit_public_current","evidence_url":"https://in.linkedin.com/in/rachit-mathur-0a8884244","status":"sent","gmail_message_id":"1a0cbc9071df7146"},
+    {"email":"divya.tagaya@oaktreecloud.com","company":"Oak Tree Software","role":"MERN Stack Developer","verification":"explicit_public_current","evidence_url":"https://telegram.me/s/merntech?after=745","status":"sent","gmail_message_id":"1a0cbc91872f8d11"},
+    {"email":"nikita@auspicioussoft.com","company":"Auspicious Soft","role":"MERN Stack Developer","verification":"explicit_public_current","evidence_url":"https://telegram.me/s/merntech?after=745","status":"sent","gmail_message_id":"1a0cbc9290c6a589"},
+    {"email":"kpandey@bestpeers.com","company":"BestPeers","role":"MERN Stack Developer","verification":"explicit_public_current","evidence_url":"https://telegram.me/s/merntech?before=765","status":"sent","gmail_message_id":"1a0cbc93ae35e458"},
+    {"email":"debalina.s@vrinsoft.com","company":"Vrinsoft","role":"AI/ML & Generative AI Developer","verification":"explicit_public_current","evidence_url":"https://telegram.me/s/merntech?before=963","status":"sent","gmail_message_id":"1a0cbc94c1fcd374"},
+    {"email":"career@gatitaa.com","company":"GATITAA","role":"AI Engineer","verification":"explicit_public_current","evidence_url":"https://bebee.com/in/jobs/ai-engineer-gatitaa-pune-maharashtra--t7xk-791169321","status":"sent","gmail_message_id":"1a0cbc961d9e79fa"},
+    {"email":"hr@aavilabs.com","company":"AAVIL","role":"AI/ML Engineer","verification":"explicit_public_current","evidence_url":"https://in.linkedin.com/in/harshal-sawatkar","status":"sent","gmail_message_id":"1a0cbca00d67c00a"},
+    {"email":"shreyapatel.hyperlinkinfosystem@gmail.com","company":"Hyperlink Infosystem","role":"AI/ML Engineer","verification":"explicit_public_current","evidence_url":"https://in.linkedin.com/in/shreya-patel-02723627b","status":"sent","gmail_message_id":"1a0cbca11fbd3d13"},
+    {"email":"prateek@fairdeal.market","company":"Fairdeal.Market","role":"AI Engineer — Chitti Agent","verification":"explicit_public_current","evidence_url":"https://in.linkedin.com/in/ritesh-thakur-788bb7372","status":"sent","gmail_message_id":"1a0cbca278ff5757"}
   ],
-  "blacklist_updates":["careers@nextgendigitalcraft.com","careers@fyord.io","info@frontcrewtech.com","careers@devanlabs.com","jayanth.babu@avaamo.ai","careers@securewithtechies.com","careers@servsy.in","careers@sparrowhost.in","careers@jsmon.sh","contact@flyhii.in"]
+  "blacklist_updates":["careers@nextgendigitalcraft.com","careers@fyord.io","info@frontcrewtech.com","careers@devanlabs.com","jayanth.babu@avaamo.ai","careers@securewithtechies.com","careers@servsy.in","careers@sparrowhost.in","careers@jsmon.sh","contact@flyhii.in","careers@decisioai.in"]
 }
