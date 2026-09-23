@@ -1,0 +1,25 @@
+{
+  "date":"2026-09-23",
+  "hard_target_new":60,
+  "target_met":false,
+  "new_verified_sendable_found":10,
+  "discovery_note":"Fresh multi-pass discovery searched current professional hiring posts and job sources after reading PIPELINE.md, pipeline_config.json, legacy ledgers, queue and prior run records. Ten genuinely new company-level contacts cleared current-role, India-compatible geography, approximately <=5 YOE, explicit-public-current mailbox and dedupe gates. The 60 target was not padded with stale/form-only/guessed/duplicate contacts.",
+  "source_status":{"stapply_jobhive":"No current stapply_candidates.json or JobHive data file was present in the repository root/code search; discovery therefore supplemented from current public professional sources.","hacker_news_used_as_email_source":false},
+  "reconciliation":{"new_prior_bounce":{"email":"careers@decisioai.in","company":"DecisioAI","status":"bounced","evidence":"Gmail DSN 2026-09-21: address not found"},"prior_runs_read_through":"outreach_run_2026-09-22.json","note":"Prior run records remain authoritative dedupe evidence where legacy ledgers lag. A dedicated reconciliation record is written for deterministic ledger repair."},
+  "fresh_sent":[
+    {"email":"preksha@ifourtechnolab.com","company":"iFour Technolab","role":"Full Stack Developer (Angular + .NET + AI)","gmail_message_id":"1a0cbc8f768a5b7f","source":"https://in.linkedin.com/in/preksha-koshti-25853a400"},
+    {"email":"hr@inventcolabs.com","company":"Inventco","role":"MERN Stack Developer","gmail_message_id":"1a0cbc9071df7146","source":"https://in.linkedin.com/in/rachit-mathur-0a8884244"},
+    {"email":"divya.tagaya@oaktreecloud.com","company":"Oak Tree Software","role":"MERN Stack Developer","gmail_message_id":"1a0cbc91872f8d11","source":"https://telegram.me/s/merntech?after=745"},
+    {"email":"nikita@auspicioussoft.com","company":"Auspicious Soft","role":"MERN Stack Developer","gmail_message_id":"1a0cbc9290c6a589","source":"https://telegram.me/s/merntech?after=745"},
+    {"email":"kpandey@bestpeers.com","company":"BestPeers","role":"MERN Stack Developer","gmail_message_id":"1a0cbc93ae35e458","source":"https://telegram.me/s/merntech?before=765"},
+    {"email":"debalina.s@vrinsoft.com","company":"Vrinsoft","role":"AI/ML & Generative AI Developer","gmail_message_id":"1a0cbc94c1fcd374","source":"https://telegram.me/s/merntech?before=963"},
+    {"email":"career@gatitaa.com","company":"GATITAA","role":"AI Engineer","gmail_message_id":"1a0cbc961d9e79fa","source":"https://bebee.com/in/jobs/ai-engineer-gatitaa-pune-maharashtra--t7xk-791169321"},
+    {"email":"hr@aavilabs.com","company":"AAVIL","role":"AI/ML Engineer","gmail_message_id":"1a0cbca00d67c00a","source":"https://in.linkedin.com/in/harshal-sawatkar"},
+    {"email":"shreyapatel.hyperlinkinfosystem@gmail.com","company":"Hyperlink Infosystem","role":"AI/ML Engineer","gmail_message_id":"1a0cbca11fbd3d13","source":"https://in.linkedin.com/in/shreya-patel-02723627b"},
+    {"email":"prateek@fairdeal.market","company":"Fairdeal.Market","role":"AI Engineer — Chitti Agent","gmail_message_id":"1a0cbca278ff5757","source":"https://in.linkedin.com/in/ritesh-thakur-788bb7372"}
+  ],
+  "sent_no_immediate_bounce":10,
+  "immediate_bounce_check":{"query":"newer_than:1h (from:mailer-daemon OR from:postmaster)","result":"none"},
+  "resume":{"recovered_from_gmail":true,"source_message_id":"1a0c274083ce966e","filename":"Devansh_Mahant_Resume.pdf","attachment_attempt":"blocked_file_reference","physical_attachment":"not attached; Gmail connector rejected recovered attachment for outbound egress, and messages did not claim an attachment"},
+  "shortfall_reason":"Only ten new contacts could be established at the required confidence in this run. Additional current results were excluded when the original role was stale/closed, form-only, outside the experience/geography gate, lacked an explicit/verified mailbox, or duplicated prior company/contact history."
+}
