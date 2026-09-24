@@ -1,0 +1,169 @@
+{
+  "run_date": "2026-09-24",
+  "mode": "global_pipeline_rerun_wide",
+  "reason": "Second same-day pass requested after first E2E run produced only five successful contacts under strict fit, eligibility, verification, and dedupe gates.",
+  "reconciliation": {
+    "gmail_dedupe_checked_before_send": true,
+    "github_dedupe_checked_before_send": true,
+    "due_followups": 0,
+    "send_attempts": 9,
+    "unique_successful_contacts": 8,
+    "immediate_bounces": 1,
+    "replacement_after_bounce": 1,
+    "guessed_pattern_only_emails_used": 0
+  },
+  "successful": [
+    {
+      "company": "Kantiv",
+      "company_region": "US",
+      "source_lane": "live_role_remote_india",
+      "role": "Agentic Systems Engineer",
+      "recipient": "hello@kantiv.com",
+      "gmail_message_id": "1a0d358f09444d25",
+      "eligibility": "explicit_india_role",
+      "contact_verification": "official_public_current",
+      "resume_attached": false,
+      "followup_1_due": "2026-09-29",
+      "followup_2_due": "2026-10-05"
+    },
+    {
+      "company": "Careway Health",
+      "company_region": "US",
+      "source_lane": "live_role_remote_india",
+      "role": "Software Engineer",
+      "recipient": "hello@careway.health",
+      "gmail_message_id": "1a0d3592be007c84",
+      "eligibility": "explicit_remote_india",
+      "contact_verification": "official_public_current",
+      "resume_attached": false,
+      "followup_1_due": "2026-09-29",
+      "followup_2_due": "2026-10-05"
+    },
+    {
+      "company": "PlayPower Labs",
+      "company_region": "US",
+      "source_lane": "live_role_remote_india",
+      "role": "Software Engineer",
+      "recipient": "contact@playpowerlabs.com",
+      "gmail_message_id": "1a0d35946610b2eb",
+      "eligibility": "explicit_india_only_remote",
+      "contact_verification": "official_public_current",
+      "resume_attached": false,
+      "followup_1_due": "2026-09-29",
+      "followup_2_due": "2026-10-05"
+    },
+    {
+      "company": "Hang Ten Systems",
+      "company_region": "US",
+      "source_lane": "fresh_funding_plus_india_expansion",
+      "role": "AI / Engineering proactive application",
+      "recipient": "jobs@hangten.ai",
+      "gmail_message_id": "1a0d3597982eae6e",
+      "funding_signal": "$53M additional seed; $85M total",
+      "eligibility": "public expansion plan includes India",
+      "contact_verification": "official careers email",
+      "resume_attached": true,
+      "application_status": "applied_by_email",
+      "followup_1_due": "2026-09-29",
+      "followup_2_due": "2026-10-05"
+    },
+    {
+      "company": "Ema",
+      "company_region": "US",
+      "source_lane": "fresh_funding_proactive",
+      "role": "AI / Agent Engineering inquiry",
+      "recipient": "surojit@ema.co",
+      "gmail_message_id": "1a0d35992cf59b44",
+      "funding_round": "series_b",
+      "funding_amount": "$77M",
+      "funding_signal_age_days": 1,
+      "eligibility": "asked about India 2-5 YOE opportunities; did not claim fit for 7+ YOE live role",
+      "contact_verification": "public professional founder email",
+      "resume_attached": false,
+      "followup_1_due": "2026-09-29",
+      "followup_2_due": "2026-10-05"
+    },
+    {
+      "company": "Mem0",
+      "company_region": "US",
+      "source_lane": "yc_live_role_remote_india",
+      "role": "Backend Engineer",
+      "recipient": "taranjeet@mem0.ai",
+      "gmail_message_id": "1a0d359b17e20fe0",
+      "eligibility": "explicit_remote_india; experience-stretch disclosed in message",
+      "contact_verification": "current YC founder email",
+      "resume_attached": false,
+      "followup_1_due": "2026-09-29",
+      "followup_2_due": "2026-10-05"
+    },
+    {
+      "company": "Snorkel AI",
+      "company_region": "US",
+      "source_lane": "fresh_funding_plus_explicit_engineering_growth",
+      "role": "AI Engineering international inquiry",
+      "recipient": "alex@snorkel.ai",
+      "gmail_message_id": "1a0d359ca1e52c3f",
+      "funding_round": "series_e",
+      "funding_amount": "$350M",
+      "eligibility": "international/India availability asked; no India role claimed",
+      "contact_verification": "independently verified founder email",
+      "resume_attached": false,
+      "followup_1_due": "2026-09-29",
+      "followup_2_due": "2026-10-05"
+    },
+    {
+      "company": "DigiFi",
+      "company_region": "US",
+      "source_lane": "current_remote_role_replacement",
+      "role": "Middle JavaScript Engineer",
+      "recipient": "info@digifi.io",
+      "gmail_message_id": "1a0d35bc6cd30993",
+      "eligibility": "remote-first across multiple countries; India eligibility explicitly asked",
+      "contact_verification": "official current careers email",
+      "resume_attached": true,
+      "application_status": "applied_by_email_pending_location_confirmation",
+      "followup_1_due": "2026-09-29",
+      "followup_2_due": "2026-10-05"
+    }
+  ],
+  "bounced": [
+    {
+      "company": "Hmlet",
+      "company_region": "Singapore",
+      "role": "Senior AI Engineer (India)",
+      "recipient": "hello@hmlet.com",
+      "gmail_message_id": "1a0d3590e81b03d0",
+      "bounce_message_id": "1a0d35913958e857",
+      "failure": "550 5.1.1 address not found",
+      "action": "blacklist exact mailbox; replaced batch slot with DigiFi"
+    }
+  ],
+  "skipped": [
+    {
+      "company": "Spenmo",
+      "reason": "Current YC metadata contained contradictory visa/work-authorization signals, so no send."
+    },
+    {
+      "company": "Procedure",
+      "reason": "Official AI roles were outside the normal freshness window and experience requirements were above target."
+    },
+    {
+      "company": "Digify",
+      "reason": "Fresh Singapore role appeared location-specific and India eligibility was not established."
+    },
+    {
+      "company": "India-headquartered candidates",
+      "reason": "Rejected before enrichment by headquarters rule."
+    }
+  ],
+  "metrics": {
+    "attempts": 9,
+    "successful_contacts": 8,
+    "bounces": 1,
+    "bounce_replacements": 1,
+    "live_role_contacts": 5,
+    "funding_triggered_contacts": 3,
+    "resume_attachments": 2,
+    "guessed_emails": 0
+  }
+}
