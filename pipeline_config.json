@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "fresh_days": 7,
   "hot_role_days": 3,
   "max_experience_years": 5,
@@ -8,6 +8,8 @@
   "daily_send_quality_cap": 30,
   "source_priority": [
     "yc_work_at_a_startup",
+    "yc_company_directory_recent_batches",
+    "funding_news_and_company_announcements",
     "hiring_cafe",
     "wellfound",
     "official_company_careers",
@@ -42,6 +44,42 @@
     "open_to_international_candidates",
     "contractor_from_abroad"
   ],
+  "funding_signal_rules": {
+    "enabled": true,
+    "hot_window_days": 14,
+    "max_window_days": 30,
+    "preferred_rounds": [
+      "pre_seed",
+      "seed",
+      "series_a",
+      "series_b"
+    ],
+    "later_stage_requires_hiring_or_team_growth_signal": true,
+    "allowed_sources": [
+      "official_company_funding_announcement",
+      "techcrunch",
+      "crunchbase_news",
+      "sifted",
+      "venturebeat",
+      "reuters",
+      "businesswire",
+      "prnewswire"
+    ],
+    "require_target_region_headquarters": true,
+    "proactive_outreach_without_open_role": true,
+    "proactive_outreach_requirements": [
+      "strong_ai_or_software_product_fit",
+      "verified_founder_or_technical_leader_email",
+      "fresh_confirmed_funding_event"
+    ],
+    "message_rules": {
+      "mention_funding_only_if_confirmed": true,
+      "do_not_claim_they_are_hiring_without_evidence": true,
+      "ask_if_they_are_building_the_engineering_team": true,
+      "use_founder_style_email": true,
+      "attach_resume_by_default": false
+    }
+  },
   "queries": [
     "Applied AI Engineer",
     "AI Engineer",
@@ -134,7 +172,9 @@
       "company_size",
       "role_family",
       "contact_type",
-      "email_variant"
+      "email_variant",
+      "funding_signal_age_days",
+      "funding_round"
     ],
     "positive_reply_states": [
       "interested",
