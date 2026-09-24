@@ -1,9 +1,25 @@
 {
-  "version":9,
-  "generated_at":"2026-09-24T16:59:00+05:30",
-  "last_run":{"mode":"global_pipeline_canary","new_verified_sendable_found":1,"send_attempts":1,"sent_no_immediate_bounce":1,"bounced_or_blocked":0,"target_met":true,"run_record":"outreach_run_2026-09-24_canary.json"},
-  "rules":{"auto_send_requires":["explicit_public_current","mailbox_verified"],"blocked_email_source":"hacker_news","max_same_company_per_day":1,"max_batch_size":10,"post_send_bounce_check":true,"target_company_regions":["US","Europe","UK","Switzerland","Norway","Singapore"],"exclude_india_headquartered_companies":true,"allow_target_region_company_remote_india":true},
-  "queue":[
+  "version": 10,
+  "generated_at": "2026-09-24",
+  "last_run": {
+    "mode": "global_pipeline_live",
+    "new_verified_sendable_found": 3,
+    "send_attempts": 3,
+    "sent_no_immediate_bounce": 3,
+    "bounced_or_blocked": 0,
+    "run_record": "outreach_run_2026-09-24_live.json"
+  },
+  "rules": {
+    "auto_send_requires": ["explicit_public_current", "mailbox_verified"],
+    "blocked_email_source": "hacker_news",
+    "max_same_company_per_day": 1,
+    "max_batch_size": 10,
+    "post_send_bounce_check": true,
+    "target_company_regions": ["US", "Europe", "UK", "Switzerland", "Norway", "Singapore"],
+    "exclude_india_headquartered_companies": true,
+    "allow_target_region_company_remote_india": true
+  },
+  "queue": [
     {"email":"careers@kaarta.in","company":"Kaarta Platforms","role":"Founding Engineer","verification":"explicit_public_current","evidence_url":"https://www.kaarta.in/careers/founding-engineer","status":"bounced","gmail_message_id":"1a0d0ed3ed64b9bf","bounce_message_id":"1a0d0ed42ee420f4"},
     {"email":"hello@wiseport.ai","company":"WisePort AI","role":"ML Engineer: Agent Environments & Evals","verification":"explicit_public_current","evidence_url":"https://www.wiseport.ai/careers","status":"sent","gmail_message_id":"1a0d0ed4e44fb47e"},
     {"email":"priyadharshini.sridhar@merillife.com","company":"NUVO AI / Meril","role":"Java Full Stack Software Engineer","verification":"explicit_public_current","evidence_url":"https://in.linkedin.com/in/priyadharshini-sridhar-409617244","status":"sent","gmail_message_id":"1a0d0ed67621c0be"},
@@ -15,7 +31,10 @@
     {"email":"Shaik@techuniversal.co","company":"TechUniversal Ventures","role":"Full Stack Engineer","verification":"explicit_public_current","evidence_url":"https://in.linkedin.com/jobs/view/full-stack-engineer-at-techuniversal-ventures-4461946821","status":"sent","gmail_message_id":"1a0d0eddc836e0f0"},
     {"email":"hello@cloud202.com","company":"Cloud202","role":"AI Engineer","verification":"explicit_public_current","evidence_url":"https://bebee.com/in/jobs/ai-engineer-cloud202--t7xk-820831482","status":"sent","gmail_message_id":"1a0d0edec7c4dff8"},
     {"email":"hr@no2fire.com","company":"Notofire Pvt Ltd","role":"AI Engineer","verification":"explicit_public_current","evidence_url":"https://in.linkedin.com/jobs/view/ai-engineer-at-notofire-pvt-ltd-4446032659","status":"sent","gmail_message_id":"1a0d0ee0e59dc62a"},
-    {"email":"piyush@smartaudit.co","person":"Piyush Chaplot","company":"Smart Audit","company_region":"Singapore","role":"AI Engineer","verification":"explicit_public_current","evidence_url":"https://wellfound.com/jobs/4235671-ai-engineer","contact_type":"founder","eligibility":"explicit_remote_india","status":"sent","gmail_message_id":"1a0d32df6abf6293","sent_at":"2026-09-24T16:59:00+05:30","followup_1_due":"2026-09-29","followup_2_due":"2026-10-05","email_variant":"founder_short_role_specific","immediate_bounce":false}
+    {"email":"piyush@smartaudit.co","person":"Piyush Chaplot","company":"Smart Audit","company_region":"Singapore","role":"AI Engineer","verification":"explicit_public_current","evidence_url":"https://wellfound.com/jobs/4235671-ai-engineer","contact_type":"founder","eligibility":"explicit_remote_india","status":"sent","gmail_message_id":"1a0d32df6abf6293","sent_at":"2026-09-24T11:29:59Z","followup_1_due":"2026-09-29","followup_2_due":"2026-10-05","email_variant":"founder_short_role_specific","immediate_bounce":false},
+    {"email":"krrish@berri.ai","person":"Krrish Dholakia","company":"LiteLLM","company_region":"US","role":"Forward Deployed Engineer - India","verification":"explicit_public_current","evidence_url":"https://www.ycombinator.com/companies/litellm/jobs","contact_type":"founder","eligibility":"explicit_india_role","status":"sent","gmail_message_id":"1a0d335f194a8020","sent_at":"2026-09-24T11:38:42Z","followup_1_due":"2026-09-29","followup_2_due":"2026-10-05","email_variant":"founder_short_role_specific","resume_attached":false,"immediate_bounce":false},
+    {"email":"hr@innovify.com","company":"Innovify","company_region":"UK","role":"Full-Stack AI Engineer (Intermediate)","verification":"explicit_public_current","evidence_url":"https://wellfound.com/company/innovify/jobs","contact_type":"hiring_mailbox","eligibility":"explicit_remote_india","status":"sent","gmail_message_id":"1a0d33613a66d3f4","sent_at":"2026-09-24T11:38:51Z","followup_1_due":"2026-09-29","followup_2_due":"2026-10-05","email_variant":"application_short_role_specific","resume_attached":true,"immediate_bounce":false},
+    {"email":"join@cartesia.ai","company":"Cartesia","company_region":"US","role":"Software Engineer, Platform (India)","verification":"explicit_public_current","evidence_url":"https://jobs.ashbyhq.com/cartesia","contact_type":"hiring_mailbox","eligibility":"explicit_india_role","status":"sent","gmail_message_id":"1a0d33893aff914a","sent_at":"2026-09-24T11:41:35Z","followup_1_due":"2026-09-29","followup_2_due":"2026-10-05","email_variant":"application_short_role_specific","resume_attached":true,"immediate_bounce":false}
   ],
-  "blacklist_updates":["careers@nextgendigitalcraft.com","careers@fyord.io","info@frontcrewtech.com","careers@devanlabs.com","jayanth.babu@avaamo.ai","careers@securewithtechies.com","careers@servsy.in","careers@sparrowhost.in","careers@jsmon.sh","contact@flyhii.in","careers@decisioai.in","careers@kaarta.in"]
+  "blacklist_updates": ["careers@nextgendigitalcraft.com","careers@fyord.io","info@frontcrewtech.com","careers@devanlabs.com","jayanth.babu@avaamo.ai","careers@securewithtechies.com","careers@servsy.in","careers@sparrowhost.in","careers@jsmon.sh","contact@flyhii.in","careers@decisioai.in","careers@kaarta.in"]
 }
