@@ -1,0 +1,33 @@
+{
+  "run_at": "2026-09-24T16:59:00+05:30",
+  "mode": "global_pipeline_canary",
+  "result": "passed",
+  "candidate": {
+    "company": "Smart Audit",
+    "company_region": "Singapore",
+    "role": "AI Engineer",
+    "job_source": "https://wellfound.com/jobs/4235671-ai-engineer",
+    "eligibility": "explicit_remote_india",
+    "fit_signals": ["LLM", "RAG", "LangChain", "multi-agent orchestration", "MERN/full-stack", "cost/latency/security constraints"],
+    "contact": "Piyush Chaplot",
+    "contact_type": "founder",
+    "email": "piyush@smartaudit.co",
+    "email_verification": "explicit_public_current",
+    "email_evidence": ["Crunchbase company contact", "Singapore SMP Centre digital solutions directory"],
+    "dedupe": "no prior Gmail or GitHub contact found"
+  },
+  "send": {
+    "status": "sent",
+    "gmail_message_id": "1a0d32df6abf6293",
+    "email_variant": "founder_short_role_specific",
+    "resume_attached": false,
+    "immediate_bounce_detected": false
+  },
+  "followups": {
+    "followup_1_due": "2026-09-29",
+    "followup_2_due": "2026-10-05",
+    "stop_on_reply": true
+  },
+  "pipeline_fix_discovered_during_test": "Foreign-headquartered companies explicitly hiring remotely in India must be eligible; only India-headquartered companies are excluded by the user's target-market rule.",
+  "state_updated": ["pipeline_config.json", "PIPELINE.md", "reached_out.json", "outreach_queue.json", "Morning Global Job Radar automation", "Daytime Global Outreach automation"]
+}
