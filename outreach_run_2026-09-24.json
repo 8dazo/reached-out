@@ -1,0 +1,23 @@
+{
+  "date":"2026-09-24",
+  "hard_target_new":60,
+  "target_met":false,
+  "new_verified_sendable_found":11,
+  "successful_no_immediate_bounce":10,
+  "bounced":[{"email":"careers@kaarta.in","company":"Kaarta Platforms","status":"bounced","evidence":"Gmail DSN 550 5.1.1 address not found","gmail_message_id":"1a0d0ed3ed64b9bf","bounce_message_id":"1a0d0ed42ee420f4"}],
+  "sent":[
+    {"email":"hello@wiseport.ai","company":"WisePort AI","role":"ML Engineer: Agent Environments & Evals","gmail_message_id":"1a0d0ed4e44fb47e","source":"https://www.wiseport.ai/careers"},
+    {"email":"priyadharshini.sridhar@merillife.com","company":"NUVO AI / Meril","role":"Java Full Stack Software Engineer","gmail_message_id":"1a0d0ed67621c0be","source":"https://in.linkedin.com/in/priyadharshini-sridhar-409617244"},
+    {"email":"careers@sparrowrms.in","company":"Sparrow RMS","role":"AI Engineer","gmail_message_id":"1a0d0ed7a3885819","source":"https://sparrowrms.in/careers/public/job/ai-engineer"},
+    {"email":"career@ellume.com","company":"Ellume","role":"AI Engineer","gmail_message_id":"1a0d0ed8eca63656","source":"https://ellume.io/career/ai-engineer"},
+    {"email":"info@hajanatechnologies.com","company":"Hajana Technologies","role":"AI Engineer - Gen AI & Agentic Systems","gmail_message_id":"1a0d0eda3d3eeb87","source":"https://hajanatechnologies.com/careers/ai-engineer-gen-ai-and-agentic-systems"},
+    {"email":"careers@hasamex.com","company":"Hasamex","role":"AI Engineer","gmail_message_id":"1a0d0edb42344d42","source":"https://hiredoor.in/jobs/ai-engineer-c8df5f"},
+    {"email":"kaushal@grambvels.ai","company":"Grambvels AI","role":"Artificial Intelligence Engineer","gmail_message_id":"1a0d0edca190b855","source":"https://in.linkedin.com/jobs/view/artificial-intelligence-engineer-at-grambvels-ai-4443118264"},
+    {"email":"Shaik@techuniversal.co","company":"TechUniversal Ventures","role":"Full Stack Engineer","gmail_message_id":"1a0d0eddc836e0f0","source":"https://in.linkedin.com/jobs/view/full-stack-engineer-at-techuniversal-ventures-4461946821"},
+    {"email":"hello@cloud202.com","company":"Cloud202","role":"AI Engineer","gmail_message_id":"1a0d0edec7c4dff8","source":"https://bebee.com/in/jobs/ai-engineer-cloud202--t7xk-820831482"},
+    {"email":"hr@no2fire.com","company":"Notofire Pvt Ltd","role":"AI Engineer","gmail_message_id":"1a0d0ee0e59dc62a","source":"https://in.linkedin.com/jobs/view/ai-engineer-at-notofire-pvt-ltd-4446032659"}
+  ],
+  "resume":{"recovered_from_gmail":true,"source_message_id":"1a0c274083ce966e","filename":"Devansh_Mahant_Resume.pdf","attachment_attempt":"blocked_file_reference","physical_attachment":"not attached; connector rejected recovered attachment for outbound egress"},
+  "source_status":{"stapply_jobhive":"No current Stapply/JobHive source file was visible in repository root; fresh public professional/official sources were used.","hacker_news_used_as_email_source":false},
+  "shortfall_reason":"Eleven genuinely new company-level contacts passed the current-role, India-compatible, approximately <=5 YOE, explicit-public-current mailbox and dedupe gates. One bounced and was replaced. The 60-new target was not padded with stale roles, guessed addresses, form-only roles, prior companies, or seniority/geography mismatches."
+}
