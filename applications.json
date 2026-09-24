@@ -30,6 +30,8 @@
     {"company":"Activatr","role":"Full Stack Engineer","job_url":"https://www.goactivatr.com/company/careers/full-stack-engineer","application_method":"form_plus_email","status":"pending_form","outreach_at":"2026-09-15","evidence":"gmail:1a0a2945606c3144"},
     {"company":"FrontCrew Technologies","role":"AI Engineer","job_url":"https://www.frontcrewtech.com/careers/ai-engineer","application_method":"email","status":"applied","applied_at":"2026-09-15","evidence":"gmail:1a0a2946774effbe"},
     {"company":"Innovify","role":"Full-Stack AI Engineer (Intermediate)","job_url":"https://wellfound.com/company/innovify/jobs","application_method":"email","status":"applied","applied_at":"2026-09-24","evidence":"gmail:1a0d33613a66d3f4","resume_attached":true},
-    {"company":"Cartesia","role":"Software Engineer, Platform (India)","job_url":"https://jobs.ashbyhq.com/cartesia","application_method":"email","status":"applied","applied_at":"2026-09-24","evidence":"gmail:1a0d33893aff914a","resume_attached":true}
+    {"company":"Cartesia","role":"Software Engineer, Platform (India)","job_url":"https://jobs.ashbyhq.com/cartesia","application_method":"email","status":"applied","applied_at":"2026-09-24","evidence":"gmail:1a0d33893aff914a","resume_attached":true},
+    {"company":"Arpari","role":"Full Stack Engineer (India)","job_url":"https://www.ycombinator.com/companies/arpari/jobs/P0ToXTK-full-stack-engineer-india","application_method":"yc_form_plus_founder_email","status":"pending_form","outreach_at":"2026-09-24","evidence":"gmail:1a0d344ea6154f1e","resume_attached":false},
+    {"company":"DirectShifts","role":"Full Stack Engineer (India)","job_url":"https://www.ycombinator.com/companies/directshifts/jobs/qAoQPBc-full-stack-engineer-at-directshifts-yc-s19","application_method":"yc_form_plus_recruiter_email","status":"pending_form","outreach_at":"2026-09-24","evidence":"gmail:1a0d3457bbc0605e","resume_attached":true}
   ]
 }
