@@ -1,8 +1,8 @@
 {
-  "version":8,
-  "generated_at":"2026-09-24T06:30:00+05:30",
-  "last_run":{"hard_target_new":60,"new_verified_sendable_found":11,"send_attempts":11,"sent_no_immediate_bounce":10,"bounced_or_blocked":1,"target_met":false,"run_record":"outreach_run_2026-09-24.json"},
-  "rules":{"auto_send_requires":["explicit_public_current","mailbox_verified"],"blocked_email_source":"hacker_news","max_same_company_per_day":1,"max_batch_size":10,"post_send_bounce_check":true},
+  "version":9,
+  "generated_at":"2026-09-24T16:59:00+05:30",
+  "last_run":{"mode":"global_pipeline_canary","new_verified_sendable_found":1,"send_attempts":1,"sent_no_immediate_bounce":1,"bounced_or_blocked":0,"target_met":true,"run_record":"outreach_run_2026-09-24_canary.json"},
+  "rules":{"auto_send_requires":["explicit_public_current","mailbox_verified"],"blocked_email_source":"hacker_news","max_same_company_per_day":1,"max_batch_size":10,"post_send_bounce_check":true,"target_company_regions":["US","Europe","UK","Switzerland","Norway","Singapore"],"exclude_india_headquartered_companies":true,"allow_target_region_company_remote_india":true},
   "queue":[
     {"email":"careers@kaarta.in","company":"Kaarta Platforms","role":"Founding Engineer","verification":"explicit_public_current","evidence_url":"https://www.kaarta.in/careers/founding-engineer","status":"bounced","gmail_message_id":"1a0d0ed3ed64b9bf","bounce_message_id":"1a0d0ed42ee420f4"},
     {"email":"hello@wiseport.ai","company":"WisePort AI","role":"ML Engineer: Agent Environments & Evals","verification":"explicit_public_current","evidence_url":"https://www.wiseport.ai/careers","status":"sent","gmail_message_id":"1a0d0ed4e44fb47e"},
@@ -14,7 +14,8 @@
     {"email":"kaushal@grambvels.ai","company":"Grambvels AI","role":"Artificial Intelligence Engineer","verification":"explicit_public_current","evidence_url":"https://in.linkedin.com/jobs/view/artificial-intelligence-engineer-at-grambvels-ai-4443118264","status":"sent","gmail_message_id":"1a0d0edca190b855"},
     {"email":"Shaik@techuniversal.co","company":"TechUniversal Ventures","role":"Full Stack Engineer","verification":"explicit_public_current","evidence_url":"https://in.linkedin.com/jobs/view/full-stack-engineer-at-techuniversal-ventures-4461946821","status":"sent","gmail_message_id":"1a0d0eddc836e0f0"},
     {"email":"hello@cloud202.com","company":"Cloud202","role":"AI Engineer","verification":"explicit_public_current","evidence_url":"https://bebee.com/in/jobs/ai-engineer-cloud202--t7xk-820831482","status":"sent","gmail_message_id":"1a0d0edec7c4dff8"},
-    {"email":"hr@no2fire.com","company":"Notofire Pvt Ltd","role":"AI Engineer","verification":"explicit_public_current","evidence_url":"https://in.linkedin.com/jobs/view/ai-engineer-at-notofire-pvt-ltd-4446032659","status":"sent","gmail_message_id":"1a0d0ee0e59dc62a"}
+    {"email":"hr@no2fire.com","company":"Notofire Pvt Ltd","role":"AI Engineer","verification":"explicit_public_current","evidence_url":"https://in.linkedin.com/jobs/view/ai-engineer-at-notofire-pvt-ltd-4446032659","status":"sent","gmail_message_id":"1a0d0ee0e59dc62a"},
+    {"email":"piyush@smartaudit.co","person":"Piyush Chaplot","company":"Smart Audit","company_region":"Singapore","role":"AI Engineer","verification":"explicit_public_current","evidence_url":"https://wellfound.com/jobs/4235671-ai-engineer","contact_type":"founder","eligibility":"explicit_remote_india","status":"sent","gmail_message_id":"1a0d32df6abf6293","sent_at":"2026-09-24T16:59:00+05:30","followup_1_due":"2026-09-29","followup_2_due":"2026-10-05","email_variant":"founder_short_role_specific","immediate_bounce":false}
   ],
   "blacklist_updates":["careers@nextgendigitalcraft.com","careers@fyord.io","info@frontcrewtech.com","careers@devanlabs.com","jayanth.babu@avaamo.ai","careers@securewithtechies.com","careers@servsy.in","careers@sparrowhost.in","careers@jsmon.sh","contact@flyhii.in","careers@decisioai.in","careers@kaarta.in"]
 }
