@@ -1,13 +1,14 @@
 {
-  "version": 10,
+  "version": 11,
   "generated_at": "2026-09-24",
   "last_run": {
-    "mode": "global_pipeline_live",
-    "new_verified_sendable_found": 3,
-    "send_attempts": 3,
-    "sent_no_immediate_bounce": 3,
-    "bounced_or_blocked": 0,
-    "run_record": "outreach_run_2026-09-24_live.json"
+    "mode": "global_pipeline_e2e_yc_funding",
+    "new_opportunities_sent": 5,
+    "send_attempts": 6,
+    "sent_no_immediate_bounce": 5,
+    "bounced_or_blocked": 1,
+    "target_met": true,
+    "run_record": "outreach_run_2026-09-24_e2e.json"
   },
   "rules": {
     "auto_send_requires": ["explicit_public_current", "mailbox_verified"],
@@ -34,7 +35,13 @@
     {"email":"piyush@smartaudit.co","person":"Piyush Chaplot","company":"Smart Audit","company_region":"Singapore","role":"AI Engineer","verification":"explicit_public_current","evidence_url":"https://wellfound.com/jobs/4235671-ai-engineer","contact_type":"founder","eligibility":"explicit_remote_india","status":"sent","gmail_message_id":"1a0d32df6abf6293","sent_at":"2026-09-24T11:29:59Z","followup_1_due":"2026-09-29","followup_2_due":"2026-10-05","email_variant":"founder_short_role_specific","immediate_bounce":false},
     {"email":"krrish@berri.ai","person":"Krrish Dholakia","company":"LiteLLM","company_region":"US","role":"Forward Deployed Engineer - India","verification":"explicit_public_current","evidence_url":"https://www.ycombinator.com/companies/litellm/jobs","contact_type":"founder","eligibility":"explicit_india_role","status":"sent","gmail_message_id":"1a0d335f194a8020","sent_at":"2026-09-24T11:38:42Z","followup_1_due":"2026-09-29","followup_2_due":"2026-10-05","email_variant":"founder_short_role_specific","resume_attached":false,"immediate_bounce":false},
     {"email":"hr@innovify.com","company":"Innovify","company_region":"UK","role":"Full-Stack AI Engineer (Intermediate)","verification":"explicit_public_current","evidence_url":"https://wellfound.com/company/innovify/jobs","contact_type":"hiring_mailbox","eligibility":"explicit_remote_india","status":"sent","gmail_message_id":"1a0d33613a66d3f4","sent_at":"2026-09-24T11:38:51Z","followup_1_due":"2026-09-29","followup_2_due":"2026-10-05","email_variant":"application_short_role_specific","resume_attached":true,"immediate_bounce":false},
-    {"email":"join@cartesia.ai","company":"Cartesia","company_region":"US","role":"Software Engineer, Platform (India)","verification":"explicit_public_current","evidence_url":"https://jobs.ashbyhq.com/cartesia","contact_type":"hiring_mailbox","eligibility":"explicit_india_role","status":"sent","gmail_message_id":"1a0d33893aff914a","sent_at":"2026-09-24T11:41:35Z","followup_1_due":"2026-09-29","followup_2_due":"2026-10-05","email_variant":"application_short_role_specific","resume_attached":true,"immediate_bounce":false}
+    {"email":"join@cartesia.ai","company":"Cartesia","company_region":"US","role":"Software Engineer, Platform (India)","verification":"explicit_public_current","evidence_url":"https://jobs.ashbyhq.com/cartesia","contact_type":"hiring_mailbox","eligibility":"explicit_india_role","status":"sent","gmail_message_id":"1a0d33893aff914a","sent_at":"2026-09-24T11:41:35Z","followup_1_due":"2026-09-29","followup_2_due":"2026-10-05","email_variant":"application_short_role_specific","resume_attached":true,"immediate_bounce":false},
+    {"email":"alexandra.zwiener@arpari.com","person":"Alexandra Zwiener","company":"Arpari","company_region":"US","role":"Full Stack Engineer (India)","verification":"explicit_public_current","evidence_url":"https://www.ycombinator.com/companies/arpari/jobs/P0ToXTK-full-stack-engineer-india","contact_type":"founder","eligibility":"explicit_remote_india","status":"sent","gmail_message_id":"1a0d344ea6154f1e","sent_at":"2026-09-24T11:55:04Z","followup_1_due":"2026-09-29","followup_2_due":"2026-10-05","email_variant":"founder_short_role_specific","resume_attached":false,"immediate_bounce":false},
+    {"email":"contact@mantic.com","company":"Mantic","company_region":"UK","role":"Engineering / Product hiring","verification":"explicit_public_current","evidence_url":"https://blog.mantic.com/p/mantic-raises-25mn-to-scale-superhuman","contact_type":"official_company_hiring_contact","eligibility":"funding_triggered_eligibility_asked","status":"sent","gmail_message_id":"1a0d345063af3d7c","sent_at":"2026-09-24T11:55:11Z","followup_1_due":"2026-09-29","followup_2_due":"2026-10-05","email_variant":"funding_signal_hiring_inquiry","funding_round":"seed","funding_amount":"$25M","immediate_bounce":false},
+    {"email":"tuomo@zero.inc","person":"Tuomo Riekki","company":"Zero","company_region":"Europe","role":"Proactive AI/Product Engineering","verification":"explicit_public_current","evidence_url":"https://zero.inc/blog/zero-raises-seed-round","contact_type":"founder","eligibility":"funding_triggered_remote_india_inquiry","status":"sent","gmail_message_id":"1a0d3451ebe2ee33","sent_at":"2026-09-24T11:55:17Z","followup_1_due":"2026-09-29","followup_2_due":"2026-10-05","email_variant":"funding_signal_founder_short","funding_round":"seed","funding_amount":"$10.3M","immediate_bounce":false},
+    {"email":"lewis@lewisbuildsai.com","person":"Lewis Carhart","company":"Comp AI","company_region":"US","role":"Proactive AI/Engineering","verification":"explicit_public_current_at_discovery","status":"bounced","gmail_message_id":"1a0d3454d2cd8df6","bounce_message_id":"1a0d34552557aaa0","sent_at":"2026-09-24T11:55:29Z","immediate_bounce":true,"notes":"550 5.1.1; exact address blacklisted."},
+    {"email":"hello@trycomp.ai","company":"Comp AI","company_region":"US","role":"Proactive AI/Engineering","verification":"explicit_public_current","evidence_url":"https://github.com/trycompai/comp","contact_type":"official_founder_contact","eligibility":"funding_triggered_remote_india_inquiry","status":"sent","gmail_message_id":"1a0d3479ac216f1b","sent_at":"2026-09-24","followup_1_due":"2026-09-29","followup_2_due":"2026-10-05","email_variant":"funding_signal_founder_replacement","funding_round":"series_a","funding_amount":"$34M","immediate_bounce":false},
+    {"email":"Simran@directshifts.com","person":"Simran Matta","company":"DirectShifts","company_region":"US","role":"Full Stack Engineer (India)","verification":"explicit_public_current","evidence_url":"https://www.ycombinator.com/companies/directshifts/jobs/qAoQPBc-full-stack-engineer-at-directshifts-yc-s19","contact_type":"talent_recruiting","eligibility":"explicit_remote_india","status":"sent","gmail_message_id":"1a0d3457bbc0605e","sent_at":"2026-09-24T11:55:40Z","followup_1_due":"2026-09-29","followup_2_due":"2026-10-05","email_variant":"recruiter_short_role_specific","resume_attached":true,"immediate_bounce":false}
   ],
-  "blacklist_updates": ["careers@nextgendigitalcraft.com","careers@fyord.io","info@frontcrewtech.com","careers@devanlabs.com","jayanth.babu@avaamo.ai","careers@securewithtechies.com","careers@servsy.in","careers@sparrowhost.in","careers@jsmon.sh","contact@flyhii.in","careers@decisioai.in","careers@kaarta.in"]
+  "blacklist_updates": ["careers@nextgendigitalcraft.com","careers@fyord.io","info@frontcrewtech.com","careers@devanlabs.com","jayanth.babu@avaamo.ai","careers@securewithtechies.com","careers@servsy.in","careers@sparrowhost.in","careers@jsmon.sh","contact@flyhii.in","careers@decisioai.in","careers@kaarta.in","lewis@lewisbuildsai.com"]
 }
