@@ -1,19 +1,58 @@
 {
-  "source": "stapply_jobhive",
+  "version": 2,
   "fresh_days": 7,
+  "hot_role_days": 3,
   "max_experience_years": 5,
-  "max_candidates": 40,
+  "discovery_target": 80,
+  "max_qualified_queue": 60,
+  "daily_send_quality_cap": 30,
+  "source_priority": [
+    "yc_work_at_a_startup",
+    "hiring_cafe",
+    "wellfound",
+    "official_company_careers",
+    "company_founder_or_team_pages",
+    "stapply_jobhive"
+  ],
+  "target_company_regions": [
+    "united_states",
+    "europe",
+    "united_kingdom",
+    "switzerland",
+    "norway",
+    "singapore"
+  ],
+  "hard_exclusions": {
+    "company_headquartered_in_india": true,
+    "india_only_role": true,
+    "role_requires_existing_us_work_authorization_without_sponsorship": true,
+    "role_requires_existing_local_europe_work_authorization_without_sponsorship": true,
+    "role_requires_existing_singapore_work_authorization_without_sponsorship": true,
+    "stale_or_closed_role": true,
+    "internship": true,
+    "staff_principal_director_vp": true
+  },
+  "international_hire_signals": [
+    "remote_worldwide",
+    "remote_global",
+    "remote_apac",
+    "employer_of_record",
+    "visa_sponsorship",
+    "relocation_support",
+    "open_to_international_candidates",
+    "contractor_from_abroad"
+  ],
   "queries": [
-    "AI Engineer",
     "Applied AI Engineer",
+    "AI Engineer",
     "LLM Engineer",
     "Agent Engineer",
-    "Machine Learning Engineer",
+    "Product Engineer",
     "Forward Deployed Engineer",
     "Backend Engineer",
     "Full Stack Engineer",
-    "Software Engineer",
-    "Founding Engineer"
+    "Founding Engineer",
+    "Software Engineer AI"
   ],
   "preferred_keywords": [
     "llm",
@@ -23,6 +62,7 @@
     "evaluation",
     "rag",
     "tool calling",
+    "mcp",
     "observability",
     "python",
     "typescript",
@@ -31,49 +71,79 @@
     "postgres",
     "backend",
     "full stack",
-    "infrastructure"
+    "product engineer",
+    "infrastructure",
+    "0 to 1",
+    "startup"
   ],
-  "location_keywords": [
-    "india",
-    "bengaluru",
-    "bangalore",
-    "remote",
-    "worldwide",
-    "global",
-    "apac"
-  ],
-  "exclude_title_keywords": [
-    "intern",
-    "internship",
-    "principal",
-    "staff",
-    "director",
-    "vp ",
-    "vice president"
-  ],
-  "contact_priority": [
-    "job_poster_or_recruiter",
-    "hiring_manager",
-    "engineering_manager_or_team_lead",
-    "head_of_ai_or_engineering",
-    "cto_or_technical_founder",
-    "founder"
-  ],
+  "contact_strategy": {
+    "1_50_employees": [
+      "technical_founder",
+      "founder",
+      "cto",
+      "head_of_engineering"
+    ],
+    "51_200_employees": [
+      "hiring_manager",
+      "head_of_engineering",
+      "engineering_manager",
+      "technical_recruiter",
+      "cto"
+    ],
+    "201_plus_employees": [
+      "job_poster",
+      "technical_recruiter",
+      "hiring_manager",
+      "engineering_manager"
+    ]
+  },
   "identity_sources": [
-    "linkedin_public_profiles",
+    "yc_company_profile",
     "company_team_page",
     "company_careers_page",
+    "linkedin_public_profile",
     "github_org"
   ],
   "email_sources": [
     "company_website",
     "public_professional_profile_or_personal_site",
     "github_or_oss_metadata",
-    "npm_pypi_or_package_metadata",
     "public_press_or_company_contact_source",
-    "company_email_pattern_inference"
+    "verified_company_email_pattern"
   ],
-  "blocked_email_source": "hacker_news",
+  "blocked_email_sources": [
+    "hacker_news",
+    "unverified_pattern_guess"
+  ],
+  "email_rules": {
+    "initial_max_words": 110,
+    "one_primary_cta": true,
+    "plain_text_first": true,
+    "attach_resume_on_cold_founder_outreach": false,
+    "attach_resume_for_official_email_application": true,
+    "followup_business_days": [3, 7],
+    "max_followups": 2,
+    "stop_on_any_reply": true,
+    "stop_on_opt_out": true
+  },
+  "reply_learning": {
+    "enabled": true,
+    "track_by": [
+      "source",
+      "region",
+      "company_size",
+      "role_family",
+      "contact_type",
+      "email_variant"
+    ],
+    "positive_reply_states": [
+      "interested",
+      "screening",
+      "interview",
+      "referral",
+      "request_more_info"
+    ]
+  },
   "links": {
     "portfolio": "https://devansh.aurat.ai",
     "linkedin": "https://www.linkedin.com/in/devansh-m12",
