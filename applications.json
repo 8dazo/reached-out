@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-15",
+  "updated_at": "2026-09-24",
   "applications": [
     {"company":"Deployment.io","role":"Forward Deployed Engineer","job_url":"https://deployment.io/careers/","application_method":"email","status":"applied","applied_at":"2026-09-14","evidence":"gmail:1a09e988d3afdc0a"},
     {"company":"Avaamo","role":"Forward Deployed Engineer","job_url":"https://avaamo.ai/forward-deployed-engineer/","application_method":"email","status":"applied","applied_at":"2026-09-14","evidence":"gmail:1a09e98b22dbad14"},
@@ -28,6 +28,8 @@
     {"company":"Viaje Holidays","role":"AI / ML Engineer","job_url":"https://viaje.in/careers.html","application_method":"email","status":"failed_bounce","attempted_at":"2026-09-15","evidence":"gmail:1a0a294010ad276a","notes":"550 5.1.1"},
     {"company":"IoTReady","role":"Full Stack Engineer","job_url":"https://iotready.com/careers/full-stack-engineer","application_method":"email","status":"applied","applied_at":"2026-09-15","evidence":"gmail:1a0a29419f020fe3"},
     {"company":"Activatr","role":"Full Stack Engineer","job_url":"https://www.goactivatr.com/company/careers/full-stack-engineer","application_method":"form_plus_email","status":"pending_form","outreach_at":"2026-09-15","evidence":"gmail:1a0a2945606c3144"},
-    {"company":"FrontCrew Technologies","role":"AI Engineer","job_url":"https://www.frontcrewtech.com/careers/ai-engineer","application_method":"email","status":"applied","applied_at":"2026-09-15","evidence":"gmail:1a0a2946774effbe"}
+    {"company":"FrontCrew Technologies","role":"AI Engineer","job_url":"https://www.frontcrewtech.com/careers/ai-engineer","application_method":"email","status":"applied","applied_at":"2026-09-15","evidence":"gmail:1a0a2946774effbe"},
+    {"company":"Innovify","role":"Full-Stack AI Engineer (Intermediate)","job_url":"https://wellfound.com/company/innovify/jobs","application_method":"email","status":"applied","applied_at":"2026-09-24","evidence":"gmail:1a0d33613a66d3f4","resume_attached":true},
+    {"company":"Cartesia","role":"Software Engineer, Platform (India)","job_url":"https://jobs.ashbyhq.com/cartesia","application_method":"email","status":"applied","applied_at":"2026-09-24","evidence":"gmail:1a0d33893aff914a","resume_attached":true}
   ]
 }
