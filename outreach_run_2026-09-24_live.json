@@ -1,0 +1,83 @@
+{
+  "run_date": "2026-09-24",
+  "mode": "global_pipeline_live",
+  "objective": "High-signal outreach to US, Europe/UK, Switzerland/Norway, and Singapore-headquartered companies that can realistically hire Devansh from India.",
+  "reconciliation": {
+    "gmail_checked_before_send": true,
+    "dedupe_checked_against_reached_out": true,
+    "immediate_bounce_check_completed": true,
+    "immediate_bounces": 0
+  },
+  "sent": [
+    {
+      "company": "LiteLLM",
+      "company_region": "US",
+      "role": "Forward Deployed Engineer - India",
+      "recipient": "krrish@berri.ai",
+      "contact_type": "founder",
+      "verification": "explicit_public_current",
+      "job_source": "YC Work at a Startup / YC company jobs",
+      "gmail_message_id": "1a0d335f194a8020",
+      "resume_attached": false,
+      "application_status": "outreach_sent_form_available",
+      "followup_1_due": "2026-09-29",
+      "followup_2_due": "2026-10-05"
+    },
+    {
+      "company": "Innovify",
+      "company_region": "UK",
+      "role": "Full-Stack AI Engineer (Intermediate)",
+      "recipient": "hr@innovify.com",
+      "contact_type": "hiring_mailbox",
+      "verification": "explicit_public_current",
+      "job_source": "Wellfound + official company hiring page",
+      "gmail_message_id": "1a0d33613a66d3f4",
+      "resume_attached": true,
+      "application_status": "applied_by_email",
+      "followup_1_due": "2026-09-29",
+      "followup_2_due": "2026-10-05"
+    },
+    {
+      "company": "Cartesia",
+      "company_region": "US",
+      "role": "Software Engineer, Platform (India)",
+      "recipient": "join@cartesia.ai",
+      "contact_type": "hiring_mailbox",
+      "verification": "explicit_public_current",
+      "job_source": "Cartesia Ashby + current Cartesia GitHub org",
+      "gmail_message_id": "1a0d33893aff914a",
+      "resume_attached": true,
+      "application_status": "applied_by_email",
+      "followup_1_due": "2026-09-29",
+      "followup_2_due": "2026-10-05"
+    }
+  ],
+  "qualified_but_not_sent": [
+    {"company":"Spenmo","reason":"No exact current verified hiring/decision-maker mailbox found."},
+    {"company":"Hmlet","reason":"No exact current verified hiring/decision-maker mailbox found."},
+    {"company":"Unize","reason":"Public contact address was redacted; no exact verified mailbox."},
+    {"company":"Crediflow AI","reason":"Strong fit, but no exact current founder/hiring mailbox verified."},
+    {"company":"Thalmaar","reason":"Older role and exact current email unavailable."},
+    {"company":"Databricks","reason":"Fresh India FDE opportunity, but no exact relevant decision-maker/hiring mailbox verified for cold outreach."}
+  ],
+  "rejected": [
+    {"company":"Infer","reason":"India-headquartered company."},
+    {"company":"Karwaan Labs","reason":"India-headquartered / no target-region HQ evidence."},
+    {"company":"Partython","reason":"India-headquartered company."},
+    {"company":"ResoluteX","reason":"India-centered company structure under current HQ rule."},
+    {"company":"OptimizeGEO","reason":"Role requires 10+ years of experience."},
+    {"company":"SuperDocs","reason":"Applications closed."},
+    {"company":"Goma AI","reason":"Role stale beyond freshness threshold."},
+    {"company":"SobelAI","reason":"Remote geography excludes India and role is stale."},
+    {"company":"Marseer AI","reason":"Role requires 5-10 years and is above target seniority."},
+    {"company":"Vela","reason":"Already contacted on 2026-09-15; dedupe gate worked."}
+  ],
+  "metrics": {
+    "new_verified_contacts_sent": 3,
+    "official_email_applications": 2,
+    "founder_outreach": 1,
+    "resume_attachments": 2,
+    "immediate_bounces": 0,
+    "quality_policy": "No unverified addresses were used to pad the batch."
+  }
+}
