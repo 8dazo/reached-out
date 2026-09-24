@@ -21,15 +21,16 @@ GitHub remains the source of truth for discovery, send state, applications, repl
 
 ## Geographic rule
 
-Target the company and role location, not a person's inferred nationality or ethnicity.
+Target the company headquarters and Devansh's actual eligibility, not a person's inferred nationality or ethnicity.
 
 Hard reject:
 - companies headquartered in India;
-- India-only roles;
 - roles requiring existing US/European/Singapore work authorization when the employer does not sponsor, relocate, hire internationally, use an EOR, or accept an overseas contractor;
-- roles whose location requirements make Devansh ineligible.
+- roles whose location requirements otherwise make Devansh ineligible.
 
-A founder, recruiter, or hiring manager at an otherwise eligible US/European/Singapore company remains a valid contact regardless of their personal background.
+Important: an India-remote role is valid when the employer itself is headquartered in a target market (US/Europe/UK/Switzerland/Norway/Singapore) and explicitly hires people located in India. That is a positive eligibility signal, not an exclusion.
+
+A founder, recruiter, or hiring manager at an otherwise eligible company remains a valid contact regardless of their personal background.
 
 ## Discovery priority
 
@@ -40,7 +41,7 @@ A founder, recruiter, or hiring manager at an otherwise eligible US/European/Sin
 5. Current company/founder/team pages, GitHub orgs, and public hiring posts for evidence and people mapping.
 6. Stapply/JobHive only as a supplementary broad index, not the primary source.
 
-Prefer roles posted in the last 72 hours; allow up to 7 days when the match is unusually strong.
+Prefer roles posted in the last 72 hours; allow up to 7 days when the match is unusually strong. Older roles require evidence that the recruiter/founder is still active and the opening is live.
 
 Target role families:
 - Applied AI Engineer
@@ -56,7 +57,8 @@ Reject internships, staff/principal/director/VP roles, obvious >5 YOE roles, sta
 
 ## International eligibility gate
 
-Before finding an email, open the original JD and establish that the role is realistically hireable from India through at least one of:
+Before finding an email, open the original JD and establish that Devansh can realistically be hired from India through at least one of:
+- the target-region employer explicitly hires remotely in India;
 - worldwide/global/APAC remote;
 - visa sponsorship;
 - relocation support;
