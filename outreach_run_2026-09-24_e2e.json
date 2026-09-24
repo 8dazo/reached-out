@@ -1,0 +1,121 @@
+{
+  "run_date": "2026-09-24",
+  "mode": "global_pipeline_e2e_yc_funding",
+  "objective": "Execute the complete outreach pipeline from reconciliation through YC/funding discovery, verification, sending, bounce handling, and persistent state updates.",
+  "reconciliation": {
+    "gmail_checked_before_send": true,
+    "github_dedupe_checked": true,
+    "due_followups_processed": 0,
+    "no_due_followups": true,
+    "new_replies_before_send": 0,
+    "post_send_bounce_check_completed": true,
+    "send_attempts": 6,
+    "successful_contacts_after_bounce_handling": 5,
+    "immediate_bounces": 1
+  },
+  "sent": [
+    {
+      "company": "Arpari",
+      "source_lane": "yc_live_role",
+      "company_region": "US",
+      "role": "Full Stack Engineer (India)",
+      "recipient": "alexandra.zwiener@arpari.com",
+      "contact_type": "founder",
+      "gmail_message_id": "1a0d344ea6154f1e",
+      "resume_attached": false,
+      "application_status": "pending_yc_form",
+      "followup_1_due": "2026-09-29",
+      "followup_2_due": "2026-10-05"
+    },
+    {
+      "company": "Mantic",
+      "source_lane": "fresh_funding_plus_explicit_hiring",
+      "company_region": "UK",
+      "role": "Engineering / Product hiring",
+      "recipient": "contact@mantic.com",
+      "contact_type": "official_company_hiring_contact",
+      "gmail_message_id": "1a0d345063af3d7c",
+      "funding_round": "seed",
+      "funding_amount": "$25M",
+      "funding_signal_age_days": 6,
+      "resume_attached": false,
+      "followup_1_due": "2026-09-29",
+      "followup_2_due": "2026-10-05"
+    },
+    {
+      "company": "Zero",
+      "source_lane": "fresh_funding_proactive",
+      "company_region": "Europe",
+      "role": "Proactive AI/Product Engineering",
+      "recipient": "tuomo@zero.inc",
+      "contact_type": "founder",
+      "gmail_message_id": "1a0d3451ebe2ee33",
+      "funding_round": "seed",
+      "funding_amount": "$10.3M",
+      "funding_signal_age_days": 9,
+      "resume_attached": false,
+      "followup_1_due": "2026-09-29",
+      "followup_2_due": "2026-10-05"
+    },
+    {
+      "company": "Comp AI",
+      "source_lane": "fresh_funding_proactive",
+      "company_region": "US",
+      "role": "Proactive AI/Engineering",
+      "recipient": "hello@trycomp.ai",
+      "contact_type": "official_founder_contact",
+      "gmail_message_id": "1a0d3479ac216f1b",
+      "funding_round": "series_a",
+      "funding_amount": "$34M",
+      "funding_signal_age_days": 7,
+      "resume_attached": false,
+      "followup_1_due": "2026-09-29",
+      "followup_2_due": "2026-10-05",
+      "notes": "Verified replacement used after first founder mailbox bounced."
+    },
+    {
+      "company": "DirectShifts",
+      "source_lane": "yc_live_role",
+      "company_region": "US",
+      "role": "Full Stack Engineer (India)",
+      "recipient": "Simran@directshifts.com",
+      "contact_type": "talent_recruiting",
+      "gmail_message_id": "1a0d3457bbc0605e",
+      "resume_attached": true,
+      "application_status": "pending_yc_form",
+      "followup_1_due": "2026-09-29",
+      "followup_2_due": "2026-10-05"
+    }
+  ],
+  "failed_and_recovered": [
+    {
+      "company": "Comp AI",
+      "recipient": "lewis@lewisbuildsai.com",
+      "gmail_message_id": "1a0d3454d2cd8df6",
+      "bounce_message_id": "1a0d34552557aaa0",
+      "failure": "550 5.1.1 address not found",
+      "action": "blacklisted exact mailbox and used current official founder contact hello@trycomp.ai"
+    }
+  ],
+  "skipped_or_rejected": [
+    {"company":"Camley","reason":"Role appeared no longer accepting applications / stale and exact founder mailbox not verified."},
+    {"company":"Scispot","reason":"Canada headquarters outside current target-region rule and role seniority above target."},
+    {"company":"Spenmo","reason":"No exact relevant verified hiring/decision-maker mailbox passed the send gate."},
+    {"company":"Treble","reason":"Fresh funding signal but exact current founder mailbox verification was insufficient."},
+    {"company":"Verda / DataCrunch","reason":"Relevant current roles were predominantly EU-specific or senior; India eligibility not established."},
+    {"company":"India-headquartered candidates","reason":"Rejected by company-headquarters rule before enrichment."}
+  ],
+  "metrics": {
+    "unique_opportunities_contacted": 5,
+    "yc_live_role_outreach": 2,
+    "funding_triggered_outreach": 3,
+    "founder_or_founder_contact_outreach": 3,
+    "resume_attachments": 1,
+    "send_attempts": 6,
+    "immediate_bounces": 1,
+    "successful_contacts_after_recovery": 5,
+    "guessed_pattern_only_emails_used": 0,
+    "formal_forms_submitted": 0,
+    "pending_yc_forms": 2
+  }
+}
