@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-25",
+  "state": "partial_morning_run_reconciled",
+  "target_successful_contacts": 10,
+  "confirmed_successful_contacts": 2,
+  "remaining_target": 8,
+  "source_of_truth": "gmail_sent",
+  "confirmed_sends": [
+    {
+      "company": "Plexe AI",
+      "role": "Forward Deployed Engineer",
+      "recipient": "founders@plexe.ai",
+      "subject": "Forward Deployed Engineer — Devansh Mahant",
+      "gmail_message_id": "1a0d61892af3c663",
+      "status": "sent_confirmed_no_immediate_bounce"
+    },
+    {
+      "company": "Apollo First",
+      "role": "Product Engineering",
+      "recipient": "talent@apollofirst.xyz",
+      "subject": "Product Engineering — Devansh Mahant",
+      "gmail_message_id": "1a0d619798f87e89",
+      "status": "sent_confirmed_no_immediate_bounce"
+    }
+  ],
+  "incident": {
+    "type": "transient_gmail_send_action_failure",
+    "effect": "main automation terminated after partial retry instead of continuing to successful-contact target",
+    "hard_bounces_detected_for_confirmed_sends": 0,
+    "recovery_required": true
+  },
+  "recovery_rules": {
+    "read_RECOVERY_PROTOCOL_md": true,
+    "never_duplicate_gmail_sent": true,
+    "continue_until_successful_daily_total": 10,
+    "minimum_desired_daily_total": 8,
+    "preserve_quality_gates": true
+  }
+}
