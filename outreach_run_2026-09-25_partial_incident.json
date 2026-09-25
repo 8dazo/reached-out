@@ -1,0 +1,41 @@
+{
+  "run_date": "2026-09-25",
+  "mode": "morning_yc_funding_partial_incident",
+  "status": "partial_reconciled",
+  "target_successful_contacts": 10,
+  "minimum_desired_successful_contacts": 8,
+  "confirmed_successful_contacts": 2,
+  "confirmed_from_gmail": [
+    {
+      "company": "Plexe AI",
+      "recipient": "founders@plexe.ai",
+      "subject": "Forward Deployed Engineer — Devansh Mahant",
+      "gmail_message_id": "1a0d61892af3c663"
+    },
+    {
+      "company": "Apollo First",
+      "recipient": "talent@apollofirst.xyz",
+      "subject": "Product Engineering — Devansh Mahant",
+      "gmail_message_id": "1a0d619798f87e89"
+    }
+  ],
+  "immediate_bounces_for_confirmed_sends": 0,
+  "incident": {
+    "primary_failure": "transient Gmail outbound send-action failures during the main automation",
+    "secondary_failure": "automation did not continue/replenish to the successful-contact target and did not write its normal final ledger/audit",
+    "quality_pool_exhausted": false,
+    "delivery_shortfall_caused_by_quality_filters": false
+  },
+  "fixes_applied": [
+    "added RECOVERY_PROTOCOL.md",
+    "main morning automation now checkpoints before sending",
+    "main morning automation sends one recipient at a time",
+    "send-action errors are reconciled against Gmail Sent before retry",
+    "transient failures no longer terminate the batch",
+    "bounces are replaced and do not consume success target",
+    "main run must always write a dated audit even when partial",
+    "daily recovery automation added to top up the day toward 10 confirmed contacts"
+  ],
+  "checkpoint": "outreach_checkpoint_2026-09-25.json",
+  "dedupe_rule": "Plexe AI and Apollo First must be imported/reconciled before any new Sep 25 send and never duplicated."
+}
