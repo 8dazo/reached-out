@@ -1,53 +1,19 @@
 {
-  "date":"2026-09-26",
-  "timezone":"Asia/Kolkata",
-  "state":"morning_target_met_daytime_batch_1_ready",
-  "source_of_truth":"gmail_sent",
-  "target_successful_new_contacts":10,
-  "minimum_desired_new_contacts":8,
-  "daily_quality_cap_new_contacts":30,
-  "confirmed_new_contacts_today":10,
-  "reconciliation":{
-    "sep25_excluded":["founders@plexe.ai","talent@apollofirst.xyz","founders@codos.ai"],
-    "reply_stops":["simran@directshifts.com","hr@inventcolabs.com"],
-    "bounce_stops":["careers@decisioai.in"],
-    "duplicates_removed":["pulkit@tsenta.com","founders@tryvela.ai"],
-    "blocked_source_removed":["wilson@compose.ai"]
-  },
+  "date":"2026-09-26","timezone":"Asia/Kolkata","state":"daytime_batch_1_in_progress","source_of_truth":"gmail_sent","target_successful_new_contacts":10,"minimum_desired_new_contacts":8,"daily_quality_cap_new_contacts":30,"confirmed_new_contacts_today":11,
+  "reconciliation":{"sep25_excluded":["founders@plexe.ai","talent@apollofirst.xyz","founders@codos.ai"],"reply_stops":["simran@directshifts.com","hr@inventcolabs.com"],"bounce_stops":["careers@decisioai.in"],"duplicates_removed":["pulkit@tsenta.com","founders@tryvela.ai"],"blocked_source_removed":["wilson@compose.ai"]},
   "followups_sent_confirmed":[
-    {"company":"Psitech Consultancy Services","recipient":"hr@psitech.co.in","gmail_message_id":"1a0ddc0493e85527"},
-    {"company":"Evince Development","recipient":"hr@evincedev.com","gmail_message_id":"1a0ddc0afce5d754"},
-    {"company":"Synbrains Solutions","recipient":"careers@synbrains.ai","gmail_message_id":"1a0ddc0e9adca85f"},
-    {"company":"SGP India","recipient":"careers@sgp-india.com","gmail_message_id":"1a0ddc11ac17ba83"},
-    {"company":"Passionate HR Group","recipient":"careers@passionatehr.com","gmail_message_id":"1a0ddc156172a05c"},
-    {"company":"Trailytics AI","recipient":"careers@trailytics.com","gmail_message_id":"1a0ddc18d0e0de43"},
-    {"company":"HCLTech","recipient":"pugazhendhi.s@hcltech.com","gmail_message_id":"1a0ddc1c2a6adec7"}
+    {"company":"Psitech Consultancy Services","recipient":"hr@psitech.co.in","gmail_message_id":"1a0ddc0493e85527"},{"company":"Evince Development","recipient":"hr@evincedev.com","gmail_message_id":"1a0ddc0afce5d754"},{"company":"Synbrains Solutions","recipient":"careers@synbrains.ai","gmail_message_id":"1a0ddc0e9adca85f"},{"company":"SGP India","recipient":"careers@sgp-india.com","gmail_message_id":"1a0ddc11ac17ba83"},{"company":"Passionate HR Group","recipient":"careers@passionatehr.com","gmail_message_id":"1a0ddc156172a05c"},{"company":"Trailytics AI","recipient":"careers@trailytics.com","gmail_message_id":"1a0ddc18d0e0de43"},{"company":"HCLTech","recipient":"pugazhendhi.s@hcltech.com","gmail_message_id":"1a0ddc1c2a6adec7"}
   ],
   "new_contacts_sent_confirmed":[
-    {"company":"Lab0","role":"Forward Deployed Engineer","recipient":"founders@lab0.ai","gmail_message_id":"1a0ddca10c7ce3c6","status":"sent_confirmed_no_immediate_bounce"},
-    {"company":"sync.","role":"Forward Deployed Engineer","recipient":"founders@sync.so","gmail_message_id":"1a0ddca9e405cbde","status":"sent_confirmed_no_immediate_bounce"},
-    {"company":"AiPrise","role":"Software Engineer I/II","recipient":"careers@aiprise.com","gmail_message_id":"1a0ddcb1a8207ed4","status":"sent_confirmed_no_immediate_bounce"},
-    {"company":"Strac","role":"Software Engineer (India)","recipient":"hello@strac.io","gmail_message_id":"1a0ddcb888100b8a","status":"sent_confirmed_no_immediate_bounce"},
-    {"company":"Merlin AI","role":"Product Engineer (Customer-Facing)","recipient":"snehak@merlinai.co","gmail_message_id":"1a0ddcc0526d1e6d","status":"sent_confirmed_no_immediate_bounce"},
-    {"company":"AnswerThis","role":"Product Engineer","recipient":"ayush@answerthis.io","gmail_message_id":"1a0ddcc768068d9c","status":"sent_confirmed_no_immediate_bounce"},
-    {"company":"Synthio Labs","role":"Software Engineer - AI","recipient":"founders@synthiolabs.com","gmail_message_id":"1a0ddcce3e6d0fa5","status":"sent_confirmed_no_immediate_bounce"},
-    {"company":"ShortLoop","role":"Software Engineer - Fullstack","recipient":"founders@shortloop.dev","gmail_message_id":"1a0ddcd6b5202ae8","status":"sent_confirmed_no_immediate_bounce"},
-    {"company":"GetCrux","role":"Founding Engineer (Full Stack / AI Video)","recipient":"founders@getcrux.ai","gmail_message_id":"1a0ddcdfebb9d55f","status":"sent_confirmed_no_immediate_bounce"},
-    {"company":"Feather","role":"Backend + AI Engineer","recipient":"founders@featherhq.com","gmail_message_id":"1a0ddce938bced63","status":"sent_confirmed_no_immediate_bounce"}
+    {"company":"Lab0","role":"Forward Deployed Engineer","recipient":"founders@lab0.ai","gmail_message_id":"1a0ddca10c7ce3c6","status":"sent_confirmed_no_immediate_bounce"},{"company":"sync.","role":"Forward Deployed Engineer","recipient":"founders@sync.so","gmail_message_id":"1a0ddca9e405cbde","status":"sent_confirmed_no_immediate_bounce"},{"company":"AiPrise","role":"Software Engineer I/II","recipient":"careers@aiprise.com","gmail_message_id":"1a0ddcb1a8207ed4","status":"sent_confirmed_no_immediate_bounce"},{"company":"Strac","role":"Software Engineer (India)","recipient":"hello@strac.io","gmail_message_id":"1a0ddcb888100b8a","status":"sent_confirmed_no_immediate_bounce"},{"company":"Merlin AI","role":"Product Engineer (Customer-Facing)","recipient":"snehak@merlinai.co","gmail_message_id":"1a0ddcc0526d1e6d","status":"sent_confirmed_no_immediate_bounce"},{"company":"AnswerThis","role":"Product Engineer","recipient":"ayush@answerthis.io","gmail_message_id":"1a0ddcc768068d9c","status":"sent_confirmed_no_immediate_bounce"},{"company":"Synthio Labs","role":"Software Engineer - AI","recipient":"founders@synthiolabs.com","gmail_message_id":"1a0ddcce3e6d0fa5","status":"sent_confirmed_no_immediate_bounce"},{"company":"ShortLoop","role":"Software Engineer - Fullstack","recipient":"founders@shortloop.dev","gmail_message_id":"1a0ddcd6b5202ae8","status":"sent_confirmed_no_immediate_bounce"},{"company":"GetCrux","role":"Founding Engineer (Full Stack / AI Video)","recipient":"founders@getcrux.ai","gmail_message_id":"1a0ddcdfebb9d55f","status":"sent_confirmed_no_immediate_bounce"},{"company":"Feather","role":"Backend + AI Engineer","recipient":"founders@featherhq.com","gmail_message_id":"1a0ddce938bced63","status":"sent_confirmed_no_immediate_bounce"},{"company":"Vapi","role":"Forward Deployed Engineer","recipient":"Talent@vapi.ai","gmail_message_id":"1a0ddd9f5d559383","status":"sent_confirmed_no_immediate_bounce"}
   ],
-  "daytime_batches":[
-    {
-      "batch":1,
-      "status":"ready_to_send",
-      "candidates":[
-        {"company":"Vapi","company_region":"US","role":"Forward Deployed Engineer","recipient":"Talent@vapi.ai","verification":"explicit_public_current","eligibility":"San Francisco; explicit visa sponsorship","role_evidence":"current YC role","contact_evidence":"official Vapi careers page","status":"ready_to_send"},
-        {"company":"SigNoz","company_region":"US","role":"Forward Deployed Engineer (Remote)","recipient":"ankit@signoz.io","verification":"explicit_public_current","eligibility":"Remote India / India time zones","role_evidence":"current YC role","contact_evidence":"official SigNoz company/GitHub source","status":"ready_to_send"},
-        {"company":"FurtherAI","company_region":"US","role":"Software Engineer - Backend/Fullstack [India]","recipient":"sg@furtherai.com","verification":"explicit_public_current","eligibility":"Remote India; sponsor signal","role_evidence":"current YC role","contact_evidence":"official FurtherAI company page","status":"ready_to_send"},
-        {"company":"ProcIndex","company_region":"US","role":"Software Engineer - 2","recipient":"neha@procindex.com","verification":"explicit_public_current","eligibility":"Remote India; visa not required","role_evidence":"current YC role","contact_evidence":"current public professional/business profile","status":"ready_to_send"},
-        {"company":"Peakflo","company_region":"Singapore","role":"Forward Deployed Engineer (India/Remote)","recipient":"dmitry@peakflo.co","verification":"explicit_public_current","eligibility":"Remote India; visa not required","role_evidence":"current YC role","contact_evidence":"official Peakflo company help page","status":"ready_to_send"},
-        {"company":"Raindrop","company_region":"US","role":"Proactive AI/Engineering","recipient":"ben@raindrop.ai","verification":"explicit_public_current","eligibility":"funding-triggered international hiring inquiry","role_evidence":"fresh Series A and current team-scaling signal","contact_evidence":"current founder personal site","status":"ready_to_send"}
-      ]
-    }
-  ],
+  "daytime_batches":[{"batch":1,"status":"in_progress","candidates":[
+    {"company":"Vapi","recipient":"Talent@vapi.ai","status":"sent_confirmed_no_immediate_bounce","gmail_message_id":"1a0ddd9f5d559383"},
+    {"company":"SigNoz","role":"Forward Deployed Engineer (Remote)","recipient":"ankit@signoz.io","verification":"explicit_public_current","eligibility":"Remote India / India time zones","status":"ready_to_send"},
+    {"company":"FurtherAI","role":"Software Engineer - Backend/Fullstack [India]","recipient":"sg@furtherai.com","verification":"explicit_public_current","eligibility":"Remote India; sponsor signal","status":"ready_to_send"},
+    {"company":"ProcIndex","role":"Software Engineer - 2","recipient":"neha@procindex.com","verification":"explicit_public_current","eligibility":"Remote India; visa not required","status":"ready_to_send"},
+    {"company":"Peakflo","role":"Forward Deployed Engineer (India/Remote)","recipient":"dmitry@peakflo.co","verification":"explicit_public_current","eligibility":"Remote India; visa not required","status":"ready_to_send"},
+    {"company":"Raindrop","role":"Proactive AI/Engineering","recipient":"ben@raindrop.ai","verification":"explicit_public_current","eligibility":"fresh-funding international hiring inquiry","status":"ready_to_send"}
+  ]}],
   "rules":{"verification":"explicit_public_current_or_mailbox_verified","send_one_at_a_time":true,"verify_sent":true,"check_bounce":true,"never_guessed_pattern":true,"followups_do_not_count":true,"daily_new_contact_cap":30}
 }
