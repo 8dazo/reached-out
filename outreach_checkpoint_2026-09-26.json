@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-26",
+  "timezone": "Asia/Kolkata",
+  "state": "pre_send_reconciled_followups_first",
+  "source_of_truth": "gmail_sent",
+  "target_successful_new_contacts": 10,
+  "minimum_desired_new_contacts": 8,
+  "daily_quality_cap_new_contacts": 30,
+  "confirmed_new_contacts_today": 0,
+  "reconciliation": {
+    "gmail_checked_before_send": true,
+    "sep25_messages_excluded_from_sep26_count": [
+      "founders@plexe.ai",
+      "talent@apollofirst.xyz",
+      "founders@codos.ai"
+    ],
+    "known_reply_stop": [
+      "simran@directshifts.com",
+      "hr@inventcolabs.com"
+    ],
+    "known_bounce_stop": [
+      "careers@decisioai.in"
+    ]
+  },
+  "due_followups": [
+    {"recipient":"hr@psitech.co.in","company":"Psitech Consultancy Services","role":"Full Stack Developer","reply_message_id":"1a0c17c2480036dc","status":"ready_followup_1"},
+    {"recipient":"hr@evincedev.com","company":"Evince Development","role":"AI / ML Engineer","reply_message_id":"1a0c17c38401bf6c","status":"ready_followup_1"},
+    {"recipient":"careers@synbrains.ai","company":"Synbrains Solutions","role":"Senior AI Engineer - Graph Systems and Intelligence","reply_message_id":"1a0c17be0e39e82a","status":"ready_followup_1"},
+    {"recipient":"careers@sgp-india.com","company":"SGP India","role":"Python Developer - AI orchestration / agentic workflows","reply_message_id":"1a0c17bf9715e049","status":"ready_followup_1"},
+    {"recipient":"careers@passionatehr.com","company":"Passionate HR Group","role":"Generative AI Engineer","reply_message_id":"1a0c17c0df59b9b3","status":"ready_followup_1"},
+    {"recipient":"careers@trailytics.com","company":"Trailytics AI","role":"Full Stack Python Developer / Full Stack Engineer (AI/CV)","reply_message_id":"1a0c69fc3a50583b","status":"ready_followup_1"},
+    {"recipient":"pugazhendhi.s@hcltech.com","company":"HCLTech","role":"GenAI Engineer hiring drive","reply_message_id":"1a0c69fd8d2c844d","status":"ready_followup_1"}
+  ],
+  "new_contact_queue": [],
+  "discovery_status": "pending_after_due_followups",
+  "rules": {
+    "send_one_recipient_at_a_time": true,
+    "verify_sent_after_each_send": true,
+    "check_bounce_after_each_confirmed_send": true,
+    "never_use_guessed_pattern_only_address": true,
+    "followups_do_not_count_toward_new_contact_target": true
+  }
+}
