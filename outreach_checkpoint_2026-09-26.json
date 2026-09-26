@@ -1,7 +1,7 @@
 {
   "date": "2026-09-26",
   "timezone": "Asia/Kolkata",
-  "state": "pre_send_reconciled_followups_first",
+  "state": "verified_new_queue_ready_to_send",
   "source_of_truth": "gmail_sent",
   "target_successful_new_contacts": 10,
   "minimum_desired_new_contacts": 8,
@@ -9,30 +9,34 @@
   "confirmed_new_contacts_today": 0,
   "reconciliation": {
     "gmail_checked_before_send": true,
-    "sep25_messages_excluded_from_sep26_count": [
-      "founders@plexe.ai",
-      "talent@apollofirst.xyz",
-      "founders@codos.ai"
-    ],
-    "known_reply_stop": [
-      "simran@directshifts.com",
-      "hr@inventcolabs.com"
-    ],
-    "known_bounce_stop": [
-      "careers@decisioai.in"
-    ]
+    "sep25_messages_excluded_from_sep26_count": ["founders@plexe.ai","talent@apollofirst.xyz","founders@codos.ai"],
+    "known_reply_stop": ["simran@directshifts.com","hr@inventcolabs.com"],
+    "known_bounce_stop": ["careers@decisioai.in"],
+    "duplicate_candidates_removed": ["pulkit@tsenta.com","founders@tryvela.ai"],
+    "blocked_source_candidate_removed": ["wilson@compose.ai"]
   },
   "due_followups": [
-    {"recipient":"hr@psitech.co.in","company":"Psitech Consultancy Services","role":"Full Stack Developer","reply_message_id":"1a0c17c2480036dc","status":"ready_followup_1"},
-    {"recipient":"hr@evincedev.com","company":"Evince Development","role":"AI / ML Engineer","reply_message_id":"1a0c17c38401bf6c","status":"ready_followup_1"},
-    {"recipient":"careers@synbrains.ai","company":"Synbrains Solutions","role":"Senior AI Engineer - Graph Systems and Intelligence","reply_message_id":"1a0c17be0e39e82a","status":"ready_followup_1"},
-    {"recipient":"careers@sgp-india.com","company":"SGP India","role":"Python Developer - AI orchestration / agentic workflows","reply_message_id":"1a0c17bf9715e049","status":"ready_followup_1"},
-    {"recipient":"careers@passionatehr.com","company":"Passionate HR Group","role":"Generative AI Engineer","reply_message_id":"1a0c17c0df59b9b3","status":"ready_followup_1"},
-    {"recipient":"careers@trailytics.com","company":"Trailytics AI","role":"Full Stack Python Developer / Full Stack Engineer (AI/CV)","reply_message_id":"1a0c69fc3a50583b","status":"ready_followup_1"},
-    {"recipient":"pugazhendhi.s@hcltech.com","company":"HCLTech","role":"GenAI Engineer hiring drive","reply_message_id":"1a0c69fd8d2c844d","status":"ready_followup_1"}
+    {"recipient":"hr@psitech.co.in","company":"Psitech Consultancy Services","gmail_message_id":"1a0ddc0493e85527","status":"followup_1_sent_confirmed_no_immediate_bounce"},
+    {"recipient":"hr@evincedev.com","company":"Evince Development","gmail_message_id":"1a0ddc0afce5d754","status":"followup_1_sent_confirmed_no_immediate_bounce"},
+    {"recipient":"careers@synbrains.ai","company":"Synbrains Solutions","gmail_message_id":"1a0ddc0e9adca85f","status":"followup_1_sent_confirmed_no_immediate_bounce"},
+    {"recipient":"careers@sgp-india.com","company":"SGP India","gmail_message_id":"1a0ddc11ac17ba83","status":"followup_1_sent_confirmed_no_immediate_bounce"},
+    {"recipient":"careers@passionatehr.com","company":"Passionate HR Group","gmail_message_id":"1a0ddc156172a05c","status":"followup_1_sent_confirmed_no_immediate_bounce"},
+    {"recipient":"careers@trailytics.com","company":"Trailytics AI","gmail_message_id":"1a0ddc18d0e0de43","status":"followup_1_sent_confirmed_no_immediate_bounce"},
+    {"recipient":"pugazhendhi.s@hcltech.com","company":"HCLTech","gmail_message_id":"1a0ddc1c2a6adec7","status":"followup_1_sent_confirmed_no_immediate_bounce"}
   ],
-  "new_contact_queue": [],
-  "discovery_status": "pending_after_due_followups",
+  "new_contact_queue": [
+    {"company":"Lab0","company_region":"US","role":"Forward Deployed Engineer","recipient":"founders@lab0.ai","verification":"explicit_public_current","eligibility":"current Bengaluru role","role_evidence":"current YC company/jobs page","contact_evidence":"official company/YC public founder mailbox","status":"ready_to_send"},
+    {"company":"sync.","company_region":"US","role":"Forward Deployed Engineer","recipient":"founders@sync.so","verification":"explicit_public_current","eligibility":"Hyderabad / remote; visa not required","role_evidence":"current YC job page","contact_evidence":"current YC company public founder mailbox","status":"ready_to_send"},
+    {"company":"AiPrise","company_region":"US","role":"Software Engineer I/II","recipient":"careers@aiprise.com","verification":"explicit_public_current","eligibility":"current Bangalore engineering role","role_evidence":"current YC jobs page","contact_evidence":"official AiPrise company-site careers email","status":"ready_to_send"},
+    {"company":"Strac","company_region":"US","role":"Software Engineer (India)","recipient":"hello@strac.io","verification":"explicit_public_current","eligibility":"current India role; visa not required","role_evidence":"current YC job page","contact_evidence":"current official Strac company contact","status":"ready_to_send"},
+    {"company":"Merlin AI","company_region":"US","role":"Product Engineer (Customer-Facing)","recipient":"snehak@merlinai.co","verification":"explicit_public_current","eligibility":"current Bengaluru role; visa not required","role_evidence":"current YC job page","contact_evidence":"current YC founder contact","status":"ready_to_send"},
+    {"company":"AnswerThis","company_region":"US","role":"Product Engineer","recipient":"ayush@answerthis.io","verification":"explicit_public_current","eligibility":"current Remote India role","role_evidence":"current YC job page","contact_evidence":"current YC founder contact","status":"ready_to_send"},
+    {"company":"Synthio Labs","company_region":"US","role":"Software Engineer - AI","recipient":"founders@synthiolabs.com","verification":"explicit_public_current","eligibility":"current Remote India role; visa not required","role_evidence":"current YC job page","contact_evidence":"official Synthio company publication founder mailbox","status":"ready_to_send"},
+    {"company":"ShortLoop","company_region":"US","role":"Software Engineer - Fullstack","recipient":"founders@shortloop.dev","verification":"explicit_public_current","eligibility":"current Bengaluru role; visa not required","role_evidence":"current YC job page","contact_evidence":"official ShortLoop legal/company contact","status":"ready_to_send"},
+    {"company":"GetCrux","company_region":"US","role":"Founding Engineer (Full Stack / AI Video)","recipient":"founders@getcrux.ai","verification":"explicit_public_current","eligibility":"current Bengaluru role; visa not required","role_evidence":"current YC job page","contact_evidence":"official GetCrux privacy/terms contact","status":"ready_to_send"},
+    {"company":"Feather","company_region":"US","role":"Backend + AI Engineer","recipient":"founders@featherhq.com","verification":"explicit_public_current","eligibility":"current Remote India role; visa not required","role_evidence":"current YC job page","contact_evidence":"official Feather privacy policy founder mailbox","status":"ready_to_send"}
+  ],
+  "discovery_status": "verified_queue_frozen_before_new_sends",
   "rules": {
     "send_one_recipient_at_a_time": true,
     "verify_sent_after_each_send": true,
