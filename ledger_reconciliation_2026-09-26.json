@@ -1,0 +1,34 @@
+{
+  "date":"2026-09-26",
+  "timezone":"Asia/Kolkata",
+  "source_of_truth":"gmail_sent",
+  "purpose":"Append-only dedupe reconciliation for the Sep 26 combined outreach run; preserves confirmed Gmail truth without performing a lossy rewrite of legacy reached_out.json/outreach_queue.json.",
+  "confirmed_new_contacts":[
+    {"email":"founders@lab0.ai","company":"Lab0","role":"Forward Deployed Engineer","status":"sent","sent_at":"2026-09-26","gmail_message_id":"1a0ddca10c7ce3c6","company_region":"US","eligibility":"current Bengaluru role","email_confidence":"explicit_public_current"},
+    {"email":"founders@sync.so","company":"sync.","role":"Forward Deployed Engineer","status":"sent","sent_at":"2026-09-26","gmail_message_id":"1a0ddca9e405cbde","company_region":"US","eligibility":"Hyderabad/remote; visa not required","email_confidence":"explicit_public_current"},
+    {"email":"careers@aiprise.com","company":"AiPrise","role":"Software Engineer I/II","status":"sent","sent_at":"2026-09-26","gmail_message_id":"1a0ddcb1a8207ed4","company_region":"US","eligibility":"current Bangalore role","email_confidence":"explicit_public_current"},
+    {"email":"hello@strac.io","company":"Strac","role":"Software Engineer (India)","status":"sent","sent_at":"2026-09-26","gmail_message_id":"1a0ddcb888100b8a","company_region":"US","eligibility":"India; visa not required","email_confidence":"explicit_public_current"},
+    {"email":"snehak@merlinai.co","company":"Merlin AI","role":"Product Engineer (Customer-Facing)","status":"sent","sent_at":"2026-09-26","gmail_message_id":"1a0ddcc0526d1e6d","company_region":"US","eligibility":"Bengaluru; visa not required","email_confidence":"explicit_public_current"},
+    {"email":"ayush@answerthis.io","company":"AnswerThis","role":"Product Engineer","status":"sent","sent_at":"2026-09-26","gmail_message_id":"1a0ddcc768068d9c","company_region":"US","eligibility":"Remote India","email_confidence":"explicit_public_current"},
+    {"email":"founders@synthiolabs.com","company":"Synthio Labs","role":"Software Engineer - AI","status":"sent","sent_at":"2026-09-26","gmail_message_id":"1a0ddcce3e6d0fa5","company_region":"US","eligibility":"Remote India; visa not required","email_confidence":"explicit_public_current"},
+    {"email":"founders@shortloop.dev","company":"ShortLoop","role":"Software Engineer - Fullstack","status":"sent","sent_at":"2026-09-26","gmail_message_id":"1a0ddcd6b5202ae8","company_region":"US","eligibility":"Bengaluru; visa not required","email_confidence":"explicit_public_current"},
+    {"email":"founders@getcrux.ai","company":"GetCrux","role":"Founding Engineer (Full Stack / AI Video)","status":"sent","sent_at":"2026-09-26","gmail_message_id":"1a0ddcdfebb9d55f","company_region":"US","eligibility":"Bengaluru; visa not required","email_confidence":"explicit_public_current"},
+    {"email":"founders@featherhq.com","company":"Feather","role":"Backend + AI Engineer","status":"sent","sent_at":"2026-09-26","gmail_message_id":"1a0ddce938bced63","company_region":"US","eligibility":"Remote India; visa not required","email_confidence":"explicit_public_current"}
+  ],
+  "followups_sent":[
+    {"email":"hr@psitech.co.in","company":"Psitech Consultancy Services","gmail_message_id":"1a0ddc0493e85527","followup_number":1},
+    {"email":"hr@evincedev.com","company":"Evince Development","gmail_message_id":"1a0ddc0afce5d754","followup_number":1},
+    {"email":"careers@synbrains.ai","company":"Synbrains Solutions","gmail_message_id":"1a0ddc0e9adca85f","followup_number":1},
+    {"email":"careers@sgp-india.com","company":"SGP India","gmail_message_id":"1a0ddc11ac17ba83","followup_number":1},
+    {"email":"careers@passionatehr.com","company":"Passionate HR Group","gmail_message_id":"1a0ddc156172a05c","followup_number":1},
+    {"email":"careers@trailytics.com","company":"Trailytics AI","gmail_message_id":"1a0ddc18d0e0de43","followup_number":1},
+    {"email":"pugazhendhi.s@hcltech.com","company":"HCLTech","gmail_message_id":"1a0ddc1c2a6adec7","followup_number":1}
+  ],
+  "dedupe_exclusions":[
+    {"email":"pulkit@tsenta.com","company":"Tsenta","reason":"prior Gmail Sent on 2026-09-15"},
+    {"email":"founders@tryvela.ai","company":"Vela","reason":"prior Gmail Sent on 2026-09-15"},
+    {"email":"wilson@compose.ai","company":"Compose.ai","reason":"email evidence source was Hacker News, which is prohibited by pipeline policy"}
+  ],
+  "bounce_check":{"immediate_and_combined_delayed_check":"no delivery failure found for the ten Sep 26 new contacts at reconciliation time"},
+  "dedupe_invariant":"Treat every confirmed_new_contacts entry in this file as permanent send history even if legacy aggregate ledgers lag."
+}
