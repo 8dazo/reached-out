@@ -1,5 +1,5 @@
 {
-  "date":"2026-09-26","timezone":"Asia/Kolkata","state":"new_sends_in_progress","source_of_truth":"gmail_sent","target_successful_new_contacts":10,"minimum_desired_new_contacts":8,"confirmed_new_contacts_today":4,
+  "date":"2026-09-26","timezone":"Asia/Kolkata","state":"new_sends_in_progress","source_of_truth":"gmail_sent","target_successful_new_contacts":10,"minimum_desired_new_contacts":8,"confirmed_new_contacts_today":5,
   "reconciliation":{"sep25_excluded":["founders@plexe.ai","talent@apollofirst.xyz","founders@codos.ai"],"reply_stops":["simran@directshifts.com","hr@inventcolabs.com"],"bounce_stops":["careers@decisioai.in"],"duplicates_removed":["pulkit@tsenta.com","founders@tryvela.ai"],"blocked_source_removed":["wilson@compose.ai"]},
   "followups_sent_confirmed":[{"recipient":"hr@psitech.co.in","gmail_message_id":"1a0ddc0493e85527"},{"recipient":"hr@evincedev.com","gmail_message_id":"1a0ddc0afce5d754"},{"recipient":"careers@synbrains.ai","gmail_message_id":"1a0ddc0e9adca85f"},{"recipient":"careers@sgp-india.com","gmail_message_id":"1a0ddc11ac17ba83"},{"recipient":"careers@passionatehr.com","gmail_message_id":"1a0ddc156172a05c"},{"recipient":"careers@trailytics.com","gmail_message_id":"1a0ddc18d0e0de43"},{"recipient":"pugazhendhi.s@hcltech.com","gmail_message_id":"1a0ddc1c2a6adec7"}],
   "new_contact_queue":[
@@ -7,7 +7,7 @@
     {"company":"sync.","recipient":"founders@sync.so","status":"sent_confirmed_no_immediate_bounce","gmail_message_id":"1a0ddca9e405cbde"},
     {"company":"AiPrise","recipient":"careers@aiprise.com","status":"sent_confirmed_no_immediate_bounce","gmail_message_id":"1a0ddcb1a8207ed4"},
     {"company":"Strac","recipient":"hello@strac.io","status":"sent_confirmed_no_immediate_bounce","gmail_message_id":"1a0ddcb888100b8a"},
-    {"company":"Merlin AI","recipient":"snehak@merlinai.co","status":"ready_to_send"},
+    {"company":"Merlin AI","recipient":"snehak@merlinai.co","status":"sent_confirmed_no_immediate_bounce","gmail_message_id":"1a0ddcc0526d1e6d"},
     {"company":"AnswerThis","recipient":"ayush@answerthis.io","status":"ready_to_send"},
     {"company":"Synthio Labs","recipient":"founders@synthiolabs.com","status":"ready_to_send"},
     {"company":"ShortLoop","recipient":"founders@shortloop.dev","status":"ready_to_send"},
