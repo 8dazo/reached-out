@@ -1,0 +1,58 @@
+{
+  "run_date": "2026-09-27",
+  "timezone": "Asia/Kolkata",
+  "mode": "manual_combined_0630_0715_0720_recovery",
+  "reason": "Scheduled 06:30 and 07:15 automations were disabled before the morning window; user requested the whole missed pipeline executed together now.",
+  "stages": {
+    "0630_main": {
+      "reconciled_gmail_and_github": true,
+      "today_sent_before_run": 0,
+      "discovery_lanes": ["YC/current live roles","fresh funding","official careers","company/founder contacts"],
+      "checkpoint_created_before_send": "outreach_checkpoint_2026-09-27.json"
+    },
+    "0715_recovery": {
+      "target": 10,
+      "send_one_at_a_time": true,
+      "verified_each_in_gmail_sent": true,
+      "bounce_replacement": true,
+      "successful_contacts": 10
+    },
+    "0720_closeout": {
+      "gmail_truth_reconciled": true,
+      "ledger_written": "ledger_reconciliation_2026-09-27.json",
+      "vapi_reply_classified": "location_ineligible",
+      "trebellar_mailbox_blacklisted": true,
+      "target_reached": true
+    }
+  },
+  "successful": [
+    {"company":"Origami","recipient":"hello@origami.dev","gmail_message_id":"1a0e12118428fb22","lane":"live_role"},
+    {"company":"Holistic AI","recipient":"emre.kazim@holisticai.com","gmail_message_id":"1a0e12193d1c24ad","lane":"live_role"},
+    {"company":"Respan","recipient":"team@respan.ai","gmail_message_id":"1a0e121e53e841eb","lane":"yc_live_role"},
+    {"company":"Health Force","recipient":"Fadi@healthforce.ai","gmail_message_id":"1a0e122230bbde57","lane":"fresh_funding"},
+    {"company":"Dextr AI","recipient":"sajid@dextr.ai","gmail_message_id":"1a0e12263cddd6b3","lane":"fresh_funding_plus_hiring"},
+    {"company":"Baselayer","recipient":"jonathan@baselayer.com","gmail_message_id":"1a0e122ac987ed41","lane":"fresh_funding"},
+    {"company":"Go.AI","recipient":"david@goabacus.co","gmail_message_id":"1a0e122e8d1dd9e8","lane":"fresh_funding"},
+    {"company":"Spiich Labs","recipient":"hello@spiich.ai","gmail_message_id":"1a0e12334fa36112","lane":"fresh_funding_plus_hiring"},
+    {"company":"Gushwork","recipient":"talent@gushwork.ai","gmail_message_id":"1a0e1240eeefd4d5","lane":"live_role"},
+    {"company":"Version2.ai / Givzey","recipient":"hello@version2.ai","gmail_message_id":"1a0e1249a0a1d592","lane":"live_role_replacement"}
+  ],
+  "failed_and_replaced": [
+    {"company":"Trebellar","recipient":"careers@trebellar.com","gmail_message_id":"1a0e1238f9deef55","bounce_message_id":"1a0e123987a799ae","action":"blacklisted exact mailbox and replaced with Version2.ai"}
+  ],
+  "excluded_during_dedupe": [
+    {"company":"Raindrop","recipient":"ben@raindrop.ai","reason":"already contacted Sep 26","prior_gmail_message_id":"1a0dddcc834cbaad"}
+  ],
+  "reply_actions": [
+    {"company":"Vapi","message_id":"1a0de6af720d8641","action":"stop follow-ups; location restriction SF/NY"}
+  ],
+  "metrics": {
+    "confirmed_successful_new_contacts": 10,
+    "total_send_attempts": 11,
+    "hard_bounces": 1,
+    "successful_replacements": 1,
+    "transient_connector_failures": 0,
+    "guessed_emails_used": 0,
+    "target_reached": true
+  }
+}
