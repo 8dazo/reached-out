@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-27",
+  "timezone": "Asia/Kolkata",
+  "source_of_truth": "gmail_sent",
+  "mode": "manual_combined_0630_0715_0720_recovery",
+  "confirmed_new_contacts": [
+    {"email":"hello@origami.dev","company":"Origami","role":"AI Engineer — LLM Products","status":"sent","gmail_message_id":"1a0e12118428fb22","company_region":"US","eligibility":"Bengaluru hybrid role","resume_attached":true},
+    {"email":"emre.kazim@holisticai.com","company":"Holistic AI","role":"Forward Deployed Engineer","status":"sent","gmail_message_id":"1a0e12193d1c24ad","company_region":"UK","eligibility":"Bangalore role","resume_attached":false},
+    {"email":"team@respan.ai","company":"Respan","role":"Product Engineer / Software Engineer, AI","status":"sent","gmail_message_id":"1a0e121e53e841eb","company_region":"US","eligibility":"current YC remote India roles","resume_attached":false},
+    {"email":"Fadi@healthforce.ai","company":"Health Force","role":"Proactive AI / Engineering","status":"sent","gmail_message_id":"1a0e122230bbde57","company_region":"Europe","eligibility":"funding-triggered international inquiry","funding":"€4.2M seed, Sep 17 2026","resume_attached":false},
+    {"email":"sajid@dextr.ai","company":"Dextr AI","role":"Software / AI Engineering","status":"sent","gmail_message_id":"1a0e12263cddd6b3","company_region":"US","eligibility":"current location-agnostic hiring signal","funding":"$6.7M seed, Sep 24 2026","resume_attached":false},
+    {"email":"jonathan@baselayer.com","company":"Baselayer","role":"Proactive AI / Engineering","status":"sent","gmail_message_id":"1a0e122ac987ed41","company_region":"US","eligibility":"funding-triggered international inquiry","funding":"$35M Series A, Sep 22 2026","resume_attached":false},
+    {"email":"david@goabacus.co","company":"Go.AI","role":"Software / AI Engineering","status":"sent","gmail_message_id":"1a0e122e8d1dd9e8","company_region":"US","eligibility":"funding-triggered international inquiry","funding":"$85M Series A, Sep 22 2026","resume_attached":false,"notes":"Exact public legacy-domain founder address; official Go.AI rebrand states prior addresses continue to reach company."},
+    {"email":"hello@spiich.ai","company":"Spiich Labs","role":"Full Stack / AI Engineering","status":"sent","gmail_message_id":"1a0e12334fa36112","company_region":"Europe","eligibility":"Stockholm hiring; relocation interest stated","funding":"€3M seed, Sep 23 2026","resume_attached":false},
+    {"email":"talent@gushwork.ai","company":"Gushwork","role":"Forward Deployed / Software Engineering","status":"sent","gmail_message_id":"1a0e1240eeefd4d5","company_region":"US","eligibility":"Bengaluru engineering lane","resume_attached":true},
+    {"email":"hello@version2.ai","company":"Version2.ai / Givzey","role":"Applied AI Engineer","status":"sent","gmail_message_id":"1a0e1249a0a1d592","company_region":"US","eligibility":"careers page says virtual; email explicitly asks CV; India remote support asked rather than assumed","resume_attached":true}
+  ],
+  "failed_contacts": [
+    {"email":"careers@trebellar.com","company":"Trebellar","role":"Engineering growth after Series A","status":"bounced","gmail_message_id":"1a0e1238f9deef55","bounce_message_id":"1a0e123987a799ae","failure":"published careers Google group may not exist or sender lacks permission","action":"blacklist exact mailbox; did not count toward target; replaced with Version2.ai"}
+  ],
+  "reply_reconciliation": [
+    {"company":"Vapi","reply_message_id":"1a0de6af720d8641","classification":"location_ineligible","detail":"Only considering applicants in San Francisco or New York; stop follow-ups for this role."}
+  ],
+  "metrics": {
+    "successful_new_contacts": 10,
+    "send_attempts": 11,
+    "hard_bounces": 1,
+    "transient_send_failures": 0,
+    "guessed_pattern_emails": 0,
+    "resume_attachments": 4,
+    "target_reached": true
+  },
+  "dedupe_invariant": "Treat all confirmed_new_contacts as permanent send history even if aggregate ledgers lag. Gmail message IDs are authoritative."
+}
