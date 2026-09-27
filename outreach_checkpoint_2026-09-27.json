@@ -1,0 +1,163 @@
+{
+  "date": "2026-09-27",
+  "timezone": "Asia/Kolkata",
+  "mode": "manual_combined_0630_0715_0720_recovery",
+  "target_confirmed_successes": 10,
+  "gmail_sent_before_run": 0,
+  "rules": {
+    "send_one_at_a_time": true,
+    "verify_gmail_sent_after_each": true,
+    "replace_bounces": true,
+    "never_guess_email": true,
+    "gmail_is_delivery_truth": true
+  },
+  "queue": [
+    {
+      "order": 1,
+      "company": "Origami",
+      "role": "AI Engineer — LLM Products",
+      "company_region": "US",
+      "eligibility": "current Bengaluru role; New York head office / global remote-first company",
+      "recipient": "hello@origami.dev",
+      "contact_type": "official_application_contact",
+      "verification": "explicit_public_current",
+      "evidence": "current official Origami careers page lists Bengaluru AI Engineer role and hello@origami.dev",
+      "subject": "AI Engineer — LLM Products — Devansh Mahant",
+      "resume_attached": true,
+      "status": "ready_to_send"
+    },
+    {
+      "order": 2,
+      "company": "Holistic AI",
+      "role": "Forward Deployed Engineer",
+      "company_region": "UK",
+      "eligibility": "current Bangalore role",
+      "recipient": "emre.kazim@holisticai.com",
+      "contact_type": "cofounder_ceo",
+      "verification": "explicit_public_current",
+      "evidence": "current Bangalore FDE posting plus public Holistic AI executive contact",
+      "subject": "Forward Deployed Engineer — Devansh Mahant",
+      "resume_attached": false,
+      "status": "ready_to_send"
+    },
+    {
+      "order": 3,
+      "company": "Respan",
+      "role": "Product Engineer / Software Engineer, AI",
+      "company_region": "US",
+      "eligibility": "current YC roles explicitly remote India",
+      "recipient": "team@respan.ai",
+      "contact_type": "official_team_contact",
+      "verification": "explicit_public_current",
+      "evidence": "current YC company jobs plus current official product/team contact",
+      "subject": "Product / AI Engineering at Respan — Devansh Mahant",
+      "resume_attached": false,
+      "status": "ready_to_send"
+    },
+    {
+      "order": 4,
+      "company": "Health Force",
+      "role": "Proactive AI / Engineering",
+      "company_region": "Europe",
+      "eligibility": "funding-triggered international hiring inquiry",
+      "recipient": "Fadi@healthforce.ai",
+      "contact_type": "cofounder_ceo",
+      "verification": "explicit_public_current",
+      "evidence": "official team page publishes founder email; €4.2M seed announced Sep 17, 2026",
+      "subject": "Health Force after the seed round — AI engineering fit",
+      "resume_attached": false,
+      "status": "ready_to_send"
+    },
+    {
+      "order": 5,
+      "company": "Dextr AI",
+      "role": "Software / AI Engineering",
+      "company_region": "US",
+      "eligibility": "current hiring described as location-agnostic",
+      "recipient": "sajid@dextr.ai",
+      "contact_type": "founder",
+      "verification": "explicit_public_current",
+      "evidence": "$6.7M seed announced Sep 24, 2026; current public founder email; current hiring signal for builders/software engineers",
+      "subject": "Dextr after the seed round — AI engineering fit",
+      "resume_attached": false,
+      "status": "ready_to_send"
+    },
+    {
+      "order": 6,
+      "company": "Baselayer",
+      "role": "Proactive AI / Engineering",
+      "company_region": "US",
+      "eligibility": "funding-triggered remote/international inquiry; local roles not represented as India-eligible",
+      "recipient": "jonathan@baselayer.com",
+      "contact_type": "founder_ceo",
+      "verification": "explicit_public_current",
+      "evidence": "$35M Series A announced Sep 22, 2026; company resource page publicly identifies founder email; company is hiring",
+      "subject": "Baselayer after the Series A — AI engineering fit",
+      "resume_attached": false,
+      "status": "ready_to_send"
+    },
+    {
+      "order": 7,
+      "company": "Go.AI",
+      "role": "Software / AI Engineering",
+      "company_region": "US",
+      "eligibility": "funding-triggered international inquiry; current remote software role exists but India support not asserted",
+      "recipient": "david@goabacus.co",
+      "contact_type": "founder",
+      "verification": "explicit_public_current_via_legacy_domain",
+      "evidence": "$85M Series A announced Sep 22, 2026; public founder address on prior domain; official rebrand notice states old addresses continue to reach Go.AI",
+      "subject": "Go.AI after the Series A — software/AI engineering",
+      "resume_attached": false,
+      "status": "ready_to_send"
+    },
+    {
+      "order": 8,
+      "company": "Spiich Labs",
+      "role": "Full Stack / AI Engineering",
+      "company_region": "Europe",
+      "eligibility": "current Stockholm hiring; relocation interest can be discussed",
+      "recipient": "hello@spiich.ai",
+      "contact_type": "official_founder_hiring_contact",
+      "verification": "explicit_public_current",
+      "evidence": "€3M seed announced Sep 23, 2026; founder currently says seven roles open; prior founder hiring post explicitly says email hello@spiich.ai with GitHub/LinkedIn",
+      "subject": "Building at Spiich after the seed round — Devansh Mahant",
+      "resume_attached": false,
+      "status": "ready_to_send"
+    },
+    {
+      "order": 9,
+      "company": "Trebellar",
+      "role": "Engineering growth after Series A",
+      "company_region": "US",
+      "eligibility": "funding-triggered inquiry; no claim of India eligibility",
+      "recipient": "careers@trebellar.com",
+      "contact_type": "official_careers_mailbox",
+      "verification": "explicit_public_current",
+      "evidence": "$18M Series A announced Sep 24, 2026 explicitly says funding will grow engineering and that company is hiring; careers page publishes careers@trebellar.com",
+      "subject": "Engineering at Trebellar after the Series A — Devansh Mahant",
+      "resume_attached": true,
+      "status": "ready_to_send"
+    },
+    {
+      "order": 10,
+      "company": "Gushwork",
+      "role": "Forward Deployed / Software Engineering",
+      "company_region": "US",
+      "eligibility": "current Bengaluru engineering lane; US legal HQ with India operating entity",
+      "recipient": "talent@gushwork.ai",
+      "contact_type": "official_talent_mailbox",
+      "verification": "explicit_public_company_hiring_email",
+      "evidence": "current Bengaluru engineering/FDE opportunity; public Gushwork hiring posts explicitly use talent@gushwork.ai",
+      "subject": "Engineering at Gushwork — Devansh Mahant",
+      "resume_attached": true,
+      "status": "ready_to_send"
+    }
+  ],
+  "dedupe": {
+    "gmail_exact_recipient_search_completed": true,
+    "matches": 0,
+    "excluded_before_checkpoint": [
+      {"company":"Raindrop","recipient":"ben@raindrop.ai","reason":"already contacted Sep 26; Gmail message 1a0dddcc834cbaad"}
+    ]
+  }
+}
