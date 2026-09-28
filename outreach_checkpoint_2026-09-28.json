@@ -1,0 +1,93 @@
+{
+  "date": "2026-09-28",
+  "timezone": "Asia/Kolkata",
+  "source_of_truth": "gmail_sent",
+  "pipeline_config_version": 5,
+  "target_confirmed_successes": 10,
+  "discovery_note": "Broad multi-source discovery; only candidates passing target-region HQ, India eligibility, role fit, dedupe, freshness/current-live evidence, and exact public mailbox gates are checkpointed.",
+  "queue": [
+    {
+      "order": 1,
+      "company": "Narrative",
+      "role": "Founding Engineer (Backend + AI)",
+      "recipient": "founders@trynarrative.com",
+      "verification": "explicit_public_current",
+      "eligibility": "YC current role Bengaluru / Remote India, 3+ years",
+      "evidence": "YC current job + public company contact",
+      "subject": "Founding Engineer (Backend + AI) — Devansh Mahant",
+      "status": "ready_to_send"
+    },
+    {
+      "order": 2,
+      "company": "Good AI",
+      "role": "Forward Deployed Engineer",
+      "recipient": "careers@thegoodai.ai",
+      "verification": "explicit_public_current",
+      "eligibility": "official current Bangalore India FDE",
+      "evidence": "official careers",
+      "subject": "Forward Deployed Engineer — Devansh Mahant",
+      "status": "ready_to_send"
+    },
+    {
+      "order": 3,
+      "company": "QuantumHive",
+      "role": "Backend Infrastructure Engineer",
+      "recipient": "hello@quantumhive.us",
+      "verification": "explicit_public_current",
+      "eligibility": "US company; official role Remote / India",
+      "evidence": "official careers + contact",
+      "subject": "Backend Infrastructure Engineer — Devansh Mahant",
+      "status": "ready_to_send"
+    },
+    {
+      "order": 4,
+      "company": "CreloAI",
+      "role": "AI Engineer — Matching & Data",
+      "recipient": "contact@creloai.com",
+      "verification": "explicit_public_current",
+      "eligibility": "SF Bay Area/Bengaluru footprint; official Bengaluru Remote India role",
+      "evidence": "official careers",
+      "subject": "AI Engineer — Matching & Data — Devansh Mahant",
+      "status": "ready_to_send"
+    },
+    {
+      "order": 5,
+      "company": "Lyzr AI",
+      "role": "Product / Agentic AI Engineering",
+      "recipient": "careers@lyzr.ai",
+      "verification": "explicit_public_current",
+      "eligibility": "Jersey City HQ; official Bengaluru Product Engineer and GenAI roles",
+      "evidence": "official careers + US office",
+      "subject": "Product / Agentic AI Engineering — Devansh Mahant",
+      "status": "ready_to_send"
+    },
+    {
+      "order": 6,
+      "company": "Cadence Labs",
+      "role": "Senior Product Engineer — Remote Asia",
+      "recipient": "cadence@withremote.ai",
+      "verification": "explicit_public_current",
+      "eligibility": "Delaware corporation; official Remote Asia role",
+      "evidence": "official careers + terms",
+      "subject": "Product Engineering — Remote Asia — Devansh Mahant",
+      "status": "ready_to_send"
+    },
+    {
+      "order": 7,
+      "company": "Kaaj",
+      "role": "Founding Full Stack Engineer — Remote India",
+      "recipient": "hello@kaaj.ai",
+      "verification": "explicit_public_current",
+      "eligibility": "SF-headquartered; official Remote India role, 3+ years",
+      "evidence": "official careers + contact",
+      "subject": "Founding Full Stack Engineer — Devansh Mahant",
+      "status": "ready_to_send"
+    }
+  ],
+  "rules": {
+    "send_one_at_a_time": true,
+    "verify_sent_after_each": true,
+    "bounce_replacement": true,
+    "never_guess_email": true
+  }
+}
