@@ -39,7 +39,6 @@ A founder, recruiter, or hiring manager at an otherwise eligible company remains
 3. Wellfound.
 4. Official company careers pages and ATS pages.
 5. Current company/founder/team pages, GitHub orgs, and public hiring posts for evidence and people mapping.
-6. Stapply/JobHive only as a supplementary broad index, not the primary source.
 
 Prefer roles posted in the last 72 hours; allow up to 7 days when the match is unusually strong. Older roles require evidence that the recruiter/founder is still active and the opening is live.
 
