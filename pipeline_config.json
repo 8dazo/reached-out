@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "fresh_days": 7,
   "hot_role_days": 3,
   "max_experience_years": 5,
@@ -13,8 +13,7 @@
     "hiring_cafe",
     "wellfound",
     "official_company_careers",
-    "company_founder_or_team_pages",
-    "stapply_jobhive"
+    "company_founder_or_team_pages"
   ],
   "target_company_regions": [
     "united_states",
@@ -159,7 +158,10 @@
     "plain_text_first": true,
     "attach_resume_on_cold_founder_outreach": false,
     "attach_resume_for_official_email_application": true,
-    "followup_business_days": [3, 7],
+    "followup_business_days": [
+      3,
+      7
+    ],
     "max_followups": 2,
     "stop_on_any_reply": true,
     "stop_on_opt_out": true
