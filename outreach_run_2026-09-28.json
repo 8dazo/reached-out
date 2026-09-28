@@ -1,0 +1,69 @@
+{
+  "run_date": "2026-09-28",
+  "timezone": "Asia/Kolkata",
+  "pipeline_config_version": 5,
+  "reconciliation": {
+    "gmail_delivery_truth": true,
+    "prior_sep26_sep27_run_records_imported_into_reached_out": true,
+    "directshifts_reply": "referral_forwarded_stop_followups",
+    "due_followups_sent": 0
+  },
+  "discovery": {
+    "initial_target_opportunities": 80,
+    "broadened_toward": 120,
+    "qualified_exact_mailbox_contacts": 7,
+    "rejected_reasons": [
+      "already contacted",
+      "India-headquartered employer",
+      "role stale/closed",
+      "seniority mismatch",
+      "India eligibility not established",
+      "no exact explicit_public_current or mailbox_verified hiring contact"
+    ]
+  },
+  "successful": [
+    {
+      "recipient": "founders@trynarrative.com",
+      "gmail_message_id": "1a0e5a88ced39c06",
+      "status": "sent_confirmed_no_immediate_bounce"
+    },
+    {
+      "recipient": "careers@thegoodai.ai",
+      "gmail_message_id": "1a0e5a8ae1146a3d",
+      "status": "sent_confirmed_no_immediate_bounce"
+    },
+    {
+      "recipient": "hello@quantumhive.us",
+      "gmail_message_id": "1a0e5a8cdaa3c03c",
+      "status": "sent_confirmed_no_immediate_bounce"
+    },
+    {
+      "recipient": "contact@creloai.com",
+      "gmail_message_id": "1a0e5a8f06b45856",
+      "status": "sent_confirmed_no_immediate_bounce"
+    },
+    {
+      "recipient": "careers@lyzr.ai",
+      "gmail_message_id": "1a0e5a91bee4aa2f",
+      "status": "sent_confirmed_no_immediate_bounce"
+    },
+    {
+      "recipient": "cadence@withremote.ai",
+      "gmail_message_id": "1a0e5a938ea6b06b",
+      "status": "sent_confirmed_no_immediate_bounce"
+    },
+    {
+      "recipient": "hello@kaaj.ai",
+      "gmail_message_id": "1a0e5a956605cb83",
+      "status": "sent_confirmed_no_immediate_bounce"
+    }
+  ],
+  "metrics": {
+    "confirmed_successful_new_contacts": 7,
+    "send_attempts": 7,
+    "immediate_bounces": 0,
+    "transient_send_failures": 0,
+    "target_reached": false
+  },
+  "checkpoint": "outreach_checkpoint_2026-09-28.json"
+}
