@@ -1,0 +1,119 @@
+{
+  "run_date": "2026-10-05",
+  "timezone": "Asia/Kolkata",
+  "mode": "combined_manual_test_morning_radar_recovery_closeout",
+  "pipeline_config_version": 5,
+  "maintenance": {
+    "removed_obsolete_workflow": {
+      "path": ".github/workflows/stapply-scan.yml",
+      "commit": "d51eca8abc300519fb156a54ae18936f14437712"
+    },
+    "reconciled_prior_bounce": {
+      "recipient": "cadence@withremote.ai",
+      "sent_message_id": "1a0e5a938ea6b06b",
+      "bounce_message_id": "1a0e5a940e1a7b8a",
+      "reason": "550 address not found / unable to receive mail",
+      "commits": [
+        "6aba05cfdfbe479b1a64d8d682f4b4caefd36e8c",
+        "a032f16cb845bd91421e2f791dd6f2154a9cf20a",
+        "ecff58e10ba959dee6e9511bff999d5d919ee198"
+      ]
+    }
+  },
+  "followups": {
+    "sent_confirmed": 6,
+    "counted_as_new_contacts": false,
+    "items": [
+      {
+        "recipient": "founders@trynarrative.com",
+        "gmail_message_id": "1a10a2c80ead15f7"
+      },
+      {
+        "recipient": "careers@thegoodai.ai",
+        "gmail_message_id": "1a10a2c8d62e0e90"
+      },
+      {
+        "recipient": "hello@quantumhive.us",
+        "gmail_message_id": "1a10a2c9623a734d"
+      },
+      {
+        "recipient": "contact@creloai.com",
+        "gmail_message_id": "1a10a2ca1e1af059"
+      },
+      {
+        "recipient": "careers@lyzr.ai",
+        "gmail_message_id": "1a10a2cade787fba"
+      },
+      {
+        "recipient": "hello@kaaj.ai",
+        "gmail_message_id": "1a10a2cb889219db"
+      }
+    ]
+  },
+  "discovery": {
+    "strict_filters_preserved": true,
+    "duplicate_detected_and_excluded": "hello@origami.dev",
+    "common_rejection_reasons": [
+      "India-headquartered employer",
+      "stale or closed role",
+      "seniority mismatch",
+      "India hiring eligibility not established",
+      "no exact explicit public or mailbox-verified hiring address",
+      "already contacted"
+    ],
+    "new_contacts_selected": 7
+  },
+  "sends": {
+    "checkpoint_created_before_send": "outreach_checkpoint_2026-10-05.json",
+    "send_attempts": 7,
+    "confirmed_in_gmail_sent": 7,
+    "immediate_bounces": 0,
+    "duplicate_retries": 0,
+    "connector_recovery_note": "A combined Code Mode wrapper reached its internal tool-call limit after send actions. Exact Gmail Sent reconciliation was performed before any retry; all seven messages were present, so none were retried."
+  },
+  "successful_new_contacts": [
+    {
+      "company": "Periskope",
+      "recipient": "manali@clanx.ai",
+      "gmail_message_id": "1a10a3a1bdd93d4f"
+    },
+    {
+      "company": "Rifa AI",
+      "recipient": "sameer@rifa.ai",
+      "gmail_message_id": "1a10a3a264c60b23"
+    },
+    {
+      "company": "NeoSigma",
+      "recipient": "founders@neosigma.ai",
+      "gmail_message_id": "1a10a3a331be6460"
+    },
+    {
+      "company": "mea Platform",
+      "recipient": "careers@meaplatform.com",
+      "gmail_message_id": "1a10a3a4c262b69d"
+    },
+    {
+      "company": "DCKAP",
+      "recipient": "hrteam@dckap.com",
+      "gmail_message_id": "1a10a3a64e0735a1"
+    },
+    {
+      "company": "Confer Solutions AI",
+      "recipient": "info@confersolutions.ai",
+      "gmail_message_id": "1a10a3a734664872"
+    },
+    {
+      "company": "Bundled",
+      "recipient": "hello@gobundled.com",
+      "gmail_message_id": "1a10a3a7e0c46c6d"
+    }
+  ],
+  "metrics": {
+    "confirmed_successful_new_contacts": 7,
+    "minimum_desired": 8,
+    "target": 10,
+    "target_reached": false,
+    "system_test_passed": true
+  },
+  "stop_reason": "No additional candidate was sent merely to satisfy quota. The combined test proved checkpointing, dedupe, Gmail send recovery, bounce checks, and GitHub reconciliation while preserving strict quality gates."
+}
