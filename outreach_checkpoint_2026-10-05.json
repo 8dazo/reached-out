@@ -26,7 +26,11 @@
         "https://www.linkedin.com/posts/manalimange_i-just-crossed-80000-followers-if-youre-activity-7487365175281577984-Ue7K"
       ],
       "subject": "Periskope AI Engineer — Devansh Mahant",
-      "status": "ready_to_send"
+      "status": "sent_confirmed_no_immediate_bounce",
+      "gmail_message_id": "1a10a3a1bdd93d4f",
+      "sent_at": "2026-10-05",
+      "followup_1_due": "2026-10-08",
+      "followup_2_due": "2026-10-14"
     },
     {
       "order": 2,
@@ -42,7 +46,11 @@
         "https://jobs.ashbyhq.com/rifa/bd6366c8-893a-49fd-9b9a-31cb75a397d0/"
       ],
       "subject": "Agent Engineer — Devansh Mahant",
-      "status": "ready_to_send"
+      "status": "sent_confirmed_no_immediate_bounce",
+      "gmail_message_id": "1a10a3a264c60b23",
+      "sent_at": "2026-10-05",
+      "followup_1_due": "2026-10-08",
+      "followup_2_due": "2026-10-14"
     },
     {
       "order": 3,
@@ -59,7 +67,11 @@
         "https://neosigma.ai/"
       ],
       "subject": "MTS — AI Engineer (Bengaluru) — Devansh Mahant",
-      "status": "ready_to_send"
+      "status": "sent_confirmed_no_immediate_bounce",
+      "gmail_message_id": "1a10a3a331be6460",
+      "sent_at": "2026-10-05",
+      "followup_1_due": "2026-10-08",
+      "followup_2_due": "2026-10-14"
     },
     {
       "order": 4,
@@ -76,7 +88,11 @@
         "https://www.linkedin.com/in/jasmeetdhanjal"
       ],
       "subject": "AI Engineer — Bangalore Remote — Devansh Mahant",
-      "status": "ready_to_send"
+      "status": "sent_confirmed_no_immediate_bounce",
+      "gmail_message_id": "1a10a3a4c262b69d",
+      "sent_at": "2026-10-05",
+      "followup_1_due": "2026-10-08",
+      "followup_2_due": "2026-10-14"
     },
     {
       "order": 5,
@@ -93,7 +109,11 @@
         "https://www.dckap.com/about/"
       ],
       "subject": "AI Engineer | 3+ Years | Devansh Mahant",
-      "status": "ready_to_send"
+      "status": "sent_confirmed_no_immediate_bounce",
+      "gmail_message_id": "1a10a3a64e0735a1",
+      "sent_at": "2026-10-05",
+      "followup_1_due": "2026-10-08",
+      "followup_2_due": "2026-10-14"
     },
     {
       "order": 6,
@@ -110,7 +130,11 @@
         "https://confersolutions.ai/about/founder"
       ],
       "subject": "Junior AI Engineer — India Remote — Devansh Mahant",
-      "status": "ready_to_send"
+      "status": "sent_confirmed_no_immediate_bounce",
+      "gmail_message_id": "1a10a3a734664872",
+      "sent_at": "2026-10-05",
+      "followup_1_due": "2026-10-08",
+      "followup_2_due": "2026-10-14"
     },
     {
       "order": 7,
@@ -126,7 +150,14 @@
         "https://www.linkedin.com/company/gobundled/"
       ],
       "subject": "AI & Agentic Systems Engineer — Devansh Mahant",
-      "status": "ready_to_send"
+      "status": "sent_confirmed_no_immediate_bounce",
+      "gmail_message_id": "1a10a3a7e0c46c6d",
+      "sent_at": "2026-10-05",
+      "followup_1_due": "2026-10-08",
+      "followup_2_due": "2026-10-14"
     }
-  ]
+  ],
+  "confirmed_successes": 7,
+  "target_met": false,
+  "stop_reason": "Combined test completed with 7 high-confidence new contacts. The 8–10 target was not forced because additional candidates failed strict HQ, India-eligibility, freshness, dedupe, or exact-mailbox gates."
 }
