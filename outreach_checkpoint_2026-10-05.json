@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-05",
+  "timezone": "Asia/Kolkata",
+  "purpose": "Combined manual test of morning radar + recovery + closeout before schedules resume",
+  "gmail_is_delivery_truth": true,
+  "target_confirmed_new_contacts": 10,
+  "minimum_desired_new_contacts": 8,
+  "notes": [
+    "Stapply workflow removed before this run.",
+    "Cadence Labs Sep 28 hard bounce reconciled before new sends.",
+    "Six overdue Sep 28 follow-ups were sent and verified separately; follow-ups do not count as new contacts.",
+    "Strict HQ, India-eligibility, role-fit, dedupe, and exact-mailbox gates preserved."
+  ],
+  "queue": [
+    {
+      "order": 1,
+      "company": "Periskope",
+      "role": "AI Engineer - Remote",
+      "recipient": "manali@clanx.ai",
+      "contact": "Manali Mange, ClanX recruiting partner",
+      "verification": "explicit_public_current",
+      "company_region": "US",
+      "eligibility": "Remote India; 2-4 years",
+      "evidence": [
+        "https://jobs.clanx.ai/o/ai-engineer-remote",
+        "https://www.linkedin.com/posts/manalimange_i-just-crossed-80000-followers-if-youre-activity-7487365175281577984-Ue7K"
+      ],
+      "subject": "Periskope AI Engineer — Devansh Mahant",
+      "status": "ready_to_send"
+    },
+    {
+      "order": 2,
+      "company": "Rifa AI",
+      "role": "Agent Engineer",
+      "recipient": "sameer@rifa.ai",
+      "contact": "Sameer, founder/careers contact",
+      "verification": "explicit_public_current",
+      "company_region": "US",
+      "eligibility": "Remote India; current role; strong AI-agent fit",
+      "evidence": [
+        "https://rifa.ai/careers",
+        "https://jobs.ashbyhq.com/rifa/bd6366c8-893a-49fd-9b9a-31cb75a397d0/"
+      ],
+      "subject": "Agent Engineer — Devansh Mahant",
+      "status": "ready_to_send"
+    },
+    {
+      "order": 3,
+      "company": "NeoSigma",
+      "role": "Member of Technical Staff - AI Engineer",
+      "recipient": "founders@neosigma.ai",
+      "contact": "Founders inbox",
+      "verification": "explicit_public_current",
+      "company_region": "US",
+      "eligibility": "Bengaluru/India opening; production LLM/agent systems; no inflated YOE requirement",
+      "evidence": [
+        "https://neosigma.ai/careers",
+        "https://ats.rippling.com/pt-PT/neosigma/jobs/8db86b02-ff34-4f53-9172-542033749e7a",
+        "https://neosigma.ai/"
+      ],
+      "subject": "MTS — AI Engineer (Bengaluru) — Devansh Mahant",
+      "status": "ready_to_send"
+    },
+    {
+      "order": 4,
+      "company": "mea Platform",
+      "role": "AI Engineer",
+      "recipient": "careers@meaplatform.com",
+      "contact": "Careers inbox",
+      "verification": "explicit_public_current",
+      "company_region": "Bermuda/UK/global",
+      "eligibility": "Bangalore Remote; India work authorization; 3+ years",
+      "evidence": [
+        "https://www.meaplatform.com/job/ai-engineer/",
+        "https://www.meaplatform.com/careers/",
+        "https://www.linkedin.com/in/jasmeetdhanjal"
+      ],
+      "subject": "AI Engineer — Bangalore Remote — Devansh Mahant",
+      "status": "ready_to_send"
+    },
+    {
+      "order": 5,
+      "company": "DCKAP",
+      "role": "AI Engineer",
+      "recipient": "hrteam@dckap.com",
+      "contact": "Recruiting & employee verification inbox",
+      "verification": "explicit_public_current",
+      "company_region": "US",
+      "eligibility": "India Remote; 3+ years; unusually strong agent/RAG/evals/guardrails overlap; official role still open",
+      "evidence": [
+        "https://careers.dckap.com/jobs/ai-engineer/",
+        "https://www.dckap.com/get-in-touch/",
+        "https://www.dckap.com/about/"
+      ],
+      "subject": "AI Engineer | 3+ Years | Devansh Mahant",
+      "status": "ready_to_send"
+    },
+    {
+      "order": 6,
+      "company": "Confer Solutions AI",
+      "role": "Junior AI Engineer",
+      "recipient": "info@confersolutions.ai",
+      "contact": "Public founder/company inbox for Yatin Karnik",
+      "verification": "explicit_public_current",
+      "company_region": "US",
+      "eligibility": "India Remote; 0-3 years; AI agents/automation; US-headquartered",
+      "evidence": [
+        "https://confersolutions.ai/careers/junior-ai-engineer",
+        "https://confersolutions.ai/careers",
+        "https://confersolutions.ai/about/founder"
+      ],
+      "subject": "Junior AI Engineer — India Remote — Devansh Mahant",
+      "status": "ready_to_send"
+    },
+    {
+      "order": 7,
+      "company": "Bundled",
+      "role": "AI and Agentic Systems Engineer",
+      "recipient": "hello@gobundled.com",
+      "contact": "Public company inbox",
+      "verification": "explicit_public_current",
+      "company_region": "US",
+      "eligibility": "Remote India; 2-5 years; agent orchestration; US-headquartered",
+      "evidence": [
+        "https://in.indeed.com/q-llm-engineer-l-remote-jobs.html",
+        "https://www.linkedin.com/company/gobundled/"
+      ],
+      "subject": "AI & Agentic Systems Engineer — Devansh Mahant",
+      "status": "ready_to_send"
+    }
+  ]
+}
