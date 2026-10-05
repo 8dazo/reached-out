@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-28",
+  "updated_at": "2026-10-05",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -811,8 +811,10 @@
       "company_region": "US",
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "outreach_checkpoint_2026-09-28.json",
-      "followup_1_due": "2026-10-01",
-      "followup_2_due": "2026-10-07"
+      "followup_2_due": "2026-10-07",
+      "followup_1_sent_at": "2026-10-05",
+      "followup_1_gmail_message_id": "1a10a2c80ead15f7",
+      "followup_1_status": "sent_confirmed"
     },
     {
       "email": "careers@thegoodai.ai",
@@ -824,8 +826,10 @@
       "company_region": "US",
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "outreach_checkpoint_2026-09-28.json",
-      "followup_1_due": "2026-10-01",
-      "followup_2_due": "2026-10-07"
+      "followup_2_due": "2026-10-07",
+      "followup_1_sent_at": "2026-10-05",
+      "followup_1_gmail_message_id": "1a10a2c8d62e0e90",
+      "followup_1_status": "sent_confirmed"
     },
     {
       "email": "hello@quantumhive.us",
@@ -837,8 +841,10 @@
       "company_region": "US",
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "outreach_checkpoint_2026-09-28.json",
-      "followup_1_due": "2026-10-01",
-      "followup_2_due": "2026-10-07"
+      "followup_2_due": "2026-10-07",
+      "followup_1_sent_at": "2026-10-05",
+      "followup_1_gmail_message_id": "1a10a2c9623a734d",
+      "followup_1_status": "sent_confirmed"
     },
     {
       "email": "contact@creloai.com",
@@ -850,8 +856,10 @@
       "company_region": "US",
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "outreach_checkpoint_2026-09-28.json",
-      "followup_1_due": "2026-10-01",
-      "followup_2_due": "2026-10-07"
+      "followup_2_due": "2026-10-07",
+      "followup_1_sent_at": "2026-10-05",
+      "followup_1_gmail_message_id": "1a10a2ca1e1af059",
+      "followup_1_status": "sent_confirmed"
     },
     {
       "email": "careers@lyzr.ai",
@@ -863,8 +871,10 @@
       "company_region": "US",
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "outreach_checkpoint_2026-09-28.json",
-      "followup_1_due": "2026-10-01",
-      "followup_2_due": "2026-10-07"
+      "followup_2_due": "2026-10-07",
+      "followup_1_sent_at": "2026-10-05",
+      "followup_1_gmail_message_id": "1a10a2cade787fba",
+      "followup_1_status": "sent_confirmed"
     },
     {
       "email": "cadence@withremote.ai",
@@ -890,8 +900,115 @@
       "company_region": "US",
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "outreach_checkpoint_2026-09-28.json",
-      "followup_1_due": "2026-10-01",
-      "followup_2_due": "2026-10-07"
+      "followup_2_due": "2026-10-07",
+      "followup_1_sent_at": "2026-10-05",
+      "followup_1_gmail_message_id": "1a10a2cb889219db",
+      "followup_1_status": "sent_confirmed"
+    },
+    {
+      "email": "manali@clanx.ai",
+      "company": "Periskope",
+      "role": "AI Engineer - Remote",
+      "status": "sent",
+      "sent_at": "2026-10-05",
+      "gmail_message_id": "1a10a3a1bdd93d4f",
+      "company_region": "US",
+      "email_confidence": "explicit_public_current",
+      "source_reconciliation": "outreach_checkpoint_2026-10-05.json",
+      "delivery_check": "no_immediate_bounce_found",
+      "followup_1_due": "2026-10-08",
+      "followup_2_due": "2026-10-14",
+      "notes": "ClanX recruiting partner; Remote India; 2-4 years; resume attached"
+    },
+    {
+      "email": "sameer@rifa.ai",
+      "company": "Rifa AI",
+      "role": "Agent Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-05",
+      "gmail_message_id": "1a10a3a264c60b23",
+      "company_region": "US",
+      "email_confidence": "explicit_public_current",
+      "source_reconciliation": "outreach_checkpoint_2026-10-05.json",
+      "delivery_check": "no_immediate_bounce_found",
+      "followup_1_due": "2026-10-08",
+      "followup_2_due": "2026-10-14",
+      "notes": "Founder/careers contact; Remote India; strong agent/eval/observability overlap"
+    },
+    {
+      "email": "founders@neosigma.ai",
+      "company": "NeoSigma",
+      "role": "Member of Technical Staff - AI Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-05",
+      "gmail_message_id": "1a10a3a331be6460",
+      "company_region": "US",
+      "email_confidence": "explicit_public_current",
+      "source_reconciliation": "outreach_checkpoint_2026-10-05.json",
+      "delivery_check": "no_immediate_bounce_found",
+      "followup_1_due": "2026-10-08",
+      "followup_2_due": "2026-10-14",
+      "notes": "Founders inbox; Bengaluru opening; production agent/eval systems"
+    },
+    {
+      "email": "careers@meaplatform.com",
+      "company": "mea Platform",
+      "role": "AI Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-05",
+      "gmail_message_id": "1a10a3a4c262b69d",
+      "company_region": "Bermuda",
+      "email_confidence": "explicit_public_current",
+      "source_reconciliation": "outreach_checkpoint_2026-10-05.json",
+      "delivery_check": "no_immediate_bounce_found",
+      "followup_1_due": "2026-10-08",
+      "followup_2_due": "2026-10-14",
+      "notes": "Careers inbox; Bangalore Remote; resume attached"
+    },
+    {
+      "email": "hrteam@dckap.com",
+      "company": "DCKAP",
+      "role": "AI Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-05",
+      "gmail_message_id": "1a10a3a64e0735a1",
+      "company_region": "US",
+      "email_confidence": "explicit_public_current",
+      "source_reconciliation": "outreach_checkpoint_2026-10-05.json",
+      "delivery_check": "no_immediate_bounce_found",
+      "followup_1_due": "2026-10-08",
+      "followup_2_due": "2026-10-14",
+      "notes": "Recruiting inbox; India Remote; official role active; resume attached"
+    },
+    {
+      "email": "info@confersolutions.ai",
+      "company": "Confer Solutions AI",
+      "role": "Junior AI Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-05",
+      "gmail_message_id": "1a10a3a734664872",
+      "company_region": "US",
+      "email_confidence": "explicit_public_current",
+      "source_reconciliation": "outreach_checkpoint_2026-10-05.json",
+      "delivery_check": "no_immediate_bounce_found",
+      "followup_1_due": "2026-10-08",
+      "followup_2_due": "2026-10-14",
+      "notes": "Public founder/company inbox; India Remote; live careers role"
+    },
+    {
+      "email": "hello@gobundled.com",
+      "company": "Bundled",
+      "role": "AI & Agentic Systems Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-05",
+      "gmail_message_id": "1a10a3a7e0c46c6d",
+      "company_region": "US",
+      "email_confidence": "explicit_public_current",
+      "source_reconciliation": "outreach_checkpoint_2026-10-05.json",
+      "delivery_check": "no_immediate_bounce_found",
+      "followup_1_due": "2026-10-08",
+      "followup_2_due": "2026-10-14",
+      "notes": "Public company inbox; Remote India; current role signal"
     }
   ]
 }
