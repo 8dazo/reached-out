@@ -90,11 +90,11 @@
       "eligibility": "Delaware corporation; official Remote Asia role",
       "evidence": "official careers + terms",
       "subject": "Product Engineering — Remote Asia — Devansh Mahant",
-      "status": "sent_confirmed_no_immediate_bounce",
+      "status": "bounced",
       "gmail_message_id": "1a0e5a938ea6b06b",
       "sent_at": "2026-09-28",
-      "followup_1_due": "2026-10-01",
-      "followup_2_due": "2026-10-07"
+      "bounce_message_id": "1a0e5a940e1a7b8a",
+      "bounce_reason": "550 address not found / unable to receive mail"
     },
     {
       "order": 7,
@@ -118,7 +118,7 @@
     "bounce_replacement": true,
     "never_guess_email": true
   },
-  "confirmed_successes": 7,
+  "confirmed_successes": 6,
   "target_met": false,
   "stop_reason": "Qualified exact-mailbox pool exhausted after broadening; additional live roles were rejected for prior contact, India-headquartered employer, stale role, seniority mismatch, or lack of exact verified hiring mailbox."
 }
