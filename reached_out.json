@@ -870,14 +870,15 @@
       "email": "cadence@withremote.ai",
       "company": "Cadence Labs",
       "role": "Product Engineering — Remote Asia",
-      "status": "sent",
+      "status": "bounced",
       "sent_at": "2026-09-28",
       "gmail_message_id": "1a0e5a938ea6b06b",
       "company_region": "US",
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "outreach_checkpoint_2026-09-28.json",
-      "followup_1_due": "2026-10-01",
-      "followup_2_due": "2026-10-07"
+      "bounced_at": "2026-09-28",
+      "bounce_message_id": "1a0e5a940e1a7b8a",
+      "bounce_reason": "550 address not found / unable to receive mail"
     },
     {
       "email": "hello@kaaj.ai",
