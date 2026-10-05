@@ -50,7 +50,7 @@
     {
       "recipient": "cadence@withremote.ai",
       "gmail_message_id": "1a0e5a938ea6b06b",
-      "status": "sent_confirmed_no_immediate_bounce"
+      "status": "bounced_after_send"
     },
     {
       "recipient": "hello@kaaj.ai",
@@ -59,11 +59,19 @@
     }
   ],
   "metrics": {
-    "confirmed_successful_new_contacts": 7,
+    "confirmed_successful_new_contacts": 6,
     "send_attempts": 7,
-    "immediate_bounces": 0,
+    "immediate_bounces": 1,
     "transient_send_failures": 0,
     "target_reached": false
   },
-  "checkpoint": "outreach_checkpoint_2026-09-28.json"
+  "checkpoint": "outreach_checkpoint_2026-09-28.json",
+  "bounces": [
+    {
+      "recipient": "cadence@withremote.ai",
+      "gmail_message_id": "1a0e5a938ea6b06b",
+      "bounce_message_id": "1a0e5a940e1a7b8a",
+      "reason": "550 address not found / unable to receive mail"
+    }
+  ]
 }
