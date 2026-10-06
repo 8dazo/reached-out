@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-05",
+  "updated_at": "2026-10-06",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -1009,6 +1009,129 @@
       "followup_1_due": "2026-10-08",
       "followup_2_due": "2026-10-14",
       "notes": "Public company inbox; Remote India; current role signal"
+    },
+    {
+      "email": "hr@kodonic.com",
+      "company": "Kodonic",
+      "role": "Full Stack Developer",
+      "status": "sent",
+      "sent_at": "2026-10-06",
+      "gmail_message_id": "1a10f64295facbf1",
+      "contact_source": "2026-10-06 qualified outreach checkpoint"
+    },
+    {
+      "email": "careers@shoppyji.com",
+      "company": "ShoppyJi",
+      "role": "Full-Stack Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-06",
+      "gmail_message_id": "1a10f645d7bf576b",
+      "contact_source": "2026-10-06 qualified outreach checkpoint"
+    },
+    {
+      "email": "support@kenerateai.com",
+      "company": "Kenerate AI",
+      "role": "Full Stack Developer",
+      "status": "sent",
+      "sent_at": "2026-10-06",
+      "gmail_message_id": "1a10f6462fabbe34",
+      "contact_source": "2026-10-06 qualified outreach checkpoint"
+    },
+    {
+      "email": "founder@binaryanalytics.in",
+      "company": "Binary Analytics",
+      "role": "Full-Stack Developer",
+      "status": "bounced",
+      "sent_at": "2026-10-06",
+      "gmail_message_id": "1a10f649ee49d88b",
+      "bounce_message_id": "1a10f64a91f4143c",
+      "notes": "Hard bounce; exact mailbox blacklisted",
+      "contact_source": "2026-10-06 qualified outreach checkpoint"
+    },
+    {
+      "email": "careers@synfracore.com",
+      "company": "SynfraCore",
+      "role": "Full Stack Developer",
+      "status": "sent",
+      "sent_at": "2026-10-06",
+      "gmail_message_id": "1a10f64a7b5c1411",
+      "contact_source": "2026-10-06 qualified outreach checkpoint"
+    },
+    {
+      "email": "sales@cogniraai.com",
+      "company": "Cognira AI",
+      "role": "AI/ML Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-06",
+      "gmail_message_id": "1a10f64efac5df7e",
+      "contact_source": "2026-10-06 qualified outreach checkpoint"
+    },
+    {
+      "email": "careers@lexipitch.com",
+      "company": "LexiPitch",
+      "role": "Full Stack Developer",
+      "status": "bounced",
+      "sent_at": "2026-10-06",
+      "gmail_message_id": "1a10f64f5d0e3b59",
+      "bounce_message_id": "1a10f64fdae61ced",
+      "notes": "Hard bounce; exact mailbox blacklisted",
+      "contact_source": "2026-10-06 qualified outreach checkpoint"
+    },
+    {
+      "email": "careers@paperloom.io",
+      "company": "Paperloom",
+      "role": "AI / ML Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-06",
+      "gmail_message_id": "1a10f64fa424e9ad",
+      "contact_source": "2026-10-06 qualified outreach checkpoint"
+    },
+    {
+      "email": "hello@cedel.in",
+      "company": "Cedel Technologies",
+      "role": "AI/ML Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-06",
+      "gmail_message_id": "1a10f65325f2e337",
+      "contact_source": "2026-10-06 qualified outreach checkpoint"
+    },
+    {
+      "email": "hr@quickinfracloud.com",
+      "company": "QuickInfra",
+      "role": "Full Stack Developer",
+      "status": "sent",
+      "sent_at": "2026-10-06",
+      "gmail_message_id": "1a10f65388148e3e",
+      "contact_source": "2026-10-06 qualified outreach checkpoint"
+    },
+    {
+      "email": "careers@serevel.ai",
+      "company": "seRevel",
+      "role": "LLM Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-06",
+      "gmail_message_id": "1a10f659d09b2d38",
+      "contact_source": "2026-10-06 qualified outreach checkpoint"
+    },
+    {
+      "email": "careers@zynosec.com",
+      "company": "ZynoSec",
+      "role": "AI/ML Engineer — Agentic Security",
+      "status": "bounced",
+      "sent_at": "2026-10-06",
+      "gmail_message_id": "1a10f65a7adaacf1",
+      "bounce_message_id": "1a10f65adc4463e1",
+      "notes": "Hard bounce; exact mailbox blacklisted",
+      "contact_source": "2026-10-06 qualified outreach checkpoint"
+    },
+    {
+      "email": "contact@adhish.in",
+      "company": "Adhish",
+      "role": "AI / ML Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-06",
+      "gmail_message_id": "1a10f65eb84ebfc1",
+      "contact_source": "2026-10-06 qualified outreach checkpoint"
     }
   ]
 }
