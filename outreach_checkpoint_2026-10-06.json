@@ -2,5 +2,18 @@
   "date": "2026-10-06",
   "status": "ready",
   "target": 10,
-  "candidates": []
+  "candidates": [
+    {
+      "company": "Kodonic",
+      "role": "Full Stack Developer",
+      "source": "https://kodonic.com/joinus",
+      "status": "qualified"
+    },
+    {
+      "company": "ShoppyJi",
+      "role": "Full-Stack Engineer",
+      "source": "https://shoppyji.com/careers",
+      "status": "qualified"
+    }
+  ]
 }
