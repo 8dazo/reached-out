@@ -17,14 +17,20 @@
       "company": "ShoppyJi",
       "role": "Full-Stack Engineer",
       "source": "https://shoppyji.com/careers",
-      "status": "qualified",
-      "email": "careers@shoppyji.com"
+      "status": "sent_confirmed",
+      "email": "careers@shoppyji.com",
+      "gmail_message_id": "1a10f645d7bf576b",
+      "sent_at": "2026-10-06",
+      "immediate_bounce": false
     },
     {
       "email": "support@kenerateai.com",
       "company": "Kenerate AI",
       "role": "Full Stack Developer",
-      "status": "qualified"
+      "status": "sent_confirmed",
+      "gmail_message_id": "1a10f6462fabbe34",
+      "sent_at": "2026-10-06",
+      "immediate_bounce": false
     },
     {
       "email": "founder@binaryanalytics.in",
