@@ -313,6 +313,96 @@
       "evidence": "gmail:1a10a3a64e0735a1",
       "status": "applied",
       "applied_at": "2026-10-05"
+    },
+    {
+      "company": "Kodonic",
+      "role": "Full Stack Developer",
+      "application_method": "email",
+      "email": "hr@kodonic.com",
+      "status": "applied",
+      "applied_at": "2026-10-06",
+      "evidence": "gmail:1a10f64295facbf1"
+    },
+    {
+      "company": "ShoppyJi",
+      "role": "Full-Stack Engineer",
+      "application_method": "email",
+      "email": "careers@shoppyji.com",
+      "status": "applied",
+      "applied_at": "2026-10-06",
+      "evidence": "gmail:1a10f645d7bf576b"
+    },
+    {
+      "company": "Kenerate AI",
+      "role": "Full Stack Developer",
+      "application_method": "email",
+      "email": "support@kenerateai.com",
+      "status": "applied",
+      "applied_at": "2026-10-06",
+      "evidence": "gmail:1a10f6462fabbe34"
+    },
+    {
+      "company": "SynfraCore",
+      "role": "Full Stack Developer",
+      "application_method": "email",
+      "email": "careers@synfracore.com",
+      "status": "applied",
+      "applied_at": "2026-10-06",
+      "evidence": "gmail:1a10f64a7b5c1411"
+    },
+    {
+      "company": "Cognira AI",
+      "role": "AI/ML Engineer",
+      "application_method": "email",
+      "email": "sales@cogniraai.com",
+      "status": "applied",
+      "applied_at": "2026-10-06",
+      "evidence": "gmail:1a10f64efac5df7e"
+    },
+    {
+      "company": "Paperloom",
+      "role": "AI / ML Engineer",
+      "application_method": "email",
+      "email": "careers@paperloom.io",
+      "status": "applied",
+      "applied_at": "2026-10-06",
+      "evidence": "gmail:1a10f64fa424e9ad"
+    },
+    {
+      "company": "Cedel Technologies",
+      "role": "AI/ML Engineer",
+      "application_method": "email",
+      "email": "hello@cedel.in",
+      "status": "applied",
+      "applied_at": "2026-10-06",
+      "evidence": "gmail:1a10f65325f2e337"
+    },
+    {
+      "company": "QuickInfra",
+      "role": "Full Stack Developer",
+      "application_method": "email",
+      "email": "hr@quickinfracloud.com",
+      "status": "applied",
+      "applied_at": "2026-10-06",
+      "evidence": "gmail:1a10f65388148e3e"
+    },
+    {
+      "company": "seRevel",
+      "role": "LLM Engineer",
+      "application_method": "email",
+      "email": "careers@serevel.ai",
+      "status": "applied",
+      "applied_at": "2026-10-06",
+      "evidence": "gmail:1a10f659d09b2d38"
+    },
+    {
+      "company": "Adhish",
+      "role": "AI / ML Engineer",
+      "application_method": "email",
+      "email": "contact@adhish.in",
+      "status": "applied",
+      "applied_at": "2026-10-06",
+      "evidence": "gmail:1a10f65eb84ebfc1"
     }
   ]
 }
