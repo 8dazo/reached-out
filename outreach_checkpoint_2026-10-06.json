@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "status": "ready",
+  "status": "complete",
   "target": 10,
   "candidates": [
     {
@@ -127,9 +127,15 @@
       "email": "contact@adhish.in",
       "company": "Adhish",
       "role": "AI / ML Engineer",
-      "status": "qualified_reserve",
+      "status": "sent_confirmed",
       "verification": "explicit_public_current",
-      "source": "https://adhish.in/careers"
+      "source": "https://adhish.in/careers",
+      "gmail_message_id": "1a10f65eb84ebfc1",
+      "sent_at": "2026-10-06",
+      "immediate_bounce": false
     }
-  ]
+  ],
+  "successful_new_contacts": 10,
+  "hard_bounces": 3,
+  "completed_at": "2026-10-06"
 }
