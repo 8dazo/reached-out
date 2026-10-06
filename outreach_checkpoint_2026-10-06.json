@@ -56,19 +56,30 @@
       "email": "sales@cogniraai.com",
       "company": "Cognira AI",
       "role": "AI/ML Engineer",
-      "status": "qualified"
+      "status": "sent_confirmed",
+      "gmail_message_id": "1a10f64efac5df7e",
+      "sent_at": "2026-10-06",
+      "immediate_bounce": false
     },
     {
       "email": "careers@lexipitch.com",
       "company": "LexiPitch",
       "role": "Full Stack Developer",
-      "status": "qualified"
+      "status": "bounced",
+      "gmail_message_id": "1a10f64f5d0e3b59",
+      "bounce_message_id": "1a10f64fdae61ced",
+      "sent_at": "2026-10-06",
+      "immediate_bounce": true,
+      "notes": "Mailbox unavailable; exact mailbox blacklisted"
     },
     {
       "email": "careers@paperloom.io",
       "company": "Paperloom",
       "role": "AI / ML Engineer",
-      "status": "qualified"
+      "status": "sent_confirmed",
+      "gmail_message_id": "1a10f64fa424e9ad",
+      "sent_at": "2026-10-06",
+      "immediate_bounce": false
     },
     {
       "email": "hello@cedel.in",
