@@ -36,13 +36,21 @@
       "email": "founder@binaryanalytics.in",
       "company": "Binary Analytics",
       "role": "Full-Stack Developer",
-      "status": "qualified"
+      "status": "bounced",
+      "gmail_message_id": "1a10f649ee49d88b",
+      "bounce_message_id": "1a10f64a91f4143c",
+      "sent_at": "2026-10-06",
+      "immediate_bounce": true,
+      "notes": "550 5.1.1; exact mailbox blacklisted"
     },
     {
       "email": "careers@synfracore.com",
       "company": "SynfraCore",
       "role": "Full Stack Developer",
-      "status": "qualified"
+      "status": "sent_confirmed",
+      "gmail_message_id": "1a10f64a7b5c1411",
+      "sent_at": "2026-10-06",
+      "immediate_bounce": false
     },
     {
       "email": "sales@cogniraai.com",
