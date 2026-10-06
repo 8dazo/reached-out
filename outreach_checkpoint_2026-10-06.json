@@ -85,13 +85,19 @@
       "email": "hello@cedel.in",
       "company": "Cedel Technologies",
       "role": "AI/ML Engineer",
-      "status": "qualified"
+      "status": "sent_confirmed",
+      "gmail_message_id": "1a10f65325f2e337",
+      "sent_at": "2026-10-06",
+      "immediate_bounce": false
     },
     {
       "email": "hr@quickinfracloud.com",
       "company": "QuickInfra",
       "role": "Full Stack Developer",
-      "status": "qualified"
+      "status": "sent_confirmed",
+      "gmail_message_id": "1a10f65388148e3e",
+      "sent_at": "2026-10-06",
+      "immediate_bounce": false
     }
   ]
 }
