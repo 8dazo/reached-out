@@ -103,17 +103,33 @@
       "email": "careers@serevel.ai",
       "company": "seRevel",
       "role": "LLM Engineer",
-      "status": "qualified_reserve",
+      "status": "sent_confirmed",
       "verification": "explicit_public_current",
-      "source": "https://serevel.ai/careers/llm-engineer/"
+      "source": "https://serevel.ai/careers/llm-engineer/",
+      "gmail_message_id": "1a10f659d09b2d38",
+      "sent_at": "2026-10-06",
+      "immediate_bounce": false
     },
     {
       "email": "careers@zynosec.com",
       "company": "ZynoSec",
       "role": "AI/ML Engineer — Agentic Security",
+      "status": "bounced",
+      "verification": "explicit_public_current",
+      "source": "https://zynosec.com/careers/",
+      "gmail_message_id": "1a10f65a7adaacf1",
+      "bounce_message_id": "1a10f65adc4463e1",
+      "sent_at": "2026-10-06",
+      "immediate_bounce": true,
+      "notes": "550 5.1.1; exact mailbox blacklisted"
+    },
+    {
+      "email": "contact@adhish.in",
+      "company": "Adhish",
+      "role": "AI / ML Engineer",
       "status": "qualified_reserve",
       "verification": "explicit_public_current",
-      "source": "https://zynosec.com/careers/"
+      "source": "https://adhish.in/careers"
     }
   ]
 }
