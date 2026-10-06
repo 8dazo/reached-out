@@ -16,6 +16,54 @@
       "source": "https://shoppyji.com/careers",
       "status": "qualified",
       "email": "careers@shoppyji.com"
+    },
+    {
+      "email": "support@kenerateai.com",
+      "company": "Kenerate AI",
+      "role": "Full Stack Developer",
+      "status": "qualified"
+    },
+    {
+      "email": "founder@binaryanalytics.in",
+      "company": "Binary Analytics",
+      "role": "Full-Stack Developer",
+      "status": "qualified"
+    },
+    {
+      "email": "careers@synfracore.com",
+      "company": "SynfraCore",
+      "role": "Full Stack Developer",
+      "status": "qualified"
+    },
+    {
+      "email": "sales@cogniraai.com",
+      "company": "Cognira AI",
+      "role": "AI/ML Engineer",
+      "status": "qualified"
+    },
+    {
+      "email": "careers@lexipitch.com",
+      "company": "LexiPitch",
+      "role": "Full Stack Developer",
+      "status": "qualified"
+    },
+    {
+      "email": "careers@paperloom.io",
+      "company": "Paperloom",
+      "role": "AI / ML Engineer",
+      "status": "qualified"
+    },
+    {
+      "email": "hello@cedel.in",
+      "company": "Cedel Technologies",
+      "role": "AI/ML Engineer",
+      "status": "qualified"
+    },
+    {
+      "email": "hr@quickinfracloud.com",
+      "company": "QuickInfra",
+      "role": "Full Stack Developer",
+      "status": "qualified"
     }
   ]
 }
