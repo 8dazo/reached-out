@@ -17,11 +17,13 @@
       "company": "ShoppyJi",
       "role": "Full-Stack Engineer",
       "source": "https://shoppyji.com/careers",
-      "status": "sent_confirmed",
+      "status": "delivery_delayed",
       "email": "careers@shoppyji.com",
       "gmail_message_id": "1a10f645d7bf576b",
       "sent_at": "2026-10-06",
-      "immediate_bounce": false
+      "immediate_bounce": false,
+      "delivery_delay_message_id": "1a11520bb74ca223",
+      "notes": "Gmail temporary delivery delay; still retrying."
     },
     {
       "email": "support@kenerateai.com",
@@ -56,10 +58,13 @@
       "email": "sales@cogniraai.com",
       "company": "Cognira AI",
       "role": "AI/ML Engineer",
-      "status": "sent_confirmed",
+      "status": "bounced",
       "gmail_message_id": "1a10f64efac5df7e",
       "sent_at": "2026-10-06",
-      "immediate_bounce": false
+      "immediate_bounce": false,
+      "late_bounce": true,
+      "bounce_message_id": "1a10f65070f172cd",
+      "notes": "Late hard bounce detected during Oct 7 reconciliation: 550 5.1.1."
     },
     {
       "email": "careers@lexipitch.com",
@@ -76,10 +81,12 @@
       "email": "careers@paperloom.io",
       "company": "Paperloom",
       "role": "AI / ML Engineer",
-      "status": "sent_confirmed",
+      "status": "delivery_delayed",
       "gmail_message_id": "1a10f64fa424e9ad",
       "sent_at": "2026-10-06",
-      "immediate_bounce": false
+      "immediate_bounce": false,
+      "delivery_delay_message_id": "1a11508fa7be5ffc",
+      "notes": "Gmail temporary delivery delay; still retrying."
     },
     {
       "email": "hello@cedel.in",
@@ -135,7 +142,9 @@
       "immediate_bounce": false
     }
   ],
-  "successful_new_contacts": 10,
-  "hard_bounces": 3,
-  "completed_at": "2026-10-06"
+  "successful_new_contacts": 7,
+  "hard_bounces": 4,
+  "completed_at": "2026-10-06",
+  "delivery_delays": 2,
+  "latest_reconciled_at": "2026-10-07"
 }
