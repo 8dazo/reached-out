@@ -3,10 +3,10 @@
   "mode": "final_morning_outreach_recovery",
   "delivery_truth": "Gmail Sent",
   "target": 10,
-  "successful_new_contacts": 10,
+  "successful_new_contacts": 9,
   "send_attempts": 13,
-  "hard_bounces": 3,
-  "target_met": true,
+  "hard_bounces": 4,
+  "target_met": false,
   "successful": [
     {
       "email": "hr@kodonic.com",
@@ -23,10 +23,6 @@
     {
       "email": "careers@synfracore.com",
       "id": "1a10f64a7b5c1411"
-    },
-    {
-      "email": "sales@cogniraai.com",
-      "id": "1a10f64efac5df7e"
     },
     {
       "email": "careers@paperloom.io",
@@ -64,11 +60,30 @@
       "email": "careers@zynosec.com",
       "send_id": "1a10f65a7adaacf1",
       "bounce_id": "1a10f65adc4463e1"
+    },
+    {
+      "email": "sales@cogniraai.com",
+      "send_id": "1a10f64efac5df7e",
+      "bounce_id": "1a10f65070f172cd",
+      "detected_at": "2026-10-07"
     }
   ],
   "checkpoint": "outreach_checkpoint_2026-10-06.json",
   "reconciled_ledgers": [
     "reached_out.json",
     "applications.json"
-  ]
+  ],
+  "delivery_delays": [
+    {
+      "email": "careers@shoppyji.com",
+      "send_id": "1a10f645d7bf576b",
+      "delay_id": "1a11520bb74ca223"
+    },
+    {
+      "email": "careers@paperloom.io",
+      "send_id": "1a10f64fa424e9ad",
+      "delay_id": "1a11508fa7be5ffc"
+    }
+  ],
+  "latest_reconciled_at": "2026-10-07"
 }
