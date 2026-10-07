@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-06",
+  "updated_at": "2026-10-07",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -909,16 +909,18 @@
       "email": "manali@clanx.ai",
       "company": "Periskope",
       "role": "AI Engineer - Remote",
-      "status": "sent",
+      "status": "replied",
       "sent_at": "2026-10-05",
       "gmail_message_id": "1a10a3a1bdd93d4f",
       "company_region": "US",
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "outreach_checkpoint_2026-10-05.json",
       "delivery_check": "no_immediate_bounce_found",
-      "followup_1_due": "2026-10-08",
-      "followup_2_due": "2026-10-14",
-      "notes": "ClanX recruiting partner; Remote India; 2-4 years; resume attached"
+      "notes": "ClanX recruiting partner; Remote India; 2-4 years; resume attached",
+      "reply_at": "2026-10-05",
+      "reply_message_id": "1a10b9aa98c0ab60",
+      "reply_outcome": "referral_apply_requested",
+      "reply_note": "Recruiter asked Devansh to apply through ClanX openings using Manali as referral/source and notify her once applied."
     },
     {
       "email": "sameer@rifa.ai",
@@ -1023,10 +1025,13 @@
       "email": "careers@shoppyji.com",
       "company": "ShoppyJi",
       "role": "Full-Stack Engineer",
-      "status": "sent",
+      "status": "delivery_delayed",
       "sent_at": "2026-10-06",
       "gmail_message_id": "1a10f645d7bf576b",
-      "contact_source": "2026-10-06 qualified outreach checkpoint"
+      "contact_source": "2026-10-06 qualified outreach checkpoint",
+      "delivery_delay_message_id": "1a11520bb74ca223",
+      "delivery_delay_seen_at": "2026-10-07",
+      "notes": "Gmail reports temporary delivery problem and is still retrying."
     },
     {
       "email": "support@kenerateai.com",
@@ -1061,10 +1066,13 @@
       "email": "sales@cogniraai.com",
       "company": "Cognira AI",
       "role": "AI/ML Engineer",
-      "status": "sent",
+      "status": "bounced",
       "sent_at": "2026-10-06",
       "gmail_message_id": "1a10f64efac5df7e",
-      "contact_source": "2026-10-06 qualified outreach checkpoint"
+      "contact_source": "2026-10-06 qualified outreach checkpoint",
+      "bounced_at": "2026-10-06",
+      "bounce_message_id": "1a10f65070f172cd",
+      "bounce_reason": "550 5.1.1 address not found / unable to receive mail"
     },
     {
       "email": "careers@lexipitch.com",
@@ -1081,10 +1089,13 @@
       "email": "careers@paperloom.io",
       "company": "Paperloom",
       "role": "AI / ML Engineer",
-      "status": "sent",
+      "status": "delivery_delayed",
       "sent_at": "2026-10-06",
       "gmail_message_id": "1a10f64fa424e9ad",
-      "contact_source": "2026-10-06 qualified outreach checkpoint"
+      "contact_source": "2026-10-06 qualified outreach checkpoint",
+      "delivery_delay_message_id": "1a11508fa7be5ffc",
+      "delivery_delay_seen_at": "2026-10-07",
+      "notes": "Gmail reports temporary delivery problem and is still retrying."
     },
     {
       "email": "hello@cedel.in",
