@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-08",
+  "timezone": "Asia/Kolkata",
+  "mode": "resumed_manual_discovery_recovery_closeout",
+  "source_of_truth": "Gmail Sent and delivery notifications",
+  "prior_sent_imported": {
+    "email": "hiring@servicerobotco.com",
+    "gmail_message_id": "1a0ace3303edebbb"
+  },
+  "due_followups": [
+    {
+      "recipient": "hello@kaaj.ai",
+      "company": "Kaaj",
+      "type": "second_final",
+      "initial_message_id": "1a0e5a956605cb83",
+      "status": "ready_to_send"
+    },
+    {
+      "recipient": "sameer@rifa.ai",
+      "company": "Rifa AI",
+      "type": "first",
+      "initial_message_id": "1a10a3a264c60b23",
+      "status": "ready_to_send"
+    },
+    {
+      "recipient": "founders@neosigma.ai",
+      "company": "NeoSigma",
+      "type": "first",
+      "initial_message_id": "1a10a3a331be6460",
+      "status": "ready_to_send"
+    },
+    {
+      "recipient": "careers@meaplatform.com",
+      "company": "mea Platform",
+      "type": "first",
+      "initial_message_id": "1a10a3a4c262b69d",
+      "status": "ready_to_send"
+    },
+    {
+      "recipient": "hrteam@dckap.com",
+      "company": "DCKAP",
+      "type": "first",
+      "initial_message_id": "1a10a3a64e0735a1",
+      "status": "ready_to_send"
+    },
+    {
+      "recipient": "info@confersolutions.ai",
+      "company": "Confer Solutions AI",
+      "type": "first",
+      "initial_message_id": "1a10a3a734664872",
+      "status": "ready_to_send"
+    },
+    {
+      "recipient": "hello@gobundled.com",
+      "company": "Bundled",
+      "type": "first",
+      "initial_message_id": "1a10a3a7e0c46c6d",
+      "status": "ready_to_send"
+    }
+  ],
+  "new_outreach_queue": [
+    {
+      "recipient": "info@ahlending.com",
+      "company": "AHL / Saaf AI",
+      "role": "Forward-Deployed AI Engineer",
+      "status": "ready_to_send",
+      "verification": "explicit_public_current",
+      "contact_type": "published_company_inbox",
+      "geographic_eligibility": "US lender headquartered Irvine CA; role explicitly remote India",
+      "evidence": [
+        "https://jobs.ashbyhq.com/ahl-saafai/cf683b2f-f1db-4ca0-9bac-57eb64827c0a",
+        "https://joinahlend.com/open-roles/"
+      ],
+      "role_freshness": "current active Ashby application page; original post date not verified",
+      "intended_message": "Role-specific hiring-contact inquiry, not claim of submitted ATS application"
+    }
+  ],
+  "skipped": [
+    {
+      "company": "Service Robot Co.",
+      "reason": "already_sent_in_Gmail_not_in_GitHub_imported"
+    },
+    {
+      "company": "MightyBot",
+      "reason": "official careers says no open roles"
+    },
+    {
+      "company": "INA Webtech",
+      "reason": "US/India HQ designation ambiguous, hold"
+    },
+    {
+      "company": "Dscout",
+      "reason": "active exact role but no verified role-relevant email found; use official ATS"
+    },
+    {
+      "company": "SigNoz",
+      "reason": "active role but hiring@ address last publicly referenced in 2025, not current verified"
+    },
+    {
+      "company": "Ternuvo AI",
+      "reason": "HQ region not established; prior LinkedIn role no longer accepting"
+    },
+    {
+      "company": "Acculogics",
+      "reason": "company HQ region not verified; official application form"
+    }
+  ],
+  "duplicate_prevention": "Never resend before exact Gmail thread/Sent check",
+  "confirmed_new": 0,
+  "confirmed_followups": 0
+}
