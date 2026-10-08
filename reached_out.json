@@ -1174,6 +1174,18 @@
       "sent_at": "2026-10-06",
       "gmail_message_id": "1a10f65eb84ebfc1",
       "contact_source": "2026-10-06 qualified outreach checkpoint"
+    },
+    {
+      "email": "hiring@servicerobotco.com",
+      "company": "Service Robot Co.",
+      "role": "AI-Native Full-Stack Engineer",
+      "status": "sent",
+      "sent_at": "2026-09-17",
+      "gmail_message_id": "1a0ace3303edebbb",
+      "company_region": "US",
+      "email_confidence": "explicit_public_current",
+      "source_reconciliation": "gmail_sent_recovery_2026-10-08",
+      "note": "Prior application existed in Gmail Sent but was absent from GitHub ledger. Imported for dedupe, not resent."
     }
   ]
 }
