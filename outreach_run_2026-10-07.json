@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-07",
+  "timezone": "Asia/Kolkata",
+  "mode": "interrupted_manual_recovery",
+  "new_outreach_confirmed": 0,
+  "final_followups": {
+    "unique_recipients": 5,
+    "confirmed_messages": 9,
+    "duplicate_incident_recipients": 4,
+    "details": [
+      {
+        "recipient": "founders@trynarrative.com",
+        "message_ids": [
+          "1a1165b3f814c759",
+          "1a1165bbc77d4d3f"
+        ]
+      },
+      {
+        "recipient": "careers@thegoodai.ai",
+        "message_ids": [
+          "1a1165b4b083a29f",
+          "1a1165be71f7e677"
+        ]
+      },
+      {
+        "recipient": "hello@quantumhive.us",
+        "message_ids": [
+          "1a1165b527eaa934",
+          "1a1165c0694f59b0"
+        ]
+      },
+      {
+        "recipient": "contact@creloai.com",
+        "message_ids": [
+          "1a1165b5a6472ca7",
+          "1a1165c2fa5d3ecc"
+        ]
+      },
+      {
+        "recipient": "careers@lyzr.ai",
+        "message_ids": [
+          "1a1165b6f8bcef6e"
+        ]
+      }
+    ],
+    "kaaj_status": "not_sent_at_oct7_close",
+    "do_not_send_again_to_completed_recipients": true
+  },
+  "prior_reconciliation": {
+    "cognira": "late_hard_bounce",
+    "shoppyji": "temporary_delivery_delay",
+    "paperloom": "temporary_delivery_delay",
+    "periskope": "replied_apply_requested_stop_followups"
+  },
+  "status": "partial_interrupted",
+  "note": "A multi-send tool operation returned a block/error after Gmail had already accepted messages; a subsequent individual-send path unintentionally duplicated four final followups. All contacts involved have now reached the two-followup limit and are marked suppressed in the permanent ledger."
+}
