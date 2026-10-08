@@ -1189,6 +1189,23 @@
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "gmail_sent_recovery_2026-10-08",
       "note": "Prior application existed in Gmail Sent but was absent from GitHub ledger. Imported for dedupe, not resent."
+    },
+    {
+      "email": "info@ahlending.com",
+      "company": "AHL / Saaf AI",
+      "role": "Forward-Deployed AI Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-08",
+      "gmail_message_id": "1a119b6e73e1aeda",
+      "company_region": "US",
+      "email_confidence": "explicit_public_current",
+      "source_reconciliation": "outreach_checkpoint_2026-10-08.json",
+      "delivery_check": "gmail_sent_confirmed",
+      "contact_type": "published_company_inbox",
+      "role_eligibility": "Active Remote India role on Ashby",
+      "notes": "Role-specific contact inquiry only; ATS job application not submitted.",
+      "followup_1_due": "2026-10-13",
+      "followup_2_due": "2026-10-19"
     }
   ]
 }
