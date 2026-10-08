@@ -45,3 +45,17 @@ A separate morning recovery run executes after the main radar. It must:
 ## Today-specific recovery invariant
 
 If Gmail contains a successful outreach that is absent from `reached_out.json`, the next reconciliation must import it before any new send so it cannot be duplicated. Run audit files are valid dedupe evidence when a ledger write was interrupted.
+
+## Idempotent sending and final-follow-up hard stop (Oct 2026 incident fix)
+
+A tool wrapper returning an error or safety block is **not** evidence that underlying actions were rolled back. On October 7, a multi-send wrapper returned an error after some messages had reached Gmail Sent, and an attempted per-recipient recovery produced duplicate final follow-ups. Never repeat that pattern.
+
+1. Never send to multiple recipients inside one orchestration/tool wrapper. Execute at most one outbound Gmail action per operation, wait for its result, and reconcile that recipient before moving on.
+2. Before **every** initial or follow-up send, read the recipient's Gmail thread and recent Sent matches. Check existing messages regardless of whether GitHub has recorded them. Skip if an equivalent new outreach or follow-up already exists.
+3. On **any** ambiguous outcome (tool error, block, timeout, missing Gmail ID), stop and search Gmail Sent by exact recipient and thread/subject. Read the entire thread to detect messages accepted before the error. Never immediately retry based on an exception alone.
+4. Follow-ups are capped at **two total per recipient**, counting Gmail Sent messages even when the GitHub ledger is stale. A repeated final follow-up does not entitle another attempt. Contacts with `followup_limit_reached` or `suppress_all_future_outreach` must not be contacted again.
+5. If equivalent messages have already been sent twice due to an incident, record each Gmail message ID, set `suppress_all_future_outreach=true`, and never repeat that outreach. Do not count duplicate messages as contacts or campaign successes.
+6. A successful Gmail Sent record must be durably written to the permanent ledger before beginning another outbound send whenever GitHub is writable. If a ledger write fails, do not reuse that recipient; checkpoint its Gmail ID in a dated audit and reconcile before the next run.
+7. Count only initial contact emails toward the 8–10 new-contact target. Mark `delivery_delayed` separately from successfully delivered and `bounced`; never claim a delayed message is delivered. Recheck late bounces on the next run.
+8. If a primary, recovery, daytime, and closeout automation share a date, they must all read the same Gmail-driven ledger and checkpoint. Only one worker may send to a given recipient/thread. Disable overlapping legacy batch tasks rather than running them concurrently.
+9. Pause scheduled outbound sending after any duplicate-send incident until the current-day ledger, Gmail Sent, and all affected threads have been reconciled and the guards tested with single-recipient sends.
