@@ -13,49 +13,56 @@
       "company": "Kaaj",
       "type": "second_final",
       "initial_message_id": "1a0e5a956605cb83",
-      "status": "ready_to_send"
+      "status": "sent_confirmed",
+      "gmail_message_id": "1a119b642f6fc126"
     },
     {
       "recipient": "sameer@rifa.ai",
       "company": "Rifa AI",
       "type": "first",
       "initial_message_id": "1a10a3a264c60b23",
-      "status": "ready_to_send"
+      "status": "sent_confirmed",
+      "gmail_message_id": "1a119b73128c930b"
     },
     {
       "recipient": "founders@neosigma.ai",
       "company": "NeoSigma",
       "type": "first",
       "initial_message_id": "1a10a3a331be6460",
-      "status": "ready_to_send"
+      "status": "sent_confirmed",
+      "gmail_message_id": "1a119b75949d7017"
     },
     {
       "recipient": "careers@meaplatform.com",
       "company": "mea Platform",
       "type": "first",
       "initial_message_id": "1a10a3a4c262b69d",
-      "status": "ready_to_send"
+      "status": "sent_confirmed",
+      "gmail_message_id": "1a119b81e690297e"
     },
     {
       "recipient": "hrteam@dckap.com",
       "company": "DCKAP",
       "type": "first",
       "initial_message_id": "1a10a3a64e0735a1",
-      "status": "ready_to_send"
+      "status": "sent_confirmed",
+      "gmail_message_id": "1a119b7b7c5c90f9"
     },
     {
       "recipient": "info@confersolutions.ai",
       "company": "Confer Solutions AI",
       "type": "first",
       "initial_message_id": "1a10a3a734664872",
-      "status": "ready_to_send"
+      "status": "sent_confirmed",
+      "gmail_message_id": "1a119b7d5653ae64"
     },
     {
       "recipient": "hello@gobundled.com",
       "company": "Bundled",
       "type": "first",
       "initial_message_id": "1a10a3a7e0c46c6d",
-      "status": "ready_to_send"
+      "status": "sent_confirmed",
+      "gmail_message_id": "1a119b7f301dd3c8"
     }
   ],
   "new_outreach_queue": [
@@ -63,7 +70,7 @@
       "recipient": "info@ahlending.com",
       "company": "AHL / Saaf AI",
       "role": "Forward-Deployed AI Engineer",
-      "status": "ready_to_send",
+      "status": "sent_confirmed",
       "verification": "explicit_public_current",
       "contact_type": "published_company_inbox",
       "geographic_eligibility": "US lender headquartered Irvine CA; role explicitly remote India",
@@ -72,7 +79,8 @@
         "https://joinahlend.com/open-roles/"
       ],
       "role_freshness": "current active Ashby application page; original post date not verified",
-      "intended_message": "Role-specific hiring-contact inquiry, not claim of submitted ATS application"
+      "intended_message": "Role-specific hiring-contact inquiry, not claim of submitted ATS application",
+      "gmail_message_id": "1a119b6e73e1aeda"
     }
   ],
   "skipped": [
@@ -106,6 +114,8 @@
     }
   ],
   "duplicate_prevention": "Never resend before exact Gmail thread/Sent check",
-  "confirmed_new": 0,
-  "confirmed_followups": 0
+  "confirmed_new": 1,
+  "confirmed_followups": 7,
+  "immediate_bounces": 0,
+  "updated_at": "2026-10-08"
 }
