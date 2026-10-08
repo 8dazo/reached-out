@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-08",
+  "timezone": "Asia/Kolkata",
+  "mode": "resumed_end_to_end_manual_outreach",
+  "delivery_source_of_truth": "Gmail Sent and DSNs",
+  "pipeline_gates": {
+    "HQ_target_only": true,
+    "india_hiring_path_required": true,
+    "exact_email_required": true,
+    "never_guess_mailbox": true,
+    "maximum_followups_per_thread": 2,
+    "one_send_action_per_invocation": true
+  },
+  "prior_incident": {
+    "date": "2026-10-07",
+    "duplicate_final_followups_affecting_four_recipients": true,
+    "handling": "Reconciled all nine final follow-up Gmail messages across five recipients, suppressed repeat contact, and hardened RECOVERY_PROTOCOL.md. No further sends to the five closed threads.",
+    "run_audit": "outreach_run_2026-10-07.json"
+  },
+  "dedupe_recovery": {
+    "prior_unledgered_contact": "hiring@servicerobotco.com",
+    "prior_gmail_message_id": "1a0ace3303edebbb",
+    "added_to_github_ledger": true,
+    "duplicate_send_prevented": true
+  },
+  "discovery": {
+    "verified_live_roles_visited": [
+      "https://jobs.ashbyhq.com/ahl-saafai/cf683b2f-f1db-4ca0-9bac-57eb64827c0a",
+      "https://servicerobotco.com/careers/ai-native-full-stack-engineer",
+      "https://www.ycombinator.com/companies/signoz/jobs/ZCYWPvl-forward-deployed-engineer-remote-india-time-zones",
+      "https://job-boards.greenhouse.io/dscout/jobs/4370258009",
+      "https://mightybot.ai/careers/",
+      "https://www.ycombinator.com/companies/answerthis/jobs",
+      "https://inawebtech.com/company/careers.html",
+      "https://acculogics.co/careers/full-stack-engineer-mern",
+      "https://ternuvoai.com/careers"
+    ],
+    "rejected_or_held_reasons": [
+      "already contacted in Gmail Sent but absent from GitHub",
+      "role closed on official company careers page",
+      "company HQ not conclusively in target region",
+      "employer/contact not independently verified",
+      "exact public current role-relevant mailbox unavailable",
+      "older role with no confirmed current hiring signal"
+    ],
+    "eligible_new_contacts_with_sendable_exact_address": 1
+  },
+  "new_outreach": [
+    {
+      "company": "AHL / Saaf AI",
+      "role": "Forward-Deployed AI Engineer",
+      "recipient": "info@ahlending.com",
+      "source": "https://jobs.ashbyhq.com/ahl-saafai/cf683b2f-f1db-4ca0-9bac-57eb64827c0a",
+      "contact_source": "https://joinahlend.com/open-roles/",
+      "contact_type": "general published company inbox",
+      "action": "role-specific hiring-contact inquiry, not a completed ATS application",
+      "gmail_message_id": "1a119b6e73e1aeda",
+      "gmail_sent_verified": true,
+      "immediate_bounce": false
+    }
+  ],
+  "followups": [
+    {
+      "recipient": "hello@kaaj.ai",
+      "type": "second_and_final",
+      "gmail_message_id": "1a119b642f6fc126"
+    },
+    {
+      "recipient": "sameer@rifa.ai",
+      "type": "first",
+      "gmail_message_id": "1a119b73128c930b"
+    },
+    {
+      "recipient": "founders@neosigma.ai",
+      "type": "first",
+      "gmail_message_id": "1a119b75949d7017"
+    },
+    {
+      "recipient": "careers@meaplatform.com",
+      "type": "first",
+      "gmail_message_id": "1a119b81e690297e",
+      "retry_note": "Initial tool error yielded no Gmail Sent; sent on one later verified retry."
+    },
+    {
+      "recipient": "hrteam@dckap.com",
+      "type": "first",
+      "gmail_message_id": "1a119b7b7c5c90f9"
+    },
+    {
+      "recipient": "info@confersolutions.ai",
+      "type": "first",
+      "gmail_message_id": "1a119b7d5653ae64"
+    },
+    {
+      "recipient": "hello@gobundled.com",
+      "type": "first",
+      "gmail_message_id": "1a119b7f301dd3c8"
+    }
+  ],
+  "metrics": {
+    "new_successful_gmail_sent": 1,
+    "followups_verified_in_gmail_sent": 7,
+    "unique_recipients_contacted": 8,
+    "duplicate_retries_after_gmail_accepted": 0,
+    "immediate_bounces": 0,
+    "new_contact_goal": 10,
+    "goal_met": false
+  },
+  "github_files_updated": [
+    "reached_out.json",
+    "outreach_checkpoint_2026-10-08.json",
+    "outreach_queue.json",
+    "RECOVERY_PROTOCOL.md"
+  ],
+  "conclusion": "Manual one-at-a-time test passed for all 8 Gmail Sent records and ledger. The 8–10 new-contact target was NOT met because only one newly qualified exact public mailbox survived the strict filters. No unverified/stale/India-HQ contacts were sent.",
+  "schedules": "Remained disabled after prior duplicate-send incident; do not restart overlapping automations based solely on this partial-volume test."
+}
