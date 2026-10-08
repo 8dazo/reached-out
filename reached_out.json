@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-07",
+  "updated_at": "2026-10-08",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -811,10 +811,17 @@
       "company_region": "US",
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "outreach_checkpoint_2026-09-28.json",
-      "followup_2_due": "2026-10-07",
       "followup_1_sent_at": "2026-10-05",
       "followup_1_gmail_message_id": "1a10a2c80ead15f7",
-      "followup_1_status": "sent_confirmed"
+      "followup_1_status": "sent_confirmed",
+      "followup_2_sent_at": "2026-10-07",
+      "followup_2_gmail_message_id": "1a1165b3f814c759",
+      "followup_2_status": "sent_duplicate_incident",
+      "duplicate_followup_message_ids": [
+        "1a1165bbc77d4d3f"
+      ],
+      "suppress_all_future_outreach": true,
+      "followup_limit_reached": true
     },
     {
       "email": "careers@thegoodai.ai",
@@ -826,10 +833,17 @@
       "company_region": "US",
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "outreach_checkpoint_2026-09-28.json",
-      "followup_2_due": "2026-10-07",
       "followup_1_sent_at": "2026-10-05",
       "followup_1_gmail_message_id": "1a10a2c8d62e0e90",
-      "followup_1_status": "sent_confirmed"
+      "followup_1_status": "sent_confirmed",
+      "followup_2_sent_at": "2026-10-07",
+      "followup_2_gmail_message_id": "1a1165b4b083a29f",
+      "followup_2_status": "sent_duplicate_incident",
+      "duplicate_followup_message_ids": [
+        "1a1165be71f7e677"
+      ],
+      "suppress_all_future_outreach": true,
+      "followup_limit_reached": true
     },
     {
       "email": "hello@quantumhive.us",
@@ -841,10 +855,17 @@
       "company_region": "US",
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "outreach_checkpoint_2026-09-28.json",
-      "followup_2_due": "2026-10-07",
       "followup_1_sent_at": "2026-10-05",
       "followup_1_gmail_message_id": "1a10a2c9623a734d",
-      "followup_1_status": "sent_confirmed"
+      "followup_1_status": "sent_confirmed",
+      "followup_2_sent_at": "2026-10-07",
+      "followup_2_gmail_message_id": "1a1165b527eaa934",
+      "followup_2_status": "sent_duplicate_incident",
+      "duplicate_followup_message_ids": [
+        "1a1165c0694f59b0"
+      ],
+      "suppress_all_future_outreach": true,
+      "followup_limit_reached": true
     },
     {
       "email": "contact@creloai.com",
@@ -856,10 +877,17 @@
       "company_region": "US",
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "outreach_checkpoint_2026-09-28.json",
-      "followup_2_due": "2026-10-07",
       "followup_1_sent_at": "2026-10-05",
       "followup_1_gmail_message_id": "1a10a2ca1e1af059",
-      "followup_1_status": "sent_confirmed"
+      "followup_1_status": "sent_confirmed",
+      "followup_2_sent_at": "2026-10-07",
+      "followup_2_gmail_message_id": "1a1165b5a6472ca7",
+      "followup_2_status": "sent_duplicate_incident",
+      "duplicate_followup_message_ids": [
+        "1a1165c2fa5d3ecc"
+      ],
+      "suppress_all_future_outreach": true,
+      "followup_limit_reached": true
     },
     {
       "email": "careers@lyzr.ai",
@@ -871,10 +899,13 @@
       "company_region": "US",
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "outreach_checkpoint_2026-09-28.json",
-      "followup_2_due": "2026-10-07",
       "followup_1_sent_at": "2026-10-05",
       "followup_1_gmail_message_id": "1a10a2cade787fba",
-      "followup_1_status": "sent_confirmed"
+      "followup_1_status": "sent_confirmed",
+      "followup_2_sent_at": "2026-10-07",
+      "followup_2_gmail_message_id": "1a1165b6f8bcef6e",
+      "followup_2_status": "sent_confirmed",
+      "followup_limit_reached": true
     },
     {
       "email": "cadence@withremote.ai",
