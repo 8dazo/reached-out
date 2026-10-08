@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-08",
+  "timezone": "Asia/Kolkata",
+  "gmail_sent_truth": true,
+  "run_record": "outreach_run_2026-10-08.json",
+  "initial_contacts": {
+    "info@ahlending.com": "1a119b6e73e1aeda"
+  },
+  "followups": {
+    "hello@kaaj.ai": "1a119b642f6fc126",
+    "sameer@rifa.ai": "1a119b73128c930b",
+    "founders@neosigma.ai": "1a119b75949d7017",
+    "careers@meaplatform.com": "1a119b81e690297e",
+    "hrteam@dckap.com": "1a119b7b7c5c90f9",
+    "info@confersolutions.ai": "1a119b7d5653ae64",
+    "hello@gobundled.com": "1a119b7f301dd3c8"
+  },
+  "imported_prior_sent": {
+    "hiring@servicerobotco.com": "1a0ace3303edebbb"
+  },
+  "previously_duplicate_final_followups": {
+    "incident_date": "2026-10-07",
+    "affected_recipients": [
+      "founders@trynarrative.com",
+      "careers@thegoodai.ai",
+      "hello@quantumhive.us",
+      "contact@creloai.com"
+    ],
+    "all_recorded_in_permanent_ledger": true,
+    "all_suppressed_from_future_outreach": true
+  },
+  "ongoing_delivery_delays": [
+    "careers@shoppyji.com",
+    "careers@paperloom.io"
+  ],
+  "already_blacklisted_late_bounce": "sales@cogniraai.com",
+  "all_current_sent_confirmed": true,
+  "immediate_bounces": 0,
+  "target_new_contacts": 10,
+  "confirmed_new_contacts": 1,
+  "followups_confirmed": 7,
+  "source_of_truth_files": [
+    "reached_out.json",
+    "outreach_queue.json",
+    "outreach_checkpoint_2026-10-08.json"
+  ],
+  "delivery_vs_send_note": "Gmail Sent confirms accepted for sending, not recipient inbox delivery. Delayed and bounced messages must be classified separately on subsequent runs."
+}
