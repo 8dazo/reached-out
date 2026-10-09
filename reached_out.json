@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-09",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -358,7 +358,6 @@
       "email_confidence": "explicit_public_current",
       "application_status": "outreach_sent_form_available",
       "followup_1_due": "2026-09-29",
-      "followup_2_due": "2026-10-05",
       "email_variant": "founder_short_role_specific",
       "notes": "Global pipeline canary; no immediate bounce detected."
     },
@@ -378,7 +377,6 @@
       "email_confidence": "explicit_public_current",
       "application_status": "outreach_sent_form_available",
       "followup_1_due": "2026-09-29",
-      "followup_2_due": "2026-10-05",
       "email_variant": "founder_short_role_specific",
       "notes": "No immediate bounce detected."
     },
@@ -397,7 +395,6 @@
       "email_confidence": "explicit_public_current",
       "application_status": "applied_by_email",
       "followup_1_due": "2026-09-29",
-      "followup_2_due": "2026-10-05",
       "email_variant": "application_short_role_specific",
       "resume_attached": true,
       "notes": "No immediate bounce detected."
@@ -417,7 +414,6 @@
       "email_confidence": "explicit_public_current",
       "application_status": "applied_by_email",
       "followup_1_due": "2026-09-29",
-      "followup_2_due": "2026-10-05",
       "email_variant": "application_short_role_specific",
       "resume_attached": true,
       "notes": "No immediate bounce detected."
@@ -438,7 +434,6 @@
       "email_confidence": "explicit_public_current",
       "application_status": "outreach_sent_form_available",
       "followup_1_due": "2026-09-29",
-      "followup_2_due": "2026-10-05",
       "email_variant": "founder_short_role_specific",
       "resume_attached": false
     },
@@ -457,7 +452,6 @@
       "email_confidence": "explicit_public_current",
       "application_status": "funding_triggered_outreach",
       "followup_1_due": "2026-09-29",
-      "followup_2_due": "2026-10-05",
       "email_variant": "funding_signal_hiring_inquiry",
       "funding_round": "seed",
       "funding_signal_age_days": 6,
@@ -480,7 +474,6 @@
       "email_confidence": "explicit_public_current",
       "application_status": "funding_triggered_outreach",
       "followup_1_due": "2026-09-29",
-      "followup_2_due": "2026-10-05",
       "email_variant": "funding_signal_founder_short",
       "funding_round": "seed",
       "funding_signal_age_days": 9,
@@ -519,7 +512,6 @@
       "email_confidence": "explicit_public_current",
       "application_status": "funding_triggered_outreach",
       "followup_1_due": "2026-09-29",
-      "followup_2_due": "2026-10-05",
       "email_variant": "funding_signal_founder_replacement",
       "funding_round": "series_a",
       "funding_signal_age_days": 7,
@@ -543,7 +535,6 @@
       "email_confidence": "explicit_public_current",
       "application_status": "outreach_sent_form_available",
       "followup_1_due": "2026-09-29",
-      "followup_2_due": "2026-10-05",
       "email_variant": "recruiter_short_role_specific",
       "resume_attached": true,
       "reply_classification": "referral_forwarded",
@@ -967,11 +958,11 @@
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "outreach_checkpoint_2026-10-05.json",
       "delivery_check": "no_immediate_bounce_found",
-      "followup_2_due": "2026-10-14",
       "notes": "Founder/careers contact; Remote India; strong agent/eval/observability overlap",
       "followup_1_sent_at": "2026-10-08",
       "followup_1_gmail_message_id": "1a119b73128c930b",
-      "followup_1_status": "sent_confirmed"
+      "followup_1_status": "sent_confirmed",
+      "followup_limit_reached": true
     },
     {
       "email": "founders@neosigma.ai",
@@ -984,11 +975,11 @@
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "outreach_checkpoint_2026-10-05.json",
       "delivery_check": "no_immediate_bounce_found",
-      "followup_2_due": "2026-10-14",
       "notes": "Founders inbox; Bengaluru opening; production agent/eval systems",
       "followup_1_sent_at": "2026-10-08",
       "followup_1_gmail_message_id": "1a119b75949d7017",
-      "followup_1_status": "sent_confirmed"
+      "followup_1_status": "sent_confirmed",
+      "followup_limit_reached": true
     },
     {
       "email": "careers@meaplatform.com",
@@ -1001,11 +992,11 @@
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "outreach_checkpoint_2026-10-05.json",
       "delivery_check": "no_immediate_bounce_found",
-      "followup_2_due": "2026-10-14",
       "notes": "Careers inbox; Bangalore Remote; resume attached",
       "followup_1_sent_at": "2026-10-08",
       "followup_1_gmail_message_id": "1a119b81e690297e",
-      "followup_1_status": "sent_confirmed"
+      "followup_1_status": "sent_confirmed",
+      "followup_limit_reached": true
     },
     {
       "email": "hrteam@dckap.com",
@@ -1018,11 +1009,11 @@
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "outreach_checkpoint_2026-10-05.json",
       "delivery_check": "no_immediate_bounce_found",
-      "followup_2_due": "2026-10-14",
       "notes": "Recruiting inbox; India Remote; official role active; resume attached",
       "followup_1_sent_at": "2026-10-08",
       "followup_1_gmail_message_id": "1a119b7b7c5c90f9",
-      "followup_1_status": "sent_confirmed"
+      "followup_1_status": "sent_confirmed",
+      "followup_limit_reached": true
     },
     {
       "email": "info@confersolutions.ai",
@@ -1035,11 +1026,11 @@
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "outreach_checkpoint_2026-10-05.json",
       "delivery_check": "no_immediate_bounce_found",
-      "followup_2_due": "2026-10-14",
       "notes": "Public founder/company inbox; India Remote; live careers role",
       "followup_1_sent_at": "2026-10-08",
       "followup_1_gmail_message_id": "1a119b7d5653ae64",
-      "followup_1_status": "sent_confirmed"
+      "followup_1_status": "sent_confirmed",
+      "followup_limit_reached": true
     },
     {
       "email": "hello@gobundled.com",
@@ -1052,11 +1043,11 @@
       "email_confidence": "explicit_public_current",
       "source_reconciliation": "outreach_checkpoint_2026-10-05.json",
       "delivery_check": "no_immediate_bounce_found",
-      "followup_2_due": "2026-10-14",
       "notes": "Public company inbox; Remote India; current role signal",
       "followup_1_sent_at": "2026-10-08",
       "followup_1_gmail_message_id": "1a119b7f301dd3c8",
-      "followup_1_status": "sent_confirmed"
+      "followup_1_status": "sent_confirmed",
+      "followup_limit_reached": true
     },
     {
       "email": "hr@kodonic.com",
@@ -1216,8 +1207,9 @@
       "contact_type": "published_company_inbox",
       "role_eligibility": "Active Remote India role on Ashby",
       "notes": "Role-specific contact inquiry only; ATS job application not submitted.",
-      "followup_1_due": "2026-10-13",
-      "followup_2_due": "2026-10-19"
+      "followup_1_due": "2026-10-13"
     }
-  ]
+  ],
+  "policy_effective_date": "2026-10-09",
+  "followup_max_per_contact": 1
 }
