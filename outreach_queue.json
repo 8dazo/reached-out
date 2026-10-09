@@ -19,7 +19,7 @@
     ],
     "blocked_email_source": "hacker_news",
     "max_same_company_per_day": 1,
-    "max_batch_size": 10,
+    "max_batch_size": 5,
     "post_send_bounce_check": true,
     "target_company_regions": [
       "US",
@@ -30,7 +30,18 @@
       "Singapore"
     ],
     "exclude_india_headquartered_companies": true,
-    "allow_target_region_company_remote_india": true
+    "allow_target_region_company_remote_india": true,
+    "max_followups_per_recipient_lifetime": 1,
+    "first_followup_after_business_days": 3,
+    "daily_new_contacts_target_min": 15,
+    "daily_new_contacts_target_max": 20,
+    "daily_new_contacts_hard_cap": 20,
+    "separate_followups_from_new_contact_count": true,
+    "require_gmail_thread_dedupe_before_send": true,
+    "send_one_recipient_per_tool_operation": true,
+    "require_gmail_sent_confirmed_before_next_send": true,
+    "require_qualified_india_global_hiring_path": true,
+    "require_target_region_company_hq": true
   },
   "queue": [
     {
@@ -147,7 +158,6 @@
       "gmail_message_id": "1a0d32df6abf6293",
       "sent_at": "2026-09-24T11:29:59Z",
       "followup_1_due": "2026-09-29",
-      "followup_2_due": "2026-10-05",
       "email_variant": "founder_short_role_specific",
       "immediate_bounce": false
     },
@@ -165,7 +175,6 @@
       "gmail_message_id": "1a0d335f194a8020",
       "sent_at": "2026-09-24T11:38:42Z",
       "followup_1_due": "2026-09-29",
-      "followup_2_due": "2026-10-05",
       "email_variant": "founder_short_role_specific",
       "resume_attached": false,
       "immediate_bounce": false
@@ -183,7 +192,6 @@
       "gmail_message_id": "1a0d33613a66d3f4",
       "sent_at": "2026-09-24T11:38:51Z",
       "followup_1_due": "2026-09-29",
-      "followup_2_due": "2026-10-05",
       "email_variant": "application_short_role_specific",
       "resume_attached": true,
       "immediate_bounce": false
@@ -201,7 +209,6 @@
       "gmail_message_id": "1a0d33893aff914a",
       "sent_at": "2026-09-24T11:41:35Z",
       "followup_1_due": "2026-09-29",
-      "followup_2_due": "2026-10-05",
       "email_variant": "application_short_role_specific",
       "resume_attached": true,
       "immediate_bounce": false
@@ -220,7 +227,6 @@
       "gmail_message_id": "1a0d344ea6154f1e",
       "sent_at": "2026-09-24T11:55:04Z",
       "followup_1_due": "2026-09-29",
-      "followup_2_due": "2026-10-05",
       "email_variant": "founder_short_role_specific",
       "resume_attached": false,
       "immediate_bounce": false
@@ -238,7 +244,6 @@
       "gmail_message_id": "1a0d345063af3d7c",
       "sent_at": "2026-09-24T11:55:11Z",
       "followup_1_due": "2026-09-29",
-      "followup_2_due": "2026-10-05",
       "email_variant": "funding_signal_hiring_inquiry",
       "funding_round": "seed",
       "funding_amount": "$25M",
@@ -258,7 +263,6 @@
       "gmail_message_id": "1a0d3451ebe2ee33",
       "sent_at": "2026-09-24T11:55:17Z",
       "followup_1_due": "2026-09-29",
-      "followup_2_due": "2026-10-05",
       "email_variant": "funding_signal_founder_short",
       "funding_round": "seed",
       "funding_amount": "$10.3M",
@@ -291,7 +295,6 @@
       "gmail_message_id": "1a0d3479ac216f1b",
       "sent_at": "2026-09-24",
       "followup_1_due": "2026-09-29",
-      "followup_2_due": "2026-10-05",
       "email_variant": "funding_signal_founder_replacement",
       "funding_round": "series_a",
       "funding_amount": "$34M",
@@ -311,7 +314,6 @@
       "gmail_message_id": "1a0d3457bbc0605e",
       "sent_at": "2026-09-24T11:55:40Z",
       "followup_1_due": "2026-09-29",
-      "followup_2_due": "2026-10-05",
       "email_variant": "recruiter_short_role_specific",
       "resume_attached": true,
       "immediate_bounce": false
@@ -331,8 +333,7 @@
       "sent_at": "2026-10-08",
       "delivery_check": "gmail_sent_no_immediate_bounce",
       "application_status": "contact_inquiry_not_ats_application",
-      "followup_1_due": "2026-10-13",
-      "followup_2_due": "2026-10-19"
+      "followup_1_due": "2026-10-13"
     }
   ],
   "blacklist_updates": [
@@ -351,5 +352,6 @@
     "lewis@lewisbuildsai.com",
     "sales@cogniraai.com"
   ],
-  "updated_at": "2026-10-08"
+  "updated_at": "2026-10-08",
+  "policy_effective_date": "2026-10-09"
 }
