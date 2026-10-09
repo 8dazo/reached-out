@@ -1,11 +1,11 @@
 {
-  "version": 5,
+  "version": 6,
   "fresh_days": 7,
   "hot_role_days": 3,
   "max_experience_years": 5,
-  "discovery_target": 80,
-  "max_qualified_queue": 60,
-  "daily_send_quality_cap": 30,
+  "discovery_target": 200,
+  "max_qualified_queue": 100,
+  "daily_send_quality_cap": 20,
   "source_priority": [
     "yc_work_at_a_startup",
     "yc_company_directory_recent_batches",
@@ -159,12 +159,18 @@
     "attach_resume_on_cold_founder_outreach": false,
     "attach_resume_for_official_email_application": true,
     "followup_business_days": [
-      3,
-      7
+      3
     ],
-    "max_followups": 2,
+    "max_followups": 1,
     "stop_on_any_reply": true,
-    "stop_on_opt_out": true
+    "stop_on_opt_out": true,
+    "max_initial_outreach_per_person": 1,
+    "max_initial_outreach_per_company_per_day": 1,
+    "check_gmail_thread_before_every_send": true,
+    "never_repeat_sent_or_errored_send_without_full_gmail_reconciliation": true,
+    "single_recipient_send_per_tool_operation": true,
+    "count_new_only_not_followups": true,
+    "stop_on_bounce": true
   },
   "reply_learning": {
     "enabled": true,
@@ -190,5 +196,16 @@
     "portfolio": "https://devansh.aurat.ai",
     "linkedin": "https://www.linkedin.com/in/devansh-m12",
     "github": "https://github.com/8dazo"
+  },
+  "discovery_replenish_target": 300,
+  "daily_new_contact_min_target": 15,
+  "daily_new_contact_target": 20,
+  "scheduling_rules": {
+    "daily_new_contacts_goal": "15-20",
+    "count_only_unique_new_qualified_emails": true,
+    "hard_maximum_new_contacts_per_day": 20,
+    "require_single_writer_checkpoint": true,
+    "skip_when_idempotency_uncertain": true,
+    "never_lower_verification_or_eligibility_to_meet_target": true
   }
 }
