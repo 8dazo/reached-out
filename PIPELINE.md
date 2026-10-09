@@ -146,12 +146,12 @@ Do not write generic praise such as "I love what you're building" without a conc
 ## Follow-up sequence
 
 If there is no reply:
-- Follow-up 1: 3 business days after the initial message, in the same thread, 30–60 words.
-- Follow-up 2: 7 business days after the initial message, in the same thread, short final note.
+- Exactly one follow-up is permitted, 3 business days after the initial message, in the same Gmail thread, 30–60 words.
+- After that first follow-up, permanently mark `followup_limit_reached=true`; never send a second follow-up, final reminder, or re-engagement to the same person/address.
 
 Stop immediately after any reply, opt-out, bounce, or clear rejection.
 
-Do not send more than two follow-ups.
+**Hard limit: one follow-up per recipient lifetime.** Gmail Sent (not just GitHub state) must confirm the recipient has never been followed up before any follow-up attempt. Any prior follow-up, even if it was called a final follow-up or omitted from GitHub, permanently exhausts the follow-up quota.
 
 ## Reply-learning loop
 
@@ -179,19 +179,19 @@ Do not optimize for opens. Optimize for qualified replies and interviews.
 
 1. Reconcile Gmail replies, bounces, and prior run records into GitHub.
 2. Process any due follow-ups first.
-3. Discover approximately 80 fresh roles across the preferred sources.
+3. Discover approximately 200 fresh roles across preferred sources, replenish toward 300 if needed. Target at least 15 and up to 20 **unique NEW qualified contacts daily**; new means an initial message to a previously uncontacted person/company, not a follow-up.
 4. Apply hard geography, work-authorization, freshness, seniority, and fit gates before enrichment.
 5. Rank roles and enrich contacts only for the strongest opportunities.
-6. Build a queue of up to 60 verified, high-confidence contacts, including valid carryover.
+6. Build a queue of up to 100 verified, high-confidence contacts, including valid carryover; all sendable records must have exact published/current or independently mailbox-verified addresses.
 7. Send the highest-confidence first batch.
 
 ### Sending philosophy
 
-Quality beats quota. The system may discover 80 roles and queue up to 60 contacts, but should normally cap new cold sends around 30/day unless the qualified pool is exceptionally strong.
+Quality beats quota. Plan for **15–20 new verified outreach emails daily**, never above 20, excluding follow-ups. Discover 200–300 opportunities and queue up to 100 to support this target. If fewer than 15 qualify, report the verified shortfall rather than sending guessed, ineligible, stale, duplicate, or bounced contacts.
 
 Never lower verification or fit standards to hit a number.
 
-Send in small batches rather than all at once, preferably aligned with the recipient's local working hours when practical.
+Send in small batches rather than all at once, preferably aligned with the recipient's local working hours when practical. Use exactly **one Gmail send action per operation**, recheck the full thread and Sent history immediately beforehand, and write the verified result to the permanent ledger before another send. A tool error is ambiguous until Gmail Sent is reconciled.
 
 ## Dedupe and state control
 
@@ -222,7 +222,7 @@ After each batch:
 - store Gmail message ID and timestamp;
 - update queue/application state only after confirmed sending;
 - blacklist invalid/bounced addresses;
-- schedule follow-ups only for successfully delivered initial messages.
+- schedule **at most one** follow-up after 3 business days for an initial message confirmed in Gmail Sent and not bounced, replied to, opted out, or rejected. A delayed delivery is not sufficient to send a follow-up.
 
 GitHub state must never claim a send that does not appear in Gmail.
 
