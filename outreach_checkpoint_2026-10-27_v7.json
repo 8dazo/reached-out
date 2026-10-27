@@ -9,7 +9,7 @@
   "discovery_goal": 45,
   "discovery_shortfall": 39,
   "confirmed_sent": 5,
-  "known_bounced": 0,
+  "known_bounced": 1,
   "unknown_delivery": 0,
   "send_intents": [
     {
@@ -88,7 +88,8 @@
       "gmail_message_id": "1a17d37e44b0b6b5",
       "thread_id": "1a17d37e44b0b6b5",
       "confirmed_sent": true,
-      "attachment": false
+      "attachment": false,
+      "known_bounce": true
     }
   ],
   "rejected": [
@@ -124,6 +125,20 @@
       "error": "BLOCKED_FILE_REFERENCE",
       "gmail_sent_match": false,
       "retry": "not_in_this_run"
+    },
+    {
+      "email": "careers@enablex.io",
+      "type": "hard_bounce",
+      "bounce_message_id": "1a17d37f4e1ab48a"
     }
-  ]
+  ],
+  "bounced_messages": [
+    {
+      "email": "careers@enablex.io",
+      "company": "EnableX",
+      "gmail_bounce_id": "1a17d37f4e1ab48a",
+      "error": "550 5.4.1 Recipient address rejected: Access denied"
+    }
+  ],
+  "net_no_known_bounce": 4
 }
