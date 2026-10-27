@@ -8,7 +8,7 @@
   "ready_initial": 6,
   "discovery_goal": 45,
   "discovery_shortfall": 39,
-  "confirmed_sent": 0,
+  "confirmed_sent": 1,
   "known_bounced": 0,
   "unknown_delivery": 0,
   "send_intents": [
@@ -21,11 +21,20 @@
     {
       "email": "careers@wavelet-ai.com",
       "company": "Wavelet AI",
-      "status": "claimed",
+      "status": "sent_confirmed",
       "claimed_at_ist": "2026-10-27"
     }
   ],
-  "sent_messages": [],
+  "sent_messages": [
+    {
+      "email": "careers@wavelet-ai.com",
+      "company": "Wavelet AI",
+      "gmail_message_id": "1a17d35ab455f573",
+      "thread_id": "1a17d35ab455f573",
+      "confirmed_sent": true,
+      "attachment": false
+    }
+  ],
   "rejected": [
     {
       "company": "Finn",
