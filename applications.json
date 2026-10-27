@@ -457,12 +457,13 @@
       "role": "Engineering — AI Orchestration and Backend",
       "job_url": "https://enablex26s.vcloudx.com/career/",
       "application_method": "email_outreach",
-      "status": "contacted_not_formal_application",
+      "status": "bounced",
       "contacted_at": "2026-10-27",
       "contact_email": "careers@enablex.io",
       "evidence": "gmail:1a17d37e44b0b6b5",
       "resume_attached": false,
-      "notes": "Direct role/team outreach; resume unavailable to Gmail connector. Do not count as complete CV application."
+      "notes": "Direct role/team outreach; resume unavailable to Gmail connector. Do not count as complete CV application.",
+      "bounce_message_id": "1a17d37f4e1ab48a"
     }
   ]
 }
