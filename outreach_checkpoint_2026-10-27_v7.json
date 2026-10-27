@@ -29,6 +29,12 @@
       "company": "HAIRED",
       "status": "sent_confirmed",
       "claimed_at_ist": "2026-10-27"
+    },
+    {
+      "email": "careers@aigency.global",
+      "company": "AiGency Global",
+      "status": "claimed",
+      "claimed_at_ist": "2026-10-27"
     }
   ],
   "sent_messages": [
