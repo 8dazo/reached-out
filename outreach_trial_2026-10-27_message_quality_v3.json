@@ -36,6 +36,20 @@
     "word_count": 147,
     "passed": true
   },
-  "status": "send_intent_checkpointed",
-  "gmail_message_id": null
+  "status": "sent_confirmed",
+  "gmail_message_id": "1a17d3ed9905cb1d",
+  "thread_id": "1a17d3ed9905cb1d",
+  "delivery_evidence": {
+    "gmail_id": "1a17d3ed9905cb1d",
+    "gmail_labels": [
+      "SENT"
+    ],
+    "recipient": "careers@codecones.com",
+    "subject": "Building end-to-end at CodeCones",
+    "sent_at": "2026-10-27T12:03:53",
+    "hard_bounce_checked": false,
+    "inbox_delivery_not_guaranteed": true
+  },
+  "github_ledger_written": true,
+  "github_queue_written": true
 }
