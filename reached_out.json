@@ -1271,6 +1271,22 @@
       "bounce_message_id": "1a17d37f4e1ab48a",
       "bounce_reason": "550 5.4.1 Recipient address rejected: Access denied",
       "suppress_all_future_outreach": true
+    },
+    {
+      "email": "careers@codecones.com",
+      "person": null,
+      "company": "CodeCones",
+      "company_region": "US",
+      "role": "Full Stack Developer",
+      "status": "sent",
+      "sent_at": "2026-10-27",
+      "gmail_message_id": "1a17d3ed9905cb1d",
+      "thread_id": "1a17d3ed9905cb1d",
+      "contact_source": "one_time_v3_personalized_live_trial",
+      "role_url": "https://codecones.com/careers/",
+      "email_verification": "explicit_public_current",
+      "delivery_check": "gmail_sent_confirmed",
+      "note": "Personalized 147-word email; outreach only, no CV attachment, not a formal ATS application."
     }
   ],
   "policy_effective_date": "2026-10-09",
