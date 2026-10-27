@@ -47,8 +47,10 @@
     "recipient": "careers@codecones.com",
     "subject": "Building end-to-end at CodeCones",
     "sent_at": "2026-10-27T12:03:53",
-    "hard_bounce_checked": false,
-    "inbox_delivery_not_guaranteed": true
+    "hard_bounce_checked": true,
+    "inbox_delivery_not_guaranteed": true,
+    "no_known_bounce_at_check": true,
+    "bounce_check_note": "Gmail postmaster/mailer-daemon recent search returned only prior EnableX hard bounce; CodeCones delivery remains unconfirmed beyond Gmail Sent"
   },
   "github_ledger_written": true,
   "github_queue_written": true
