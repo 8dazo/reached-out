@@ -1,0 +1,41 @@
+{
+  "version": 3,
+  "date": "2026-10-27",
+  "run_type": "one_time_live_message_quality_trial",
+  "single_writer_guard": "Checked International Outreach Morning last run completed 2026-10-27 11:58:20 UTC; batch automation no active run; no other active outbound sender detected",
+  "company": "CodeCones",
+  "recipient": "careers@codecones.com",
+  "role": "Full Stack Developer",
+  "subject": "Building end-to-end at CodeCones",
+  "body": "Hi CodeCones team,\n\nThe line in your Full Stack Developer opening about owning features end-to-end stuck with me. A lot of \"full-stack\" roles still mean working on a small piece of someone else's plan. I like being responsible for the whole thing, from the API design to the screen someone actually uses.\n\nAt Stride.AI, I worked across production backend services and complex frontend features, including AI workflows. I also built Captar because I wanted better control over what LLM agents can do: tool permissions, budgets, and traces instead of hoping everything behaves after the demo.\n\nI noticed you emphasize human ownership of production decisions, which is a big part of how I like to work.\n\nI'm based in India and saw this opening is remote-global. Are you considering engineers working from here? I'd be happy to share a couple of builds.\n\nMy work: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh",
+  "body_word_count": 147,
+  "evidence": {
+    "role_url": "https://codecones.com/careers/",
+    "hq_url": "https://codecones.com/contact/",
+    "hq_secondary": "https://www.linkedin.com/company/codecones/",
+    "remote_eligibility_url": "https://codecones.com/careers/",
+    "email_url": "https://codecones.com/careers/",
+    "exact_public_email": true,
+    "independent_mailbox_deliverability_verified": false
+  },
+  "dedupe": {
+    "gmail_to_query": "to:careers@codecones.com",
+    "gmail_domain_query": "codecones.com",
+    "gmail_matches": 0,
+    "github_reached_out_matches": 0,
+    "github_2BBs_matches": 0,
+    "applications_matches": 0,
+    "dated_checkpoint_matches": 0
+  },
+  "quality": {
+    "policy": "MESSAGE_QUALITY_V2.md human builder-to-builder v3",
+    "distinct_hook": "Full Stack Developer JD says own features end-to-end; company says human-owned production decisions",
+    "proof": "Stride.AI backend/frontend/AI workflows plus Captar LLM controls",
+    "style": "Natural first-person personal builder note, not generic 'I found your role' email",
+    "cta": "Are you considering engineers working from India?",
+    "word_count": 147,
+    "passed": true
+  },
+  "status": "send_intent_checkpointed",
+  "gmail_message_id": null
+}
