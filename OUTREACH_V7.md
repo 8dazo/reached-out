@@ -33,3 +33,6 @@ Record by batch: target, verified candidates available, attempted, Gmail-Sent co
 
 ## Responsibility
 The 06:30 scheduled task owns discovery and first batch. A separate serialized task owns the 08:00/10:00/12:00/14:00 batches. Never overlap multiple Gmail outbound calls. No automatic actions from any superseded legacy queues.
+
+## Message quality policy (effective immediately)
+Read MESSAGE_QUALITY_V2.md before EVERY outreach draft. Specific researched hook and one tailored proof are required. Compare recent sent messages for repetitive openings, proof patterns, signoffs and calls to action. Hold generic drafts instead of sending them. If current execution has already drafted or sent a message, do not repeat or retroactively resend; apply only to new unsent messages.
