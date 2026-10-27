@@ -1,0 +1,43 @@
+{
+  "version": 7,
+  "date": "2026-10-27",
+  "run_type": "manual_end_to_end_test",
+  "created_at_ist": "2026-10-27T17:21:00+05:30",
+  "target_batch": 7,
+  "daily_cap": 30,
+  "ready_initial": 6,
+  "discovery_goal": 45,
+  "discovery_shortfall": 39,
+  "confirmed_sent": 0,
+  "known_bounced": 0,
+  "unknown_delivery": 0,
+  "send_intents": [],
+  "sent_messages": [],
+  "rejected": [
+    {
+      "company": "Finn",
+      "reason": "India-incorporated footer despite US/India remote role"
+    },
+    {
+      "company": "Gromore",
+      "reason": "India-headquartered"
+    },
+    {
+      "company": "Phyto Nex AI",
+      "reason": "India-incorporated"
+    },
+    {
+      "company": "Cadence",
+      "reason": "Gmail Sent already contains outreach to cadence@withremote.ai on 2026-09-27; suppress"
+    },
+    {
+      "company": "Noovid",
+      "reason": "7+ years required"
+    },
+    {
+      "company": "Ephanti",
+      "reason": "Role India location not confirmed remote eligible"
+    }
+  ],
+  "notes": "Reconciled today Gmail Sent zero before test; permanent GitHub suppression ledger 93 contacts, 44 applications, old historical queue 22; older bounce/delay notifications observed. Single recipient sending only. Live eligible pool has six evidence-backed public mailboxes. No 45-ready claim."
+}
