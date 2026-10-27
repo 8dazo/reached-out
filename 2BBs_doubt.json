@@ -125,6 +125,28 @@
       "gmail_message_id": "1a17d37e44b0b6b5",
       "bounce_message_id": "1a17d37f4e1ab48a",
       "bounce_reason": "550 5.4.1 Recipient address rejected: Access denied"
+    },
+    {
+      "email": "careers@codecones.com",
+      "company": "CodeCones",
+      "company_hq": "San Francisco, CA, USA",
+      "company_region": "US",
+      "role": "Full Stack Developer",
+      "role_url": "https://codecones.com/careers/",
+      "hq_evidence_url": "https://codecones.com/contact/",
+      "secondary_hq_evidence_url": "https://www.linkedin.com/company/codecones/",
+      "eligibility_evidence": "Full Stack Developer: Remote - Global; company careers lists opportunities across US, Canada, Europe, Asia and Middle East",
+      "eligibility_url": "https://codecones.com/careers/",
+      "verification": "explicit_public_current",
+      "email_evidence_url": "https://codecones.com/careers/",
+      "email_evidence": "Exact careers@codecones.com is printed under Full Stack Developer Apply Now and as questions contact; mailbox deliverability not independently confirmed",
+      "fit_score": 90,
+      "notes": "React/Next.js/Python, own features end-to-end, production decisions human accountable; candidate located in India",
+      "discovered_at": "2026-10-27",
+      "observed_at": "2026-10-27",
+      "queue_position": 7,
+      "status": "claimed",
+      "checkpoint": "outreach_trial_2026-10-27_message_quality_v3.json"
     }
   ],
   "updated_at": "2026-10-27"
