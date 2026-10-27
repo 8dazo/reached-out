@@ -1,0 +1,88 @@
+{
+  "version": 7,
+  "date": "2026-10-27",
+  "run_type": "immediate_end_to_end_test",
+  "daily_target": 30,
+  "first_batch_target": 7,
+  "initial_ready_goal": 45,
+  "verified_ready_discovered": 6,
+  "initial_ready_shortfall": 39,
+  "send_attempts": 6,
+  "gmail_sent_confirmed": 5,
+  "known_hard_bounces": 1,
+  "net_sent_without_known_bounce": 4,
+  "first_batch_shortfall": 3,
+  "remaining_verified_ready": 0,
+  "quarantined": [
+    {
+      "company": "DotCoAi",
+      "email": "hr@dotcoai.com",
+      "reason": "attachment unavailable; no Gmail Sent match after blocked operation; no blind retry"
+    }
+  ],
+  "sent_messages": [
+    {
+      "email": "careers@wavelet-ai.com",
+      "company": "Wavelet AI",
+      "gmail_message_id": "1a17d35ab455f573",
+      "thread_id": "1a17d35ab455f573",
+      "confirmed_sent": true,
+      "attachment": false
+    },
+    {
+      "email": "careers@haired.app",
+      "company": "HAIRED",
+      "gmail_message_id": "1a17d36ef07e283c",
+      "thread_id": "1a17d36ef07e283c",
+      "confirmed_sent": true,
+      "attachment": false
+    },
+    {
+      "email": "careers@aigency.global",
+      "company": "AiGency Global",
+      "gmail_message_id": "1a17d373c71bf7b6",
+      "thread_id": "1a17d373c71bf7b6",
+      "confirmed_sent": true,
+      "attachment": false
+    },
+    {
+      "email": "careers@kyfex.com",
+      "company": "KYFEX",
+      "gmail_message_id": "1a17d37908a53d86",
+      "thread_id": "1a17d37908a53d86",
+      "confirmed_sent": true,
+      "attachment": false
+    },
+    {
+      "email": "careers@enablex.io",
+      "company": "EnableX",
+      "gmail_message_id": "1a17d37e44b0b6b5",
+      "thread_id": "1a17d37e44b0b6b5",
+      "confirmed_sent": true,
+      "attachment": false,
+      "known_bounce": true
+    }
+  ],
+  "bounces": [
+    {
+      "email": "careers@enablex.io",
+      "company": "EnableX",
+      "gmail_bounce_id": "1a17d37f4e1ab48a",
+      "error": "550 5.4.1 Recipient address rejected: Access denied"
+    }
+  ],
+  "github_ledger_contacts": 98,
+  "github_applications": 49,
+  "carryover_ready": 0,
+  "prior_suppression_reconciled": true,
+  "notes": [
+    "No new outreach to previously contacted Cadence (historical Gmail Sent found).",
+    "One attachment egress block prevented DotCoAi send; held for next-run reconciliation.",
+    "Five Gmail Sent IDs verified immediately after send and saved to permanent GitHub ledger; later Gmail search confirms exact IDs.",
+    "EnableX careers@enablex.io returned 550 5.4.1 hard bounce; permanently suppressed and excluded from net count.",
+    "No resume attachments included in successful emails because connector rejected conversation-file reference. They are tracked as outreach, not complete CV applications.",
+    "Fewer than 45 verified candidates found; eligibility, company HQ and exact public email standards were not relaxed.",
+    "No follow-ups sent; no LinkedIn scraping or geographic-source-IP claims."
+  ],
+  "finished_at_date_ist": "2026-10-27"
+}
