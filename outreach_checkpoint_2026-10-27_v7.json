@@ -8,7 +8,7 @@
   "ready_initial": 6,
   "discovery_goal": 45,
   "discovery_shortfall": 39,
-  "confirmed_sent": 2,
+  "confirmed_sent": 3,
   "known_bounced": 0,
   "unknown_delivery": 0,
   "send_intents": [
@@ -33,7 +33,7 @@
     {
       "email": "careers@aigency.global",
       "company": "AiGency Global",
-      "status": "claimed",
+      "status": "sent_confirmed",
       "claimed_at_ist": "2026-10-27"
     }
   ],
@@ -51,6 +51,14 @@
       "company": "HAIRED",
       "gmail_message_id": "1a17d36ef07e283c",
       "thread_id": "1a17d36ef07e283c",
+      "confirmed_sent": true,
+      "attachment": false
+    },
+    {
+      "email": "careers@aigency.global",
+      "company": "AiGency Global",
+      "gmail_message_id": "1a17d373c71bf7b6",
+      "thread_id": "1a17d373c71bf7b6",
       "confirmed_sent": true,
       "attachment": false
     }
