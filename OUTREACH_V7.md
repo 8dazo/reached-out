@@ -36,3 +36,9 @@ The 06:30 scheduled task owns discovery and first batch. A separate serialized t
 
 ## Message quality policy (effective immediately)
 Read MESSAGE_QUALITY_V2.md before EVERY outreach draft. Specific researched hook and one tailored proof are required. Compare recent sent messages for repetitive openings, proof patterns, signoffs and calls to action. Hold generic drafts instead of sending them. If current execution has already drafted or sent a message, do not repeat or retroactively resend; apply only to new unsent messages.
+
+## Live test findings — 2026-10-27
+- An attached conversation resume at /mnt/data/Devansh_Mahant_Resume.pdf was rejected by Gmail connector with BLOCKED_FILE_REFERENCE. **Never reuse that inaccessible path blindly**. Only attach a resume after verifying an egress-accessible file reference. If unavailable, send legitimate individualized *outreach* with portfolio/GitHub only and mark `contacted_not_formal_application`; do not claim a completed CV application. For roles strictly requiring a CV, defer until a valid attachment is available.
+- A 550 5.4.1 Access denied hard bounce was observed for careers@enablex.io. This exact mailbox is permanently suppressed; do not retry or infer another mailbox.
+- Gmail's broad Sent search may lag immediately after send; exact-recipient searches and direct Gmail message ID reads should be used for reconciliation. Do not resend based on a temporarily missing broad-search result.
+- The first live test found only six verified eligible contacts, with five Gmail Sent IDs, one hard bounce, and one attachment block. Preserve truthful shortfall reporting and replenish with fresh research rather than relaxing standards.
