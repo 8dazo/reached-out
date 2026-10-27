@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-09",
+  "updated_at": "2026-10-27",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -1208,6 +1208,18 @@
       "role_eligibility": "Active Remote India role on Ashby",
       "notes": "Role-specific contact inquiry only; ATS job application not submitted.",
       "followup_1_due": "2026-10-13"
+    },
+    {
+      "email": "careers@wavelet-ai.com",
+      "person": null,
+      "company": "Wavelet AI",
+      "role": "Agentic Systems Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-27",
+      "gmail_message_id": "1a17d35ab455f573",
+      "thread_id": "1a17d35ab455f573",
+      "contact_source": "v7_verified_official_careers",
+      "role_url": "https://wavelet-ai.com/careers"
     }
   ],
   "policy_effective_date": "2026-10-09",
