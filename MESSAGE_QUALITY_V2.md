@@ -43,3 +43,19 @@ Devansh
 
 ## Priority
 Send fewer but genuinely relevant messages instead of generic emails. A recipient should not be able to replace their company name with 20 other company names while leaving the rest of the message intact.
+
+
+## Human builder-to-builder voice — v3 (effective immediately)
+Inspired by the user's provided example email: write as a real engineer, with genuine motivation, details of what they built, and willingness to own early-stage work. Do NOT copy the example's hyperbole, hobbies, 5-year experience claim or personal facts. Never impersonate the author of the example.
+
+- Start with a brief, natural TL;DR *only when it genuinely helps*, e.g. "Short version: I build agent infrastructure and I'd love to work on [verified specific company challenge]." Don't require literal "tldr;" in every email.
+- Open with sincere interest in a *verified* product/problem/team detail. Prefer "I've been following..." only if true; otherwise "I read about..." or "Your work on..." with source.
+- Use first-person, conversational sentences. Avoid recruiter-speak: "aligns with my background", "opportunity caught my attention", "appreciate your focus", "leverage", "my experience might fit", "short conversation about how my experience might fit".
+- Give actual builder evidence and agency: "I built Captar because...", "I owned the backend and UI for...", "I care about getting it into production" (only when truthful). Tailor one to three relevant details from the resume, not a laundry list. Technical specificity beats adjective-heavy claims.
+- Include a real personal reason for preferring lean, hands-on teams and owning work end-to-end, only when appropriate to the company and not asserted about the company without evidence. It's okay to show enthusiasm or slightly imperfect natural diction but do NOT invent vulnerabilities, hobbies, or unusual confessions.
+- CTA should directly ask whether they are hiring, who owns the role, or whether the sender can show relevant work. Vary it naturally. No formulaic “Would you be open to a brief discussion?”.
+- Length is flexible, typically 100–170 words for founder/builder-led emails where actual detail earns the length; 65–110 for recruiters. Prior 70–110 target is superseded for builder-led messages. Up to three short paragraphs plus links; no giant wall of text.
+- Subjects should feel personal and unpolished-in-a-good-way: "Engineering at [company]", "Loved the way you're approaching [verified problem]", "Building [relevant field] at [company]" rather than a generic CV title, assuming evidence supports it.
+- Uniqueness test: delete the company name. If message still works for 10 other companies, rewrite with verified product detail. Run a similarity check against 10 recent sent emails; vary narrative, sentence length, hook, and ask, not just vocabulary.
+- Don't claim location flexibility that isn't independently supported. Keep verification and anti-duplicate rules unchanged.
+- Before send, save source-grounded individualized draft and named reason why it differs from previous send templates.
