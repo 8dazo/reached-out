@@ -1,0 +1,54 @@
+{
+  "version": 7,
+  "campaign_start": "2026-10-28",
+  "timezone": "Asia/Kolkata",
+  "daily_goal": 30,
+  "daily_hard_cap": 30,
+  "initial_ready_target": 45,
+  "minimum_ready_replenish": 10,
+  "old_queue_inactive": true,
+  "lead_store": "2BBs_doubt.json",
+  "historical_suppression": [
+    "reached_out.json",
+    "applications.json",
+    "outreach_queue.json",
+    "Gmail Sent"
+  ],
+  "batches": [
+    {
+      "at": "06:30",
+      "count": 7
+    },
+    {
+      "at": "08:00",
+      "count": 7
+    },
+    {
+      "at": "10:00",
+      "count": 7
+    },
+    {
+      "at": "12:00",
+      "count": 7
+    },
+    {
+      "at": "14:00",
+      "count": 2
+    }
+  ],
+  "regions": [
+    "US",
+    "Europe",
+    "UK",
+    "Switzerland",
+    "Norway",
+    "Singapore"
+  ],
+  "exclude_india_headquartered": true,
+  "require_real_india_resident_eligibility": true,
+  "verified_email_only": true,
+  "send_single_recipient": true,
+  "require_gmail_sent_reconciliation": true,
+  "max_followups_lifetime": 1,
+  "backup_discovery_on_ready_below": 10
+}
