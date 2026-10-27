@@ -145,8 +145,12 @@
       "discovered_at": "2026-10-27",
       "observed_at": "2026-10-27",
       "queue_position": 7,
-      "status": "claimed",
-      "checkpoint": "outreach_trial_2026-10-27_message_quality_v3.json"
+      "status": "sent_confirmed",
+      "checkpoint": "outreach_trial_2026-10-27_message_quality_v3.json",
+      "gmail_message_id": "1a17d3ed9905cb1d",
+      "thread_id": "1a17d3ed9905cb1d",
+      "sent_at": "2026-10-27",
+      "delivery_check": "gmail_sent_confirmed"
     }
   ],
   "updated_at": "2026-10-27"
