@@ -68,9 +68,37 @@
       "reason": "Worldwide Web3 role demands 5+ years and production smart-wallet experience; poor fit"
     }
   ],
-  "status": "partial_batch_completed",
+  "status": "completed_shortfall",
   "notes": "Gmail and permanent suppression reconciled. Single writer. All unverified and unknown-delivery leads withheld.",
   "shortfall": 6,
   "verified_ready_remaining": 0,
-  "net_no_known_bounce": 1
+  "net_no_known_bounce": 1,
+  "final_reconciliation": {
+    "date": "2026-10-28",
+    "batch_target": 7,
+    "new_unique_sent": 1,
+    "known_new_bounces": 0,
+    "net_no_known_bounce": 1,
+    "send_shortfall": 6,
+    "daily_new_sent": 1,
+    "daily_remaining_cap": 29,
+    "initial_pool_target": 45,
+    "verified_ready_remaining": 0,
+    "ready_pool_shortfall": 45,
+    "unknown_delivery_quarantine": [
+      "hr@dotcoai.com"
+    ],
+    "known_suppressed_bounce": [
+      "careers@enablex.io"
+    ],
+    "resume_attachment": "Not attached; this is direct outreach, not formal CV application",
+    "gmail_sent_message_ids": [
+      "1a1800866cb20be2"
+    ],
+    "permanent_ledger_updated": true,
+    "queue_updated": true,
+    "immediate_bounce_search": "No new bounce found; delivery not guaranteed",
+    "replenishment": "Research attempted, no additional eligible and role-fit verified emails found",
+    "next_batches": "Do not force quotas; rerun fresh discovery before later batches and honor FIFO and daily cap."
+  }
 }
