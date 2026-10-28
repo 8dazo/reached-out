@@ -73,5 +73,12 @@
   ],
   "recovery_attempt": "Expanded discovery across October HN founder postings, employer career pages, official ATS and job indexes; retained qualified research in FIFO with non-send-ready status. No verified-ready contacts found; did not relax restrictions.",
   "sending_gate": "No recipient passed all role fit, India eligibility, current exact hiring contact, and historical suppression gates. No Gmail send call attempted.",
-  "delivery_note": "Gmail Sent confirms outbound acceptance, not final inbox delivery."
+  "delivery_note": "Gmail Sent confirms outbound acceptance, not final inbox delivery.",
+  "bounce_optout_reconciliation": {
+    "gmail_bounce_search": "2026-10-28",
+    "historical_known_bounce": "careers@enablex.io (2026-10-27), already suppressed",
+    "new_bounces_today": 0,
+    "confirmed_recruiter_optouts_today": 0,
+    "note": "General unsubscribe matches were newsletters, not recruiter opt-outs; no new suppression warranted."
+  }
 }
