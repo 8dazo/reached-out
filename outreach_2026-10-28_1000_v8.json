@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-28",
+  "batch_local_time": "10:00",
+  "observed_at_local": "2026-10-28 10:03+05:30",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "outreach_v7_config.json",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md"
+  ],
+  "batch_target": 7,
+  "new_gmail_sent_confirmed": 0,
+  "attempted_send_calls": 0,
+  "batch_shortfall": 7,
+  "confirmed_new_sent_today_prior_to_batch": 2,
+  "confirmed_new_sent_today_after_batch": 2,
+  "remaining_daily_capacity": 28,
+  "verified_ready_start": 0,
+  "verified_ready_end": 0,
+  "candidates_newly_researched": 5,
+  "candidates_added_to_fifo_as_unverified_or_fit_review": 5,
+  "lead_queue_total": 19,
+  "pre_send_check": "Gmail Sent checked, queue and permanent reached_out.json and applications.json read; no eligible send-ready lead; no Gmail send call performed",
+  "suppression_findings": [
+    {
+      "company": "Service Robot Co.",
+      "email": "hiring@servicerobotco.com",
+      "prior_send_date": "2026-09-17",
+      "reason": "Company already contacted; newer careers@ address must not bypass company dedupe"
+    },
+    {
+      "company": "SingleStore",
+      "reason": "Already contacted today"
+    },
+    {
+      "company": "Nexorlio",
+      "reason": "Already contacted today"
+    }
+  ],
+  "candidate_disqualifications": [
+    {
+      "company": "Mechabits",
+      "reason": "Official site says remote-first from Pakistan, outside target HQ regions"
+    },
+    {
+      "company": "ClarioStack",
+      "reason": "Official website lists office in Batticaloa, Sri Lanka, outside target HQ regions"
+    },
+    {
+      "company": "Trackerbot",
+      "reason": "India eligibility not established; third-party geographic listings conflict"
+    },
+    {
+      "company": "Magellan AI",
+      "reason": "No exact verified public recruiting mailbox and geographic eligibility sources conflict"
+    },
+    {
+      "company": "Enveritas",
+      "reason": "Official employer requires Greenhouse application, email is for questions; senior Python role mismatch"
+    },
+    {
+      "company": "FUTO",
+      "reason": "No verified exact recruiting mailbox for relevant current role"
+    },
+    {
+      "company": "Rinse",
+      "reason": "No explicit India-resident eligibility and no verified email"
+    }
+  ],
+  "known_bounces_from_today": 0,
+  "unknown_delivery_new": 0,
+  "github_queue_commit": "15fe66ef542249413035536a491f0f65d77f32f8",
+  "ready_replenishment_target": 45,
+  "notes": "Discovery attempted across current company careers, HN October hiring, official ATS and remote job indexes. Safety gates prevented send. Prior confirmed Gmail IDs today: 1a1800866cb20be2 and 1a18057bd9dbc340. No evidence of inbox delivery implied.",
+  "source_urls": [
+    "https://www.servicerobotco.com/careers/ai-native-full-stack-engineer",
+    "https://www.mechabits.com/",
+    "https://clariostack.com/",
+    "https://hnhiring.com/october-2026",
+    "https://www.enveritas.org/get-involved/work-with-us/",
+    "https://remotavia.com/jobs/full-stack-developer-magellan-ai-66bbb"
+  ]
+}
