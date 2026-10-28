@@ -176,6 +176,31 @@
       "thread_id": "1a1800866cb20be2",
       "sent_at": "2026-10-28",
       "delivery_check": "gmail_sent_confirmed"
+    },
+    {
+      "email": "pkhaitan@singlestore.com",
+      "person": "Pancham Khaitan",
+      "company": "SingleStore",
+      "company_hq": "San Francisco, California, United States",
+      "company_region": "US",
+      "role": "Software Engineer (India); AI Platform interest from October 5 hiring note",
+      "role_url": "https://job-boards.greenhouse.io/singlestore/jobs/8212128",
+      "hq_evidence_url": "https://job-boards.greenhouse.io/singlestore/jobs/8212128",
+      "eligibility_evidence": "Current official Software Engineer posting lists India; Oct 5 hiring note explicitly lists Software Engineer AI Platform Remote India",
+      "eligibility_url": "https://job-boards.greenhouse.io/singlestore/jobs/8212128",
+      "email_evidence_url": "https://news.ycombinator.com/item?id=47975571",
+      "email_evidence": "Pancham Khaitan explicitly provided pkhaitan at singlestore dot com in Oct 5 HN Who Is Hiring post; original source should be Oct 2026 HN post (hnhiring.com/october-2026).",
+      "verification": "explicit_public_current",
+      "fit_score": 85,
+      "notes": "AI Platform agents/RAG/evals/LLM controls; current official Software Engineer role mentions C++ and LLM/vector indexing. Contact via HN hiring post, not formal application.",
+      "discovered_at": "2026-10-28",
+      "observed_at": "2026-10-28",
+      "queue_position": 9,
+      "status": "claimed",
+      "claimed_at": "2026-10-28",
+      "claim_owner": "International Outreach Batches 08:00 2026-10-28",
+      "message_subject": "AI platform engineering at SingleStore",
+      "message_body": "Hi Pancham,\n\nYour October hiring note about SingleStore's AI Platform caught my eye, particularly the work on agent runtimes, vector search, and making LLM systems reliable. I also noticed the Software Engineer opening for India on your careers page.\n\nI'm an India-based engineer who has shipped backend APIs and AI workflows at Stride.AI. I built Captar to add execution budgets, tool policies, and tracing to LLM applications. I enjoy owning the engineering details from prototype to production.\n\nIs the AI Platform team still considering engineers, or is the India Software Engineer role the better place to apply?\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh"
     }
   ],
   "updated_at": "2026-10-28"
