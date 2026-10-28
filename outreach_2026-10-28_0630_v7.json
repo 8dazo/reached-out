@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-28",
+  "batch": "06:30",
+  "target": 7,
+  "daily_hard_cap": 30,
+  "initial_verified_ready": 0,
+  "precheck": {
+    "gmail_sent_today": 0,
+    "known_prior_bounce": [
+      "careers@enablex.io"
+    ],
+    "quarantined": [
+      "hr@dotcoai.com"
+    ],
+    "historical_contacts": 99,
+    "historical_applications": 49
+  },
+  "send_intents": [
+    {
+      "company": "Nexorlio",
+      "to": "careers@nexorlio.com",
+      "role": "Junior Full-Stack Developer",
+      "role_url": "https://nexorlio.com/careers/junior-full-stack-developer",
+      "source_urls": [
+        "https://nexorlio.com/careers/junior-full-stack-developer",
+        "https://www.nexorlio.com/about",
+        "https://www.nexorlio.com/careers"
+      ],
+      "status": "send_intent",
+      "draft": {
+        "to": "careers@nexorlio.com",
+        "subject": "Building full-stack products at Nexorlio",
+        "body": "Hi Nexorlio team,\n\nYour note about keeping engineers close to architecture decisions rather than handing work through layers resonated with me. That's the kind of small, hands-on team I enjoy.\n\nI've spent the last couple of years building products end to end, from React/Next.js interfaces to Node APIs, Postgres, and deployment. At Stride AI, I shipped production features across frontend and backend; independently, I built Captar to make LLM execution easier to control and trace. I noticed your worldwide-remote Junior Full-Stack Developer opening and would love to contribute.\n\nAre you considering engineers based in India for this role?\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nBest,\nDevansh"
+      },
+      "created_at": "2026-10-28"
+    }
+  ],
+  "sent": [],
+  "known_bounces": [],
+  "research_screening": [
+    {
+      "company": "Intigr8",
+      "reason": "AI/ML role requires 4+ years dedicated ML and fine-tuning; candidate has stronger full-stack/LLM product than model training"
+    },
+    {
+      "company": "Jakit Labs",
+      "reason": "Lithuania HQ and worldwide role verified, but no exact recruiting email published on careers page"
+    },
+    {
+      "company": "MailSentinel",
+      "reason": "Worldwide backend and careers email published but company HQ not verified in permitted regions"
+    },
+    {
+      "company": "Remote People",
+      "reason": "APAC full-stack role appears live but exact public recruiter email not confirmed"
+    },
+    {
+      "company": "Xsolla",
+      "reason": "Worldwide Web3 role demands 5+ years and production smart-wallet experience; poor fit"
+    }
+  ],
+  "status": "active",
+  "notes": "Gmail and permanent suppression reconciled. Single writer. All unverified and unknown-delivery leads withheld."
+}
