@@ -478,12 +478,17 @@
       "discovered_at": "2026-10-28",
       "observed_at": "2026-10-28",
       "queue_position": 26,
-      "status": "claimed",
+      "status": "sent_confirmed",
       "claimed_at": "2026-10-28T13:58:00+05:30",
       "claim_owner": "International Outreach Batches 14:00 2026-10-28",
       "message_subject": "Building the APAC full-stack platform",
       "message_body": "Hi Remote People team,\n\nYour Full Stack Engineer (APAC) role stood out because you're building the infrastructure that lets companies hire across borders, and engineers own features from design to rollout. I enjoy that kind of end-to-end responsibility.\n\nAt Stride AI, I've built backend APIs and React interfaces, including cross-app authentication, and shipped features with tests. Outside work, I built Captar to put spending limits, policies, and tracing around LLM calls. I'd love to bring that product mindset to your React/TypeScript team.\n\nCould you point me to the right person for the APAC role?\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh",
-      "checkpoint": "outreach_2026-10-28_1400_v8.json"
+      "checkpoint": "outreach_2026-10-28_1400_v8.json",
+      "gmail_message_id": "1a181a18c3f9a0a6",
+      "thread_id": "1a181a18c3f9a0a6",
+      "sent_at": "2026-10-28T14:00:10+05:30",
+      "delivery_check": "gmail_sent_confirmed",
+      "application_status": "contacted_not_formal_application"
     }
   ],
   "updated_at": "2026-10-28"
