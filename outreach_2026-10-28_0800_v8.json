@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-28",
+  "batch": "08:00",
+  "timezone": "Asia/Kolkata",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "outreach_v7_config.json",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md"
+  ],
+  "target": 7,
+  "daily_hard_cap": 30,
+  "prior_today_sent": [
+    {
+      "company": "Nexorlio",
+      "email": "careers@nexorlio.com",
+      "gmail_message_id": "1a1800866cb20be2"
+    }
+  ],
+  "initial_queue_ready": 0,
+  "lead_discovery_sources": [
+    "https://hnhiring.com/october-2026",
+    "https://www.singlestore.com/careers/jobs/",
+    "https://job-boards.greenhouse.io/singlestore/jobs/8212128",
+    "https://job-boards.greenhouse.io/enveritas",
+    "https://www.funnelstory.ai/"
+  ],
+  "screened_rejected": [
+    {
+      "company": "Enveritas",
+      "reason": "Backend role requires minimum 7 years full-time professional experience and extensive Python; candidate has less."
+    },
+    {
+      "company": "Trackerbot",
+      "reason": "Remote listing lacks explicit India/worldwide eligibility."
+    },
+    {
+      "company": "Typify",
+      "reason": "Remote availability does not establish India-resident eligibility; official role page missing."
+    },
+    {
+      "company": "Cyrus365",
+      "reason": "HQ not in allowed geography."
+    },
+    {
+      "company": "Zinex Solutions",
+      "reason": "HQ and official contact role evidence uncertain."
+    },
+    {
+      "company": "FunnelStory",
+      "reason": "Applied ML role requires 2+ years of production ML and math/statistics; candidate's matching experience not sufficiently verified."
+    },
+    {
+      "company": "General Intelligence Holdings",
+      "reason": "Company site not reachable; compensation conditional on future fundraising and senior CTO scope."
+    }
+  ],
+  "send_intents": [
+    {
+      "email": "pkhaitan@singlestore.com",
+      "company": "SingleStore",
+      "role": "Software Engineer (India); AI Platform interest from October 5 hiring note",
+      "subject": "AI platform engineering at SingleStore",
+      "body": "Hi Pancham,\n\nYour October hiring note about SingleStore's AI Platform caught my eye, particularly the work on agent runtimes, vector search, and making LLM systems reliable. I also noticed the Software Engineer opening for India on your careers page.\n\nI'm an India-based engineer who has shipped backend APIs and AI workflows at Stride.AI. I built Captar to add execution budgets, tool policies, and tracing to LLM applications. I enjoy owning the engineering details from prototype to production.\n\nIs the AI Platform team still considering engineers, or is the India Software Engineer role the better place to apply?\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh",
+      "evidence": "https://hnhiring.com/october-2026",
+      "status": "claimed_pending_send",
+      "claimed_at": "2026-10-28"
+    }
+  ],
+  "confirmed_sent": [],
+  "known_bounces": 0,
+  "unknown_delivery": 0,
+  "remaining_ready": 0,
+  "notes": "Only one contact passed all gates during discovery; do not relax eligibility. Single-writer checks show no competing active automation."
+}
