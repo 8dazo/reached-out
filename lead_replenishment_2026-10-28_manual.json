@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-28",
+  "activity": "manual lead research and strict queue replenishment",
+  "candidate_sources_reviewed": 16,
+  "candidates_saved": 5,
+  "send_ready_added": 0,
+  "emails_sent": 0,
+  "disqualified_examples": [
+    {
+      "company": "Techlumas",
+      "reason": "Official site explicitly India HQ"
+    },
+    {
+      "company": "Exynex",
+      "reason": "Current role requires 4+ years production ML experience"
+    },
+    {
+      "company": "Intigr8",
+      "reason": "Worldwide AI/ML engineer requires 4+ years ML"
+    }
+  ],
+  "remaining_blockers": [
+    "target-country corporate HQ verification",
+    "current exact email verification",
+    "role seniority/experience mismatch"
+  ],
+  "notes": "Existing sent and unknown-delivery statuses preserved; no auto-send on unverified candidates. Source links included in 2BBs_doubt.json."
+}
