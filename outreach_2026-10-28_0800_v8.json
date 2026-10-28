@@ -63,13 +63,31 @@
       "subject": "AI platform engineering at SingleStore",
       "body": "Hi Pancham,\n\nYour October hiring note about SingleStore's AI Platform caught my eye, particularly the work on agent runtimes, vector search, and making LLM systems reliable. I also noticed the Software Engineer opening for India on your careers page.\n\nI'm an India-based engineer who has shipped backend APIs and AI workflows at Stride.AI. I built Captar to add execution budgets, tool policies, and tracing to LLM applications. I enjoy owning the engineering details from prototype to production.\n\nIs the AI Platform team still considering engineers, or is the India Software Engineer role the better place to apply?\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh",
       "evidence": "https://hnhiring.com/october-2026",
-      "status": "claimed_pending_send",
-      "claimed_at": "2026-10-28"
+      "status": "sent_confirmed",
+      "claimed_at": "2026-10-28",
+      "gmail_message_id": "1a18057bd9dbc340"
     }
   ],
-  "confirmed_sent": [],
+  "confirmed_sent": [
+    {
+      "email": "pkhaitan@singlestore.com",
+      "company": "SingleStore",
+      "gmail_message_id": "1a18057bd9dbc340",
+      "thread_id": "1a18057bd9dbc340",
+      "subject": "AI platform engineering at SingleStore"
+    }
+  ],
   "known_bounces": 0,
   "unknown_delivery": 0,
   "remaining_ready": 0,
-  "notes": "Only one contact passed all gates during discovery; do not relax eligibility. Single-writer checks show no competing active automation."
+  "notes": "One new email confirmed; other prospects failed role-fit, HQ, or location eligibility checks. Queue remains empty of verified unsent leads; further discovery required next batch.",
+  "send_attempts": 1,
+  "new_found": 1,
+  "verified": 1,
+  "confirmed_sent_count": 1,
+  "batch_shortfall": 6,
+  "daily_sent_total_confirmed": 2,
+  "daily_remaining_capacity": 28,
+  "github_reached_out_commit": "321768afd11ba5a0a8793d7407b0069c80641a91",
+  "github_queue_commit": "e5de1b24d2767f41316b0b531697cadc5e59ad3e"
 }
