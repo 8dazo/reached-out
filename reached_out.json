@@ -1299,6 +1299,20 @@
       "thread_id": "1a1800866cb20be2",
       "source": "outreach_2026-10-28_0630_v7.json",
       "note": "Personalized remote-global role outreach; no resume attachment; not a formal application"
+    },
+    {
+      "email": "pkhaitan@singlestore.com",
+      "person": "Pancham Khaitan",
+      "company": "SingleStore",
+      "role": "Software Engineer India / AI Platform interest",
+      "status": "sent",
+      "sent_at": "2026-10-28",
+      "gmail_message_id": "1a18057bd9dbc340",
+      "thread_id": "1a18057bd9dbc340",
+      "application_status": "contacted_not_formal_application",
+      "source_url": "https://hnhiring.com/october-2026",
+      "job_url": "https://job-boards.greenhouse.io/singlestore/jobs/8212128",
+      "checkpoint": "outreach_2026-10-28_0800_v8.json"
     }
   ],
   "policy_effective_date": "2026-10-09",
