@@ -459,6 +459,31 @@
       "observed_at": "2026-10-28",
       "discovered_at": "2026-10-28",
       "queue_position": 25
+    },
+    {
+      "email": "join@remotepeople.com",
+      "company": "RemotePeople",
+      "company_hq": "New York, NY, USA",
+      "company_region": "US",
+      "role": "Full Stack Engineer (APAC)",
+      "role_url": "https://job-boards.greenhouse.io/remotepeople/jobs/5011829101",
+      "hq_evidence_url": "https://remotepeople.com/about/",
+      "eligibility_evidence": "Official Greenhouse role location APAC or China (Remote); RemotePeople has India office and global hiring operations; APAC includes India. 3+ years web development and React/TypeScript.",
+      "eligibility_url": "https://job-boards.greenhouse.io/remotepeople/jobs/5011829101",
+      "email_evidence_url": "https://job-boards.greenhouse.io/remotepeople?error=true",
+      "email_evidence": "Official Greenhouse careers board explicitly invites applicants to contact join@remotepeople.com with interest; specific role page also lists same address for help.",
+      "verification": "explicit_public_current",
+      "fit_score": 83,
+      "notes": "99-word personalized networking inquiry; not a formal job application (official role application form requires CV). Candidate strongest in React/TS/Node, Python framework depth not asserted.",
+      "discovered_at": "2026-10-28",
+      "observed_at": "2026-10-28",
+      "queue_position": 26,
+      "status": "claimed",
+      "claimed_at": "2026-10-28T13:58:00+05:30",
+      "claim_owner": "International Outreach Batches 14:00 2026-10-28",
+      "message_subject": "Building the APAC full-stack platform",
+      "message_body": "Hi Remote People team,\n\nYour Full Stack Engineer (APAC) role stood out because you're building the infrastructure that lets companies hire across borders, and engineers own features from design to rollout. I enjoy that kind of end-to-end responsibility.\n\nAt Stride AI, I've built backend APIs and React interfaces, including cross-app authentication, and shipped features with tests. Outside work, I built Captar to put spending limits, policies, and tracing around LLM calls. I'd love to bring that product mindset to your React/TypeScript team.\n\nCould you point me to the right person for the APAC role?\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh",
+      "checkpoint": "outreach_2026-10-28_1400_v8.json"
     }
   ],
   "updated_at": "2026-10-28"
