@@ -196,11 +196,16 @@
       "discovered_at": "2026-10-28",
       "observed_at": "2026-10-28",
       "queue_position": 9,
-      "status": "claimed",
+      "status": "sent_confirmed",
       "claimed_at": "2026-10-28",
       "claim_owner": "International Outreach Batches 08:00 2026-10-28",
       "message_subject": "AI platform engineering at SingleStore",
-      "message_body": "Hi Pancham,\n\nYour October hiring note about SingleStore's AI Platform caught my eye, particularly the work on agent runtimes, vector search, and making LLM systems reliable. I also noticed the Software Engineer opening for India on your careers page.\n\nI'm an India-based engineer who has shipped backend APIs and AI workflows at Stride.AI. I built Captar to add execution budgets, tool policies, and tracing to LLM applications. I enjoy owning the engineering details from prototype to production.\n\nIs the AI Platform team still considering engineers, or is the India Software Engineer role the better place to apply?\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh"
+      "message_body": "Hi Pancham,\n\nYour October hiring note about SingleStore's AI Platform caught my eye, particularly the work on agent runtimes, vector search, and making LLM systems reliable. I also noticed the Software Engineer opening for India on your careers page.\n\nI'm an India-based engineer who has shipped backend APIs and AI workflows at Stride.AI. I built Captar to add execution budgets, tool policies, and tracing to LLM applications. I enjoy owning the engineering details from prototype to production.\n\nIs the AI Platform team still considering engineers, or is the India Software Engineer role the better place to apply?\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh",
+      "gmail_message_id": "1a18057bd9dbc340",
+      "thread_id": "1a18057bd9dbc340",
+      "sent_at": "2026-10-28",
+      "delivery_check": "gmail_sent_confirmed",
+      "checkpoint": "outreach_2026-10-28_0800_v8.json"
     }
   ],
   "updated_at": "2026-10-28"
