@@ -37,3 +37,6 @@ At 14:00 create final reconciliation and queue-health report: 30 goal versus con
 
 ## Quality
 Read MESSAGE_QUALITY_V2.md latest additions. Different human opening, verified source-specific detail, concrete relevant proof and natural CTA. Favor actual responses over quota. When there aren't enough qualified leads, report the shortfall and leave the rest unsent.
+
+## Time boundary guard
+Check an authoritative Asia/Kolkata local clock immediately before the first outbound send in each batch. Never send before that batch's nominal local start time, even by seconds. Preflight and discovery may happen early; outbound must wait for the slot or defer. Count any accidental early send against the intended slot and daily cap; never resend it.
