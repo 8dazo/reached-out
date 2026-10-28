@@ -84,7 +84,7 @@
     "daily_remaining_cap": 29,
     "initial_pool_target": 45,
     "verified_ready_remaining": 0,
-    "ready_pool_shortfall": 45,
+    "ready_pool_shortfall": 44,
     "unknown_delivery_quarantine": [
       "hr@dotcoai.com"
     ],
@@ -99,6 +99,7 @@
     "queue_updated": true,
     "immediate_bounce_search": "No new bounce found; delivery not guaranteed",
     "replenishment": "Research attempted, no additional eligible and role-fit verified emails found",
-    "next_batches": "Do not force quotas; rerun fresh discovery before later batches and honor FIFO and daily cap."
+    "next_batches": "Do not force quotas; rerun fresh discovery before later batches and honor FIFO and daily cap.",
+    "verified_new_candidates_total": 1
   }
 }
