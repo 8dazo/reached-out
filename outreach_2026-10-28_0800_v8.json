@@ -74,7 +74,8 @@
       "company": "SingleStore",
       "gmail_message_id": "1a18057bd9dbc340",
       "thread_id": "1a18057bd9dbc340",
-      "subject": "AI platform engineering at SingleStore"
+      "subject": "AI platform engineering at SingleStore",
+      "gmail_timestamp_ist": "2026-10-28T07:59:56+05:30"
     }
   ],
   "known_bounces": 0,
@@ -89,5 +90,6 @@
   "daily_sent_total_confirmed": 2,
   "daily_remaining_capacity": 28,
   "github_reached_out_commit": "321768afd11ba5a0a8793d7407b0069c80641a91",
-  "github_queue_commit": "e5de1b24d2767f41316b0b531697cadc5e59ad3e"
+  "github_queue_commit": "e5de1b24d2767f41316b0b531697cadc5e59ad3e",
+  "timing_note": "Gmail timestamp is four seconds before the nominal 08:00 slot; future runs must enforce not-before local batch time. This send is counted against the 08:00 batch and daily cap, never repeated."
 }
