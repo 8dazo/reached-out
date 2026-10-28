@@ -1313,6 +1313,23 @@
       "source_url": "https://hnhiring.com/october-2026",
       "job_url": "https://job-boards.greenhouse.io/singlestore/jobs/8212128",
       "checkpoint": "outreach_2026-10-28_0800_v8.json"
+    },
+    {
+      "email": "join@remotepeople.com",
+      "person": null,
+      "company": "RemotePeople",
+      "company_hq": "New York, NY, USA",
+      "role": "Full Stack Engineer (APAC)",
+      "status": "sent",
+      "sent_at": "2026-10-28",
+      "gmail_message_id": "1a181a18c3f9a0a6",
+      "thread_id": "1a181a18c3f9a0a6",
+      "subject": "Building the APAC full-stack platform",
+      "application_status": "contacted_not_formal_application",
+      "email_verification": "official_careers_public_exact",
+      "delivery_check": "gmail_sent_confirmed",
+      "source_url": "https://job-boards.greenhouse.io/remotepeople/jobs/5011829101",
+      "checkpoint": "outreach_2026-10-28_1400_v8.json"
     }
   ],
   "policy_effective_date": "2026-10-09",
