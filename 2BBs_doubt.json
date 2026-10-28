@@ -170,8 +170,12 @@
       "discovered_at": "2026-10-28",
       "observed_at": "2026-10-28",
       "queue_position": 8,
-      "status": "claimed",
-      "claimed_at": "2026-10-28"
+      "status": "sent_confirmed",
+      "claimed_at": "2026-10-28",
+      "gmail_message_id": "1a1800866cb20be2",
+      "thread_id": "1a1800866cb20be2",
+      "sent_at": "2026-10-28",
+      "delivery_check": "gmail_sent_confirmed"
     }
   ],
   "updated_at": "2026-10-28"
