@@ -151,7 +151,28 @@
       "thread_id": "1a17d3ed9905cb1d",
       "sent_at": "2026-10-27",
       "delivery_check": "gmail_sent_confirmed"
+    },
+    {
+      "email": "careers@nexorlio.com",
+      "company": "Nexorlio",
+      "company_region": "US",
+      "company_hq": "Las Vegas, Nevada, United States",
+      "role": "Junior Full-Stack Developer",
+      "role_url": "https://nexorlio.com/careers/junior-full-stack-developer",
+      "hq_evidence_url": "https://www.nexorlio.com/about",
+      "eligibility_evidence": "Fully remote — worldwide; full-time / part-time / contract; flexible hours with U.S. and European hours",
+      "eligibility_url": "https://nexorlio.com/careers/junior-full-stack-developer",
+      "verification": "explicit_public_current",
+      "email_evidence_url": "https://www.nexorlio.com/careers",
+      "email_evidence": "Exact careers@nexorlio.com is printed on official careers page",
+      "fit_score": 82,
+      "notes": "React/Next.js, APIs, product ownership, distributed client work; title junior despite candidate 2+ years",
+      "discovered_at": "2026-10-28",
+      "observed_at": "2026-10-28",
+      "queue_position": 8,
+      "status": "claimed",
+      "claimed_at": "2026-10-28"
     }
   ],
-  "updated_at": "2026-10-27"
+  "updated_at": "2026-10-28"
 }
