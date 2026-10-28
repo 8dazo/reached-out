@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-28",
+  "batch_local_time": "12:00",
+  "observed_at_local": "2026-10-28 12:00+05:30",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "outreach_v7_config.json",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md"
+  ],
+  "batch_target": 7,
+  "verified_ready_start": 0,
+  "verified_ready_end": 0,
+  "candidates_researched_and_screened": 14,
+  "candidates_added_to_fifo": 6,
+  "candidates_added_verified_ready": 0,
+  "attempted_send_calls": 0,
+  "new_gmail_sent_confirmed": 0,
+  "known_new_bounces": 0,
+  "unknown_delivery_new": 0,
+  "batch_shortfall": 7,
+  "confirmed_new_sent_today_prior_to_batch": 2,
+  "confirmed_new_sent_today_after_batch": 2,
+  "remaining_daily_capacity": 28,
+  "gmail_sent_message_ids_today": [
+    "1a1800866cb20be2",
+    "1a18057bd9dbc340"
+  ],
+  "github_queue_commit": "e8c2cb7785fa59c29193cf7042e3f3415d5d28bd",
+  "candidate_disqualifications": [
+    {
+      "company": "Matcha.fm",
+      "reason": "Official application lists US, Canada, Europe, UK, Brazil, LATAM; not India despite general anywhere claim."
+    },
+    {
+      "company": "Search Atlas",
+      "reason": "Official full-stack listing requires 5+ years and country allowlist excludes India."
+    },
+    {
+      "company": "FunnelStory",
+      "reason": "Explicit India-remote and published exact contact, but 2+ years production ML and math/stats requirement not substantiated by candidate profile; held for fit review."
+    },
+    {
+      "company": "MixRank",
+      "reason": "Excellent role/region match, but no current publicly confirmed hiring-specific email; application form only."
+    },
+    {
+      "company": "LiveKit",
+      "reason": "Public recruiting address designated for accommodation requests, not outreach; India eligibility not explicit on job page."
+    },
+    {
+      "company": "Magpie Health Analytics",
+      "reason": "Third-party global remote classification not corroborated by employer; US federal work, no recruiting mailbox."
+    },
+    {
+      "company": "Tether",
+      "reason": "Worldwide roles use official portal and explicitly caution to apply through portal; no suitable verified hiring email."
+    },
+    {
+      "company": "Datamint",
+      "reason": "Remote-global direct jobs mailbox, but available roles require Rust systems/browser-security specialization not established."
+    }
+  ],
+  "sources": [
+    "https://news.ycombinator.com/item?id=49922569",
+    "https://jobs.firstraysvc.com/companies/funnelstory-2",
+    "https://mixrank.com/careers/",
+    "https://livekit.com/careers",
+    "https://matcha.fm/apply/fse",
+    "https://careers.searchatlas.com/jobs/595729-senior-full-stack-engineer-django-next-js",
+    "https://magpiehealthanalytics.com/contact-us",
+    "https://careers.tether.io/"
+  ],
+  "recovery_attempt": "Expanded discovery across October HN founder postings, employer career pages, official ATS and job indexes; retained qualified research in FIFO with non-send-ready status. No verified-ready contacts found; did not relax restrictions.",
+  "sending_gate": "No recipient passed all role fit, India eligibility, current exact hiring contact, and historical suppression gates. No Gmail send call attempted.",
+  "delivery_note": "Gmail Sent confirms outbound acceptance, not final inbox delivery."
+}
