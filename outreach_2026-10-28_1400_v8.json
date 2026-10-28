@@ -1,7 +1,7 @@
 {
   "date": "2026-10-28",
   "batch_local_time": "14:00",
-  "status": "send_intent_checkpointed_waiting_for_local_14:00",
+  "status": "completed_reconciled",
   "protocols": [
     "OUTREACH_V7.md",
     "outreach_v7_config.json",
@@ -26,10 +26,15 @@
       "role": "Full Stack Engineer (APAC)",
       "subject": "Building the APAC full-stack platform",
       "message_body": "Hi Remote People team,\n\nYour Full Stack Engineer (APAC) role stood out because you're building the infrastructure that lets companies hire across borders, and engineers own features from design to rollout. I enjoy that kind of end-to-end responsibility.\n\nAt Stride AI, I've built backend APIs and React interfaces, including cross-app authentication, and shipped features with tests. Outside work, I built Captar to put spending limits, policies, and tracing around LLM calls. I'd love to bring that product mindset to your React/TypeScript team.\n\nCould you point me to the right person for the APAC role?\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh",
-      "status": "claimed_pre_send",
-      "gmail_id": null,
+      "status": "sent_confirmed",
+      "gmail_id": "1a181a18c3f9a0a6",
       "verification": "official role+email+HQ",
-      "queue_claim_commit": "5e03a1fbe20fa4f290e694f7b900c4bf5d07c899"
+      "queue_claim_commit": "5e03a1fbe20fa4f290e694f7b900c4bf5d07c899",
+      "thread_id": "1a181a18c3f9a0a6",
+      "gmail_sent_verified": true,
+      "ledger_commit": "23789ea672bac7ff732743a88ece959ebdf0bf79",
+      "queue_commit": "242ae34d1b84a210aa875b455094426fa47c05cc",
+      "application_status": "contacted_not_formal_application"
     }
   ],
   "other_candidates_held": [
@@ -54,5 +59,68 @@
       "reason": "Application portal only, no role-appropriate verified email"
     }
   ],
-  "notes": "No Gmail send before 14:00 Asia/Kolkata. Do not mark confirmed until Gmail Sent and GitHub ledger durable."
+  "notes": "No Gmail send before 14:00 Asia/Kolkata. Do not mark confirmed until Gmail Sent and GitHub ledger durable.",
+  "observed_at_local": "2026-10-28T14:00:10+05:30",
+  "batch_target": 2,
+  "batch_confirmed_sent": 1,
+  "batch_shortfall": 1,
+  "confirmed_sent_today": 3,
+  "remaining_daily_capacity": 27,
+  "new_known_bounces": 0,
+  "new_optouts": 0,
+  "unknown_delivery_new": 0,
+  "verified_ready_end": 0,
+  "candidate_pool_end": 26,
+  "source_discovery_note": "Reviewed HN October hiring, official Greenhouse, company HQ/role source, and additional role boards; one candidate passed all eligibility/contact/fit gates. Several attractive roles were held for country restrictions, seniority mismatch, missing exact public hiring email, or HQ outside allowed regions.",
+  "daily_summary": {
+    "date": "2026-10-28",
+    "batch_results": [
+      {
+        "slot": "06:30",
+        "target": 7,
+        "confirmed": 1
+      },
+      {
+        "slot": "08:00",
+        "target": 7,
+        "confirmed": 1
+      },
+      {
+        "slot": "10:00",
+        "target": 7,
+        "confirmed": 0
+      },
+      {
+        "slot": "12:00",
+        "target": 7,
+        "confirmed": 0
+      },
+      {
+        "slot": "14:00",
+        "target": 2,
+        "confirmed": 1
+      }
+    ],
+    "target": 30,
+    "confirmed_gmail_sent": 3,
+    "known_new_bounces": 0,
+    "net_no_known_bounce": 3,
+    "shortfall": 27,
+    "remaining_daily_capacity": 27,
+    "gmail_ids": [
+      "1a1800866cb20be2",
+      "1a18057bd9dbc340",
+      "1a181a18c3f9a0a6"
+    ],
+    "ready_contacts_carryover": 0,
+    "queue_total": 26,
+    "quarantined_ambiguous_previous_day": [
+      "hr@dotcoai.com"
+    ],
+    "historical_bounce_suppressed": [
+      "careers@enablex.io"
+    ],
+    "followups_sent_by_this_batch": 0,
+    "note": "No unverified addresses used. Gmail Sent proves outbound acceptance, not recipient inbox delivery. Remaining slots do not roll into future batches."
+  }
 }
