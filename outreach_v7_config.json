@@ -50,5 +50,23 @@
   "send_single_recipient": true,
   "require_gmail_sent_reconciliation": true,
   "max_followups_lifetime": 1,
-  "backup_discovery_on_ready_below": 10
+  "backup_discovery_on_ready_below": 10,
+  "recovery": {
+    "protocol": "SELF_HEALING_V8.md",
+    "enabled": true,
+    "initial_pool_goal": 45,
+    "ready_pool_warning": 20,
+    "ready_pool_critical": 10,
+    "replenish_on_shortfall": true,
+    "replenish_expands_sources": true,
+    "preserve_fifo": true,
+    "require_single_writer": true,
+    "unknown_send_action": "quarantine_and_reconcile",
+    "github_write_failure": "halt_outbound_until_durable",
+    "hard_bounce_action": "suppress_exact_and_replace",
+    "attachment_block_action": "omit_only_for_non_application_outreach",
+    "daily_audit_required": true,
+    "no_blind_retries": true,
+    "never_lower_verification": true
+  }
 }
