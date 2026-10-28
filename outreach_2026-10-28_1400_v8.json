@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-28",
+  "batch_local_time": "14:00",
+  "status": "send_intent_checkpointed_waiting_for_local_14:00",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "outreach_v7_config.json",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md"
+  ],
+  "batch_cap": 2,
+  "daily_hard_cap": 30,
+  "confirmed_sent_before_batch": 2,
+  "verified_ready_start": 0,
+  "candidate_pool_before": 25,
+  "source_discovery_checked": [
+    "https://news.ycombinator.com/item?id=49922569",
+    "https://job-boards.greenhouse.io/remotepeople/jobs/5011829101",
+    "https://remotepeople.com/about/",
+    "https://job-boards.greenhouse.io/remotepeople?error=true"
+  ],
+  "send_intents": [
+    {
+      "company": "RemotePeople",
+      "email": "join@remotepeople.com",
+      "role": "Full Stack Engineer (APAC)",
+      "subject": "Building the APAC full-stack platform",
+      "message_body": "Hi Remote People team,\n\nYour Full Stack Engineer (APAC) role stood out because you're building the infrastructure that lets companies hire across borders, and engineers own features from design to rollout. I enjoy that kind of end-to-end responsibility.\n\nAt Stride AI, I've built backend APIs and React interfaces, including cross-app authentication, and shipped features with tests. Outside work, I built Captar to put spending limits, policies, and tracing around LLM calls. I'd love to bring that product mindset to your React/TypeScript team.\n\nCould you point me to the right person for the APAC role?\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh",
+      "status": "claimed_pre_send",
+      "gmail_id": null,
+      "verification": "official role+email+HQ",
+      "queue_claim_commit": "5e03a1fbe20fa4f290e694f7b900c4bf5d07c899"
+    }
+  ],
+  "other_candidates_held": [
+    {
+      "company": "Oneleet",
+      "reason": "Role requires 5+ years and job location US/EU despite global hiring policy"
+    },
+    {
+      "company": "Trackerbot",
+      "reason": "Third-party job location lists EU countries excluding India"
+    },
+    {
+      "company": "Taskly Anything",
+      "reason": "Toronto, Canada HQ outside permitted HQ regions"
+    },
+    {
+      "company": "FunnelStory",
+      "reason": "Requires 2+ years production ML experience not established"
+    },
+    {
+      "company": "Tether",
+      "reason": "Application portal only, no role-appropriate verified email"
+    }
+  ],
+  "notes": "No Gmail send before 14:00 Asia/Kolkata. Do not mark confirmed until Gmail Sent and GitHub ledger durable."
+}
