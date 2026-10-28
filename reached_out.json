@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-10-28",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -1287,6 +1287,18 @@
       "email_verification": "explicit_public_current",
       "delivery_check": "gmail_sent_confirmed",
       "note": "Personalized 147-word email; outreach only, no CV attachment, not a formal ATS application."
+    },
+    {
+      "company": "Nexorlio",
+      "email": "careers@nexorlio.com",
+      "role": "Junior Full-Stack Developer",
+      "status": "sent",
+      "contacted_at": "2026-10-28",
+      "subject": "Building full-stack products at Nexorlio",
+      "gmail_message_id": "1a1800866cb20be2",
+      "thread_id": "1a1800866cb20be2",
+      "source": "outreach_2026-10-28_0630_v7.json",
+      "note": "Personalized remote-global role outreach; no resume attachment; not a formal application"
     }
   ],
   "policy_effective_date": "2026-10-09",
