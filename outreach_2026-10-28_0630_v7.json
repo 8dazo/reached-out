@@ -26,16 +26,25 @@
         "https://www.nexorlio.com/about",
         "https://www.nexorlio.com/careers"
       ],
-      "status": "send_intent",
+      "status": "sent_confirmed",
       "draft": {
         "to": "careers@nexorlio.com",
         "subject": "Building full-stack products at Nexorlio",
         "body": "Hi Nexorlio team,\n\nYour note about keeping engineers close to architecture decisions rather than handing work through layers resonated with me. That's the kind of small, hands-on team I enjoy.\n\nI've spent the last couple of years building products end to end, from React/Next.js interfaces to Node APIs, Postgres, and deployment. At Stride AI, I shipped production features across frontend and backend; independently, I built Captar to make LLM execution easier to control and trace. I noticed your worldwide-remote Junior Full-Stack Developer opening and would love to contribute.\n\nAre you considering engineers based in India for this role?\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nBest,\nDevansh"
       },
-      "created_at": "2026-10-28"
+      "created_at": "2026-10-28",
+      "gmail_message_id": "1a1800866cb20be2"
     }
   ],
-  "sent": [],
+  "sent": [
+    {
+      "company": "Nexorlio",
+      "email": "careers@nexorlio.com",
+      "gmail_message_id": "1a1800866cb20be2",
+      "thread_id": "1a1800866cb20be2",
+      "confirmed_sent_label": true
+    }
+  ],
   "known_bounces": [],
   "research_screening": [
     {
@@ -59,6 +68,9 @@
       "reason": "Worldwide Web3 role demands 5+ years and production smart-wallet experience; poor fit"
     }
   ],
-  "status": "active",
-  "notes": "Gmail and permanent suppression reconciled. Single writer. All unverified and unknown-delivery leads withheld."
+  "status": "partial_batch_completed",
+  "notes": "Gmail and permanent suppression reconciled. Single writer. All unverified and unknown-delivery leads withheld.",
+  "shortfall": 6,
+  "verified_ready_remaining": 0,
+  "net_no_known_bounce": 1
 }
