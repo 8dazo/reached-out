@@ -579,8 +579,8 @@
     },
     {
       "company": "UpLayer",
-      "company_hq": "Harrisonville, Missouri, United States (official US office; Bangladesh office also listed)",
-      "company_region": "US",
+      "company_hq": "Unconfirmed (official site lists US and Bangladesh offices)",
+      "company_region": "unconfirmed",
       "role": "AI Engineer",
       "role_url": "https://uplayer.agency/careers/ai-engineer",
       "hq_evidence_url": "https://uplayer.agency/",
@@ -591,7 +591,7 @@
       "email_evidence": "Official AI Engineer application instructions explicitly publish exact address",
       "verification": "explicit_public_current",
       "fit_score": 79,
-      "notes": "4+ years listed, but company says applicants need not meet every line; candid note explains candidate ~3 including internships; role aligns with Captor LLM budgets/guardrails/traces and RAG eval",
+      "notes": "4+ years listed, but company says applicants need not meet every line; candid note explains candidate ~3 including internships; role aligns with Captor LLM budgets/guardrails/traces and RAG eval POST-SEND QUALIFICATION EXCEPTION: official US office does not prove US headquarters. Do not count as fully eligible until independently verified; do not resend.",
       "discovered_at": "2026-10-29",
       "observed_at": "2026-10-29",
       "queue_position": 32,
@@ -602,7 +602,8 @@
       "gmail_message_id": "1a1857ff3060c11e",
       "thread_id": "1a1857ff3060c11e",
       "sent_at": "2026-10-29",
-      "delivery_check": "gmail_sent_confirmed"
+      "delivery_check": "gmail_sent_confirmed",
+      "hq_verification": "US office published, headquarters not explicitly established; post-send audit exception"
     },
     {
       "company": "Gather AI",
