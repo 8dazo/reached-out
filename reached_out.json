@@ -1362,6 +1362,24 @@
       "source_url": "https://uplayer.agency/careers/ai-engineer",
       "notes": "98-word role-specific inquiry. Four-year requirement transparently acknowledged; employer invites applicants not meeting every line. No resume attached. Post-send HQ verification exception: US office listed, qualifying headquarters not independently confirmed. Suppression remains permanent.",
       "hq_verification": "unconfirmed_US_office_only"
+    },
+    {
+      "email": "careers@drivetrain.ai",
+      "person": null,
+      "company": "Drivetrain",
+      "company_hq": "Sunnyvale, California, USA",
+      "role": "Frontend Engineer (Remote India)",
+      "status": "sent",
+      "sent_at": "2026-10-29",
+      "subject": "Building Drivetrain's complex frontend",
+      "gmail_message_id": "1a1865c90608106e",
+      "thread_id": "1a1865c90608106e",
+      "source": "outreach_2026-10-29_1200_v8.json",
+      "application_status": "contacted_not_formal_application",
+      "email_verification": "official_Lever_role_exact_email_corrob",
+      "delivery_check": "gmail_sent_confirmed",
+      "source_url": "https://jobs.lever.co/drivetrain/cd39cc4e-056e-444c-8c17-9f97e34ddbce",
+      "notes": "95-word tailored frontend inquiry, no CV; official role confirms US HQ, India remote, 1-3 years experience."
     }
   ],
   "policy_effective_date": "2026-10-09",
