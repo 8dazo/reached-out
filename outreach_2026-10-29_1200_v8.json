@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-29",
+  "slot": "12:00",
+  "timezone": "Asia/Kolkata",
+  "batch_cap": 7,
+  "confirmed_sent_this_run": 1,
+  "send_attempts": 1,
+  "confirmed_gmail_message_ids": [
+    "1a1865c90608106e"
+  ],
+  "confirmed_new_sends_today": 3,
+  "daily_hard_cap": 30,
+  "remaining_daily_capacity": 27,
+  "batch_shortfall": 6,
+  "verified_ready_start": 0,
+  "verified_ready_end": 0,
+  "fifo_records_end": 46,
+  "source_research": [
+    {
+      "company": "Drivetrain",
+      "role": "Frontend Engineer",
+      "status": "sent_confirmed",
+      "role_url": "https://jobs.lever.co/drivetrain/cd39cc4e-056e-444c-8c17-9f97e34ddbce",
+      "hq": "Sunnyvale CA USA (official role and company)",
+      "india_eligibility": "Official Lever role India/Remote",
+      "email": "careers@drivetrain.ai",
+      "email_evidence": "Official Lever role email (obfuscated on web) corroborated by public role mirrors",
+      "message_id": "1a1865c90608106e",
+      "application_status": "contacted_not_formal_application"
+    },
+    {
+      "company": "HighLevel",
+      "role": "SDE II",
+      "status": "unverified",
+      "role_url": "https://jobs.lever.co/gohighlevel/b4f73bb7-d3ec-4886-9509-3feaf28a7d60",
+      "reason": "Dallas HQ and India-remote role confirmed; no exact suitable recruiting mailbox publicly verified"
+    },
+    {
+      "company": "Termgrid",
+      "role": "Engineering Manager",
+      "status": "disqualified",
+      "role_url": "https://jobs.lever.co/termgrid/940bb346-22dc-44b7-a25c-f907b0b95095",
+      "reason": "8+ years management role; official email application requires resume"
+    },
+    {
+      "company": "CVector",
+      "role": "Full Stack/Backend SWE",
+      "status": "needs_fit_review",
+      "role_url": "https://news.ycombinator.com/item?id=49922569",
+      "reason": "NYC HQ and HN visa sponsorship verified, but current official careers list only senior/principal roles, candidate junior/mid; do not send"
+    },
+    {
+      "company": "CorePillar",
+      "role": "AI Platform Observability SDE",
+      "status": "unverified",
+      "role_url": "https://corepillar.ai/careers-software-development-engineer-ai-platform-observability",
+      "reason": "India-remote role and exact mailbox, but foreign parent corporate HQ still unverified; CV or LinkedIn profile required"
+    },
+    {
+      "company": "Tether",
+      "role": "AI Harness Engineer",
+      "status": "disqualified",
+      "reason": "Corporate HQ El Salvador, outside configured regions",
+      "source": "https://tether.io/terms/"
+    }
+  ],
+  "new_queue_records": 2,
+  "existing_queue_records_revalidated": 2,
+  "verified_new_contacts": 1,
+  "known_bounces_today": 0,
+  "unknown_delivery": 0,
+  "reply_or_optout_today": 0,
+  "connector_failures": 0,
+  "source_failures": [],
+  "attachment_blockers_preserved": [
+    "SerpApi requires CV",
+    "Mpeak requires CV"
+  ],
+  "writer_guard": "Recovery 08:00 completed, 06:30 completed; only this run sent in 12:00 slot; exact Gmail Sent and ledger rechecked before sending",
+  "send_checkpoint_commit": "70475a7e12fee3cf73431ef4f762125e212d0218",
+  "ledger_commit": "4958cc2b927d72de33979c8f5c59a3286589b135",
+  "queue_confirm_commit": "4f9f15130be3f30ea1fc9e31c53ab425872d7d1d",
+  "replenishment_commit": "736c8d9cc50479a79f2e4c3d421ec02762410297",
+  "status": "partial_success_verified_lead_shortage",
+  "notes": "No missed-batch volume rolled forward. UpLayer earlier HQ exception remains permanently suppressed. No send to unverified HQ, address, or eligibility. Gmail SENT acceptance is not proof of inbox delivery. Zero send-ready reserve after this run."
+}
