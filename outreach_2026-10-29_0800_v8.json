@@ -20,7 +20,7 @@
       "subject": "AI reliability work at UpLayer",
       "body": "Hi UpLayer team,\n\nYour AI Engineer role puts retrieval quality, guardrails, and fallbacks inside the shipped product rather than treating them as later fixes. That is the kind of engineering I enjoy.\n\nI built Captor to add per-call LLM budgets, policies, and traces, and at Stride AI I owned backend APIs alongside frontend features. My experience is around three years including internships, below the four years listed, but the problems in this role are ones I've been working on directly.\n\nWould you consider my work for the AI Engineer opening despite that gap?\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh",
       "word_count": 98,
-      "status": "send_intent",
+      "status": "sent_confirmed",
       "claim_owner": "International Outreach Batches 2026-10-29 08:00",
       "source_urls": [
         "https://uplayer.agency/careers/ai-engineer",
@@ -30,13 +30,53 @@
       "eligibility_evidence": "Role explicitly remote GMT-6 to GMT+6; India IST GMT+5:30 included",
       "contact_evidence": "Exact careers@uplayer.agency printed in AI Engineer role application instructions",
       "experience_note": "Role asks 4+ years but explicitly encourages applications not meeting every line; candidate transparently has ~3 years including internships",
-      "application_status": "contacted_not_formal_application"
+      "application_status": "contacted_not_formal_application",
+      "gmail_message_id": "1a1857ff3060c11e",
+      "thread_id": "1a1857ff3060c11e",
+      "delivery_check": "gmail_sent_confirmed",
+      "sent_at": "2026-10-29T08:01:57+05:30"
     }
   ],
-  "confirmed_sent": 0,
+  "confirmed_sent": 1,
   "known_bounces": 0,
   "unknown_delivery": 0,
-  "send_attempts": 0,
-  "shortfall": null,
-  "notes": "Pre-send durable intent; do not retry automatically if Gmail acceptance is uncertain."
+  "send_attempts": 1,
+  "shortfall": 6,
+  "notes": "One verified, candid 98-word UpLayer outreach; Gmail direct read SENT and exact recipient, durable ledger and queue committed. No immediate bounce. Six-slot shortfall due to no other qualified contact with verified email. 45 ready target unmet.",
+  "daily_confirmed_total": 2,
+  "daily_remaining_capacity": 28,
+  "queue_total": 37,
+  "remaining_ready": 0,
+  "new_researched_saved": 5,
+  "research_candidates": [
+    {
+      "company": "Gather AI",
+      "reason": "No official recruiting mailbox; strong fit, official Greenhouse role India remote"
+    },
+    {
+      "company": "SupplyHouse",
+      "reason": "No exact official recruiting mailbox; US HQ and India EOR confirmed"
+    },
+    {
+      "company": "GitLab",
+      "reason": "No official recruiting mailbox; role location India not yet reverified"
+    },
+    {
+      "company": "Cadence (withRemote)",
+      "reason": "Conflicting headquarters evidence US vs Bengaluru"
+    },
+    {
+      "company": "Grow Profit",
+      "reason": "No established qualifying HQ or India-specific eligibility"
+    },
+    {
+      "company": "Enveritas",
+      "reason": "7+ years required; not suitable 2–5 YOE"
+    }
+  ],
+  "ledger_commit": "2ea108721fb73aa57e8c94962179d73fc5b56501",
+  "queue_commit": "43c630725dba1672a033b8d9c88a8940dbde9b9e",
+  "gmail_sent_ids": [
+    "1a1857ff3060c11e"
+  ]
 }
