@@ -1,0 +1,166 @@
+{
+  "date": "2026-10-29",
+  "slot": "14:00",
+  "timezone": "Asia/Kolkata",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "batch_cap": 2,
+  "verified_ready_start": 0,
+  "verified_ready_end": 0,
+  "send_attempts": 0,
+  "confirmed_sent_this_run": 0,
+  "confirmed_gmail_message_ids_this_run": [],
+  "batch_shortfall": 2,
+  "daily_hard_cap": 30,
+  "confirmed_new_sends_today": 3,
+  "remaining_daily_capacity": 27,
+  "net_no_known_bounce_today": 3,
+  "daily_shortfall": 27,
+  "known_bounces_today": 0,
+  "new_optouts_today": 0,
+  "new_replies_today": 0,
+  "unknown_delivery_this_run": 0,
+  "quarantined_prior_unknown": [
+    "DotCoAi"
+  ],
+  "resume_attachment_blockers": [
+    "SerpApi and Mpeak CV-required applications deferred; Gmail attachment file references previously BLOCKED_FILE_REFERENCE; Library resume raw-byte materialization unavailable/unauthorized in this run"
+  ],
+  "batch_summary": [
+    {
+      "slot": "06:30",
+      "target": 7,
+      "confirmed": 1,
+      "shortfall": 6
+    },
+    {
+      "slot": "08:00",
+      "target": 7,
+      "confirmed": 1,
+      "shortfall": 6
+    },
+    {
+      "slot": "10:00",
+      "target": 7,
+      "confirmed": 0,
+      "shortfall": 7
+    },
+    {
+      "slot": "12:00",
+      "target": 7,
+      "confirmed": 1,
+      "shortfall": 6
+    },
+    {
+      "slot": "14:00",
+      "target": 2,
+      "confirmed": 0,
+      "shortfall": 2
+    }
+  ],
+  "gmail_sent_reconciled": [
+    {
+      "company": "Conqr AI",
+      "email": "people@conqr.ai",
+      "gmail_message_id": "1a1852cfba9dfe19",
+      "gmail_sent_label_confirmed": true,
+      "thread_message_count": 1
+    },
+    {
+      "company": "UpLayer",
+      "email": "careers@uplayer.agency",
+      "gmail_message_id": "1a1857ff3060c11e",
+      "gmail_sent_label_confirmed": true,
+      "thread_message_count": 1,
+      "qualification_exception": "Company HQ unverified; historical send permanently suppressed, no resend"
+    },
+    {
+      "company": "Drivetrain",
+      "email": "careers@drivetrain.ai",
+      "gmail_message_id": "1a1865c90608106e",
+      "gmail_sent_label_confirmed": true,
+      "thread_message_count": 1
+    }
+  ],
+  "permanent_ledger_reconciliation": "reached_out.json has 3 entries dated 2026-10-29 with matching Gmail IDs; applications.json has no new 2026-10-29 formal applications; Gmail Sent exact messages each labeled SENT; no new bounce or opt-out found.",
+  "new_queue_records": 5,
+  "fifo_records_end": 51,
+  "verified_ready_reserve_end": 0,
+  "source_research": [
+    {
+      "company": "Sundream Studio",
+      "role": "Software Engineer",
+      "email": "stefan@sundream.studio",
+      "status": "unverified",
+      "reason": "Founder email and role public, but explicit India eligibility and corporate HQ not proven",
+      "source": "https://news.ycombinator.com/item?id=49922569"
+    },
+    {
+      "company": "BerryBell",
+      "role": "Full-Stack Engineer",
+      "email": "career@berrybell.ai",
+      "status": "unverified",
+      "reason": "Remote role and exact email official; HQ and India-resident eligibility absent; CV or LinkedIn required",
+      "source": "https://berrybell.ai/careers/full-stack-engineer/"
+    },
+    {
+      "company": "Dscout",
+      "role": "Software Engineer — India",
+      "status": "unverified",
+      "reason": "India-remote listing exists but official current role and exact recruiting mailbox not confirmed; accommodations email is not appropriate",
+      "source": "https://jobseek.dev/jobs/669590-software-engineer-india"
+    },
+    {
+      "company": "StudyTurtle",
+      "role": "Computer Vision Engineer",
+      "email": "jobs@studyturtle.com",
+      "status": "needs_fit_review",
+      "reason": "Founder advertises remote non-US; corporate HQ unverified, candidate lacks demonstrated deep computer vision, prior mailbox bounce reported",
+      "source": "https://news.ycombinator.com/item?id=49922569"
+    },
+    {
+      "company": "IPinfo",
+      "role": "Infrastructure Engineer",
+      "status": "unverified",
+      "reason": "Global remote team but exact role India eligibility, appropriate email and fit not confirmed; official form requires resume",
+      "source": "https://ipinfo.applytojob.com/apply/d9CPSFceDF/Infrastructure-Engineer"
+    }
+  ],
+  "other_research": [
+    {
+      "company": "HighLevel",
+      "reason": "Existing FIFO lead with India-remote SDE II role; no verified recruiting mailbox",
+      "source": "https://jobs.lever.co/gohighlevel?commitment=Employee+India"
+    },
+    {
+      "company": "SerpApi",
+      "reason": "Verified role and exact email but CV required; attachment access blocked; no send",
+      "source": "https://serpapi.com/careers/junior-fullstack-engineer"
+    },
+    {
+      "company": "Revieve",
+      "reason": "Founder explicitly answered they are not hiring outside Europe currently; India excluded",
+      "source": "https://news.ycombinator.com/item?id=47975571"
+    },
+    {
+      "company": "Sundream Studio",
+      "reason": "Current founder HN posting; geographic remote scope unqualified",
+      "source": "https://news.ycombinator.com/item?id=49922569"
+    }
+  ],
+  "source_failures": [],
+  "connector_failures": [
+    {
+      "connector": "files__materialize",
+      "code": "unauthorized_raw_byte_materialization",
+      "description": "Library resume found by search but materialization failed; no Gmail send attempted"
+    }
+  ],
+  "queue_commit": "f47216f34a678275e95a09ba42978ff08bdedd18",
+  "status": "no_qualified_send_ready_contacts",
+  "notes": "Final 14:00 batch completed with zero sends; no missed batches compensated. Lead shortage not self-repaired; FIFO leftovers retained. Gmail SENT confirms acceptance, not recipient inbox delivery. All 30-day cap and company dedupe guards preserved."
+}
