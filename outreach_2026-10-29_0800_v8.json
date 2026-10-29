@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-29",
+  "slot": "08:00",
+  "timezone": "Asia/Kolkata",
+  "batch_cap": 7,
+  "daily_cap": 30,
+  "confirmed_sent_before": 1,
+  "initial_ready": 0,
+  "discovery_sources": [
+    "official company careers",
+    "October 2026 HN hiring",
+    "official company about/contact",
+    "official ATS"
+  ],
+  "claimed": [
+    {
+      "company": "UpLayer",
+      "email": "careers@uplayer.agency",
+      "role": "AI Engineer",
+      "subject": "AI reliability work at UpLayer",
+      "body": "Hi UpLayer team,\n\nYour AI Engineer role puts retrieval quality, guardrails, and fallbacks inside the shipped product rather than treating them as later fixes. That is the kind of engineering I enjoy.\n\nI built Captor to add per-call LLM budgets, policies, and traces, and at Stride AI I owned backend APIs alongside frontend features. My experience is around three years including internships, below the four years listed, but the problems in this role are ones I've been working on directly.\n\nWould you consider my work for the AI Engineer opening despite that gap?\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh",
+      "word_count": 98,
+      "status": "send_intent",
+      "claim_owner": "International Outreach Batches 2026-10-29 08:00",
+      "source_urls": [
+        "https://uplayer.agency/careers/ai-engineer",
+        "https://uplayer.agency/"
+      ],
+      "hq_evidence": "US office 117 S Lexington St Ste 100, Harrisonville MO 64701, with Bangladesh second office; no India HQ indicated",
+      "eligibility_evidence": "Role explicitly remote GMT-6 to GMT+6; India IST GMT+5:30 included",
+      "contact_evidence": "Exact careers@uplayer.agency printed in AI Engineer role application instructions",
+      "experience_note": "Role asks 4+ years but explicitly encourages applications not meeting every line; candidate transparently has ~3 years including internships",
+      "application_status": "contacted_not_formal_application"
+    }
+  ],
+  "confirmed_sent": 0,
+  "known_bounces": 0,
+  "unknown_delivery": 0,
+  "send_attempts": 0,
+  "shortfall": null,
+  "notes": "Pre-send durable intent; do not retry automatically if Gmail acceptance is uncertain."
+}
