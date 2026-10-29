@@ -813,14 +813,18 @@
       "observed_at": "2026-10-29",
       "discovered_at": "2026-10-29",
       "queue_position": 44,
-      "status": "claimed",
+      "status": "sent_confirmed",
       "claim_owner": "International Outreach Batches 2026-10-29 12:00",
       "claimed_at": "2026-10-29T12:01:10+05:30",
       "send_intent": "initial_outreach_2026-10-29_1200_drivetrain",
       "subject": "Building Drivetrain's complex frontend",
       "draft_body": "Hi Drivetrain team,\n\nYour Frontend Engineer role mentions building complex, performant interfaces for financial modeling and data visualization. I enjoy that kind of UI work, where the hard part is making dense workflows feel straightforward.\n\nAt Stride AI, I built frontend features from scratch and owned complex React components alongside backend APIs and end-to-end tests. I also built a schema-driven page studio with preview and publishing flows. I'd love to bring that hands-on approach to your product.\n\nIs the India-remote frontend opening still accepting candidates? I can share relevant work.\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh",
       "application_status": "contacted_not_formal_application",
-      "notes": "95-word natural frontend role inquiry, no resume required by official role text; not claiming formal CV application."
+      "notes": "95-word natural frontend role inquiry, no resume required by official role text; not claiming formal CV application.",
+      "gmail_message_id": "1a1865c90608106e",
+      "thread_id": "1a1865c90608106e",
+      "sent_at": "2026-10-29",
+      "delivery_check": "gmail_sent_confirmed"
     }
   ],
   "updated_at": "2026-10-29"
