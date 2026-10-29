@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28",
+  "updated_at": "2026-10-29",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -1330,6 +1330,21 @@
       "delivery_check": "gmail_sent_confirmed",
       "source_url": "https://job-boards.greenhouse.io/remotepeople/jobs/5011829101",
       "checkpoint": "outreach_2026-10-28_1400_v8.json"
+    },
+    {
+      "company": "Conqr AI",
+      "email": "people@conqr.ai",
+      "role": "Software Engineer (Remote India)",
+      "status": "sent",
+      "sent_at": "2026-10-29",
+      "subject": "Building private legal AI at Conqr",
+      "gmail_message_id": "1a1852cfba9dfe19",
+      "thread_id": "1a1852cfba9dfe19",
+      "source": "outreach_2026-10-29_0630_v8.json",
+      "application_status": "contacted_not_formal_application",
+      "email_verification": "official_careers_public_exact",
+      "delivery_check": "gmail_sent_confirmed",
+      "notes": "88-word role-specific networking outreach, no resume attached, not formal application."
     }
   ],
   "policy_effective_date": "2026-10-09",
