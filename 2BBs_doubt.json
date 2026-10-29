@@ -595,10 +595,14 @@
       "discovered_at": "2026-10-29",
       "observed_at": "2026-10-29",
       "queue_position": 32,
-      "status": "claimed",
+      "status": "sent_confirmed",
       "claim_owner": "International Outreach Batches 2026-10-29 08:00",
       "checkpoint": "outreach_2026-10-29_0800_v8.json",
-      "application_status": "contacted_not_formal_application"
+      "application_status": "contacted_not_formal_application",
+      "gmail_message_id": "1a1857ff3060c11e",
+      "thread_id": "1a1857ff3060c11e",
+      "sent_at": "2026-10-29",
+      "delivery_check": "gmail_sent_confirmed"
     }
   ],
   "updated_at": "2026-10-29"
