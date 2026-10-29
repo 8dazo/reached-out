@@ -742,9 +742,10 @@
       "status": "unverified",
       "observed_at": "2026-10-29",
       "discovered_at": "2026-10-29",
-      "notes": "Exceptional Captar/observability fit and public exact jobs@ email; official site says CorePillar Inc, founder calls it Silicon Valley startup, but exact qualifying US HQ remains unproven. DO NOT SEND until HQ evidence confirmed.",
+      "notes": "Exceptional Captar/observability fit and public exact jobs@ email; official site says CorePillar Inc, founder calls it Silicon Valley startup, but exact qualifying US HQ remains unproven. DO NOT SEND until HQ evidence confirmed. Additional Oct 29: Indian entity Corepillar Ai Private Limited is registered as subsidiary of a foreign company (CIN U62099PN2026FTC258097), but parent corporate HQ still not independently verified. Continue hold.",
       "fit_score": 96,
-      "queue_position": 40
+      "queue_position": 40,
+      "hq_evidence_url_secondary": "https://www.filesure.in/company/corepillar-ai-private-limited/U62099PN2026FTC258097"
     },
     {
       "company": "Xsolla",
@@ -825,6 +826,37 @@
       "thread_id": "1a1865c90608106e",
       "sent_at": "2026-10-29",
       "delivery_check": "gmail_sent_confirmed"
+    },
+    {
+      "company": "HighLevel",
+      "company_region": "US",
+      "company_hq": "Dallas, Texas, USA",
+      "role": "Software Development Engineer II — CRM & Automation",
+      "role_url": "https://jobs.lever.co/gohighlevel/b4f73bb7-d3ec-4886-9509-3feaf28a7d60",
+      "hq_evidence_url": "https://lei.bloomberg.com/leis/view/984500EDJ71F6CCE5A08",
+      "eligibility_url": "https://jobs.lever.co/gohighlevel/b4f73bb7-d3ec-4886-9509-3feaf28a7d60",
+      "eligibility_evidence": "Official Lever posting India / Remote / Employee India",
+      "verification": "unverified",
+      "status": "unverified",
+      "notes": "Live India-remote SDE II role and Dallas HQ verified by legal entity record; no exact public appropriate recruiting email established. Do not send.",
+      "observed_at": "2026-10-29",
+      "discovered_at": "2026-10-29",
+      "queue_position": 45
+    },
+    {
+      "company": "Termgrid",
+      "role": "Engineering Manager",
+      "role_url": "https://jobs.lever.co/termgrid/940bb346-22dc-44b7-a25c-f907b0b95095",
+      "eligibility_url": "https://jobs.lever.co/termgrid/940bb346-22dc-44b7-a25c-f907b0b95095",
+      "eligibility_evidence": "Official Lever posting India Remote",
+      "email": "careers@termgrid.com",
+      "email_evidence_url": "https://app.termgrid.com/careers/",
+      "verification": "explicit_public_current",
+      "status": "disqualified",
+      "notes": "Current official role Engineering Manager requires 8+ years and management. Careers mailbox explicitly requests resume, which Gmail connector cannot attach. Not candidate-fit.",
+      "observed_at": "2026-10-29",
+      "discovered_at": "2026-10-29",
+      "queue_position": 46
     }
   ],
   "updated_at": "2026-10-29"
