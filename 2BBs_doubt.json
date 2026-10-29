@@ -763,6 +763,20 @@
       "notes": "Careers@ is designated for questions regarding hiring practices, not direct role application. Job seniority and Web3 experience need review. Do not send.",
       "fit_score": 63,
       "queue_position": 41
+    },
+    {
+      "company": "ElevenLabs",
+      "company_hq": "London, UK (company has London, NYC, SF and Warsaw offices; verify legal HQ)",
+      "role": "Full-Stack Engineer (Backend Leaning) — Creative Agents",
+      "role_url": "https://saas-agencies.com/job/full-stack-engineer-backend-leaning-creative-agents-elevenlabs-e61691/",
+      "eligibility_evidence": "Current role states globally remote; agent orchestration, evals, async backend, creative editor",
+      "eligibility_url": "https://saas-agencies.com/job/full-stack-engineer-backend-leaning-creative-agents-elevenlabs-e61691/",
+      "verification": "unverified",
+      "status": "unverified",
+      "notes": "Excellent agent/backend/Captar/Baelys overlap, but exact publicly documented recruiting mailbox not found; applications via official Ashby. DO NOT EMAIL until exact role-specific recipient verified.",
+      "observed_at": "2026-10-29",
+      "queue_position": 42,
+      "fit_score": 95
     }
   ],
   "updated_at": "2026-10-29"
