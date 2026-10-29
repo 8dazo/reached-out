@@ -507,13 +507,17 @@
       "observed_at": "2026-10-29",
       "discovered_at": "2026-10-29",
       "queue_position": 27,
-      "status": "claimed",
+      "status": "sent_confirmed",
       "claim_owner": "International Outreach Morning 2026-10-29 06:30",
       "claimed_at": "2026-10-29T06:30:26+05:30",
       "subject": "Building private legal AI at Conqr",
       "message_body": "Hi Conqr team,\n\nThe Software Engineer opening stood out because you're building for lawyers inside Word, Outlook and the browser, while keeping client documents in private environments. That mix of careful backend engineering and practical UI work is exactly what I enjoy.\n\nAt Stride.AI, I shipped full-stack features and backend APIs, including authentication shared across applications. I've also built Captar, an SDK for controlling LLM calls with policies, spending limits and tracing.\n\nWould you consider my background for the India-remote Software Engineer role?\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh",
       "application_status": "contacted_not_formal_application",
-      "notes": "Networking inquiry, no resume attached; no claim of formal application. Specific current Software Engineer role."
+      "notes": "Networking inquiry, no resume attached; no claim of formal application. Specific current Software Engineer role.",
+      "gmail_message_id": "1a1852cfba9dfe19",
+      "thread_id": "1a1852cfba9dfe19",
+      "sent_at": "2026-10-29",
+      "delivery_check": "gmail_sent_confirmed"
     },
     {
       "company": "Taskly",
