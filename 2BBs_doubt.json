@@ -795,6 +795,32 @@
       "discovered_at": "2026-10-29",
       "queue_position": 43,
       "fit_score": 90
+    },
+    {
+      "email": "careers@drivetrain.ai",
+      "company": "Drivetrain",
+      "company_hq": "Sunnyvale, California, USA",
+      "company_region": "US",
+      "role": "Frontend Engineer",
+      "role_url": "https://jobs.lever.co/drivetrain/cd39cc4e-056e-444c-8c17-9f97e34ddbce",
+      "hq_evidence_url": "https://jobs.lever.co/drivetrain/cd39cc4e-056e-444c-8c17-9f97e34ddbce",
+      "eligibility_url": "https://jobs.lever.co/drivetrain/cd39cc4e-056e-444c-8c17-9f97e34ddbce",
+      "eligibility_evidence": "Official Lever role: India / Engineering / Full Time / Remote; 1-3 years frontend experience",
+      "email_evidence_url": "https://jobs.lever.co/drivetrain/cd39cc4e-056e-444c-8c17-9f97e34ddbce",
+      "email_evidence": "Official role says apply at obfuscated careers@drivetrain.ai; exact address corroborated in public mirrored role text at https://in.indeed.com/cmp/Drivetrain-Ai/jobs",
+      "verification": "explicit_public_current",
+      "fit_score": 91,
+      "observed_at": "2026-10-29",
+      "discovered_at": "2026-10-29",
+      "queue_position": 44,
+      "status": "claimed",
+      "claim_owner": "International Outreach Batches 2026-10-29 12:00",
+      "claimed_at": "2026-10-29T12:01:10+05:30",
+      "send_intent": "initial_outreach_2026-10-29_1200_drivetrain",
+      "subject": "Building Drivetrain's complex frontend",
+      "draft_body": "Hi Drivetrain team,\n\nYour Frontend Engineer role mentions building complex, performant interfaces for financial modeling and data visualization. I enjoy that kind of UI work, where the hard part is making dense workflows feel straightforward.\n\nAt Stride AI, I built frontend features from scratch and owned complex React components alongside backend APIs and end-to-end tests. I also built a schema-driven page studio with preview and publishing flows. I'd love to bring that hands-on approach to your product.\n\nIs the India-remote frontend opening still accepting candidates? I can share relevant work.\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh",
+      "application_status": "contacted_not_formal_application",
+      "notes": "95-word natural frontend role inquiry, no resume required by official role text; not claiming formal CV application."
     }
   ],
   "updated_at": "2026-10-29"
