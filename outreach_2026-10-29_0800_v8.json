@@ -34,7 +34,8 @@
       "gmail_message_id": "1a1857ff3060c11e",
       "thread_id": "1a1857ff3060c11e",
       "delivery_check": "gmail_sent_confirmed",
-      "sent_at": "2026-10-29T08:01:57+05:30"
+      "sent_at": "2026-10-29T08:01:57+05:30",
+      "hq_verification": "unconfirmed_US_office_only"
     }
   ],
   "confirmed_sent": 1,
@@ -42,7 +43,7 @@
   "unknown_delivery": 0,
   "send_attempts": 1,
   "shortfall": 6,
-  "notes": "One verified, candid 98-word UpLayer outreach; Gmail direct read SENT and exact recipient, durable ledger and queue committed. No immediate bounce. Six-slot shortfall due to no other qualified contact with verified email. 45 ready target unmet.",
+  "notes": "One verified, candid 98-word UpLayer outreach; Gmail direct read SENT and exact recipient, durable ledger and queue committed. No immediate bounce. Six-slot shortfall due to no other qualified contact with verified email. 45 ready target unmet. Qualification audit correction: 1 Gmail Sent, 0 fully HQ-verified qualifying sends from this batch.",
   "daily_confirmed_total": 2,
   "daily_remaining_capacity": 28,
   "queue_total": 37,
@@ -75,8 +76,10 @@
     }
   ],
   "ledger_commit": "2ea108721fb73aa57e8c94962179d73fc5b56501",
-  "queue_commit": "43c630725dba1672a033b8d9c88a8940dbde9b9e",
+  "queue_commit": "681d09f7874a013225f6a4a30426571babf3a7f6",
   "gmail_sent_ids": [
     "1a1857ff3060c11e"
-  ]
+  ],
+  "qualification_exception": "US office listed but company headquarters not independently established; should have remained unverified. Send cannot be undone; contact permanently suppressed, no further outreach to this company.",
+  "qualified_confirmed_sent": 0
 }
