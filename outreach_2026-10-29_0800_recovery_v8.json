@@ -21,7 +21,7 @@
       "email_evidence_url": "https://serpapi.com/careers/junior-fullstack-engineer",
       "email_evidence": "Exact careers@serpapi.com printed on current official role, send resume",
       "verification": "explicit_public_current",
-      "status": "send_intent",
+      "status": "deferred_concurrent_writer",
       "observed_at": "2026-10-29",
       "discovered_at": "2026-10-29",
       "fit_score": 90,
@@ -31,11 +31,12 @@
       "subject": "Junior Fullstack Engineer — API reliability",
       "draft_body": "Hi SerpApi team,\n\nYour Junior Fullstack Engineer opening appeals to me because the work includes more than building endpoints: monitoring search APIs, debugging customer-reported issues, and shipping well-tested fixes. At Stride AI, I owned production backend APIs and full-stack features; separately, I built a Go email-verification backend where failure handling and observability mattered. I haven't worked professionally with Ruby or Rails yet, but I'm comfortable learning a new stack and taking ownership through deployment.\n\nI've attached my resume. Would you consider my application for the remote role from India?\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh",
       "checkpoint": "outreach_2026-10-29_0800_recovery_v8.json",
-      "attachment": "Devansh_Mahant_Resume.pdf"
+      "attachment": "Devansh_Mahant_Resume.pdf",
+      "note": "No Gmail send attempted; other 10:00 scheduled writer began 09:58:52 IST. Released queue claim."
     }
   ],
   "research_candidates": [],
   "unknown_delivery": 0,
   "known_bounces": 0,
-  "notes": "Recovery only for 08:00 six remaining slots; no overlap with 10:00 scheduled task."
+  "notes": "Recovery only for 08:00 six remaining slots; no overlap with 10:00 scheduled task. No outbound attempted because another writer became active; SerpApi lead handed to FIFO."
 }
