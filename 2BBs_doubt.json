@@ -576,6 +576,29 @@
       "observed_at": "2026-10-29",
       "discovered_at": "2026-10-29",
       "queue_position": 31
+    },
+    {
+      "company": "UpLayer",
+      "company_hq": "Harrisonville, Missouri, United States (official US office; Bangladesh office also listed)",
+      "company_region": "US",
+      "role": "AI Engineer",
+      "role_url": "https://uplayer.agency/careers/ai-engineer",
+      "hq_evidence_url": "https://uplayer.agency/",
+      "eligibility_evidence": "Remote GMT-6 to GMT+6; India GMT+5:30 within explicit range",
+      "eligibility_url": "https://uplayer.agency/careers/ai-engineer",
+      "email": "careers@uplayer.agency",
+      "email_evidence_url": "https://uplayer.agency/careers/ai-engineer",
+      "email_evidence": "Official AI Engineer application instructions explicitly publish exact address",
+      "verification": "explicit_public_current",
+      "fit_score": 79,
+      "notes": "4+ years listed, but company says applicants need not meet every line; candid note explains candidate ~3 including internships; role aligns with Captor LLM budgets/guardrails/traces and RAG eval",
+      "discovered_at": "2026-10-29",
+      "observed_at": "2026-10-29",
+      "queue_position": 32,
+      "status": "claimed",
+      "claim_owner": "International Outreach Batches 2026-10-29 08:00",
+      "checkpoint": "outreach_2026-10-29_0800_v8.json",
+      "application_status": "contacted_not_formal_application"
     }
   ],
   "updated_at": "2026-10-29"
