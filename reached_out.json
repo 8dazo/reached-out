@@ -1345,6 +1345,22 @@
       "email_verification": "official_careers_public_exact",
       "delivery_check": "gmail_sent_confirmed",
       "notes": "88-word role-specific networking outreach, no resume attached, not formal application."
+    },
+    {
+      "company": "UpLayer",
+      "email": "careers@uplayer.agency",
+      "role": "AI Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-29",
+      "subject": "AI reliability work at UpLayer",
+      "gmail_message_id": "1a1857ff3060c11e",
+      "thread_id": "1a1857ff3060c11e",
+      "source": "outreach_2026-10-29_0800_v8.json",
+      "application_status": "contacted_not_formal_application",
+      "email_verification": "official_careers_public_exact",
+      "delivery_check": "gmail_sent_confirmed",
+      "source_url": "https://uplayer.agency/careers/ai-engineer",
+      "notes": "98-word role-specific inquiry. Four-year requirement transparently acknowledged; employer invites applicants not meeting every line. No resume attached."
     }
   ],
   "policy_effective_date": "2026-10-09",
