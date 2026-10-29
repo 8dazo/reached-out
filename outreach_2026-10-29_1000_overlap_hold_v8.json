@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-29",
+  "slot": "10:00",
+  "timezone": "Asia/Kolkata",
+  "batch_cap": 7,
+  "confirmed_sent_this_run": 0,
+  "confirmed_today_as_of_10_00": 2,
+  "verified_ready_at_start": 0,
+  "writer_guard": "HOLD: concurrent recovery automation Finish Morning Batch in_progress; no safe single-writer ownership",
+  "recovery_run_id": "05a4b048-4120-8328-9824-5d5d8536fb23",
+  "source_review": [
+    {
+      "company": "Service Robot Co.",
+      "status": "suppressed",
+      "reason": "historically contacted Sep 17; exact official India-remote job and email, not eligible for another initial email",
+      "source": "https://servicerobotco.com/careers/ai-native-full-stack-engineer"
+    },
+    {
+      "company": "PeopleGrove",
+      "status": "needs_contact_verification",
+      "reason": "official site confirms remote India, but no exact current hiring email verified and current opening not corroborated on official site",
+      "source": "https://www.peoplegrove.com/about/careers/"
+    },
+    {
+      "company": "DrillByte",
+      "status": "disqualified",
+      "reason": "India domain/HQ unverified and senior-only role",
+      "source": "https://drillbyte.in/careers"
+    }
+  ],
+  "new_leads_ready": 0,
+  "send_attempts": 0,
+  "reason": "No concurrent outbound writer allowed; existing recovery running; no eligible verified new contact found in read-only discovery",
+  "note": "Do not roll 10:00 cap into later slots; active recovery may produce further emails, so subsequent runs must re-read Gmail Sent and ledger before sending."
+}
