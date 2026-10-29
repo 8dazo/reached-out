@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-29",
+  "slot": "06:30",
+  "timezone": "Asia/Kolkata",
+  "batch_cap": 7,
+  "daily_cap": 30,
+  "confirmed_sent_before": 0,
+  "initial_ready": 0,
+  "verified_new": 1,
+  "claimed": [
+    {
+      "company": "Conqr AI",
+      "email": "people@conqr.ai",
+      "subject": "Building private legal AI at Conqr",
+      "body": "Hi Conqr team,\n\nThe Software Engineer opening stood out because you're building for lawyers inside Word, Outlook and the browser, while keeping client documents in private environments. That mix of careful backend engineering and practical UI work is exactly what I enjoy.\n\nAt Stride.AI, I shipped full-stack features and backend APIs, including authentication shared across applications. I've also built Captar, an SDK for controlling LLM calls with policies, spending limits and tracing.\n\nWould you consider my background for the India-remote Software Engineer role?\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh",
+      "word_count": 88,
+      "status": "send_intent",
+      "evidence_urls": [
+        "https://www.conqr.ai/careers",
+        "https://www.conqr.ai/careers"
+      ]
+    }
+  ],
+  "suppressed_duplicate_research": [
+    {
+      "company": "Rifa AI",
+      "reason": "Already sent Oct 5 and lifetime follow-up Oct 8; no new email"
+    }
+  ],
+  "other_candidates": [
+    {
+      "company": "Taskly",
+      "status": "unverified",
+      "reason": "Official job requires application form; exact recruiting email and qualifying HQ not established."
+    },
+    {
+      "company": "Neon Link",
+      "status": "unverified",
+      "reason": "General hello mailbox is not listed as application route; role explicitly requires application form, CV, and voice intro; no outreach email sent."
+    },
+    {
+      "company": "Anona Labs",
+      "status": "needs_fit_review",
+      "reason": "4-7+ years plus desktop/Electron production required, listing from July >30 days old; not qualified as ready."
+    },
+    {
+      "company": "Webomates",
+      "status": "unverified",
+      "reason": "Current official careers lists only 6-10 YOE Java Tech Lead, not the 2-3 YOE backend role on third-party aggregator. Role not currently verified."
+    }
+  ],
+  "gmail_sent_ids": [],
+  "send_attempts": 0,
+  "known_bounces": 0,
+  "unknown_delivery": 0,
+  "remaining_ready": 0,
+  "notes": "Pre-send checkpoint; email acceptance not yet claimed. Full historical suppression and exact recipient Gmail search clean. Resume not attached; outreach only."
+}
