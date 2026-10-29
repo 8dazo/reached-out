@@ -1360,7 +1360,8 @@
       "email_verification": "official_careers_public_exact",
       "delivery_check": "gmail_sent_confirmed",
       "source_url": "https://uplayer.agency/careers/ai-engineer",
-      "notes": "98-word role-specific inquiry. Four-year requirement transparently acknowledged; employer invites applicants not meeting every line. No resume attached."
+      "notes": "98-word role-specific inquiry. Four-year requirement transparently acknowledged; employer invites applicants not meeting every line. No resume attached. Post-send HQ verification exception: US office listed, qualifying headquarters not independently confirmed. Suppression remains permanent.",
+      "hq_verification": "unconfirmed_US_office_only"
     }
   ],
   "policy_effective_date": "2026-10-09",
