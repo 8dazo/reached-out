@@ -14,11 +14,14 @@
       "subject": "Building private legal AI at Conqr",
       "body": "Hi Conqr team,\n\nThe Software Engineer opening stood out because you're building for lawyers inside Word, Outlook and the browser, while keeping client documents in private environments. That mix of careful backend engineering and practical UI work is exactly what I enjoy.\n\nAt Stride.AI, I shipped full-stack features and backend APIs, including authentication shared across applications. I've also built Captar, an SDK for controlling LLM calls with policies, spending limits and tracing.\n\nWould you consider my background for the India-remote Software Engineer role?\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh",
       "word_count": 88,
-      "status": "send_intent",
+      "status": "sent_confirmed",
       "evidence_urls": [
         "https://www.conqr.ai/careers",
         "https://www.conqr.ai/careers"
-      ]
+      ],
+      "gmail_message_id": "1a1852cfba9dfe19",
+      "thread_id": "1a1852cfba9dfe19",
+      "sent_at": "2026-10-29T01:01:19"
     }
   ],
   "suppressed_duplicate_research": [
@@ -49,10 +52,16 @@
       "reason": "Current official careers lists only 6-10 YOE Java Tech Lead, not the 2-3 YOE backend role on third-party aggregator. Role not currently verified."
     }
   ],
-  "gmail_sent_ids": [],
-  "send_attempts": 0,
+  "gmail_sent_ids": [
+    "1a1852cfba9dfe19"
+  ],
+  "send_attempts": 1,
   "known_bounces": 0,
   "unknown_delivery": 0,
   "remaining_ready": 0,
-  "notes": "Pre-send checkpoint; email acceptance not yet claimed. Full historical suppression and exact recipient Gmail search clean. Resume not attached; outreach only."
+  "notes": "Gmail direct read confirms SENT and exact recipient; ledger and queue durable. No known immediate bounce at time of verification. 6 unsent due to zero other verified eligible candidates.",
+  "confirmed_sent": 1,
+  "shortfall": 6,
+  "ledger_commit": "f25f1271180159b8d68efe71a91b4b6f6e3187ff",
+  "queue_commit": "f6dfe0adcd027d1845a5fd50ff5cbe15bfb4e31c"
 }
