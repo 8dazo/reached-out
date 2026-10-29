@@ -678,6 +678,32 @@
       "notes": "Excellent LLM/OpenRouter/Postgres fit and official email application, but no independently established US/EU/SG headquarters or explicit India-resident eligibility. Do not send.",
       "observed_at": "2026-10-29",
       "queue_position": 37
+    },
+    {
+      "company": "SerpApi",
+      "email": "careers@serpapi.com",
+      "company_hq": "Austin, Texas, USA",
+      "company_region": "US",
+      "role": "Junior Fullstack Engineer",
+      "role_url": "https://serpapi.com/careers/junior-fullstack-engineer",
+      "hq_evidence_url": "https://serpapi.com/careers",
+      "hq_evidence": "Official careers page calls company headquartered in Austin TX; role footer SerpApi LLC Austin TX",
+      "eligibility_url": "https://serpapi.com/careers/junior-fullstack-engineer",
+      "eligibility_evidence": "Welcome talent all over the world, those outside Austin typically independent contractors",
+      "email_evidence_url": "https://serpapi.com/careers/junior-fullstack-engineer",
+      "email_evidence": "Exact careers@serpapi.com printed on current official role, send resume",
+      "verification": "explicit_public_current",
+      "status": "claimed",
+      "observed_at": "2026-10-29",
+      "discovered_at": "2026-10-29",
+      "fit_score": 90,
+      "notes": "Ruby/Rails not professionally used, transparently stated. Strong production API and backend overlap. Actual emailed application with resume attachment.",
+      "claim_owner": "Finish Morning Batch 2026-10-29",
+      "claimed_at": "2026-10-29T09:58:50+05:30",
+      "subject": "Junior Fullstack Engineer — API reliability",
+      "draft_body": "Hi SerpApi team,\n\nYour Junior Fullstack Engineer opening appeals to me because the work includes more than building endpoints: monitoring search APIs, debugging customer-reported issues, and shipping well-tested fixes. At Stride AI, I owned production backend APIs and full-stack features; separately, I built a Go email-verification backend where failure handling and observability mattered. I haven't worked professionally with Ruby or Rails yet, but I'm comfortable learning a new stack and taking ownership through deployment.\n\nI've attached my resume. Would you consider my application for the remote role from India?\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh",
+      "checkpoint": "outreach_2026-10-29_0800_recovery_v8.json",
+      "queue_position": 38
     }
   ],
   "updated_at": "2026-10-29"
