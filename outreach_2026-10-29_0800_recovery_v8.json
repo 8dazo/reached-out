@@ -5,7 +5,7 @@
   "original_batch_sent": 1,
   "recovery_max_additional": 6,
   "confirmed_new_sends": 0,
-  "send_attempts": 0,
+  "send_attempts": 2,
   "claimed": [
     {
       "company": "SerpApi",
@@ -21,7 +21,7 @@
       "email_evidence_url": "https://serpapi.com/careers/junior-fullstack-engineer",
       "email_evidence": "Exact careers@serpapi.com printed on current official role, send resume",
       "verification": "explicit_public_current",
-      "status": "attachment_blocked_no_sent",
+      "status": "blocked_attachment_no_send",
       "observed_at": "2026-10-29",
       "discovered_at": "2026-10-29",
       "fit_score": 90,
@@ -34,12 +34,14 @@
       "attachment": "Devansh_Mahant_Resume.pdf",
       "note": "10:00 scheduled task completed with zero sends; recovered exclusive writer. Gmail and ledger rechecked.",
       "error": "BLOCKED_FILE_REFERENCE /mnt/data/Devansh_Mahant_Resume.pdf; exact Gmail Sent and all search empty",
-      "next_attempt": "Use connector-local file handle file_000000002bdc81f8aaf2946db1a27685 returned by Gmail read_attachment; only if supported. Reconcile again."
+      "next_attempt": "Use connector-local file handle file_000000002bdc81f8aaf2946db1a27685 returned by Gmail read_attachment; only if supported. Reconcile again.",
+      "gmail_message_id": null
     }
   ],
   "research_candidates": [],
   "unknown_delivery": 0,
   "known_bounces": 0,
-  "notes": "Recovery only for 08:00 six remaining slots; no overlap with 10:00 scheduled task. No outbound attempted because another writer became active; SerpApi lead handed to FIFO. Reclaimed SerpApi after 10:00 writer completed with no outbound.",
-  "attachment_failures": 1
+  "notes": "Recovery: no additional Gmail sends. Two resume attachment attempts failed before send. Exact Sent search empty. No qualified contact sent; remaining candidates held for verification or attachment fix. Concurrent 10:00 sender completed with zero sends.",
+  "attachment_failures": 2,
+  "recovery_shortfall": 6
 }
