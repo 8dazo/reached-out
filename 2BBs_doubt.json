@@ -1107,6 +1107,25 @@
       "discovered_at": "2026-10-30",
       "observed_at": "2026-10-30",
       "queue_position": 60
+    },
+    {
+      "queue_position": 61,
+      "company": "Service Robot Co.",
+      "email": "careers@servicerobotco.com",
+      "company_hq": "San Francisco, CA, USA",
+      "company_region": "US",
+      "role": "AI-Native Full-Stack Engineer — India Remote",
+      "role_url": "https://www.servicerobotco.com/careers/ai-native-full-stack-engineer",
+      "hq_evidence_url": "https://www.servicerobotco.com/contact",
+      "eligibility_evidence": "Official job: India (Remote), full-time, no minimum years; email careers@servicerobotco.com with GitHub/live projects",
+      "eligibility_url": "https://www.servicerobotco.com/careers/ai-native-full-stack-engineer",
+      "verification": "explicit_public_current",
+      "email_evidence_url": "https://www.servicerobotco.com/careers/ai-native-full-stack-engineer",
+      "fit_score": 96,
+      "status": "disqualified",
+      "discovered_at": "2026-10-30",
+      "observed_at": "2026-10-30",
+      "notes": "PERMANENT SUPPRESSION: same company already contacted at hiring@servicerobotco.com on 2026-09-17, Gmail SENT ID 1a0ace3303edebbb and reached_out.json. Different address is not a new company. Do not send."
     }
   ],
   "updated_at": "2026-10-30"
