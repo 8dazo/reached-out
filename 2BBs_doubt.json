@@ -1197,7 +1197,68 @@
         "https://www.ycombinator.com/companies/apollo-3/jobs/pU6LGTh-js-web3-full-stack-engineer-yc-backed-web3-fintech-company"
       ],
       "notes": "PERMANENT SUPPRESSION: full Gmail Sent search found earlier email to talent@apollofirst.xyz on 2026-09-24, subject Product Engineering — Devansh Mahant, Gmail ID 1a0d619798f87e89. Do not contact again, regardless of absent entry in reached_out.json. Official application also requires CV."
+    },
+    {
+      "company": "ReviewMySite",
+      "role": "Senior Full-Stack Engineer — AI website auditing",
+      "job_url": "https://www.reviewmysite.app/careers",
+      "hq_url": "https://www.reviewmysite.app/about",
+      "hq": "Unverified; official about page does not identify a qualifying corporate headquarters",
+      "eligibility": "Official careers explicitly says Remote (Worldwide), work from anywhere",
+      "email": "careers@reviewmysite.app",
+      "email_evidence_url": "https://www.reviewmysite.app/careers",
+      "status": "unverified",
+      "verification": "official_role_and_public_email_only",
+      "created_at": "2026-10-30",
+      "last_checked_at": "2026-10-30T14:05:34+05:30",
+      "notes": "Strong Next.js/Express/Postgres/AI integration match but Senior title requires fit review; corporate HQ not independently proven. Official careers asks for resume; attachment egress previously blocked. No email until both issues resolved.",
+      "queue_position": 66
+    },
+    {
+      "company": "Rank Your Write",
+      "role": "Full Stack Software Engineer — AI writing platform",
+      "job_url": "https://rankyourwrite.com/careers",
+      "hq_url": null,
+      "hq": "Unverified; no reliable corporate headquarters evidence found",
+      "eligibility": "Official indexed careers listing: Remote Worldwide, full-time",
+      "email": "careers@rankyourwrite.com",
+      "email_evidence_url": "https://rankyourwrite.com/careers",
+      "status": "unverified",
+      "verification": "official_indexed_email_only",
+      "created_at": "2026-10-30",
+      "last_checked_at": "2026-10-30T14:05:34+05:30",
+      "notes": "Potential full-stack AI product fit; site direct fetch timed out. Need revalidate live role, company HQ, and exact mailbox. Careers requests resume, blocked Gmail attachment egress. Do not send.",
+      "queue_position": 67
+    },
+    {
+      "company": "BSBSoft",
+      "role": "Frontend Engineer (React/Next.js) — Remote India",
+      "job_url": "https://www.bsbsoft.com/careers/frontend-engineer-react-nextjs",
+      "hq_url": "https://www.bsbsoft.com/about",
+      "hq": "Adalhat, Mirzapur, Uttar Pradesh, India (official legal entity registered address)",
+      "eligibility": "Official current role: Remote India, 2–4 years",
+      "email": null,
+      "status": "disqualified",
+      "created_at": "2026-10-30",
+      "last_checked_at": "2026-10-30T14:05:34+05:30",
+      "notes": "Strong technical match, but OFFICIAL company about page identifies BSBSoft Private Limited as India-based with Indian registered address; fails non-India-HQ campaign rule. Do not send.",
+      "queue_position": 68
+    },
+    {
+      "company": "Cylus Creators",
+      "role": "Full-stack Software Engineer / AI Engineer — Remote India",
+      "job_url": "https://cyluscreators.com/careers/",
+      "hq_url": "https://cyluscreators.com/about/",
+      "hq": "India (official site says remote-first team based in India; corporate records show Andhra Pradesh)",
+      "eligibility": "Official careers lists India-remote roles",
+      "email": "careers@cyluscreators.com",
+      "email_evidence_url": "https://cyluscreators.com/careers/",
+      "status": "disqualified",
+      "created_at": "2026-10-30",
+      "last_checked_at": "2026-10-30T14:05:34+05:30",
+      "notes": "Company explicitly based in India; independent company registration confirms India HQ. Not eligible for international-HQ campaign. Official email requires CV; no send.",
+      "queue_position": 69
     }
   ],
-  "updated_at": "2026-10-30T06:36:16.379Z"
+  "updated_at": "2026-10-30T14:05:34+05:30"
 }
