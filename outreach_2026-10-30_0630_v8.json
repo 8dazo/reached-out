@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-30",
+  "slot": "06:30",
+  "timezone": "Asia/Kolkata",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "batch_cap": 7,
+  "daily_hard_cap": 30,
+  "initial_pool_target": 45,
+  "initial_reserve_target": 15,
+  "verified_ready_start": 0,
+  "verified_ready_end": 0,
+  "confirmed_new_sends_today": 0,
+  "confirmed_sent_this_run": 0,
+  "send_attempts": 0,
+  "confirmed_gmail_message_ids": [],
+  "batch_shortfall": 7,
+  "remaining_daily_capacity": 30,
+  "new_queue_records": 4,
+  "fifo_records_start": 51,
+  "fifo_records_end": 55,
+  "queue_commit": "cbdd0b01039ed042f57a1eb2f2bbdef6822b0292",
+  "queue_blob_sha": "1e89f320ad65d743271c71ab58c398c4a75a3cfa",
+  "known_new_bounces_today": 0,
+  "new_optouts_observed": 0,
+  "unknown_delivery_this_run": 0,
+  "prior_unknown_quarantine": [
+    "DotCoAi"
+  ],
+  "historical_hard_bounce_suppression": [
+    "careers@enablex.io"
+  ],
+  "gmail_reconciliation": "Read recent Gmail Sent and inbox, bounce notices, reached_out.json, applications.json and queue. Latest Sent records are three on India date 2026-10-29; no India 2026-10-30 Sent found as of morning preflight. No new bounce or reply relevant to current candidates observed. Previous bounce from 2026-10-27 remains suppressed. No send was attempted.",
+  "source_research": [
+    {
+      "company": "SerpApi",
+      "status": "qualified_but_attachment_blocked",
+      "role": "Junior Fullstack Engineer",
+      "hq": "Austin, TX, USA",
+      "eligibility": "Worldwide remote independent contractors outside Austin",
+      "email": "careers@serpapi.com",
+      "role_url": "https://serpapi.com/careers/junior-fullstack-engineer",
+      "reason": "Formal email application explicitly requires resume. Gmail create_draft with newly materialized existing resume file failed BLOCKED_FILE_REFERENCE; no draft or send."
+    },
+    {
+      "company": "Mpeak",
+      "status": "qualified_but_attachment_blocked",
+      "role": "Frontend Developer",
+      "hq": "London, UK",
+      "eligibility": "Official Remote (Worldwide)",
+      "email": "careers@mpeak.co.uk",
+      "role_url": "https://www.mpeak.co.uk/careers",
+      "reason": "Formal email application requires CV; same unresolved attachment egress issue. No send."
+    },
+    {
+      "company": "Rezifi",
+      "status": "unverified",
+      "role": "Full-stack Engineer",
+      "role_url": "https://rezifi.com/careers/full-stack-engineer",
+      "reason": "Official India-remote role and strong fit; qualifying corporate HQ and appropriate public recruiting mailbox absent; form needs resume."
+    },
+    {
+      "company": "Zentiya",
+      "status": "unverified",
+      "role": "Frontend Engineer",
+      "role_url": "https://www.zentiya.com/company/careers",
+      "email": "career@zentiya.com",
+      "reason": "Official worldwide remote role and public CV mailbox; qualifying HQ unverified and attachment blocked."
+    },
+    {
+      "company": "Particle41",
+      "status": "unverified",
+      "role": "Full Stack Javascript Developer",
+      "role_url": "https://particle41.com/careers/",
+      "reason": "Official India-remote role, US office, but qualifying HQ not proven; careers@ published only for application assistance, not unsolicited role application."
+    },
+    {
+      "company": "Tether",
+      "status": "unverified",
+      "role": "AI Harness Engineer",
+      "role_url": "https://careers.tether.io/o/ai-harness-engineer-100-remote-worldwide",
+      "reason": "Worldwide-remote role; qualifying HQ and exact public role-appropriate recruiting mailbox not verified."
+    },
+    {
+      "company": "Trackerbot",
+      "status": "unverified",
+      "role": "Full-Stack Developer",
+      "role_url": "https://news.ycombinator.com/item?id=49922569",
+      "reason": "Founder remote post and exact email, but conflicting third-party EU-only vs worldwide eligibility; India-resident eligibility unproven."
+    }
+  ],
+  "connector_failures": [
+    {
+      "connector": "Gmail create_draft",
+      "code": "BLOCKED_FILE_REFERENCE",
+      "description": "Existing resume successfully read from Gmail and materialized at /mnt/data/Devansh_Mahant_Resume.pdf; draft attachment egress still blocked. No email send attempt. Further attachment retries stopped."
+    }
+  ],
+  "send_intent_checkpoint_created": false,
+  "reason": "No verified unsent contact with functioning application path. Did not lower HQ/India eligibility/contact verification or send incomplete CV-required applications.",
+  "status": "no_sends_attachment_egress_and_verified_lead_shortage",
+  "notes": "FIFO retained and replenished with four research leads; zero send-ready. Do not claim self-repair. Later batches must revalidate and replenish, not compensate morning shortfall beyond slot caps."
+}
