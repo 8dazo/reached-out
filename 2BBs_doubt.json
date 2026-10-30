@@ -1126,7 +1126,78 @@
       "discovered_at": "2026-10-30",
       "observed_at": "2026-10-30",
       "notes": "PERMANENT SUPPRESSION: same company already contacted at hiring@servicerobotco.com on 2026-09-17, Gmail SENT ID 1a0ace3303edebbb and reached_out.json. Different address is not a new company. Do not send."
+    },
+    {
+      "company": "Suzega",
+      "role": "Product Engineer — Ithara agentic engineering platform",
+      "job_url": "https://suzega.com/careers/jobs/product-engineer",
+      "hq_url": "https://suzega.com/contact.html",
+      "hq": "Princeton, New Jersey, United States (official US HQ)",
+      "eligibility": "Official role says 'Work from anywhere in India'; official careers says global hiring",
+      "contact_email": null,
+      "status": "unverified",
+      "created_at": "2026-10-30",
+      "last_checked_at": "2026-10-30T06:36:16.379Z",
+      "source_urls": [
+        "https://suzega.com/careers/jobs/product-engineer",
+        "https://suzega.com/contact.html",
+        "https://suzega.com/careers"
+      ],
+      "notes": "Excellent TypeScript/full-stack, SDK, agents, CI, observability fit. Qualifying US HQ and explicit India remote confirmed. Official application is a five-question form, no resume, and NO publicly sourced role-appropriate recruiting email was found. No speculative email; do not send under email campaign."
+    },
+    {
+      "company": "Snapsight",
+      "role": "Full Stack Engineer — live event AI product",
+      "job_url": "https://www.snapsight.com/en/careers/full-stack-engineer",
+      "hq_url": "https://web.snapsight.com/contact-us/",
+      "hq": "Singapore (official address and company registry)",
+      "eligibility": "Official job page specifies India Remote, but describes an ongoing introduction opportunity rather than guaranteed active vacancy",
+      "contact_email": null,
+      "status": "unverified",
+      "created_at": "2026-10-30",
+      "last_checked_at": "2026-10-30T06:36:16.379Z",
+      "source_urls": [
+        "https://www.snapsight.com/en/careers/full-stack-engineer",
+        "https://web.snapsight.com/contact-us/",
+        "https://sgpdirectory.com/company/snapsight-pte-ltd"
+      ],
+      "notes": "Frontend+backend TypeScript and AI integrations fit. Official role accepts India-based remote; however job is ongoing opportunity and official application form only. cs@snapsight.com is customer service, not recruiting. No verified exact role-appropriate recruiting mailbox, so no email."
+    },
+    {
+      "company": "Infisical",
+      "role": "Full Stack Engineer — developer security infrastructure",
+      "job_url": "https://infisical.com/careers",
+      "hq_url": "https://www.ycombinator.com/companies/infisical",
+      "hq": "San Francisco, USA",
+      "eligibility": "Older Ashby cached role listed India, but latest official careers page on Oct 30 lists US/UK/Brazil/Canada and omits India",
+      "contact_email": null,
+      "status": "unverified",
+      "created_at": "2026-10-30",
+      "last_checked_at": "2026-10-30T06:36:16.379Z",
+      "source_urls": [
+        "https://infisical.com/careers",
+        "https://jobs.ashbyhq.com/infisical/782b9da8-20e1-48b2-919e-6c5430c58628",
+        "https://www.ycombinator.com/companies/infisical/jobs"
+      ],
+      "notes": "Excellent developer tools/Go/TypeScript fit, but fresh employer careers listing conflicts with older cached India eligibility and no current recruiting-specific exact mailbox found. Do not send unless current official India eligibility and correct contact verified."
+    },
+    {
+      "company": "Apollo (YC W22, apollofirst.xyz)",
+      "role": "JS/Web3 Full Stack Engineer — Remote India",
+      "job_url": "https://www.ycombinator.com/companies/apollo-3/jobs/pU6LGTh-js-web3-full-stack-engineer-yc-backed-web3-fintech-company",
+      "hq_url": "https://www.apollofirst.xyz/careers",
+      "hq": "Singapore (official company careers)",
+      "eligibility": "YC role says Remote (India), 1+ years; official company careers confirms Singapore HQ",
+      "email": "talent@apollofirst.xyz",
+      "status": "disqualified",
+      "created_at": "2026-10-30",
+      "last_checked_at": "2026-10-30T06:36:16.379Z",
+      "source_urls": [
+        "https://www.apollofirst.xyz/careers",
+        "https://www.ycombinator.com/companies/apollo-3/jobs/pU6LGTh-js-web3-full-stack-engineer-yc-backed-web3-fintech-company"
+      ],
+      "notes": "PERMANENT SUPPRESSION: full Gmail Sent search found earlier email to talent@apollofirst.xyz on 2026-09-24, subject Product Engineering — Devansh Mahant, Gmail ID 1a0d619798f87e89. Do not contact again, regardless of absent entry in reached_out.json. Official application also requires CV."
     }
   ],
-  "updated_at": "2026-10-30"
+  "updated_at": "2026-10-30T06:36:16.379Z"
 }
