@@ -294,10 +294,11 @@
       "email_evidence_url": "https://hnhiring.com/october-2026",
       "verification": "explicit_public_current_email_only",
       "status": "unverified",
-      "notes": "Do NOT send until India-resident eligibility confirmed; third-party geographic classification conflicts.",
+      "notes": "Do NOT send until India-resident eligibility confirmed; third-party geographic classification conflicts. | Oct 30 recheck: HN founder post says fully remote, but RemoteHunt lists EU-only while Remotera says worldwide; contradictory geographic classification, India eligibility NOT proven; continue hold.",
       "observed_at": "2026-10-28",
       "queue_position": 15,
-      "discovered_at": "2026-10-28"
+      "discovered_at": "2026-10-28",
+      "last_revalidated_at": "2026-10-30"
     },
     {
       "company": "Magellan AI",
@@ -944,7 +945,75 @@
       "observed_at": "2026-10-29",
       "discovered_at": "2026-10-29",
       "queue_position": 51
+    },
+    {
+      "company": "Rezifi",
+      "role": "Full-stack Engineer — Remote India",
+      "role_url": "https://rezifi.com/careers/full-stack-engineer",
+      "company_hq": "Unverified; no reliable legal/corporate HQ evidence",
+      "eligibility_url": "https://rezifi.com/careers/full-stack-engineer",
+      "eligibility_evidence": "Official listing explicitly Remote, India; TypeScript/React/Node/Postgres",
+      "email_evidence_url": "https://rezifi.com/careers",
+      "verification": "unverified",
+      "status": "unverified",
+      "notes": "Excellent match but no exact recruiting mailbox and qualifying non-India HQ unproven; official application form requires resume. Do not send.",
+      "observed_at": "2026-10-30",
+      "discovered_at": "2026-10-30",
+      "fit_score": 95,
+      "queue_position": 52
+    },
+    {
+      "company": "Zentiya",
+      "email": "career@zentiya.com",
+      "role": "Frontend Engineer — Remote Global",
+      "role_url": "https://www.zentiya.com/company/careers",
+      "company_hq": "Unverified; no qualifying US/EU/UK/Swiss/Norway/Singapore HQ proof",
+      "eligibility_url": "https://www.zentiya.com/company/careers",
+      "eligibility_evidence": "Official careers: Frontend Engineer, Remote (Global), React/TypeScript/Tailwind",
+      "email_evidence_url": "https://www.zentiya.com/company/careers",
+      "email_evidence": "Official careers says send resume to career@zentiya.com",
+      "verification": "explicit_public_email_only",
+      "status": "unverified",
+      "notes": "Exact hiring mailbox and worldwide eligibility, but qualifying corporate HQ unverified and CV required; Gmail attachment egress blocked. Do not send.",
+      "observed_at": "2026-10-30",
+      "discovered_at": "2026-10-30",
+      "fit_score": 87,
+      "queue_position": 53
+    },
+    {
+      "company": "Particle41",
+      "role": "Full Stack Javascript Developer — India Remote",
+      "role_url": "https://particle41.com/careers/",
+      "company_hq": "Dallas/Frisco, Texas office; exact corporate HQ not independently established",
+      "hq_evidence_url": "https://particle41.com/pdf/Particle41_Guide_FractionalCTO-Final.pdf",
+      "eligibility_url": "https://particle41.com/careers/",
+      "eligibility_evidence": "Official careers lists Full Stack Javascript Developer India - Remote",
+      "email": "careers@particle41.com",
+      "email_evidence_url": "https://dailyremote.com/remote-job/full-stack-javascript-developer-5608794",
+      "email_evidence": "Third-party job copy labels careers@Particle41.com for assistance during application/interview, NOT a direct application mailbox",
+      "verification": "not_appropriate_recruiting_channel",
+      "status": "unverified",
+      "notes": "US office official but qualifying HQ not proven; careers@ published as accommodations/support, not application route. Do not send. Role via official ATS form.",
+      "observed_at": "2026-10-30",
+      "discovered_at": "2026-10-30",
+      "fit_score": 89,
+      "queue_position": 54
+    },
+    {
+      "company": "Tether",
+      "role": "AI Harness Engineer — Worldwide Remote",
+      "role_url": "https://careers.tether.io/o/ai-harness-engineer-100-remote-worldwide",
+      "company_hq": "Unverified qualifying headquarters",
+      "eligibility_url": "https://news.ycombinator.com/item?id=49922569",
+      "eligibility_evidence": "Employer HN October post says all roles fully remote worldwide, includes AI Harness Engineer",
+      "verification": "unverified",
+      "status": "unverified",
+      "notes": "Strong TS/agent harness/Captar match but no exact public role-appropriate email and HQ not confirmed. Official application form only. Do not send.",
+      "observed_at": "2026-10-30",
+      "discovered_at": "2026-10-30",
+      "fit_score": 91,
+      "queue_position": 55
     }
   ],
-  "updated_at": "2026-10-29"
+  "updated_at": "2026-10-30"
 }
