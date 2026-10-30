@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-30",
+  "slot": "10:00",
+  "timezone": "Asia/Kolkata",
+  "slot_nominal_start": "2026-10-30T10:00:00+05:30",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "batch_cap": 7,
+  "daily_hard_cap": 30,
+  "initial_ready_target": 45,
+  "verified_ready_start": 0,
+  "verified_ready_end": 0,
+  "send_attempts": 0,
+  "confirmed_sent_this_run": 0,
+  "confirmed_new_sends_today": 0,
+  "confirmed_gmail_message_ids_this_run": [],
+  "remaining_daily_capacity": 30,
+  "batch_shortfall": 7,
+  "known_new_bounces": 0,
+  "new_optouts_observed": 0,
+  "unknown_delivery_this_run": 0,
+  "prior_unknown_quarantine": [
+    "DotCoAi"
+  ],
+  "fifo_records_start": 57,
+  "fifo_records_end": 61,
+  "queue_status_counts": {
+    "unknown_delivery": 1,
+    "sent_confirmed": 11,
+    "bounced": 1,
+    "needs_fit_review": 8,
+    "unverified": 34,
+    "disqualified": 4,
+    "needs_attachment": 2
+  },
+  "queue_blob_sha": "ed74e9389c025d6273e771662a6d54f97b99e6de",
+  "historical_ledger_sha": "d2acf23f689d23b8516ea3f06f529d4c470c37b6",
+  "applications_sha": "596b5874d75c7c7dc3f1c46ae578715a9d83220b",
+  "discovery": {
+    "sources": [
+      "October 2026 HN employer hiring posts",
+      "official company careers and ATS (FUTO, MixRank, Service Robot Co, Rootly, LiveKit, HighLevel)",
+      "YC remote roles",
+      "a16z portfolio job board",
+      "official company headquarters and contact pages"
+    ],
+    "new_queue_records": 4,
+    "qualified_new_contacts_after_historical_suppression": 0,
+    "records": [
+      {
+        "company": "Service Robot Co.",
+        "role": "AI-Native Full-Stack Engineer",
+        "status": "disqualified_prior_company_contact",
+        "role_url": "https://www.servicerobotco.com/careers/ai-native-full-stack-engineer",
+        "hq_evidence": "https://www.servicerobotco.com/contact",
+        "email": "careers@servicerobotco.com",
+        "reason": "All fresh evidence passed; permanent historical suppression won: sent to hiring@servicerobotco.com 2026-09-17, Gmail ID 1a0ace3303edebbb, present in reached_out.json. Do not send to alternate mailbox."
+      },
+      {
+        "company": "Lynxiz",
+        "role": "Senior Full-Stack Developer",
+        "status": "unverified",
+        "role_url": "https://lynxiz.com/careers/senior-full-stack-developer",
+        "reason": "Worldwide remote but qualifying HQ and role-specific recruiting email not established; senior and older posting."
+      },
+      {
+        "company": "Datamint",
+        "role": "Rust Systems Engineer / Browser Security Engineer",
+        "status": "needs_fit_review",
+        "role_url": "https://news.ycombinator.com/item?id=49922569",
+        "email": "jobs@datamint.xyz",
+        "reason": "Remote Global and exact public hiring email, but corporate HQ unverified and deep Rust/browser internals beyond documented background."
+      },
+      {
+        "company": "fal",
+        "role": "Software Engineer, Distributed Systems",
+        "status": "unverified",
+        "role_url": "https://jobs.a16z.com/jobs/features-and-labels/0acf2909-a4c4-4ad5-a0fb-61fba66eb89e--software-engineer-distributed-systems",
+        "reason": "Remote Global, but exact recruiting mailbox and qualifying HQ not independently verified; distributed systems/Rust seniority fit gap."
+      }
+    ],
+    "additional_screened": [
+      {
+        "company": "MixRank",
+        "reason": "Official careers explicitly says Dover is only application route, no separate inbox."
+      },
+      {
+        "company": "FUTO",
+        "reason": "Only current relevant remote opening is Immich mobile developer; stack mismatch."
+      },
+      {
+        "company": "Rootly",
+        "reason": "Official careers says hiring US, Canada, Europe, Singapore, not India."
+      },
+      {
+        "company": "ByteHubble",
+        "reason": "Independent company profile says HQ Hyderabad India despite US office."
+      },
+      {
+        "company": "AnyPlace",
+        "reason": "Official location page says HQ Hisar India."
+      },
+      {
+        "company": "S-PRO",
+        "reason": "Official Switzerland HQ but senior Node/React role 5+ years and location evidence not confirmed India; public hi@ mailbox is client sales."
+      },
+      {
+        "company": "Fly.io",
+        "reason": "Current official fullstack posting explicitly excludes India from allowed countries."
+      }
+    ]
+  },
+  "attachment_blocker": "SerpApi and Mpeak emailed applications still require CV; prior Gmail attachment egress BLOCKED_FILE_REFERENCE unresolved, no retry.",
+  "gmail_reconciliation": {
+    "full_sent_history_pages_scanned": 4,
+    "approx_sent_messages_scanned": 300,
+    "oct30_sent_count": 0,
+    "oct30_sent_message_ids": [],
+    "hard_bounces_since_oct25": 1,
+    "historical_hard_bounce": "careers@enablex.io 2026-10-27",
+    "new_bounces_today": 0,
+    "new_recruiting_replies_seen": 0
+  },
+  "send_intent_checkpoint_created": false,
+  "connector_failures_this_run": [],
+  "github_write_failure": false,
+  "notes": "Safety gates preserved, no outbound attempted. A superficially qualified new candidate was blocked by older same-company contact, demonstrating historical suppression. Replenishment attempted using expanded official sources, but zero safe ready leads. Later slots may independently research and send up to their own caps; do not compensate 10am shortfall.",
+  "status": "no_sends_no_verified_ready_contacts"
+}
