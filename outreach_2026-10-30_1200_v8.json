@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-30",
+  "slot": "12:00",
+  "timezone": "Asia/Kolkata",
+  "nominal_start": "2026-10-30T12:00:00+05:30",
+  "checked_at": "2026-10-30T06:36:34.331Z",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "batch_cap": 7,
+  "daily_hard_cap": 30,
+  "initial_ready_target": 45,
+  "verified_ready_start": 0,
+  "verified_ready_end": 0,
+  "send_attempts": 0,
+  "confirmed_sent_this_run": 0,
+  "confirmed_new_sends_today": 0,
+  "confirmed_gmail_message_ids_this_run": [],
+  "batch_shortfall": 7,
+  "remaining_daily_capacity": 30,
+  "known_new_bounces": 0,
+  "known_historical_bounces": [
+    "careers@enablex.io (Gmail 1a17d37f4e1ab48a, 2026-10-27)"
+  ],
+  "unknown_delivery_this_run": 0,
+  "prior_unknown_quarantine": [
+    "DotCoAi"
+  ],
+  "new_optouts_observed": 0,
+  "queue_records_start": 61,
+  "queue_records_end": 65,
+  "queue_status_counts": {
+    "unknown_delivery": 1,
+    "sent_confirmed": 11,
+    "bounced": 1,
+    "needs_fit_review": 8,
+    "unverified": 37,
+    "disqualified": 5,
+    "needs_attachment": 2
+  },
+  "queue_blob_sha": "2938384eece99c1fba17f46227eef21513bad732",
+  "queue_commit_sha": "37108bd059449274a4ea093368557236da5bc5bd",
+  "historical_ledger_sha": "d2acf23f689d23b8516ea3f06f529d4c470c37b6",
+  "applications_sha": "596b5874d75c7c7dc3f1c46ae578715a9d83220b",
+  "discovery": {
+    "sources": [
+      "Official company careers/ATS including Suzega, Snapsight, Infisical, Apollo, OneOrigin, Better Stack, Namespace, GitBook, Cegeka, RapidCanvas",
+      "Y Combinator current jobs and company pages",
+      "October 2026 HN employer hiring thread",
+      "Company corporate HQ and official contact pages"
+    ],
+    "new_queue_records": 4,
+    "qualified_new_contacts_after_suppression": 0,
+    "records": [
+      {
+        "company": "Suzega",
+        "role": "Product Engineer",
+        "status": "unverified",
+        "role_url": "https://suzega.com/careers/jobs/product-engineer",
+        "hq_evidence": "https://suzega.com/contact.html",
+        "eligibility": "Work from anywhere in India",
+        "reason": "Excellent fit, US HQ and India eligibility verified; application form only, no public exact recruiting mailbox."
+      },
+      {
+        "company": "Snapsight",
+        "role": "Full Stack Engineer",
+        "status": "unverified",
+        "role_url": "https://www.snapsight.com/en/careers/full-stack-engineer",
+        "hq_evidence": "https://web.snapsight.com/contact-us/",
+        "eligibility": "India remote",
+        "reason": "Singapore HQ, but ongoing opportunity rather than active requisition, form-only and cs@ customer support, no hiring mailbox."
+      },
+      {
+        "company": "Infisical",
+        "role": "Full Stack Engineer",
+        "status": "unverified",
+        "role_url": "https://infisical.com/careers",
+        "reason": "Older Ashby India eligibility conflicts with fresh official careers page, which omits India; no current recruiting-specific email."
+      },
+      {
+        "company": "Apollo (YC W22)",
+        "role": "JS/Web3 Full Stack Engineer",
+        "status": "disqualified_prior_gmail_sent",
+        "role_url": "https://www.ycombinator.com/companies/apollo-3/jobs/pU6LGTh-js-web3-full-stack-engineer-yc-backed-web3-fintech-company",
+        "email": "talent@apollofirst.xyz",
+        "reason": "Already contacted 2026-09-24, Gmail Sent ID 1a0d619798f87e89. Historical Gmail suppression wins even though prior ledger lacked entry."
+      }
+    ],
+    "additional_screened": [
+      {
+        "company": "OneOrigin",
+        "reason": "US HQ and India opening, but Bangalore office four days/week, no appropriate exact recruiting email, user seeks remote."
+      },
+      {
+        "company": "Better Stack",
+        "reason": "Current official fullstack role limits remote to North America and Europe."
+      },
+      {
+        "company": "Namespace",
+        "reason": "Current official engineering roles limited to US/UK/Germany/Switzerland, not India."
+      },
+      {
+        "company": "GitBook",
+        "reason": "Current official roles Europe +/-3 hours, no relevant engineering opening."
+      },
+      {
+        "company": "Oscilar",
+        "reason": "HN confirms India eligibility for staff web SDK and senior Java backend, but seniority mismatch and no exact role-appropriate public mailbox."
+      },
+      {
+        "company": "Cegeka",
+        "reason": "Official recruiter emails available but matching AI engineer role is Belgium hybrid and not eligible India remote."
+      },
+      {
+        "company": "RapidCanvas",
+        "reason": "India-remote staff role requires 8+ seniority/Java Spring leadership and CV attachment."
+      }
+    ]
+  },
+  "gmail_reconciliation": {
+    "oct30_sent_count": 0,
+    "oct30_sent_message_ids": [],
+    "oct29_sent_reconfirmed": [
+      "1a1852cfba9dfe19",
+      "1a1857ff3060c11e",
+      "1a1865c90608106e"
+    ],
+    "historical_apollo_sent_id": "1a0d619798f87e89",
+    "new_bounces_today": 0,
+    "known_bounce_oct27": "1a17d37f4e1ab48a",
+    "new_recruiting_replies_seen": 0
+  },
+  "attachment_blocker": "SerpApi and Mpeak require CV; previous Gmail attachment egress BLOCKED_FILE_REFERENCE unresolved. No retries attempted.",
+  "send_intent_checkpoint_created": false,
+  "connector_failures_this_run": [],
+  "github_write_failure": false,
+  "notes": "Fresh discovery expanded beyond first pass; no candidate met all HQ, India-resident eligibility, exact role-appropriate recruiting mailbox, fit, and suppression gates. No outbound attempted, no batch quota rollover. Replenish at 14:00 and carry forward FIFO.",
+  "status": "no_sends_no_verified_ready_contacts"
+}
