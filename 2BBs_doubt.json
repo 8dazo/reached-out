@@ -41,8 +41,11 @@
       "discovered_at": "2026-10-27",
       "observed_at": "2026-10-27",
       "queue_position": 2,
-      "status": "sent_confirmed",
-      "gmail_message_id": "1a17d35ab455f573"
+      "status": "bounced",
+      "gmail_message_id": "1a17d35ab455f573",
+      "bounce_message_id": "1a17d35c8e902584",
+      "bounce_reason": "550 5.1.10 mailbox does not exist",
+      "last_checked_at": "2026-10-31T06:33:00+05:30"
     },
     {
       "email": "careers@haired.app",
@@ -1258,7 +1261,145 @@
       "last_checked_at": "2026-10-30T14:05:34+05:30",
       "notes": "Company explicitly based in India; independent company registration confirms India HQ. Not eligible for international-HQ campaign. Official email requires CV; no send.",
       "queue_position": 69
+    },
+    {
+      "company": "Socratix AI",
+      "person": "Satya Vasanth Tumati",
+      "email": "satya@getsocratix.ai",
+      "role": "Member of Technical Staff, AI Agents",
+      "role_url": "https://www.ycombinator.com/companies/socratix-ai/jobs/JtqwNF7-member-of-technical-staff-ai-agents",
+      "hq_evidence_url": "https://getsocratix.ai/blog/press-release/1",
+      "company_hq": "San Francisco Bay Area, USA",
+      "company_region": "US",
+      "eligibility_evidence": "YC job explicitly says Visa: Will sponsor; Mountain View hybrid 3 days in office, 2–4 years or strong portfolio. Relocation required; sender currently based in India.",
+      "eligibility_url": "https://www.ycombinator.com/companies/socratix-ai/jobs/JtqwNF7-member-of-technical-staff-ai-agents",
+      "email_evidence_url": "https://www.ycombinator.com/companies/socratix-ai",
+      "email_evidence": "Company cofounder/CTO Satya email explicitly published in YC company launch; current YC job names him as CTO and hiring contact.",
+      "verification": "explicit_public_founder_email_and_visa_sponsorship",
+      "fit_score": 93,
+      "status": "claimed",
+      "queue_position": 70,
+      "discovered_at": "2026-10-31",
+      "observed_at": "2026-10-31",
+      "claimed_at": "2026-10-31T06:33:00+05:30",
+      "claim_owner": "International Outreach Morning 2026-10-31 06:30 IST",
+      "message_subject": "Socratix agents and trustworthy decisions",
+      "message_body": "Hi Satya,\n\nThe AI Agents role at Socratix has a tricky requirement: an agent investigating fraud needs evidence, audit trails, and a human handoff, not just a plausible answer. I liked that your job description calls out MCP integrations and evaluation harnesses alongside shipping quickly.\n\nI built Captor because I wanted hard budget limits, tool policies, and tracing around LLM calls. At Stride AI, I also owned backend APIs and full-stack features through testing and deployment. I prefer working close to the actual product problems.\n\nI'm currently in India and noticed the role offers visa sponsorship. Are you considering applicants relocating from India for this position?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
+      "message_angle": "builder-to-builder: evidence/audit trails for fraud agents, Captor policies",
+      "send_intent_id": "outreach-2026-10-31-0630-socratix-satya",
+      "notes": "Outreach to CTO, not formal application. Role hybrid Mountain View with visa sponsorship; candidate currently India; ask eligibility, no CV attached.",
+      "created_at": "2026-10-31",
+      "last_checked_at": "2026-10-31T06:33:00+05:30"
+    },
+    {
+      "company": "APAS.AI",
+      "role": "Agentic AI Engineer — India Remote",
+      "role_url": "https://jobs.ashbyhq.com/apas/9fd6b53e-b4b6-411e-ad59-aac671afe578",
+      "hq_evidence_url": "https://portfolio.apas.ai/",
+      "company_hq": "Miami, Florida, USA (official site)",
+      "company_region": "US",
+      "eligibility_evidence": "Official Ashby listing: India, Remote, full-time",
+      "eligibility_url": "https://jobs.ashbyhq.com/apas/9fd6b53e-b4b6-411e-ad59-aac671afe578",
+      "email": null,
+      "status": "unverified",
+      "verification": "role_hq_eligibility_verified_contact_missing",
+      "notes": "Strong LLM retrieval, citation, agent reliability fit. support@apas.ai is customer contact, not hiring; no verified current role-appropriate email. Official Ashby form only.",
+      "source_urls": [
+        "https://portfolio.apas.ai/",
+        "https://jobs.ashbyhq.com/apas/9fd6b53e-b4b6-411e-ad59-aac671afe578"
+      ],
+      "queue_position": 71,
+      "created_at": "2026-10-31",
+      "last_checked_at": "2026-10-31T06:33:00+05:30"
+    },
+    {
+      "company": "Deductive AI",
+      "role": "AI Engineer — Forward Deployed Engineer",
+      "role_url": "https://jobs.ashbyhq.com/deductive/124b540e-f84f-46d5-9752-f151361b8223",
+      "company_hq": "US headquarters claimed by external directory; independent official verification pending",
+      "eligibility_evidence": "Ashby: India Remote Full-time",
+      "eligibility_url": "https://jobs.ashbyhq.com/deductive/124b540e-f84f-46d5-9752-f151361b8223",
+      "email": null,
+      "status": "unverified",
+      "notes": "AI SRE agent and production incident work fit Captor. No exact public hiring mailbox, HQ not independently confirmed from official primary source. Do not send.",
+      "source_urls": [
+        "https://jobs.ashbyhq.com/deductive/124b540e-f84f-46d5-9752-f151361b8223",
+        "https://deductive.ai/"
+      ],
+      "queue_position": 72,
+      "created_at": "2026-10-31",
+      "last_checked_at": "2026-10-31T06:33:00+05:30"
+    },
+    {
+      "company": "AHL — Saaf AI",
+      "role": "Forward-Deployed AI Engineer",
+      "role_url": "https://jobs.ashbyhq.com/ahl-saafai/cf683b2f-f1db-4ca0-9bac-57eb64827c0a",
+      "company_hq": "US lender parent; corporate headquarters evidence pending",
+      "eligibility_evidence": "Official Ashby: India Remote Full-time",
+      "eligibility_url": "https://jobs.ashbyhq.com/ahl-saafai/cf683b2f-f1db-4ca0-9bac-57eb64827c0a",
+      "email": null,
+      "status": "unverified",
+      "notes": "Agent product delivery and end-to-end backend fit. No exact verified recruiting contact, parent legal HQ not independently checked. Official application form.",
+      "source_urls": [
+        "https://jobs.ashbyhq.com/ahl-saafai/cf683b2f-f1db-4ca0-9bac-57eb64827c0a"
+      ],
+      "queue_position": 73,
+      "created_at": "2026-10-31",
+      "last_checked_at": "2026-10-31T06:33:00+05:30"
+    },
+    {
+      "company": "Deel",
+      "role": "Full Stack Engineer — Remote India/Pakistan/Sri Lanka",
+      "role_url": "https://jobs.ashbyhq.com/Deel/64dfc3b2-a0c5-4ad5-9d35-992d3d76edda",
+      "company_hq": "San Francisco, California, USA (official privacy policy)",
+      "hq_evidence_url": "https://www.deel.com/legal/privacy-policy/",
+      "eligibility_evidence": "Ashby listing explicitly India, Pakistan, Sri Lanka remote",
+      "eligibility_url": "https://jobs.ashbyhq.com/Deel/64dfc3b2-a0c5-4ad5-9d35-992d3d76edda",
+      "email": null,
+      "status": "unverified",
+      "notes": "React/TS full-stack role, but indexed listing is ~6 months old and no exact current appropriate recruiting mailbox found. Recheck live job via official Ashby before sending.",
+      "source_urls": [
+        "https://www.deel.com/legal/privacy-policy/",
+        "https://jobs.ashbyhq.com/Deel/64dfc3b2-a0c5-4ad5-9d35-992d3d76edda"
+      ],
+      "queue_position": 74,
+      "created_at": "2026-10-31",
+      "last_checked_at": "2026-10-31T06:33:00+05:30"
+    },
+    {
+      "company": "BJAK",
+      "role": "Applied AI Engineer — India Remote",
+      "role_url": "https://jobs.ashbyhq.com/bjakcareer/d6c58233-5692-4820-8b86-52dade2e7e19",
+      "company_hq": "Corporate HQ not yet proven to be qualifying target region",
+      "eligibility_evidence": "Ashby explicitly requires candidates based in India, remote",
+      "eligibility_url": "https://jobs.ashbyhq.com/bjakcareer/d6c58233-5692-4820-8b86-52dade2e7e19",
+      "email": null,
+      "status": "unverified",
+      "notes": "Strong applied LLM systems fit, but qualifying US/EU/UK/SG headquarters not verified and no exact recruiting mailbox. Do not send.",
+      "source_urls": [
+        "https://jobs.ashbyhq.com/bjakcareer/d6c58233-5692-4820-8b86-52dade2e7e19"
+      ],
+      "queue_position": 75,
+      "created_at": "2026-10-31",
+      "last_checked_at": "2026-10-31T06:33:00+05:30"
+    },
+    {
+      "company": "CSC Generation",
+      "role": "Senior Full Stack Engineer — India Shared Services",
+      "role_url": "https://jobs.lever.co/cscgeneration-2/d0df490d-99cd-4795-98aa-65ec290e95e0",
+      "company_hq": "US company, primary HQ evidence pending",
+      "eligibility_evidence": "Lever role says CSC Generation Shared Services India, remote anywhere",
+      "eligibility_url": "https://jobs.lever.co/cscgeneration-2/d0df490d-99cd-4795-98aa-65ec290e95e0",
+      "email": null,
+      "status": "unverified",
+      "notes": "End-to-end APIs/dashboards fit; Senior experience requirements need review; no exact public recruiting mailbox or independently verified HQ. Official Lever form.",
+      "source_urls": [
+        "https://jobs.lever.co/cscgeneration-2/d0df490d-99cd-4795-98aa-65ec290e95e0"
+      ],
+      "queue_position": 76,
+      "created_at": "2026-10-31",
+      "last_checked_at": "2026-10-31T06:33:00+05:30"
     }
   ],
-  "updated_at": "2026-10-30T14:05:34+05:30"
+  "updated_at": "2026-10-31T06:33:00+05:30"
 }
