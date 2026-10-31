@@ -84,7 +84,7 @@
       "id": "outreach-2026-10-31-0800-stardrift-leila",
       "company": "Stardrift",
       "to": "leila@stardrift.ai",
-      "status": "claimed",
+      "status": "sent_confirmed",
       "subject": "Search and booking reliability at Stardrift",
       "body": "Hi Leila,\n\nStardrift's founding engineer role caught my eye because turning scattered travel data into a booking experience people can trust is a hard product and backend problem. Search quality and provider integrations seem especially interesting.\n\nAt Stride AI, I shipped backend APIs and end-to-end features. In a RAG prototype, I spent time testing retrieval quality instead of assuming a model's answer was correct. I'd enjoy working on the evaluation and integration layer behind travel recommendations.\n\nI'm based in India and saw that the role offers visa sponsorship. Are you considering candidates relocating from India?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
       "role": "Founding Software Engineer",
@@ -96,7 +96,9 @@
       "message_quality_angle": "Travel provider integrations, search quality and RAG evaluation; distinct from bank auth, document parsing, accounting UX.",
       "claimed_at": "2026-10-31T08:10:06+05:30",
       "application_status": "contacted_not_formal_application",
-      "gmail_message_id": null
+      "gmail_message_id": "1a18fd461045e9cc",
+      "thread_id": "1a18fd461045e9cc",
+      "confirmed_at": "2026-10-31T08:10:30+05:30"
     }
   ],
   "reconciliation": {
@@ -113,18 +115,19 @@
     ],
     "prior_morning_sender_completed": true
   },
-  "send_attempts": 3,
+  "send_attempts": 4,
   "confirmed_gmail_message_ids": [
     "1a18fd23d7e11079",
     "1a18fd315955c63d",
-    "1a18fd3bd932049f"
+    "1a18fd3bd932049f",
+    "1a18fd461045e9cc"
   ],
   "known_new_bounces": 0,
   "unknown_delivery_this_run": 0,
   "notes": "One new Gmail-confirmed Unsiloed send. Historical Deeptrace previously contacted in September was newly reconciled and suppressed. Remaining leads need exact hiring email, location or HQ evidence; resume attachment block remains.",
-  "confirmed_sent_this_run": 3,
-  "total_confirmed_new_sends_today": 4,
-  "remaining_daily_capacity": 26,
+  "confirmed_sent_this_run": 4,
+  "total_confirmed_new_sends_today": 5,
+  "remaining_daily_capacity": 25,
   "github_checkpoint_shas": {
     "historical_deeptrace_suppression": "30d97dac88800d0309fb9d91813e9a26b2241426",
     "queue_research": "ebc0c8372053170c551ae1753c84f195d97ded48",
@@ -139,7 +142,11 @@
     "finta_pre_send_intent": "598731016221cca1e9ff0cc171d6c3950292d61c",
     "finta_queue_claim": "53a35bdc2cc1807db34096c4f50b87fc3f26b405",
     "finta_sent_ledger": "e9caf73606f5a2c190451e5396268526810bb584",
-    "finta_sent_queue": "d3a5ae3d262e8d6f5fb49bddb5d97fa68414e9a3"
+    "finta_sent_queue": "d3a5ae3d262e8d6f5fb49bddb5d97fa68414e9a3",
+    "stardrift_pre_send_intent": "264f200824c43ed6c4977cdd00d7d862f09203bd",
+    "stardrift_queue_claim": "4e2b36044473552400425ab58fc0d6ffad5311f7",
+    "stardrift_sent_ledger": "ddcb3cf3c61df2b87d51d9187e6c54cfcae3dfe4",
+    "stardrift_sent_queue": "e342cf7f368a61971a7f0158a8e53e388626a433"
   },
-  "updated_at": "2026-10-31T08:10:06+05:30"
+  "updated_at": "2026-10-31T08:10:30+05:30"
 }
