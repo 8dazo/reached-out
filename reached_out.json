@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T12:10:06+05:30",
+  "updated_at": "2026-10-31T12:11:05+05:30",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -1645,6 +1645,23 @@
       "email_verification": "YC_public_founders_email",
       "delivery_check": "gmail_sent_confirmed",
       "source_url": "https://www.ycombinator.com/companies/salus/jobs/6xN06s6-founding-swe-mle"
+    },
+    {
+      "email": "kiet@superset.sh",
+      "person": "Kiet Ho (Co-founder and CEO)",
+      "company": "Paradev (formerly Superset)",
+      "company_hq": "San Francisco, CA, USA",
+      "role": "Founding Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-31",
+      "subject": "From PTY streams to agent review at Paradev",
+      "gmail_message_id": "1a190b0c21c8c0f2",
+      "thread_id": "1a190b0c21c8c0f2",
+      "source": "outreach_2026-10-31_1200_v8.json",
+      "application_status": "contacted_not_formal_application",
+      "email_verification": "HN_founder_self_posted_exact_hiring_email_2026_10_07",
+      "delivery_check": "gmail_sent_confirmed",
+      "source_url": "https://www.ycombinator.com/companies/paradev/jobs/Nd9luiP-founding-engineer"
     }
   ],
   "policy_effective_date": "2026-10-09",
