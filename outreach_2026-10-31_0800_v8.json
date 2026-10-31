@@ -104,7 +104,7 @@
       "id": "outreach-2026-10-31-0800-anara-naveed",
       "company": "Anara",
       "to": "naveed@anara.com",
-      "status": "claimed",
+      "status": "sent_confirmed",
       "subject": "Research agents inside Anara's product",
       "body": "Hi Naveed,\n\nI liked Anara 2.0's approach to research agents that work inside a library rather than returning isolated chat answers. Making evidence and multi-step research feel dependable is a product problem as much as a model problem.\n\nAt Stride AI, I built complex React interfaces and backend APIs. I also prototyped RAG evaluation to measure retrieval quality. I'd enjoy building research tools where feedback shapes both the UI and agent behavior.\n\nI saw your Software Engineer, Product role supports visa sponsorship. I'm based in India and open to relocating. Would you consider someone with around three years of experience including internships?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
       "role": "Software Engineer, Product",
@@ -116,7 +116,9 @@
       "message_quality_angle": "Research agent in-library product UX and evidence; not generic RAG backend message.",
       "claimed_at": "2026-10-31T08:11:00+05:30",
       "application_status": "contacted_not_formal_application",
-      "gmail_message_id": null
+      "gmail_message_id": "1a18fd53d87b5f00",
+      "thread_id": "1a18fd53d87b5f00",
+      "confirmed_at": "2026-10-31T08:11:30+05:30"
     }
   ],
   "reconciliation": {
@@ -133,19 +135,20 @@
     ],
     "prior_morning_sender_completed": true
   },
-  "send_attempts": 4,
+  "send_attempts": 5,
   "confirmed_gmail_message_ids": [
     "1a18fd23d7e11079",
     "1a18fd315955c63d",
     "1a18fd3bd932049f",
-    "1a18fd461045e9cc"
+    "1a18fd461045e9cc",
+    "1a18fd53d87b5f00"
   ],
   "known_new_bounces": 0,
   "unknown_delivery_this_run": 0,
   "notes": "One new Gmail-confirmed Unsiloed send. Historical Deeptrace previously contacted in September was newly reconciled and suppressed. Remaining leads need exact hiring email, location or HQ evidence; resume attachment block remains.",
-  "confirmed_sent_this_run": 4,
-  "total_confirmed_new_sends_today": 5,
-  "remaining_daily_capacity": 25,
+  "confirmed_sent_this_run": 5,
+  "total_confirmed_new_sends_today": 6,
+  "remaining_daily_capacity": 24,
   "github_checkpoint_shas": {
     "historical_deeptrace_suppression": "30d97dac88800d0309fb9d91813e9a26b2241426",
     "queue_research": "ebc0c8372053170c551ae1753c84f195d97ded48",
@@ -164,7 +167,11 @@
     "stardrift_pre_send_intent": "264f200824c43ed6c4977cdd00d7d862f09203bd",
     "stardrift_queue_claim": "4e2b36044473552400425ab58fc0d6ffad5311f7",
     "stardrift_sent_ledger": "ddcb3cf3c61df2b87d51d9187e6c54cfcae3dfe4",
-    "stardrift_sent_queue": "e342cf7f368a61971a7f0158a8e53e388626a433"
+    "stardrift_sent_queue": "e342cf7f368a61971a7f0158a8e53e388626a433",
+    "anara_pre_send_intent": "2750efba93aed471ae01a184d991979a8ab2a03c",
+    "anara_queue_claim": "474bbc0f8479d8e5351041d47b824f03f75fa233",
+    "anara_sent_ledger": "63c063485cee17a7bbe3d02cf6a5e65f0959bf6c",
+    "anara_sent_queue": "f7423a9cdccb47b839dc97c1a43ac698c7b2cd31"
   },
-  "updated_at": "2026-10-31T08:11:00+05:30"
+  "updated_at": "2026-10-31T08:11:30+05:30"
 }
