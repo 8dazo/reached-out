@@ -2015,7 +2015,7 @@
       "email_evidence": "YC company launch CEO Hamze Al-Zamkan explicitly publishes hamze@heytenor.com.",
       "email_evidence_url": "https://www.ycombinator.com/companies/tenor",
       "verification": "exact_public_email_current_role_and_visa_verified",
-      "status": "claimed",
+      "status": "sent_confirmed",
       "fit_score": 97,
       "discovered_at": "2026-10-31",
       "observed_at": "2026-10-31T10:00:01+05:30",
@@ -2025,7 +2025,12 @@
       "send_intent_id": "outreach-2026-10-31-1000-tenor",
       "claimed_at": "2026-10-31T10:03:00+05:30",
       "subject": "Replay and evaluation systems at Tenor",
-      "body": "Hi Hamze,\n\nTenor's founding engineer role mentions replay, simulation, evaluation gates, and evidence-driven learning for agent systems. Those details stood out because I keep running into the same question: how do you make an agent's decisions inspectable after the first successful demo?\n\nI built Captor to enforce LLM call budgets and policies, trace execution, and detect loops. At Stride AI, I also owned backend APIs and full-stack features. I enjoy teams where I can follow a reliability problem from design through deployment.\n\nI'm based in India and open to relocating; the YC role offers visa sponsorship. Could I show you how Captor approaches runtime control?\n\nDevansh\nhttps://devansh.aurat.ai\nhttps://github.com/8dazo"
+      "body": "Hi Hamze,\n\nTenor's founding engineer role mentions replay, simulation, evaluation gates, and evidence-driven learning for agent systems. Those details stood out because I keep running into the same question: how do you make an agent's decisions inspectable after the first successful demo?\n\nI built Captor to enforce LLM call budgets and policies, trace execution, and detect loops. At Stride AI, I also owned backend APIs and full-stack features. I enjoy teams where I can follow a reliability problem from design through deployment.\n\nI'm based in India and open to relocating; the YC role offers visa sponsorship. Could I show you how Captor approaches runtime control?\n\nDevansh\nhttps://devansh.aurat.ai\nhttps://github.com/8dazo",
+      "gmail_message_id": "1a1903a91ecf1356",
+      "thread_id": "1a1903a91ecf1356",
+      "sent_at": "2026-10-31T10:03:35+05:30",
+      "delivery_check": "gmail_sent_confirmed",
+      "application_status": "contacted_not_formal_application"
     },
     {
       "company": "Gooseworks",
@@ -2085,5 +2090,5 @@
       "notes": "Hold until all gates independently verified."
     }
   ],
-  "updated_at": "2026-10-31T10:02:35+05:30"
+  "updated_at": "2026-10-31T10:03:35+05:30"
 }
