@@ -1986,7 +1986,7 @@
       "email_evidence": "YC founders' launch publicly prints founders@convictiontrade.ai for questions.",
       "email_evidence_url": "https://www.ycombinator.com/companies/conviction",
       "verification": "exact_public_email_current_role_and_visa_verified",
-      "status": "claimed",
+      "status": "sent_confirmed",
       "fit_score": 89,
       "discovered_at": "2026-10-31",
       "observed_at": "2026-10-31T10:00:01+05:30",
@@ -1996,7 +1996,12 @@
       "send_intent_id": "outreach-2026-10-31-1000-conviction",
       "claimed_at": "2026-10-31T10:02:00+05:30",
       "subject": "Reliable agent execution at Conviction",
-      "body": "Hi Aria and Tony,\n\nConviction's founding engineer role mixes multi-agent research with financial execution, where a model mistake can become a real system mistake. That boundary is the part I'd most like to work on.\n\nI built Captor to put budgets, tool policies, and traces around LLM calls, and at Stride AI I shipped backend APIs and production tests. I haven't worked professionally on trading infrastructure, but I care about reliable agent execution and measurable failure modes.\n\nI'm in India and open to relocating; your YC role lists visa sponsorship. Could I share a technical walkthrough and ask whether my backend background fits the team?\n\nDevansh\nhttps://devansh.aurat.ai\nhttps://github.com/8dazo"
+      "body": "Hi Aria and Tony,\n\nConviction's founding engineer role mixes multi-agent research with financial execution, where a model mistake can become a real system mistake. That boundary is the part I'd most like to work on.\n\nI built Captor to put budgets, tool policies, and traces around LLM calls, and at Stride AI I shipped backend APIs and production tests. I haven't worked professionally on trading infrastructure, but I care about reliable agent execution and measurable failure modes.\n\nI'm in India and open to relocating; your YC role lists visa sponsorship. Could I share a technical walkthrough and ask whether my backend background fits the team?\n\nDevansh\nhttps://devansh.aurat.ai\nhttps://github.com/8dazo",
+      "gmail_message_id": "1a1903a16e6288c8",
+      "thread_id": "1a1903a16e6288c8",
+      "sent_at": "2026-10-31T10:02:35+05:30",
+      "delivery_check": "gmail_sent_confirmed",
+      "application_status": "contacted_not_formal_application"
     },
     {
       "company": "Tenor",
@@ -2076,5 +2081,5 @@
       "notes": "Hold until all gates independently verified."
     }
   ],
-  "updated_at": "2026-10-31T10:01:40+05:30"
+  "updated_at": "2026-10-31T10:02:35+05:30"
 }
