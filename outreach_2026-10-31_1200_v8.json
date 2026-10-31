@@ -90,7 +90,7 @@
   ],
   "send_attempts": 4,
   "confirmed_sent_this_run": 4,
-  "new_candidate_records_added": 7,
+  "new_candidate_records_added": 10,
   "source_failures": [],
   "connector_failures": [],
   "research_notes": [
@@ -100,7 +100,8 @@
     "Planlab role exact official email and sponsorship verified but CV required and outgoing attachment blocked; retained as needs_attachment.",
     "Terrakotta senior role US authorization only, new-grad role fit unclear; Nessie and Uno lack exact verified mailbox.",
     "Upgraded existing Salus FIFO record after finding founders@usesalus.ai published in the official YC launch; current Founding SWE/MLE job explicitly offers sponsorship and fits Captor.",
-    "Upgraded existing Paradev (formerly Superset) queue record: founder Kiet Ho posted kiet@superset.sh in Oct 7 HN hiring thread; official current Paradev careers page explicitly says applicants do not need US work authorization and visas sponsored."
+    "Upgraded existing Paradev (formerly Superset) queue record: founder Kiet Ho posted kiet@superset.sh in Oct 7 HN hiring thread; official current Paradev careers page explicitly says applicants do not need US work authorization and visas sponsored.",
+    "Preserved three additional sponsored founding/backend engineering opportunities (Replicas, Conductor, Refactor) without inventing recruiting emails; no contact sent to these records."
   ],
   "known_bounces": 0,
   "unknown_delivery_events": 0,
