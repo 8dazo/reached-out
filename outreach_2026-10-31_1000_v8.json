@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "slot": "10:00",
   "timezone": "Asia/Kolkata",
-  "status": "preflight_claimed_no_send_yet",
+  "status": "completed",
   "writer_id": "international_outreach_batches_2026-10-31_1000_run8",
   "batch_cap": 7,
   "daily_cap": 30,
@@ -79,5 +79,28 @@
   "source_failures": [],
   "send_attempts": 3,
   "confirmed_sent_this_run": 3,
-  "current_claim": null
+  "current_claim": null,
+  "completed_at": "2026-10-31T10:03:34+05:30",
+  "batch_target": 7,
+  "batch_shortfall": 4,
+  "daily_confirmed_total": 11,
+  "daily_remaining_cap": 19,
+  "verified_ready_pool_remaining": 0,
+  "verified_ready_pool_shortfall": 45,
+  "queue_total": 113,
+  "new_candidate_records_added": 15,
+  "new_bounces": 0,
+  "unknown_delivery_events": 0,
+  "ledger_reconciled": true,
+  "queue_reconciled": true,
+  "gmail_sent_reconciled": true,
+  "suppression_reconciled": true,
+  "notes": [
+    "3 verified new contacts sent serially, with durable intent before each and Gmail Sent ID persisted to reached_out.json, FIFO, and this audit before next recipient.",
+    "Researched 15 candidate records: Cardinal, Conviction, Tenor, Gooseworks, Rudus, Aurelian, Vela, Fleetline, FurtherAI, Salus, AgentPhone, Sourcebot, String, Circleback, Aviator; LegalOS existing record enriched.",
+    "Sourcebot current YC jobs list no longer includes founding engineer; Fleetline acquired Aug 2026; Vela restricted to US citizen/existing visa; LegalOS careers email verified but resume-attachment blocker remains.",
+    "No blind retries, no overlapping writer, no new bounces or opt-outs found; no follow-up messages attempted.",
+    "Three new Gmail Sent IDs match permanent ledger and FIFO; previous 8 sent messages also match permanent ledger.",
+    "No changes to recurring schedules."
+  ]
 }
