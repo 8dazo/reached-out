@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-31",
+  "slot": "14:00",
+  "timezone": "Asia/Kolkata",
+  "status": "preflight_completed_awaiting_nominal_start",
+  "writer_id": "international_outreach_batches_2026-10-31_1400_run9",
+  "batch_cap": 2,
+  "daily_cap": 30,
+  "confirmed_prior_gmail_sends": 15,
+  "verified_ready_pool_start": 0,
+  "verified_ready_pool_after_discovery": 1,
+  "ready_pool_target": 45,
+  "queue_total_start": 123,
+  "queue_total_after_discovery": 130,
+  "new_candidate_records_added": 7,
+  "historical_suppression_reconciled": [
+    {
+      "company": "Conductor",
+      "email": "careers@conductor.is",
+      "gmail_message_id": "1a0dde43de888067"
+    },
+    {
+      "company": "Sourcebot",
+      "email": "michael@sourcebot.dev",
+      "gmail_message_id": "1a0dde3a2b4c428b"
+    }
+  ],
+  "current_claim": null,
+  "send_intents": [
+    {
+      "id": "outreach-2026-10-31-1400-rainbrand",
+      "company": "Rainbrand (formerly Bloom)",
+      "to": "ray@trybloom.ai",
+      "role": "Founding Engineer",
+      "role_url": "https://www.ycombinator.com/companies/rainbrand/jobs/8eQxoBN-founding-engineer",
+      "email_evidence_url": "https://www.ycombinator.com/companies/rainbrand",
+      "eligibility_url": "https://www.rainbrand.com/careers/founding-engineer/",
+      "subject": "Versioned brand context at Rainbrand",
+      "body": "Hi Ray,\n\nRainbrand's idea of versioned brand context callable through MCP is interesting because agents shouldn't reconstruct identity from scattered assets on every run. Your founding engineer role covers ingestion, retrieval, evaluations, and developer APIs, not just generated creative.\n\nI built Captor, a TypeScript SDK that enforces per-call LLM budgets and tool policies, records traces, and detects loops. I've also owned production backend APIs and React features end to end. I'd enjoy helping make Rainbrand's shared context dependable across agent workflows.\n\nI'm based in India and open to relocating; your role offers visa support. Could I show you Captor?\n\nDevansh\nhttps://devansh.aurat.ai\nhttps://github.com/8dazo",
+      "status": "pending_time_guard",
+      "quality_angle": "versioned ontology and MCP developer surfaces vs Captor runtime policy; distinct from prior agent evaluation and fintech messages",
+      "word_count": 102,
+      "application_status": "contacted_not_formal_application"
+    }
+  ],
+  "confirmed_gmail_message_ids": [],
+  "send_attempts": 0,
+  "confirmed_sent_this_run": 0,
+  "known_bounces": 0,
+  "unknown_delivery_events": 0,
+  "source_failures": [],
+  "connector_failures": [],
+  "research_notes": [
+    "Read latest v7/v8/config/message quality. Gmail Sent confirmed 15 prior new contacts today, no new known bounces/optouts.",
+    "Rainbrand YC current public founder address and current visa-sponsored role verified; company rebranded from Bloom but YC still publishes old-domain contact.",
+    "Official YC VOYGR job says US citizen/visa only despite HN recruiter invitation, excluded.",
+    "Conductor and Sourcebot historically sent in Gmail but missing permanent GitHub ledger; repaired ledger and queue before any outbound.",
+    "Additional six research-only leads retained, no invented mailboxes; Planlab and other formal CV-required applications remain blocked by attachment access.",
+    "14:00 time guard: do not send before local 14:00; intent prepared but not claimed."
+  ]
+}
