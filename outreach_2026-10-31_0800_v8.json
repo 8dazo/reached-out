@@ -9,7 +9,7 @@
     "MESSAGE_QUALITY_V2.md",
     "outreach_v7_config.json"
   ],
-  "status": "batch_target_met_replenishment_shortfall",
+  "status": "completed_7_of_7_sent_confirmed_readiness_shortfall",
   "batch_cap": 7,
   "daily_hard_cap": 30,
   "confirmed_new_sends_prior": 1,
@@ -173,7 +173,16 @@
       "careers@wavelet-ai.com",
       "careers@enablex.io"
     ],
-    "prior_morning_sender_completed": true
+    "prior_morning_sender_completed": true,
+    "all_eight_today_gmail_sent_labels_verified": true,
+    "all_eight_today_in_permanent_ledger": true,
+    "all_eight_today_in_fifo": true,
+    "all_seven_0800_one_recipient_per_message": true,
+    "final_gmail_sent_count_today": 8,
+    "final_github_sent_count_today": 8,
+    "final_bounces_today": 0,
+    "final_optouts_today": 0,
+    "historical_deeptrace_suppressed": true
   },
   "send_attempts": 7,
   "confirmed_gmail_message_ids": [
@@ -187,7 +196,7 @@
   ],
   "known_new_bounces": 0,
   "unknown_delivery_this_run": 0,
-  "notes": "One new Gmail-confirmed Unsiloed send. Historical Deeptrace previously contacted in September was newly reconciled and suppressed. Remaining leads need exact hiring email, location or HQ evidence; resume attachment block remains.",
+  "notes": "All 7 new messages Gmail SENT verified individually, GitHub permanent suppression and FIFO durable before next recipient. One additional morning message also verified (8 today). Historical Deeptrace sent found and suppressed; no duplicate. 45-contact readiness target unmet: no verified unsent ready contacts remain. No attachment retries, no follow-ups. No changes to recurring schedules.",
   "confirmed_sent_this_run": 7,
   "total_confirmed_new_sends_today": 8,
   "remaining_daily_capacity": 22,
@@ -223,6 +232,37 @@
     "pango_sent_ledger": "641a8a01ae099d02da7dbb8f3bd80b08e092b5ea",
     "pango_sent_queue": "a93c6fb088905154179b445aa36308c1f06e9fbe"
   },
-  "updated_at": "2026-10-31T08:13:10+05:30",
-  "batch_shortfall": 0
+  "updated_at": "2026-10-31T08:14:00+05:30",
+  "batch_shortfall": 0,
+  "completed_at": "2026-10-31T08:14:00+05:30",
+  "batch_target": 7,
+  "daily_total_cap": 30,
+  "queue_records_end": 98,
+  "queue_new_records_this_run": 18,
+  "fully_verified_unsent_ready_end": 0,
+  "ready_pool_shortfall": 45,
+  "known_new_optouts": 0,
+  "followups_sent_this_run": 0,
+  "attachments_sent_this_run": 0,
+  "unique_recipients_this_run": 7,
+  "reconciliation_verified_at": "2026-10-31T08:14:00+05:30",
+  "research_summary": {
+    "new_queue_records": 18,
+    "not_ready_remaining": 80,
+    "selected_from_existing_verified_ready": 0,
+    "verified_new_for_immediate_send": 7,
+    "examples_pending": [
+      "Reacher: ATS form only, no public recruiting email",
+      "Kaaj: ATS form only, no public recruiting email",
+      "LiveKit: recruiting email is accommodations only; India country policy unconfirmed",
+      "Rebolt: visa sponsor but no public recruiting email",
+      "Kadoa: Swiss HQ and official careers address, India eligibility not explicit, form preferred",
+      "Enveritas: worldwide remote but extensive Python requirement and form preferred",
+      "LegalOS: visa sponsor but no public recruiting email"
+    ],
+    "disqualified": [
+      "Kavach-AI: conflicting US/India HQ evidence",
+      "Collectiv: US-only job location despite worldwide aggregator label"
+    ]
+  }
 }
