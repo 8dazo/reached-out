@@ -2015,13 +2015,17 @@
       "email_evidence": "YC company launch CEO Hamze Al-Zamkan explicitly publishes hamze@heytenor.com.",
       "email_evidence_url": "https://www.ycombinator.com/companies/tenor",
       "verification": "exact_public_email_current_role_and_visa_verified",
-      "status": "verified_ready",
+      "status": "claimed",
       "fit_score": 97,
       "discovered_at": "2026-10-31",
       "observed_at": "2026-10-31T10:00:01+05:30",
       "queue_position": 101,
       "notes": "Founder/team outreach, not a formal CV application; eligible to relocate from India.",
-      "email": "hamze@heytenor.com"
+      "email": "hamze@heytenor.com",
+      "send_intent_id": "outreach-2026-10-31-1000-tenor",
+      "claimed_at": "2026-10-31T10:03:00+05:30",
+      "subject": "Replay and evaluation systems at Tenor",
+      "body": "Hi Hamze,\n\nTenor's founding engineer role mentions replay, simulation, evaluation gates, and evidence-driven learning for agent systems. Those details stood out because I keep running into the same question: how do you make an agent's decisions inspectable after the first successful demo?\n\nI built Captor to enforce LLM call budgets and policies, trace execution, and detect loops. At Stride AI, I also owned backend APIs and full-stack features. I enjoy teams where I can follow a reliability problem from design through deployment.\n\nI'm based in India and open to relocating; the YC role offers visa sponsorship. Could I show you how Captor approaches runtime control?\n\nDevansh\nhttps://devansh.aurat.ai\nhttps://github.com/8dazo"
     },
     {
       "company": "Gooseworks",
