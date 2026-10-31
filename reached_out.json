@@ -1471,6 +1471,24 @@
       "delivery_check": "gmail_sent_confirmed",
       "source_url": "https://www.ycombinator.com/companies/finta/jobs/vg5fXEw-founding-engineer",
       "notes": "108-word tailored founder note about financial product UX and Page Studio. YC job explicitly lists visa sponsorship and relocation. No CV; inquiry, not formal application."
+    },
+    {
+      "email": "leila@stardrift.ai",
+      "person": "Leila Clark",
+      "company": "Stardrift",
+      "company_hq": "San Francisco, California, USA",
+      "role": "Founding Software Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-31",
+      "subject": "Search and booking reliability at Stardrift",
+      "gmail_message_id": "1a18fd461045e9cc",
+      "thread_id": "1a18fd461045e9cc",
+      "source": "outreach_2026-10-31_0800_v8.json",
+      "application_status": "contacted_not_formal_application",
+      "email_verification": "official Stardrift About page exact founder email",
+      "delivery_check": "gmail_sent_confirmed",
+      "source_url": "https://www.ycombinator.com/companies/stardrift/jobs/nC7cjhB-founding-software-engineer",
+      "notes": "100-word role-specific founder note about search/recommendation quality and provider integrations; YC job visa sponsor. No CV; inquiry, not formal application."
     }
   ],
   "policy_effective_date": "2026-10-09",
