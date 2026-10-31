@@ -2288,13 +2288,17 @@
       "email_evidence_url": "https://www.ycombinator.com/companies/humwork",
       "verification": "exact_public_founders_email_current_role_and_visa_verified",
       "fit_score": 94,
-      "status": "claimed",
+      "status": "sent_confirmed",
       "notes": "Founders publicly invite email on official YC launch. MCP agent-to-expert escalation, loop detection, context handoff; user has Captor and backend experience.",
       "discovered_at": "2026-10-31",
       "observed_at": "2026-10-31",
       "queue_position": 115,
       "claimed_at": "2026-10-31T12:08:52+05:30",
-      "claim_id": "outreach-2026-10-31-1200-humwork"
+      "claim_id": "outreach-2026-10-31-1200-humwork",
+      "sent_at": "2026-10-31T12:09:08+05:30",
+      "gmail_message_id": "1a190aef841ced59",
+      "thread_id": "1a190aef841ced59",
+      "application_status": "contacted_not_formal_application"
     },
     {
       "company": "Planlab",
@@ -2391,5 +2395,5 @@
       "queue_position": 120
     }
   ],
-  "updated_at": "2026-10-31T12:08:52+05:30"
+  "updated_at": "2026-10-31T12:09:08+05:30"
 }
