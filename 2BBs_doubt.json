@@ -2153,13 +2153,18 @@
       "hq_evidence_url": "https://www.ycombinator.com/companies/salus",
       "eligibility_evidence": "YC: visa will sponsor, SF/NYC/Remote US; strong agent policies fit.",
       "eligibility_url": "https://www.ycombinator.com/companies/salus/jobs/6xN06s6-founding-swe-mle",
-      "verification": "research_only_not_send_ready",
-      "status": "unverified",
+      "verification": "exact_public_founders_email_current_role_and_visa_verified",
+      "status": "claimed",
       "fit_score": 94,
-      "notes": "No exact appropriate public hiring/founder mailbox found.",
+      "notes": "Founders email printed on official YC launch, current Founding SWE/MLE visa sponsorship and 1+ years; role is in-person SF/NYC, candidate willing to relocate.",
       "discovered_at": "2026-10-31",
       "observed_at": "2026-10-31T10:03:34+05:30",
-      "queue_position": 108
+      "queue_position": 108,
+      "email": "founders@usesalus.ai",
+      "person": "Kevin Pan and Vedant Singh (Founders)",
+      "email_evidence_url": "https://www.ycombinator.com/companies/salus",
+      "claimed_at": "2026-10-31T12:09:48+05:30",
+      "claim_id": "outreach-2026-10-31-1200-salus"
     },
     {
       "company": "AgentPhone",
@@ -2395,5 +2400,5 @@
       "queue_position": 120
     }
   ],
-  "updated_at": "2026-10-31T12:09:08+05:30"
+  "updated_at": "2026-10-31T12:09:48+05:30"
 }
