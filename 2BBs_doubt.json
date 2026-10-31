@@ -2154,7 +2154,7 @@
       "eligibility_evidence": "YC: visa will sponsor, SF/NYC/Remote US; strong agent policies fit.",
       "eligibility_url": "https://www.ycombinator.com/companies/salus/jobs/6xN06s6-founding-swe-mle",
       "verification": "exact_public_founders_email_current_role_and_visa_verified",
-      "status": "claimed",
+      "status": "sent_confirmed",
       "fit_score": 94,
       "notes": "Founders email printed on official YC launch, current Founding SWE/MLE visa sponsorship and 1+ years; role is in-person SF/NYC, candidate willing to relocate.",
       "discovered_at": "2026-10-31",
@@ -2164,7 +2164,11 @@
       "person": "Kevin Pan and Vedant Singh (Founders)",
       "email_evidence_url": "https://www.ycombinator.com/companies/salus",
       "claimed_at": "2026-10-31T12:09:48+05:30",
-      "claim_id": "outreach-2026-10-31-1200-salus"
+      "claim_id": "outreach-2026-10-31-1200-salus",
+      "sent_at": "2026-10-31T12:10:06+05:30",
+      "gmail_message_id": "1a190afdb9a3653d",
+      "thread_id": "1a190afdb9a3653d",
+      "application_status": "contacted_not_formal_application"
     },
     {
       "company": "AgentPhone",
@@ -2400,5 +2404,5 @@
       "queue_position": 120
     }
   ],
-  "updated_at": "2026-10-31T12:09:48+05:30"
+  "updated_at": "2026-10-31T12:10:06+05:30"
 }
