@@ -2,11 +2,11 @@
   "date": "2026-10-31",
   "slot": "06:30",
   "timezone": "Asia/Kolkata",
-  "status": "pre_send_claimed",
+  "status": "completed",
   "target": 7,
   "daily_hard_cap": 30,
   "confirmed_new_sends_prior": 0,
-  "confirmed_new_sends_this_run": 0,
+  "confirmed_new_sends_this_run": 1,
   "lead_pool_start": 69,
   "lead_pool_after_discovery": 76,
   "new_candidates": 7,
@@ -16,12 +16,14 @@
       "id": "outreach-2026-10-31-0630-socratix-satya",
       "company": "Socratix AI",
       "to": "satya@getsocratix.ai",
-      "status": "claimed_not_sent",
+      "status": "sent_confirmed",
       "subject": "Socratix agents and trustworthy decisions",
       "role_url": "https://www.ycombinator.com/companies/socratix-ai/jobs/JtqwNF7-member-of-technical-staff-ai-agents",
       "eligibility_url": "https://www.ycombinator.com/companies/socratix-ai/jobs/JtqwNF7-member-of-technical-staff-ai-agents",
       "email_source": "https://www.ycombinator.com/companies/socratix-ai",
-      "claimed_at": "2026-10-31T06:33:00+05:30"
+      "claimed_at": "2026-10-31T06:33:00+05:30",
+      "gmail_message_id": "1a18f7a8c6c0ca1c",
+      "thread_id": "1a18f7a8c6c0ca1c"
     }
   ],
   "gmail_reconciliation": {
@@ -49,7 +51,24 @@
   ],
   "github_checkpoint_shas": {
     "wavelet_bounce": "a417f029d9fc13b1e5c6d5f4a699a170001ccec3",
-    "queue_claim": "54872f27018f1970963116efe0fa990b0629c5ef"
+    "queue_claim": "54872f27018f1970963116efe0fa990b0629c5ef",
+    "sent_ledger": "b52d5d1d31aa15ba77fe72dbcceb62b6312347eb",
+    "sent_queue": "f9991c77123cdded6deca8d35858b0af000ddb2f"
   },
-  "created_at": "2026-10-31T06:33:00+05:30"
+  "created_at": "2026-10-31T06:33:00+05:30",
+  "total_confirmed_new_sends_today": 1,
+  "attempted": 1,
+  "batch_shortfall": 6,
+  "daily_remaining_cap": 29,
+  "verified_ready_end": 0,
+  "known_new_bounces_today": 0,
+  "historical_bounce_reconciled": [
+    {
+      "email": "careers@wavelet-ai.com",
+      "message_id": "1a17d35c8e902584",
+      "status": "hard_bounced_suppressed"
+    }
+  ],
+  "completed_at": "2026-10-31T01:02:27.234Z",
+  "notes": "One email confirmed directly in Gmail and written to durable ledger and FIFO. No other send-ready lead; 45-contact readiness target remains unmet. Seven newly researched leads, six remain unverified. No blind retries or incomplete CV applications."
 }
