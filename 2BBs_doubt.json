@@ -1788,7 +1788,7 @@
       "verification": "company HN hiring post exact email and visa sponsorship",
       "email_evidence_url": "https://news.ycombinator.com/item?id=49522897",
       "fit_score": 91,
-      "notes": "104-word email application; HN asks for resume OR GitHub, provided GitHub and portfolio, no CV. September 2026 posting plus live company; HN in subject.",
+      "notes": "104-word HN email application with GitHub (allowed alternative to resume), Gmail Sent confirmed. No attachment.",
       "source_urls": [
         "https://news.ycombinator.com/item?id=49522897",
         "https://www.thesaasnews.com/news/balerion-ai-raises-6m-seed-round/",
@@ -1797,13 +1797,17 @@
       "discovered_at": "2026-10-31",
       "observed_at": "2026-10-31T08:12:00+05:30",
       "queue_position": 92,
-      "status": "claimed",
+      "status": "sent_confirmed",
       "send_intent_id": "outreach-2026-10-31-0800-balerion-hiring",
       "claimed_at": "2026-10-31T08:12:00+05:30",
       "subject": "HN: Building reliable mortgage agents at Balerion",
       "body": "Hi Balerion team,\n\nYour September HN post described mortgage agents built with PydanticAI, Restate, and Postgres. I liked the emphasis on durable execution: a multi-step loan review shouldn't lose state or duplicate actions when a tool fails.\n\nI've shipped backend APIs and end-to-end features at Stride AI and built Captor, a toolkit for budgets, policies, and tracing around agent calls. I'm interested in the engineering between a convincing demo and a recoverable production workflow.\n\nI'm in India and open to relocating to San Francisco; your post mentioned visa sponsorship. Could I share a short walkthrough of the agent-control work?\n\nDevansh\nGitHub: https://github.com/8dazo\nPortfolio: https://devansh.aurat.ai",
-      "application_status": "email_application_with_GitHub_link_per_HN_resume_OR_GitHub"
+      "application_status": "email_application_with_GitHub_link_per_HN_resume_OR_GitHub",
+      "gmail_message_id": "1a18fd624dda0d43",
+      "thread_id": "1a18fd624dda0d43",
+      "sent_at": "2026-10-31T08:12:30+05:30",
+      "delivery_check": "gmail_sent_confirmed"
     }
   ],
-  "updated_at": "2026-10-31T08:12:00+05:30"
+  "updated_at": "2026-10-31T08:12:30+05:30"
 }
