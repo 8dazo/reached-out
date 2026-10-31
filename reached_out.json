@@ -1435,6 +1435,24 @@
       "delivery_check": "gmail_sent_confirmed",
       "source_url": "https://www.ycombinator.com/companies/unsiloed-ai/jobs/cmlq27S-founding-software-engineer-backend-and-infrastructure",
       "notes": "106-word personalized inquiry; YC job says SF onsite, visa sponsorship open, any experience. No resume attached and not a formal CV application."
+    },
+    {
+      "email": "charu@fenrock.ai",
+      "person": "Charu Sharma",
+      "company": "Fenrock AI",
+      "company_hq": "San Francisco, California, USA",
+      "role": "Founding Engineer (Full stack)",
+      "status": "sent",
+      "sent_at": "2026-10-31",
+      "subject": "Integrations behind Fenrock's bank agents",
+      "gmail_message_id": "1a18fd315955c63d",
+      "thread_id": "1a18fd315955c63d",
+      "source": "outreach_2026-10-31_0800_v8.json",
+      "application_status": "contacted_not_formal_application",
+      "email_verification": "YC company launch public exact founder CEO email",
+      "delivery_check": "gmail_sent_confirmed",
+      "source_url": "https://www.ycombinator.com/companies/fenrock-ai/jobs/cjkr5RF-founding-engineer-full-stack",
+      "notes": "102-word role-specific builder-to-builder note on legacy banking integration and cross-app auth; YC visa sponsorship and SF HQ. No CV; networking inquiry, not formal application."
     }
   ],
   "policy_effective_date": "2026-10-09",
