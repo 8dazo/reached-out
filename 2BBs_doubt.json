@@ -1923,7 +1923,7 @@
       "queue_position": 97,
       "discovered_at": "2026-10-31",
       "observed_at": "2026-10-31T08:13:30+05:30",
-      "last_checked_at": "2026-10-31T10:07:00+05:30",
+      "last_checked_at": "2026-10-31T10:03:34+05:30",
       "email_evidence_url": "https://www.legalos.ai/career",
       "email_evidence": "Official current careers page lists careers@legalos.ai directly beside Founding Engineer; says resumes welcomed.",
       "verification": "hq_eligibility_role_and_email_verified_attachment_not_available"
@@ -2106,7 +2106,7 @@
       "fit_score": 45,
       "notes": "Official YC founder contact founders@tryvela.ai, but visa restriction is explicit.",
       "discovered_at": "2026-10-31",
-      "observed_at": "2026-10-31T10:07:00+05:30",
+      "observed_at": "2026-10-31T10:03:34+05:30",
       "queue_position": 105
     },
     {
@@ -2123,7 +2123,7 @@
       "fit_score": 10,
       "notes": "Optym announced acquisition and customer transition on Aug 31; exclude stale YC listing.",
       "discovered_at": "2026-10-31",
-      "observed_at": "2026-10-31T10:07:00+05:30",
+      "observed_at": "2026-10-31T10:03:34+05:30",
       "queue_position": 106
     },
     {
@@ -2140,7 +2140,7 @@
       "fit_score": 60,
       "notes": "Exact CTO email was publicly shared in hiring outreach but not independently verified on official site; role seniority mismatch.",
       "discovered_at": "2026-10-31",
-      "observed_at": "2026-10-31T10:07:00+05:30",
+      "observed_at": "2026-10-31T10:03:34+05:30",
       "queue_position": 107,
       "email": "sg@furtherai.com"
     },
@@ -2158,7 +2158,7 @@
       "fit_score": 94,
       "notes": "No exact appropriate public hiring/founder mailbox found.",
       "discovered_at": "2026-10-31",
-      "observed_at": "2026-10-31T10:07:00+05:30",
+      "observed_at": "2026-10-31T10:03:34+05:30",
       "queue_position": 108
     },
     {
@@ -2175,7 +2175,7 @@
       "fit_score": 95,
       "notes": "Founder personal site contains an obfuscated email in web extraction; exact address not established. Do not guess.",
       "discovered_at": "2026-10-31",
-      "observed_at": "2026-10-31T10:07:00+05:30",
+      "observed_at": "2026-10-31T10:03:34+05:30",
       "queue_position": 109
     },
     {
@@ -2188,12 +2188,14 @@
       "eligibility_evidence": "YC: visa will sponsor, any experience, code indexing and agent retrieval.",
       "eligibility_url": "https://www.ycombinator.com/companies/sourcebot/jobs/WVbwFeV-founding-engineer",
       "verification": "research_only_not_send_ready",
-      "status": "unverified",
+      "status": "excluded_stale_role",
       "fit_score": 93,
-      "notes": "No exact publicly documented recruiting mailbox found.",
+      "notes": "YC current jobs index (checked Oct 31) lists only Chief of Staff; Founding Engineer detail page remains cached but no longer in current jobs. Exclude from new outreach. Public team@sourcebot.dev exists but does not override closed role.",
       "discovered_at": "2026-10-31",
-      "observed_at": "2026-10-31T10:07:00+05:30",
-      "queue_position": 110
+      "observed_at": "2026-10-31T10:03:34+05:30",
+      "queue_position": 110,
+      "email_evidence_url": "https://www.crunchbase.com/organization/sourcebot",
+      "last_checked_at": "2026-10-31T10:03:34+05:30"
     },
     {
       "company": "String",
@@ -2209,7 +2211,7 @@
       "fit_score": 75,
       "notes": "Official careers page uses apply links, no appropriate exact email.",
       "discovered_at": "2026-10-31",
-      "observed_at": "2026-10-31T10:07:00+05:30",
+      "observed_at": "2026-10-31T10:03:34+05:30",
       "queue_position": 111
     },
     {
@@ -2226,7 +2228,7 @@
       "fit_score": 91,
       "notes": "No exact public hiring mailbox established.",
       "discovered_at": "2026-10-31",
-      "observed_at": "2026-10-31T10:07:00+05:30",
+      "observed_at": "2026-10-31T10:03:34+05:30",
       "queue_position": 112
     },
     {
@@ -2243,9 +2245,9 @@
       "fit_score": 86,
       "notes": "No exact public hiring mailbox established; email format patterns not accepted.",
       "discovered_at": "2026-10-31",
-      "observed_at": "2026-10-31T10:07:00+05:30",
+      "observed_at": "2026-10-31T10:03:34+05:30",
       "queue_position": 113
     }
   ],
-  "updated_at": "2026-10-31T10:07:00+05:30"
+  "updated_at": "2026-10-31T10:03:34+05:30"
 }
