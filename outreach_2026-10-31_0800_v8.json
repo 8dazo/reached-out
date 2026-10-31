@@ -59,6 +59,24 @@
       "gmail_message_id": "1a18fd315955c63d",
       "thread_id": "1a18fd315955c63d",
       "confirmed_at": "2026-10-31T08:09:00+05:30"
+    },
+    {
+      "id": "outreach-2026-10-31-0800-finta-andy",
+      "company": "Finta",
+      "to": "andy@finta.com",
+      "status": "claimed",
+      "subject": "Making Finta's financial workflows feel simple",
+      "body": "Hi Andy,\n\nI like that Finta is making bookkeeping feel like software founders actually want to use, not another spreadsheet with a login. The tricky part seems to be turning messy financial data into trustworthy, understandable workflows.\n\nAt Stride AI, I built React interfaces and backend APIs, including a schema-driven page studio with preview and publishing, plus authentication shared across apps. I enjoy working across the data model and the product experience.\n\nI noticed the founding engineer role offers visa sponsorship. I'm based in India and open to relocating to San Francisco. Would you be interested in a quick look at my work?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
+      "role": "Founding Engineer",
+      "role_url": "https://www.ycombinator.com/companies/finta/jobs/vg5fXEw-founding-engineer",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/finta",
+      "eligibility_evidence": "YC role explicitly offers visa sponsorship and relocation support; San Francisco, any experience (new grads okay).",
+      "email_source": "https://www.ycombinator.com/companies/finta",
+      "email_evidence": "YC company launch explicitly says 'send me an email at andy at finta dot com'; Andy Wang current founder.",
+      "message_quality_angle": "Accounting product UX, messy financial data, schema-driven page studio; distinct from previous security/document/agent pitches.",
+      "claimed_at": "2026-10-31T08:09:23+05:30",
+      "application_status": "contacted_not_formal_application",
+      "gmail_message_id": null
     }
   ],
   "reconciliation": {
@@ -98,5 +116,5 @@
     "fenrock_sent_ledger": "e6d8781dd36c725abd9e9d03715d558617ce7bfc",
     "fenrock_sent_queue": "2582cf5f8d85e29aba0764d97e901d5aee675633"
   },
-  "updated_at": "2026-10-31T08:09:00+05:30"
+  "updated_at": "2026-10-31T08:09:23+05:30"
 }
