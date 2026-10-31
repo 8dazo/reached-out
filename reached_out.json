@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T13:59:00+05:30",
+  "updated_at": "2026-10-31T14:00:23+05:30",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -1680,6 +1680,21 @@
       "sent_at": "2026-09-26",
       "status": "sent",
       "contact_source": "Gmail Sent historical reconciliation 2026-10-31 14:00"
+    },
+    {
+      "email": "ray@trybloom.ai",
+      "person": "Ray Fitzgerald",
+      "company": "Rainbrand (formerly Bloom)",
+      "role": "Founding Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-31",
+      "sent_at_local": "2026-10-31T14:00:23+05:30",
+      "gmail_message_id": "1a19114d4248ad81",
+      "thread_id": "1a19114d4248ad81",
+      "contact_source": "YC public company profile; role verified 2026-10-31",
+      "application_status": "contacted_not_formal_application",
+      "followup_count": 0,
+      "source_url": "https://www.ycombinator.com/companies/rainbrand"
     }
   ],
   "policy_effective_date": "2026-10-09",
