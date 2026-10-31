@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "slot": "10:00",
   "timezone": "Asia/Kolkata",
-  "status": "sending_serialized",
+  "status": "preflight_claimed_no_send_yet",
   "writer_id": "international_outreach_batches_2026-10-31_1000_run8",
   "batch_cap": 7,
   "daily_cap": 30,
@@ -57,14 +57,18 @@
       "role_url": "https://www.ycombinator.com/companies/tenor/jobs/GsfaYQE-founding-engineer-agent-and-data-systems",
       "eligibility_evidence": "YC: visa will sponsor, any experience, SF onsite; harness replay/evaluation/promotion gates.",
       "email_evidence": "YC company launch CEO Hamze Al-Zamkan explicitly publishes hamze@heytenor.com.",
-      "status": "send_intent_claimed",
+      "status": "sent_confirmed",
       "claimed_at": "2026-10-31T10:03:00+05:30",
-      "application_status": "contacted_not_formal_application"
+      "application_status": "contacted_not_formal_application",
+      "gmail_message_id": "1a1903a91ecf1356",
+      "thread_id": "1a1903a91ecf1356",
+      "confirmed_at": "2026-10-31T10:03:35+05:30"
     }
   ],
   "confirmed_gmail_message_ids": [
     "1a19039a192dd281",
-    "1a1903a16e6288c8"
+    "1a1903a16e6288c8",
+    "1a1903a91ecf1356"
   ],
   "research_notes": [
     "Checked authoritative v7/v8/message-quality protocols and latest config",
@@ -73,7 +77,7 @@
     "No overlapping outbound writer observed; 08:00 audit completed"
   ],
   "source_failures": [],
-  "send_attempts": 2,
-  "confirmed_sent_this_run": 2,
-  "current_claim": "outreach-2026-10-31-1000-tenor"
+  "send_attempts": 3,
+  "confirmed_sent_this_run": 3,
+  "current_claim": null
 }
