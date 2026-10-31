@@ -1401,6 +1401,22 @@
       "delivery_check": "gmail_sent_confirmed",
       "source_url": "https://www.ycombinator.com/companies/socratix-ai/jobs/JtqwNF7-member-of-technical-staff-ai-agents",
       "notes": "India-based engineer; YC job explicitly lists visa sponsorship, hybrid Mountain View; individualized CTO outreach, no CV attached."
+    },
+    {
+      "email": "founders@deeptrace.com",
+      "person": "Deeptrace founders",
+      "company": "Deeptrace",
+      "role": "Founding Engineer",
+      "status": "sent",
+      "sent_at": "2026-09-26",
+      "subject": "Founding Engineer — Devansh Mahant",
+      "gmail_message_id": "1a0dde314397f4e4",
+      "thread_id": "1a0dde314397f4e4",
+      "source": "2026-10-31_0800_Gmail_historical_reconciliation",
+      "application_status": "contacted_not_formal_application",
+      "delivery_check": "gmail_sent_confirmed",
+      "source_url": "https://www.ycombinator.com/companies/deeptrace/jobs/HUgeLrM-founding-engineer",
+      "notes": "Historical Gmail Sent found during October 31 discovery; previous GitHub ledger lacked this company. Permanently suppress any additional initial outreach to Deeptrace."
     }
   ],
   "policy_effective_date": "2026-10-09",
