@@ -1507,6 +1507,24 @@
       "delivery_check": "gmail_sent_confirmed",
       "source_url": "https://www.ycombinator.com/companies/anara/jobs/gUd2wYA-software-engineer-product",
       "notes": "107-word personalized founder note about in-library research agents, React UI and RAG evaluation. YC visa sponsorship; experience including internships transparently stated. No CV; not formal application."
+    },
+    {
+      "email": "hiring@balerion.ai",
+      "person": "Balerion AI hiring team",
+      "company": "Balerion AI",
+      "company_hq": "San Francisco, California, USA",
+      "role": "Software Engineer / AI Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-31",
+      "subject": "HN: Building reliable mortgage agents at Balerion",
+      "gmail_message_id": "1a18fd624dda0d43",
+      "thread_id": "1a18fd624dda0d43",
+      "source": "outreach_2026-10-31_0800_v8.json",
+      "application_status": "email_application_with_GitHub_link_per_HN_resume_OR_GitHub",
+      "email_verification": "September 2026 company HN post exact hiring email",
+      "delivery_check": "gmail_sent_confirmed",
+      "source_url": "https://news.ycombinator.com/item?id=49522897",
+      "notes": "104-word tailored email application; public HN role states visa sponsorship, SF relocation and explicitly accepts resume OR GitHub. Included GitHub and portfolio, no CV. Company site remains active."
     }
   ],
   "policy_effective_date": "2026-10-09",
