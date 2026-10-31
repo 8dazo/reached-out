@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "slot": "14:00",
   "timezone": "Asia/Kolkata",
-  "status": "sent_checkpointed_pending_final_reconciliation",
+  "status": "completed",
   "writer_id": "international_outreach_batches_2026-10-31_1400_run9",
   "batch_cap": 2,
   "daily_cap": 30,
@@ -62,11 +62,83 @@
     "Official YC VOYGR job says US citizen/visa only despite HN recruiter invitation, excluded.",
     "Conductor and Sourcebot historically sent in Gmail but missing permanent GitHub ledger; repaired ledger and queue before any outbound.",
     "Additional six research-only leads retained, no invented mailboxes; Planlab and other formal CV-required applications remain blocked by attachment access.",
-    "14:00 time guard: do not send before local 14:00; intent prepared but not claimed."
+    "14:00 time guard: do not send before local 14:00; intent prepared but not claimed.",
+    "Final 14:00 Gmail Sent search returned 16 messages on Oct 31; exactly 16 match reached_out.json, zero unmatched IDs; no new bounces or replies/optouts found.",
+    "14:00 batch: 1 of 2 confirmed; Rainbrand email sent 14:00:23 IST after time guard and both GitHub checkpoint writes; no second verified contact available. Earlier shortfalls not carried forward.",
+    "Daily final: 16 of 30 confirmed Gmail Sent; no known new bounce, 14 short; 130 FIFO records, zero ready; historical unknown quarantined, blocked CV applications untouched; no followups due under 3-business-day rule."
   ],
   "claimed_at": "2026-10-31T14:00:07+05:30",
   "pre_send_gmail_sent_count": 15,
   "pre_send_exact_recipient_history_count": 0,
   "ledger_commit_sha": "0b3b27d2f0e074e8c869e91d56d3dfb7c2c0eb15",
-  "queue_commit_sha": "fb286341364d1e0f5da7a53aff5a24453ac78004"
+  "queue_commit_sha": "fb286341364d1e0f5da7a53aff5a24453ac78004",
+  "completed_at": "2026-10-31T14:01:30+05:30",
+  "batch_target": 2,
+  "batch_shortfall": 1,
+  "confirmed_sent_today": 16,
+  "daily_target": 30,
+  "daily_shortfall": 14,
+  "remaining_daily_capacity": 14,
+  "net_no_known_bounce_today": 16,
+  "known_bounces_today": 0,
+  "new_optouts": 0,
+  "new_followups_sent": 0,
+  "verified_ready_pool_end": 0,
+  "ready_pool_shortfall": 45,
+  "queue_total_end": 130,
+  "daily_sent_gmail_ledger_reconciled": true,
+  "all_sent_confirmed_in_gmail_and_durable_github": true,
+  "daily_summary": {
+    "date": "2026-10-31",
+    "timezone": "Asia/Kolkata",
+    "batches": [
+      {
+        "slot": "06:30",
+        "target": 7,
+        "confirmed": 1,
+        "shortfall": 6
+      },
+      {
+        "slot": "08:00",
+        "target": 7,
+        "confirmed": 7,
+        "shortfall": 0
+      },
+      {
+        "slot": "10:00",
+        "target": 7,
+        "confirmed": 3,
+        "shortfall": 4
+      },
+      {
+        "slot": "12:00",
+        "target": 7,
+        "confirmed": 4,
+        "shortfall": 3
+      },
+      {
+        "slot": "14:00",
+        "target": 2,
+        "confirmed": 1,
+        "shortfall": 1
+      }
+    ],
+    "total_target": 30,
+    "total_confirmed_gmail_sent": 16,
+    "total_shortfall": 14,
+    "known_new_bounces": 0,
+    "net_no_known_bounce": 16,
+    "known_optouts": 0,
+    "unknown_new_sends": 0,
+    "ready_backlog": 0,
+    "ready_target": 45,
+    "ready_shortfall": 45,
+    "total_fifo_records": 130,
+    "quarantined_historical_unknown": 1,
+    "historical_bounced_leads": 2,
+    "historical_duplicate_suppressions_repaired": 2,
+    "attachment_blockers_remaining": true,
+    "followups_sent": 0,
+    "unverified_or_unqualified_queue_preserved": true
+  }
 }
