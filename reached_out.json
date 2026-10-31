@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T12:08:28+05:30",
+  "updated_at": "2026-10-31T12:09:08+05:30",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -1611,6 +1611,23 @@
       "email_verification": "YC_public_founder_email_and_official_site",
       "delivery_check": "gmail_sent_confirmed",
       "source_url": "https://www.ycombinator.com/companies/proliferate/jobs/OgpCKYJ-founding-product-engineer"
+    },
+    {
+      "email": "founders@humwork.ai",
+      "person": "Yash Goenka and Rohan Datta (Founders)",
+      "company": "Humwork",
+      "company_hq": "San Francisco, CA, USA",
+      "role": "Founding Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-31",
+      "subject": "The moment an agent needs a human",
+      "gmail_message_id": "1a190aef841ced59",
+      "thread_id": "1a190aef841ced59",
+      "source": "outreach_2026-10-31_1200_v8.json",
+      "application_status": "contacted_not_formal_application",
+      "email_verification": "YC_public_founders_email",
+      "delivery_check": "gmail_sent_confirmed",
+      "source_url": "https://www.ycombinator.com/companies/humwork/jobs/9V8MtEV-founding-engineer"
     }
   ],
   "policy_effective_date": "2026-10-09",
