@@ -1706,7 +1706,37 @@
       "thread_id": "1a18fd3bd932049f",
       "sent_at": "2026-10-31T08:09:50+05:30",
       "delivery_check": "gmail_sent_confirmed"
+    },
+    {
+      "company": "Stardrift",
+      "email": "leila@stardrift.ai",
+      "person": "Leila Clark",
+      "company_hq": "San Francisco, California, USA",
+      "company_region": "US",
+      "role": "Founding Software Engineer",
+      "role_url": "https://www.ycombinator.com/companies/stardrift/jobs/nC7cjhB-founding-software-engineer",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/stardrift",
+      "eligibility_evidence": "YC role San Francisco, Visa: Will sponsor, Any experience (new grads okay); realistic international relocation.",
+      "eligibility_url": "https://www.ycombinator.com/companies/stardrift/jobs/nC7cjhB-founding-software-engineer",
+      "verification": "official founder email and YC visa-sponsored current role",
+      "email_evidence_url": "https://stardrift.ai/about",
+      "fit_score": 93,
+      "notes": "100-word founder inquiry about travel search and integration quality. Official about page founder mailbox. No CV for networking inquiry.",
+      "source_urls": [
+        "https://www.ycombinator.com/companies/stardrift/jobs/nC7cjhB-founding-software-engineer",
+        "https://www.ycombinator.com/companies/stardrift",
+        "https://stardrift.ai/about"
+      ],
+      "discovered_at": "2026-10-31",
+      "observed_at": "2026-10-31T08:10:06+05:30",
+      "queue_position": 90,
+      "status": "claimed",
+      "send_intent_id": "outreach-2026-10-31-0800-stardrift-leila",
+      "claimed_at": "2026-10-31T08:10:06+05:30",
+      "subject": "Search and booking reliability at Stardrift",
+      "body": "Hi Leila,\n\nStardrift's founding engineer role caught my eye because turning scattered travel data into a booking experience people can trust is a hard product and backend problem. Search quality and provider integrations seem especially interesting.\n\nAt Stride AI, I shipped backend APIs and end-to-end features. In a RAG prototype, I spent time testing retrieval quality instead of assuming a model's answer was correct. I'd enjoy working on the evaluation and integration layer behind travel recommendations.\n\nI'm based in India and saw that the role offers visa sponsorship. Are you considering candidates relocating from India?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
+      "application_status": "contacted_not_formal_application"
     }
   ],
-  "updated_at": "2026-10-31T08:09:50+05:30"
+  "updated_at": "2026-10-31T08:10:06+05:30"
 }
