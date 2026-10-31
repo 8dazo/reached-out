@@ -1384,6 +1384,23 @@
       "delivery_check": "gmail_sent_confirmed",
       "source_url": "https://jobs.lever.co/drivetrain/cd39cc4e-056e-444c-8c17-9f97e34ddbce",
       "notes": "95-word tailored frontend inquiry, no CV; official role confirms US HQ, India remote, 1-3 years experience."
+    },
+    {
+      "email": "satya@getsocratix.ai",
+      "person": "Satya Vasanth Tumati",
+      "company": "Socratix AI",
+      "role": "Member of Technical Staff, AI Agents",
+      "status": "sent",
+      "sent_at": "2026-10-31",
+      "subject": "Socratix agents and trustworthy decisions",
+      "gmail_message_id": "1a18f7a8c6c0ca1c",
+      "thread_id": "1a18f7a8c6c0ca1c",
+      "source": "outreach_2026-10-31_0630_v8.json",
+      "application_status": "contacted_not_formal_application",
+      "email_verification": "YC published founder email, current CTO verified",
+      "delivery_check": "gmail_sent_confirmed",
+      "source_url": "https://www.ycombinator.com/companies/socratix-ai/jobs/JtqwNF7-member-of-technical-staff-ai-agents",
+      "notes": "India-based engineer; YC job explicitly lists visa sponsorship, hybrid Mountain View; individualized CTO outreach, no CV attached."
     }
   ],
   "policy_effective_date": "2026-10-09",
