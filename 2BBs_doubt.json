@@ -1277,7 +1277,7 @@
       "email_evidence": "Company cofounder/CTO Satya email explicitly published in YC company launch; current YC job names him as CTO and hiring contact.",
       "verification": "explicit_public_founder_email_and_visa_sponsorship",
       "fit_score": 93,
-      "status": "claimed",
+      "status": "sent_confirmed",
       "queue_position": 70,
       "discovered_at": "2026-10-31",
       "observed_at": "2026-10-31",
@@ -1289,7 +1289,12 @@
       "send_intent_id": "outreach-2026-10-31-0630-socratix-satya",
       "notes": "Outreach to CTO, not formal application. Role hybrid Mountain View with visa sponsorship; candidate currently India; ask eligibility, no CV attached.",
       "created_at": "2026-10-31",
-      "last_checked_at": "2026-10-31T06:33:00+05:30"
+      "last_checked_at": "2026-10-31T01:02:27.234Z",
+      "gmail_message_id": "1a18f7a8c6c0ca1c",
+      "thread_id": "1a18f7a8c6c0ca1c",
+      "sent_at": "2026-10-31",
+      "delivery_check": "gmail_sent_confirmed",
+      "checkpoint": "outreach_2026-10-31_0630_v8.json"
     },
     {
       "company": "APAS.AI",
@@ -1401,5 +1406,5 @@
       "last_checked_at": "2026-10-31T06:33:00+05:30"
     }
   ],
-  "updated_at": "2026-10-31T06:33:00+05:30"
+  "updated_at": "2026-10-31T01:02:27.234Z"
 }
