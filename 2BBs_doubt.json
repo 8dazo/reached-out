@@ -1807,7 +1807,37 @@
       "thread_id": "1a18fd624dda0d43",
       "sent_at": "2026-10-31T08:12:30+05:30",
       "delivery_check": "gmail_sent_confirmed"
+    },
+    {
+      "company": "Pango",
+      "email": "steve@pango.ai",
+      "person": "Steve Rahimi",
+      "company_hq": "Stockholm, Sweden / New York City, USA",
+      "company_region": "Europe/US",
+      "role": "Founding Engineer",
+      "role_url": "https://www.ycombinator.com/companies/pango/jobs/xXKwYhq-founding-engineer",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/pango",
+      "eligibility_evidence": "YC role lists Stockholm on-site, Visa: Will sponsor; 3+ years, willing to relocate accepted; candidate transparently notes experience including internships.",
+      "eligibility_url": "https://www.ycombinator.com/companies/pango/jobs/xXKwYhq-founding-engineer",
+      "verification": "YC company public founder email and current visa-sponsored role",
+      "email_evidence_url": "https://www.ycombinator.com/companies/pango",
+      "fit_score": 87,
+      "notes": "109-word role-specific founder inquiry; 3+ years experience target, candidate transparently includes internships. No CV for networking inquiry.",
+      "source_urls": [
+        "https://www.ycombinator.com/companies/pango/jobs/xXKwYhq-founding-engineer",
+        "https://www.ycombinator.com/companies/pango",
+        "https://pango.ai/careers"
+      ],
+      "discovered_at": "2026-10-31",
+      "observed_at": "2026-10-31T08:12:48+05:30",
+      "queue_position": 93,
+      "status": "claimed",
+      "send_intent_id": "outreach-2026-10-31-0800-pango-steve",
+      "claimed_at": "2026-10-31T08:12:48+05:30",
+      "subject": "Reliable logistics workflows at Pango",
+      "body": "Hi Steve,\n\nI read Pango's Founding Engineer role and liked the emphasis on making failures across carriers, warehouses, and shop systems visible instead of burying them in retry loops. Logistics integrations sound like a place where small reliability decisions really matter.\n\nAt Stride AI, I owned backend APIs, React interfaces, and end-to-end tests. I prefer teams where the engineer building a workflow also understands how it breaks. Your focus on observability and readable PRs resonates with me.\n\nI'm based in India with around three years of experience including internships. I saw that Stockholm relocation and visa sponsorship are possible. Would you consider my background?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
+      "application_status": "contacted_not_formal_application"
     }
   ],
-  "updated_at": "2026-10-31T08:12:30+05:30"
+  "updated_at": "2026-10-31T08:12:48+05:30"
 }
