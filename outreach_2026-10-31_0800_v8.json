@@ -44,7 +44,7 @@
       "id": "outreach-2026-10-31-0800-fenrock-charu",
       "company": "Fenrock AI",
       "to": "charu@fenrock.ai",
-      "status": "claimed",
+      "status": "sent_confirmed",
       "subject": "Integrations behind Fenrock's bank agents",
       "body": "Hi Charu,\n\nFenrock's approach of overlaying existing bank systems instead of replacing them caught my attention. The integration boundary seems like the hard part: permissions, auditability, and messy operational workflows.\n\nAt Stride AI, I built a shared authentication service across apps and shipped backend APIs through production tests. I've also built agent tooling, but what I enjoy most is making a useful workflow dependable end to end.\n\nI saw the founding full-stack role offers visa sponsorship. I'm based in India and open to relocating. Would it be useful to share a short walkthrough of the authentication work?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
       "role": "Founding Engineer (Full stack)",
@@ -56,7 +56,9 @@
       "message_quality_angle": "Bank legacy integration boundaries and cross-app auth; distinct from recent document extraction, fraud agent reliability and frontend pitches.",
       "claimed_at": "2026-10-31T08:08:39+05:30",
       "application_status": "contacted_not_formal_application",
-      "gmail_message_id": null
+      "gmail_message_id": "1a18fd315955c63d",
+      "thread_id": "1a18fd315955c63d",
+      "confirmed_at": "2026-10-31T08:09:00+05:30"
     }
   ],
   "reconciliation": {
@@ -73,23 +75,28 @@
     ],
     "prior_morning_sender_completed": true
   },
-  "send_attempts": 1,
+  "send_attempts": 2,
   "confirmed_gmail_message_ids": [
-    "1a18fd23d7e11079"
+    "1a18fd23d7e11079",
+    "1a18fd315955c63d"
   ],
   "known_new_bounces": 0,
   "unknown_delivery_this_run": 0,
   "notes": "One new Gmail-confirmed Unsiloed send. Historical Deeptrace previously contacted in September was newly reconciled and suppressed. Remaining leads need exact hiring email, location or HQ evidence; resume attachment block remains.",
-  "confirmed_sent_this_run": 1,
-  "total_confirmed_new_sends_today": 2,
-  "remaining_daily_capacity": 28,
+  "confirmed_sent_this_run": 2,
+  "total_confirmed_new_sends_today": 3,
+  "remaining_daily_capacity": 27,
   "github_checkpoint_shas": {
     "historical_deeptrace_suppression": "30d97dac88800d0309fb9d91813e9a26b2241426",
     "queue_research": "ebc0c8372053170c551ae1753c84f195d97ded48",
     "pre_send_intent": "a15a46260d271fa0f47c2104acb75b30500bd282",
     "queue_claim": "0b1d4cda7186cee25a0811fb342a89555c8aafe6",
     "sent_ledger": "46d420febbcb4b261107ac2d8d419cb5d728189a",
-    "sent_queue": "9936fc1718b944610430f82d9769f0e55b0baad5"
+    "sent_queue": "9936fc1718b944610430f82d9769f0e55b0baad5",
+    "fenrock_pre_send_intent": "af45368449235853c066143e22482e9f2dcaed39",
+    "fenrock_queue_claim": "836842cfbb19af530b17b146be22c678c07c73f3",
+    "fenrock_sent_ledger": "e6d8781dd36c725abd9e9d03715d558617ce7bfc",
+    "fenrock_sent_queue": "2582cf5f8d85e29aba0764d97e901d5aee675633"
   },
-  "updated_at": "2026-10-31T08:08:39+05:30"
+  "updated_at": "2026-10-31T08:09:00+05:30"
 }
