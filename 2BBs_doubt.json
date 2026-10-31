@@ -1480,7 +1480,135 @@
       "queue_position": 80,
       "discovered_at": "2026-10-31",
       "last_checked_at": "2026-10-31T01:02:57.628Z"
+    },
+    {
+      "company": "Reacher",
+      "role": "Backend Software Engineer — India",
+      "role_url": "https://jobs.ashbyhq.com/reacher/86a866da-dc3b-4d5d-ba94-599b642904ec",
+      "company_hq": "San Francisco, California, USA",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/reacher",
+      "eligibility_evidence": "Official Ashby role titled Backend Software Engineer - India, remote; 2–6 years of professional full-stack experience, Python/FastAPI/Postgres, AI coding workflows.",
+      "eligibility_url": "https://jobs.ashbyhq.com/reacher/86a866da-dc3b-4d5d-ba94-599b642904ec",
+      "email": null,
+      "status": "unverified",
+      "fit_score": 94,
+      "notes": "Strong end-to-end backend/AI product fit. Official ATS provides application form but no exact public current recruiting/founder mailbox verified; no email send. Application form can be used separately.",
+      "source_urls": [
+        "https://jobs.ashbyhq.com/reacher/86a866da-dc3b-4d5d-ba94-599b642904ec",
+        "https://www.ycombinator.com/companies/reacher"
+      ],
+      "queue_position": 81,
+      "discovered_at": "2026-10-31",
+      "observed_at": "2026-10-31T08:06:14+05:30",
+      "last_checked_at": "2026-10-31T08:06:14+05:30"
+    },
+    {
+      "company": "Kaaj",
+      "role": "Founding Full Stack Engineer — Remote India",
+      "role_url": "https://kaaj.ai/careers",
+      "company_hq": "San Francisco, California, USA",
+      "hq_evidence_url": "https://www.crunchbase.com/organization/kaaj-ai",
+      "eligibility_evidence": "Official careers page explicitly lists Founding Full Stack Engineer, Remote - India, building document intake, agent orchestration, UI and integrations.",
+      "eligibility_url": "https://kaaj.ai/careers",
+      "email": null,
+      "status": "unverified",
+      "fit_score": 96,
+      "notes": "Excellent agentic workflow/product fit. Official application is a web form; hello@kaaj.ai is general corporate contact, not verified as a current role-appropriate recruiting mailbox. No outreach email.",
+      "source_urls": [
+        "https://kaaj.ai/careers",
+        "https://www.crunchbase.com/organization/kaaj-ai"
+      ],
+      "queue_position": 82,
+      "discovered_at": "2026-10-31",
+      "observed_at": "2026-10-31T08:06:14+05:30",
+      "last_checked_at": "2026-10-31T08:06:14+05:30"
+    },
+    {
+      "company": "Weave Communications",
+      "role": "Senior Backend Software Engineer — Remote India",
+      "role_url": "https://jobs.ashbyhq.com/weave/a3e29e60-a0fe-4641-9d77-cfafb150f3f0",
+      "company_hq": "Lehi, Utah, USA",
+      "hq_evidence_url": "https://investors.getweave.com/resources/investor-faqs/default.aspx",
+      "eligibility_evidence": "Official Ashby job explicitly says 100% remote while located in India, Go microservices, backend APIs and observability.",
+      "eligibility_url": "https://jobs.ashbyhq.com/weave/a3e29e60-a0fe-4641-9d77-cfafb150f3f0",
+      "email": null,
+      "status": "needs_fit_review",
+      "fit_score": 77,
+      "notes": "US HQ verified via official investor FAQ. Senior Go depth and exact current appropriate recruiting mailbox unverified; form-only ATS. Do not use investor-relations address.",
+      "source_urls": [
+        "https://jobs.ashbyhq.com/weave/a3e29e60-a0fe-4641-9d77-cfafb150f3f0",
+        "https://investors.getweave.com/resources/investor-faqs/default.aspx"
+      ],
+      "queue_position": 83,
+      "discovered_at": "2026-10-31",
+      "observed_at": "2026-10-31T08:06:14+05:30",
+      "last_checked_at": "2026-10-31T08:06:14+05:30"
+    },
+    {
+      "company": "Sardine",
+      "role": "Software Engineer — Backend — Remote India",
+      "role_url": "https://jobs.ashbyhq.com/sardine/2524d206-42cb-4202-8d85-59e47c72d704",
+      "company_hq": "San Francisco, California, USA",
+      "hq_evidence_url": "https://www.builtinsf.com/company/sardine",
+      "eligibility_evidence": "Official Ashby role is Remote India but restricts candidates to Bengaluru, Delhi, Gurugram, Chennai, Mumbai or Pune.",
+      "eligibility_url": "https://jobs.ashbyhq.com/sardine/2524d206-42cb-4202-8d85-59e47c72d704",
+      "email": null,
+      "status": "needs_fit_review",
+      "fit_score": 80,
+      "notes": "Good Go/TypeScript/Postgres/backend overlap, but candidate location is not confirmed in employer city allowlist; relocation within India would require verification. No exact recruiting mailbox; ATS form only.",
+      "source_urls": [
+        "https://jobs.ashbyhq.com/sardine/2524d206-42cb-4202-8d85-59e47c72d704",
+        "https://www.builtinsf.com/company/sardine"
+      ],
+      "queue_position": 84,
+      "discovered_at": "2026-10-31",
+      "observed_at": "2026-10-31T08:06:14+05:30",
+      "last_checked_at": "2026-10-31T08:06:14+05:30"
+    },
+    {
+      "company": "Collectiv",
+      "role": "AI Engineer, Forward Deployed — Copilot and Azure AI Foundry",
+      "role_url": "https://collectiv.breezy.hr/p/e6c17dfd5592-ai-engineer-forward-deployed-copilot-and-azure-ai-foundry",
+      "company_hq": "Chicago, Illinois, USA",
+      "hq_evidence_url": "https://www.inc.com/profile/collectiv",
+      "eligibility_evidence": "Aggregator labels worldwide, but Himalayas and BuiltIn independently restrict role to US/in-office Chicago; employer Breezy role does not prove India hiring.",
+      "eligibility_url": "https://collectiv.breezy.hr/p/e6c17dfd5592-ai-engineer-forward-deployed-copilot-and-azure-ai-foundry",
+      "email": null,
+      "status": "disqualified",
+      "fit_score": 42,
+      "notes": "Do not send: contradictory remote-worldwide aggregator metadata vs US-only job eligibility; 4+ years, Azure/Copilot and client-facing consulting mismatch; no role-appropriate recruiting email.",
+      "source_urls": [
+        "https://collectiv.breezy.hr/p/e6c17dfd5592-ai-engineer-forward-deployed-copilot-and-azure-ai-foundry",
+        "https://himalayas.app/companies/collectiv/jobs/ai-engineer-forward-deployed-copilot-and-azure-ai-foundry",
+        "https://www.inc.com/profile/collectiv"
+      ],
+      "queue_position": 85,
+      "discovered_at": "2026-10-31",
+      "observed_at": "2026-10-31T08:06:14+05:30",
+      "last_checked_at": "2026-10-31T08:06:14+05:30"
+    },
+    {
+      "company": "Kavach-AI",
+      "role": "Detection Engineer, Rule Research — Bengaluru / Remote",
+      "role_url": "https://kavach-ai.com/pages/careers.html",
+      "company_hq": "CONFLICT — website claims San Francisco, Indian corporate record ties same domain to India-based struck-off company",
+      "hq_evidence_url": "https://www.thecompanycheck.com/company/kavach-ai-private-limited/U72900KA2021PTC143621",
+      "eligibility_evidence": "Official careers lists Bengaluru / Remote, but non-India HQ proof fails independent validation.",
+      "eligibility_url": "https://kavach-ai.com/pages/careers.html",
+      "email": "careers@kavach-ai.com",
+      "email_evidence_url": "https://kavach-ai.com/pages/careers.html",
+      "status": "disqualified",
+      "fit_score": 0,
+      "notes": "Do not send: same website domain associated with India-incorporated Kavach AI Private Limited (struck off) while current website self-claims US incorporation and funding unsupported by independent sources. HQ gate fails.",
+      "source_urls": [
+        "https://kavach-ai.com/pages/careers.html",
+        "https://www.thecompanycheck.com/company/kavach-ai-private-limited/U72900KA2021PTC143621"
+      ],
+      "queue_position": 86,
+      "discovered_at": "2026-10-31",
+      "observed_at": "2026-10-31T08:06:14+05:30",
+      "last_checked_at": "2026-10-31T08:06:14+05:30"
     }
   ],
-  "updated_at": "2026-10-31T01:02:57.628Z"
+  "updated_at": "2026-10-31T08:06:14+05:30"
 }
