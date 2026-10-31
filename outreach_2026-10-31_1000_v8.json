@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "slot": "10:00",
   "timezone": "Asia/Kolkata",
-  "status": "sending_serialized",
+  "status": "preflight_claimed_no_send_yet",
   "writer_id": "international_outreach_batches_2026-10-31_1000_run8",
   "batch_cap": 7,
   "daily_cap": 30,
@@ -23,12 +23,17 @@
       "hq_evidence_url": "https://www.ycombinator.com/companies/trycardinal-ai",
       "eligibility_evidence": "YC: visa will sponsor, 1–6 years, SF onsite; agentic outbound and multi-tenant controls.",
       "email_evidence": "Official company site prints team@trycardinal.ai; founder publicly directs founding-engineer applicants there.",
-      "status": "send_intent_claimed",
+      "status": "sent_confirmed",
       "claimed_at": "2026-10-31T10:01:00+05:30",
-      "application_status": "contacted_not_formal_application"
+      "application_status": "contacted_not_formal_application",
+      "gmail_message_id": "1a19039a192dd281",
+      "thread_id": "1a19039a192dd281",
+      "confirmed_at": "2026-10-31T10:01:40+05:30"
     }
   ],
-  "confirmed_gmail_message_ids": [],
+  "confirmed_gmail_message_ids": [
+    "1a19039a192dd281"
+  ],
   "research_notes": [
     "Checked authoritative v7/v8/message-quality protocols and latest config",
     "Reconciled 8 Gmail SENT messages Oct 31, no current-day bounces/replies found",
@@ -36,7 +41,7 @@
     "No overlapping outbound writer observed; 08:00 audit completed"
   ],
   "source_failures": [],
-  "send_attempts": 0,
-  "confirmed_sent_this_run": 0,
-  "current_claim": "outreach-2026-10-31-1000-cardinal"
+  "send_attempts": 1,
+  "confirmed_sent_this_run": 1,
+  "current_claim": null
 }
