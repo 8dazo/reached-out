@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "slot": "10:00",
   "timezone": "Asia/Kolkata",
-  "status": "preflight_claimed_no_send_yet",
+  "status": "sending_serialized",
   "writer_id": "international_outreach_batches_2026-10-31_1000_run8",
   "batch_cap": 7,
   "daily_cap": 30,
@@ -29,6 +29,20 @@
       "gmail_message_id": "1a19039a192dd281",
       "thread_id": "1a19039a192dd281",
       "confirmed_at": "2026-10-31T10:01:40+05:30"
+    },
+    {
+      "id": "outreach-2026-10-31-1000-conviction",
+      "company": "Conviction",
+      "to": "founders@convictiontrade.ai",
+      "subject": "Reliable agent execution at Conviction",
+      "body": "Hi Aria and Tony,\n\nConviction's founding engineer role mixes multi-agent research with financial execution, where a model mistake can become a real system mistake. That boundary is the part I'd most like to work on.\n\nI built Captor to put budgets, tool policies, and traces around LLM calls, and at Stride AI I shipped backend APIs and production tests. I haven't worked professionally on trading infrastructure, but I care about reliable agent execution and measurable failure modes.\n\nI'm in India and open to relocating; your YC role lists visa sponsorship. Could I share a technical walkthrough and ask whether my backend background fits the team?\n\nDevansh\nhttps://devansh.aurat.ai\nhttps://github.com/8dazo",
+      "role": "Founding Engineer",
+      "role_url": "https://www.ycombinator.com/companies/conviction/jobs/dKyC4hT-founding-engineer",
+      "eligibility_evidence": "YC: visa will sponsor, any experience, SF onsite; backend multi-agent trading systems.",
+      "email_evidence": "YC founders' launch publicly prints founders@convictiontrade.ai for questions.",
+      "status": "send_intent_claimed",
+      "claimed_at": "2026-10-31T10:02:00+05:30",
+      "application_status": "contacted_not_formal_application"
     }
   ],
   "confirmed_gmail_message_ids": [
@@ -43,5 +57,5 @@
   "source_failures": [],
   "send_attempts": 1,
   "confirmed_sent_this_run": 1,
-  "current_claim": null
+  "current_claim": "outreach-2026-10-31-1000-conviction"
 }
