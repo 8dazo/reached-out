@@ -1417,6 +1417,24 @@
       "delivery_check": "gmail_sent_confirmed",
       "source_url": "https://www.ycombinator.com/companies/deeptrace/jobs/HUgeLrM-founding-engineer",
       "notes": "Historical Gmail Sent found during October 31 discovery; previous GitHub ledger lacked this company. Permanently suppress any additional initial outreach to Deeptrace."
+    },
+    {
+      "email": "hiring@unsiloed.ai",
+      "person": "Unsiloed AI hiring team",
+      "company": "Unsiloed AI",
+      "company_hq": "San Francisco, California, USA",
+      "role": "Founding Software Engineer - Backend and Infrastructure",
+      "status": "sent",
+      "sent_at": "2026-10-31",
+      "subject": "Document intelligence that agents can trust",
+      "gmail_message_id": "1a18fd23d7e11079",
+      "thread_id": "1a18fd23d7e11079",
+      "source": "outreach_2026-10-31_0800_v8.json",
+      "application_status": "contacted_not_formal_application",
+      "email_verification": "YC job explicit public hiring [at] unsiloed [dot] ai",
+      "delivery_check": "gmail_sent_confirmed",
+      "source_url": "https://www.ycombinator.com/companies/unsiloed-ai/jobs/cmlq27S-founding-software-engineer-backend-and-infrastructure",
+      "notes": "106-word personalized inquiry; YC job says SF onsite, visa sponsorship open, any experience. No resume attached and not a formal CV application."
     }
   ],
   "policy_effective_date": "2026-10-09",
