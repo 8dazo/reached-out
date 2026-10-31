@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "slot": "12:00",
   "timezone": "Asia/Kolkata",
-  "status": "in_progress",
+  "status": "completed",
   "writer_id": "international_outreach_batches_2026-10-31_1200_run9",
   "batch_cap": 7,
   "daily_cap": 30,
@@ -101,9 +101,25 @@
     "Terrakotta senior role US authorization only, new-grad role fit unclear; Nessie and Uno lack exact verified mailbox.",
     "Upgraded existing Salus FIFO record after finding founders@usesalus.ai published in the official YC launch; current Founding SWE/MLE job explicitly offers sponsorship and fits Captor.",
     "Upgraded existing Paradev (formerly Superset) queue record: founder Kiet Ho posted kiet@superset.sh in Oct 7 HN hiring thread; official current Paradev careers page explicitly says applicants do not need US work authorization and visas sponsored.",
-    "Preserved three additional sponsored founding/backend engineering opportunities (Replicas, Conductor, Refactor) without inventing recruiting emails; no contact sent to these records."
+    "Preserved three additional sponsored founding/backend engineering opportunities (Replicas, Conductor, Refactor) without inventing recruiting emails; no contact sent to these records.",
+    "Final 12:00 reconciliation: Gmail Sent 15 messages dated Oct 31, exactly 15 matching permanent ledger IDs; 4 new messages from this batch, no unledgered Gmail Sent, no current-day bounce, opt-out, or recruiting reply. 123 FIFO records retained, 0 verified-ready unsent.",
+    "Batch 7 target short by 3. Daily cap 30; 15 used, but 14:00 slot cap remains 2 regardless of earlier shortfalls. No unsafe attachment retries. No unverified mailboxes sent."
   ],
   "known_bounces": 0,
   "unknown_delivery_events": 0,
-  "queue_total_start": 113
+  "queue_total_start": 113,
+  "completed_at": "2026-10-31T12:11:05+05:30",
+  "batch_target": 7,
+  "batch_shortfall": 3,
+  "confirmed_sent_today": 15,
+  "remaining_daily_capacity": 15,
+  "remaining_today_slot": "14:00",
+  "remaining_today_slot_cap": 2,
+  "queue_total_end": 123,
+  "verified_ready_pool_end": 0,
+  "ready_pool_shortfall": 45,
+  "new_optouts": 0,
+  "new_followups_sent": 0,
+  "daily_sent_gmail_ledger_reconciled": true,
+  "all_sent_confirmed_in_gmail_and_durable_github": true
 }
