@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T12:11:05+05:30",
+  "updated_at": "2026-10-31T13:59:00+05:30",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -1662,6 +1662,24 @@
       "email_verification": "HN_founder_self_posted_exact_hiring_email_2026_10_07",
       "delivery_check": "gmail_sent_confirmed",
       "source_url": "https://www.ycombinator.com/companies/paradev/jobs/Nd9luiP-founding-engineer"
+    },
+    {
+      "company": "Conductor",
+      "email": "careers@conductor.is",
+      "role": "Backend Engineer",
+      "gmail_message_id": "1a0dde43de888067",
+      "sent_at": "2026-09-26",
+      "status": "sent",
+      "contact_source": "Gmail Sent historical reconciliation 2026-10-31 14:00"
+    },
+    {
+      "company": "Sourcebot",
+      "email": "michael@sourcebot.dev",
+      "role": "Founding Engineer",
+      "gmail_message_id": "1a0dde3a2b4c428b",
+      "sent_at": "2026-09-26",
+      "status": "sent",
+      "contact_source": "Gmail Sent historical reconciliation 2026-10-31 14:00"
     }
   ],
   "policy_effective_date": "2026-10-09",
