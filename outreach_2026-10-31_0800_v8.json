@@ -139,6 +139,24 @@
       "gmail_message_id": "1a18fd624dda0d43",
       "thread_id": "1a18fd624dda0d43",
       "confirmed_at": "2026-10-31T08:12:30+05:30"
+    },
+    {
+      "id": "outreach-2026-10-31-0800-pango-steve",
+      "company": "Pango",
+      "to": "steve@pango.ai",
+      "status": "claimed",
+      "subject": "Reliable logistics workflows at Pango",
+      "body": "Hi Steve,\n\nI read Pango's Founding Engineer role and liked the emphasis on making failures across carriers, warehouses, and shop systems visible instead of burying them in retry loops. Logistics integrations sound like a place where small reliability decisions really matter.\n\nAt Stride AI, I owned backend APIs, React interfaces, and end-to-end tests. I prefer teams where the engineer building a workflow also understands how it breaks. Your focus on observability and readable PRs resonates with me.\n\nI'm based in India with around three years of experience including internships. I saw that Stockholm relocation and visa sponsorship are possible. Would you consider my background?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
+      "role": "Founding Engineer",
+      "role_url": "https://www.ycombinator.com/companies/pango/jobs/xXKwYhq-founding-engineer",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/pango",
+      "eligibility_evidence": "YC role lists Stockholm on-site, Visa: Will sponsor; 3+ years, willing to relocate accepted; candidate transparently notes experience including internships.",
+      "email_source": "https://www.ycombinator.com/companies/pango",
+      "email_evidence": "YC company launch explicitly invites email to Steve@pango.ai, Steve Rahimi current founder CEO; July HN post also listed same email.",
+      "message_quality_angle": "Cross-system e-commerce logistics reliability, carrier integrations, observability and readable PRs; distinct from prior finance/document/travel messages.",
+      "claimed_at": "2026-10-31T08:12:48+05:30",
+      "application_status": "contacted_not_formal_application",
+      "gmail_message_id": null
     }
   ],
   "reconciliation": {
@@ -198,5 +216,5 @@
     "balerion_sent_ledger": "87e993f5d3b526407c65ceb4d3f0879936edc1c9",
     "balerion_sent_queue": "5b2203f1557c75f0af4ff3380456410ee740c5a2"
   },
-  "updated_at": "2026-10-31T08:12:30+05:30"
+  "updated_at": "2026-10-31T08:12:48+05:30"
 }
