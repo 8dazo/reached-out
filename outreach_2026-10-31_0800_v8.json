@@ -9,7 +9,7 @@
     "MESSAGE_QUALITY_V2.md",
     "outreach_v7_config.json"
   ],
-  "status": "in_progress",
+  "status": "batch_target_met_replenishment_shortfall",
   "batch_cap": 7,
   "daily_hard_cap": 30,
   "confirmed_new_sends_prior": 1,
@@ -144,7 +144,7 @@
       "id": "outreach-2026-10-31-0800-pango-steve",
       "company": "Pango",
       "to": "steve@pango.ai",
-      "status": "claimed",
+      "status": "sent_confirmed",
       "subject": "Reliable logistics workflows at Pango",
       "body": "Hi Steve,\n\nI read Pango's Founding Engineer role and liked the emphasis on making failures across carriers, warehouses, and shop systems visible instead of burying them in retry loops. Logistics integrations sound like a place where small reliability decisions really matter.\n\nAt Stride AI, I owned backend APIs, React interfaces, and end-to-end tests. I prefer teams where the engineer building a workflow also understands how it breaks. Your focus on observability and readable PRs resonates with me.\n\nI'm based in India with around three years of experience including internships. I saw that Stockholm relocation and visa sponsorship are possible. Would you consider my background?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
       "role": "Founding Engineer",
@@ -156,7 +156,9 @@
       "message_quality_angle": "Cross-system e-commerce logistics reliability, carrier integrations, observability and readable PRs; distinct from prior finance/document/travel messages.",
       "claimed_at": "2026-10-31T08:12:48+05:30",
       "application_status": "contacted_not_formal_application",
-      "gmail_message_id": null
+      "gmail_message_id": "1a18fd6e1cbb7542",
+      "thread_id": "1a18fd6e1cbb7542",
+      "confirmed_at": "2026-10-31T08:13:10+05:30"
     }
   ],
   "reconciliation": {
@@ -173,21 +175,22 @@
     ],
     "prior_morning_sender_completed": true
   },
-  "send_attempts": 6,
+  "send_attempts": 7,
   "confirmed_gmail_message_ids": [
     "1a18fd23d7e11079",
     "1a18fd315955c63d",
     "1a18fd3bd932049f",
     "1a18fd461045e9cc",
     "1a18fd53d87b5f00",
-    "1a18fd624dda0d43"
+    "1a18fd624dda0d43",
+    "1a18fd6e1cbb7542"
   ],
   "known_new_bounces": 0,
   "unknown_delivery_this_run": 0,
   "notes": "One new Gmail-confirmed Unsiloed send. Historical Deeptrace previously contacted in September was newly reconciled and suppressed. Remaining leads need exact hiring email, location or HQ evidence; resume attachment block remains.",
-  "confirmed_sent_this_run": 6,
-  "total_confirmed_new_sends_today": 7,
-  "remaining_daily_capacity": 23,
+  "confirmed_sent_this_run": 7,
+  "total_confirmed_new_sends_today": 8,
+  "remaining_daily_capacity": 22,
   "github_checkpoint_shas": {
     "historical_deeptrace_suppression": "30d97dac88800d0309fb9d91813e9a26b2241426",
     "queue_research": "ebc0c8372053170c551ae1753c84f195d97ded48",
@@ -214,7 +217,12 @@
     "balerion_pre_send_intent": "eec720c6c6b073ab6a00d5f45c05f89a13b3c56b",
     "balerion_queue_claim": "d63be1126aeadfb452017ecd3b510a9d7f0b6ca1",
     "balerion_sent_ledger": "87e993f5d3b526407c65ceb4d3f0879936edc1c9",
-    "balerion_sent_queue": "5b2203f1557c75f0af4ff3380456410ee740c5a2"
+    "balerion_sent_queue": "5b2203f1557c75f0af4ff3380456410ee740c5a2",
+    "pango_pre_send_intent": "cec6a34b7e864405bfa100c870f92d39bec15240",
+    "pango_queue_claim": "853af0aa6b296131ef786548cb90aa72c4cf6353",
+    "pango_sent_ledger": "641a8a01ae099d02da7dbb8f3bd80b08e092b5ea",
+    "pango_sent_queue": "a93c6fb088905154179b445aa36308c1f06e9fbe"
   },
-  "updated_at": "2026-10-31T08:12:48+05:30"
+  "updated_at": "2026-10-31T08:13:10+05:30",
+  "batch_shortfall": 0
 }
