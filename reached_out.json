@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T10:02:35+05:30",
+  "updated_at": "2026-10-31T10:03:35+05:30",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -1577,6 +1577,23 @@
       "email_verification": "YC_public_founders_email",
       "delivery_check": "gmail_sent_confirmed",
       "source_url": "https://www.ycombinator.com/companies/conviction/jobs/dKyC4hT-founding-engineer"
+    },
+    {
+      "email": "hamze@heytenor.com",
+      "person": "Hamze Al-Zamkan (CEO)",
+      "company": "Tenor",
+      "company_hq": "San Francisco, CA, USA",
+      "role": "Founding Engineer, Agent and Data Systems",
+      "status": "sent",
+      "sent_at": "2026-10-31",
+      "subject": "Replay and evaluation systems at Tenor",
+      "gmail_message_id": "1a1903a91ecf1356",
+      "thread_id": "1a1903a91ecf1356",
+      "source": "outreach_2026-10-31_1000_v8.json",
+      "application_status": "contacted_not_formal_application",
+      "email_verification": "YC_public_founder_email",
+      "delivery_check": "gmail_sent_confirmed",
+      "source_url": "https://www.ycombinator.com/companies/tenor/jobs/GsfaYQE-founding-engineer-agent-and-data-systems"
     }
   ],
   "policy_effective_date": "2026-10-09",
