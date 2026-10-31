@@ -1640,7 +1640,36 @@
       "thread_id": "1a18fd23d7e11079",
       "sent_at": "2026-10-31T08:08:00+05:30",
       "delivery_check": "gmail_sent_confirmed"
+    },
+    {
+      "company": "Fenrock AI",
+      "email": "charu@fenrock.ai",
+      "person": "Charu Sharma",
+      "company_hq": "San Francisco, California, USA",
+      "company_region": "US",
+      "role": "Founding Engineer (Full stack)",
+      "role_url": "https://www.ycombinator.com/companies/fenrock-ai/jobs/cjkr5RF-founding-engineer-full-stack",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/fenrock-ai",
+      "eligibility_evidence": "YC role lists San Francisco, Visa: Will sponsor, Any experience (new grads ok); international relocation is possible.",
+      "eligibility_url": "https://www.ycombinator.com/companies/fenrock-ai/jobs/cjkr5RF-founding-engineer-full-stack",
+      "verification": "YC public founder email and active YC visa-sponsored role",
+      "email_evidence_url": "https://www.ycombinator.com/companies/fenrock-ai",
+      "fit_score": 95,
+      "notes": "102-word builder-to-builder founder inquiry, not formal application. Public YC founder email. No CV required for inquiry.",
+      "source_urls": [
+        "https://www.ycombinator.com/companies/fenrock-ai/jobs/cjkr5RF-founding-engineer-full-stack",
+        "https://www.ycombinator.com/companies/fenrock-ai"
+      ],
+      "discovered_at": "2026-10-31",
+      "observed_at": "2026-10-31T08:08:39+05:30",
+      "queue_position": 88,
+      "status": "claimed",
+      "send_intent_id": "outreach-2026-10-31-0800-fenrock-charu",
+      "claimed_at": "2026-10-31T08:08:39+05:30",
+      "subject": "Integrations behind Fenrock's bank agents",
+      "body": "Hi Charu,\n\nFenrock's approach of overlaying existing bank systems instead of replacing them caught my attention. The integration boundary seems like the hard part: permissions, auditability, and messy operational workflows.\n\nAt Stride AI, I built a shared authentication service across apps and shipped backend APIs through production tests. I've also built agent tooling, but what I enjoy most is making a useful workflow dependable end to end.\n\nI saw the founding full-stack role offers visa sponsorship. I'm based in India and open to relocating. Would it be useful to share a short walkthrough of the authentication work?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
+      "application_status": "contacted_not_formal_application"
     }
   ],
-  "updated_at": "2026-10-31T08:08:00+05:30"
+  "updated_at": "2026-10-31T08:08:39+05:30"
 }
