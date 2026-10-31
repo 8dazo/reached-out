@@ -1622,7 +1622,7 @@
       "verification": "explicit_public_current",
       "email_evidence_url": "https://www.ycombinator.com/companies/unsiloed-ai/jobs/cmlq27S-founding-software-engineer-backend-and-infrastructure",
       "fit_score": 94,
-      "notes": "106-word personalized networking inquiry to public YC hiring contact; not formal CV application. Explicit SF visa sponsorship, no prior Gmail/company contact. Pending send.",
+      "notes": "106-word role-specific networking inquiry to official YC hiring mailbox; Gmail Sent directly read and confirmed. Not a formal CV application; no attachment.",
       "source_urls": [
         "https://www.ycombinator.com/companies/unsiloed-ai/jobs/cmlq27S-founding-software-engineer-backend-and-infrastructure",
         "https://www.ycombinator.com/companies/unsiloed-ai"
@@ -1630,13 +1630,17 @@
       "discovered_at": "2026-10-31",
       "observed_at": "2026-10-31T08:07:39+05:30",
       "queue_position": 87,
-      "status": "claimed",
+      "status": "sent_confirmed",
       "send_intent_id": "outreach-2026-10-31-0800-unsiloed-hiring",
       "claimed_at": "2026-10-31T08:07:39+05:30",
       "subject": "Document intelligence that agents can trust",
       "body": "Hi Unsiloed team,\n\nYour founding backend role is about making vision-first document extraction reliable enough for other systems to build on. That problem feels familiar: while building a RAG pipeline, I learned that chunking choices and evaluation can matter more than swapping models.\n\nAt Stride AI, I shipped backend APIs and full-stack features with tests, and I like owning failure paths rather than just the happy-path demo. I'm based in India and saw that you sponsor visas for the San Francisco role.\n\nCould I show you a small piece of relevant backend work and see whether it fits what you're building?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
-      "application_status": "contacted_not_formal_application"
+      "application_status": "contacted_not_formal_application",
+      "gmail_message_id": "1a18fd23d7e11079",
+      "thread_id": "1a18fd23d7e11079",
+      "sent_at": "2026-10-31T08:08:00+05:30",
+      "delivery_check": "gmail_sent_confirmed"
     }
   ],
-  "updated_at": "2026-10-31T08:07:39+05:30"
+  "updated_at": "2026-10-31T08:08:00+05:30"
 }
