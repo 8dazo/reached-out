@@ -2486,8 +2486,10 @@
       "notes": "Official YC Rainbrand profile currently displays Reach out: ray@trybloom.ai (legacy Bloom domain following rename); founding role agent MCP/API brand context, retrieval and evaluations; match Captor and full-stack; outreach only, not formal application.",
       "discovered_at": "2026-10-31",
       "observed_at": "2026-10-31",
-      "status": "verified_ready",
-      "queue_position": 124
+      "status": "claimed",
+      "queue_position": 124,
+      "claim_id": "outreach-2026-10-31-1400-rainbrand",
+      "claimed_at": "2026-10-31T14:00:07+05:30"
     },
     {
       "company": "VOYGR",
@@ -2599,5 +2601,5 @@
       "queue_position": 130
     }
   ],
-  "updated_at": "2026-10-31T13:59:00+05:30"
+  "updated_at": "2026-10-31T14:00:07+05:30"
 }
