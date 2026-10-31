@@ -1489,6 +1489,24 @@
       "delivery_check": "gmail_sent_confirmed",
       "source_url": "https://www.ycombinator.com/companies/stardrift/jobs/nC7cjhB-founding-software-engineer",
       "notes": "100-word role-specific founder note about search/recommendation quality and provider integrations; YC job visa sponsor. No CV; inquiry, not formal application."
+    },
+    {
+      "email": "naveed@anara.com",
+      "person": "Naveed Janmohamed",
+      "company": "Anara",
+      "company_hq": "San Francisco, California, USA",
+      "role": "Software Engineer, Product",
+      "status": "sent",
+      "sent_at": "2026-10-31",
+      "subject": "Research agents inside Anara's product",
+      "gmail_message_id": "1a18fd53d87b5f00",
+      "thread_id": "1a18fd53d87b5f00",
+      "source": "outreach_2026-10-31_0800_v8.json",
+      "application_status": "contacted_not_formal_application",
+      "email_verification": "official Anara 2.0 founder blog exact email",
+      "delivery_check": "gmail_sent_confirmed",
+      "source_url": "https://www.ycombinator.com/companies/anara/jobs/gUd2wYA-software-engineer-product",
+      "notes": "107-word personalized founder note about in-library research agents, React UI and RAG evaluation. YC visa sponsorship; experience including internships transparently stated. No CV; not formal application."
     }
   ],
   "policy_effective_date": "2026-10-09",
