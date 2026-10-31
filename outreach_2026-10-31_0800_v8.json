@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-31",
+  "slot": "08:00",
+  "timezone": "Asia/Kolkata",
+  "preflight_clock": "2026-10-31T08:07:39+05:30",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "status": "in_progress",
+  "batch_cap": 7,
+  "daily_hard_cap": 30,
+  "confirmed_new_sends_prior": 1,
+  "queue_records_start": 80,
+  "queue_records_after_research": 86,
+  "new_candidates": 6,
+  "ready_pool_start": 0,
+  "ready_pool_target": 45,
+  "reserve_target": 15,
+  "send_intents": [
+    {
+      "id": "outreach-2026-10-31-0800-unsiloed-hiring",
+      "company": "Unsiloed AI",
+      "to": "hiring@unsiloed.ai",
+      "status": "claimed",
+      "subject": "Document intelligence that agents can trust",
+      "body": "Hi Unsiloed team,\n\nYour founding backend role is about making vision-first document extraction reliable enough for other systems to build on. That problem feels familiar: while building a RAG pipeline, I learned that chunking choices and evaluation can matter more than swapping models.\n\nAt Stride AI, I shipped backend APIs and full-stack features with tests, and I like owning failure paths rather than just the happy-path demo. I'm based in India and saw that you sponsor visas for the San Francisco role.\n\nCould I show you a small piece of relevant backend work and see whether it fits what you're building?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
+      "role": "Founding Software Engineer - Backend and Infrastructure",
+      "role_url": "https://www.ycombinator.com/companies/unsiloed-ai/jobs/cmlq27S-founding-software-engineer-backend-and-infrastructure",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/unsiloed-ai",
+      "eligibility_evidence": "YC job lists San Francisco, Visa: Will sponsor; job text says visa open to sponsoring, 0+ years, in-person SF.",
+      "email_source": "https://www.ycombinator.com/companies/unsiloed-ai/jobs/cmlq27S-founding-software-engineer-backend-and-infrastructure",
+      "email_evidence": "For any questions, email hiring [at] unsiloed [dot] ai",
+      "message_quality_angle": "Specific VLM-to-structured-data reliability hook; candidate RAG chunking/evaluation learning; distinct from recent Captor guardrails and frontend messages.",
+      "claimed_at": "2026-10-31T08:07:39+05:30",
+      "application_status": "contacted_not_formal_application",
+      "gmail_message_id": null
+    }
+  ],
+  "reconciliation": {
+    "today_sent_message_ids": [
+      "1a18f7a8c6c0ca1c"
+    ],
+    "historical_deeptrace_suppression_added": "1a0dde314397f4e4",
+    "prior_unknown_delivery": [
+      "hr@dotcoai.com"
+    ],
+    "prior_hard_bounces": [
+      "careers@wavelet-ai.com",
+      "careers@enablex.io"
+    ],
+    "prior_morning_sender_completed": true
+  },
+  "send_attempts": 0,
+  "confirmed_gmail_message_ids": [],
+  "known_new_bounces": 0,
+  "unknown_delivery_this_run": 0,
+  "notes": "No other sender active; exact Gmail and all historical ledgers checked. Claiming one verified candidate; no Gmail action yet."
+}
