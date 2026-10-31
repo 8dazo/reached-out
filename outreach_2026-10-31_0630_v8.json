@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-31",
+  "slot": "06:30",
+  "timezone": "Asia/Kolkata",
+  "status": "pre_send_claimed",
+  "target": 7,
+  "daily_hard_cap": 30,
+  "confirmed_new_sends_prior": 0,
+  "confirmed_new_sends_this_run": 0,
+  "lead_pool_start": 69,
+  "lead_pool_after_discovery": 76,
+  "new_candidates": 7,
+  "verified_ready_pre_claim": 1,
+  "send_intents": [
+    {
+      "id": "outreach-2026-10-31-0630-socratix-satya",
+      "company": "Socratix AI",
+      "to": "satya@getsocratix.ai",
+      "status": "claimed_not_sent",
+      "subject": "Socratix agents and trustworthy decisions",
+      "role_url": "https://www.ycombinator.com/companies/socratix-ai/jobs/JtqwNF7-member-of-technical-staff-ai-agents",
+      "eligibility_url": "https://www.ycombinator.com/companies/socratix-ai/jobs/JtqwNF7-member-of-technical-staff-ai-agents",
+      "email_source": "https://www.ycombinator.com/companies/socratix-ai",
+      "claimed_at": "2026-10-31T06:33:00+05:30"
+    }
+  ],
+  "gmail_reconciliation": {
+    "today_sent_count": 0,
+    "full_sent_messages_scanned": 296,
+    "matched_prior_socratix": 0,
+    "prior_known_bounces": [
+      "careers@wavelet-ai.com",
+      "careers@enablex.io"
+    ],
+    "unknown_delivery_quarantine": [
+      "hr@dotcoai.com"
+    ]
+  },
+  "discovery_source_types": [
+    "YC jobs",
+    "Ashby ATS",
+    "Lever ATS",
+    "official company pages",
+    "HN October hiring"
+  ],
+  "blockers": [
+    "No other send-ready email contact found; remaining candidates lack exact recruiting email, confirmed HQ, or role fit",
+    "SerpApi and Mpeak formal applications require resume attachment; prior BLOCKED_FILE_REFERENCE remains unresolved"
+  ],
+  "github_checkpoint_shas": {
+    "wavelet_bounce": "a417f029d9fc13b1e5c6d5f4a699a170001ccec3",
+    "queue_claim": "54872f27018f1970963116efe0fa990b0629c5ef"
+  },
+  "created_at": "2026-10-31T06:33:00+05:30"
+}
