@@ -8,8 +8,8 @@
   "confirmed_new_sends_prior": 0,
   "confirmed_new_sends_this_run": 1,
   "lead_pool_start": 69,
-  "lead_pool_after_discovery": 76,
-  "new_candidates": 7,
+  "lead_pool_after_discovery": 80,
+  "new_candidates": 11,
   "verified_ready_pre_claim": 1,
   "send_intents": [
     {
@@ -53,7 +53,8 @@
     "wavelet_bounce": "a417f029d9fc13b1e5c6d5f4a699a170001ccec3",
     "queue_claim": "54872f27018f1970963116efe0fa990b0629c5ef",
     "sent_ledger": "b52d5d1d31aa15ba77fe72dbcceb62b6312347eb",
-    "sent_queue": "f9991c77123cdded6deca8d35858b0af000ddb2f"
+    "sent_queue": "f9991c77123cdded6deca8d35858b0af000ddb2f",
+    "queue_expanded": "62aa1b48d5ae00c45122b6e7f7d38c3b7946fa19"
   },
   "created_at": "2026-10-31T06:33:00+05:30",
   "total_confirmed_new_sends_today": 1,
@@ -70,5 +71,6 @@
     }
   ],
   "completed_at": "2026-10-31T01:02:27.234Z",
-  "notes": "One email confirmed directly in Gmail and written to durable ledger and FIFO. No other send-ready lead; 45-contact readiness target remains unmet. Seven newly researched leads, six remain unverified. No blind retries or incomplete CV applications."
+  "notes": "One Gmail-confirmed send; additional YC sponsored roles researched and preserved. No other fully send-ready email contact; 45-ready pool target remains unmet. SerpApi/Mpeak formal CV attachment blocker persists. Wavelet hard bounce corrected and permanently suppressed.",
+  "updated_at": "2026-10-31T01:02:57.628Z"
 }
