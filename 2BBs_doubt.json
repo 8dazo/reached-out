@@ -1404,7 +1404,83 @@
       "queue_position": 76,
       "created_at": "2026-10-31",
       "last_checked_at": "2026-10-31T06:33:00+05:30"
+    },
+    {
+      "company": "Paradev (formerly Superset)",
+      "role": "Founding Engineer — developer agent IDE",
+      "role_url": "https://www.ycombinator.com/companies/paradev/jobs/Nd9luiP-founding-engineer",
+      "company_hq": "San Francisco, California, USA",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/paradev",
+      "eligibility_evidence": "YC job explicitly says Visa: Will sponsor, 2+ years; in-person San Francisco 5 days/week, 5-day paid onsite trial.",
+      "eligibility_url": "https://www.ycombinator.com/companies/paradev/jobs/Nd9luiP-founding-engineer",
+      "email": null,
+      "status": "unverified",
+      "notes": "Excellent React/TS/Postgres/agent tooling match; Oct 26 rebrand and fundraising, active role. hello@superset.sh is public product-feedback address, not verified hiring channel. No exact founder recruiting mailbox; requires SF relocation and paid onsite trial. Do not email.",
+      "source_urls": [
+        "https://paradev.com/blog/superset-is-now-paradev",
+        "https://www.ycombinator.com/companies/paradev/jobs/Nd9luiP-founding-engineer"
+      ],
+      "queue_position": 77,
+      "discovered_at": "2026-10-31",
+      "last_checked_at": "2026-10-31T01:02:57.628Z"
+    },
+    {
+      "company": "Accend",
+      "role": "Full Stack Engineer — AI underwriting",
+      "role_url": "https://www.ycombinator.com/companies/accend/jobs/XxGbYZN-full-stack-engineer",
+      "company_hq": "San Francisco, California, USA",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/accend",
+      "eligibility_evidence": "YC job lists Visa: Will sponsor, 2+ years, location San Francisco or Remote (San Francisco); remote India not confirmed, would require relocation.",
+      "eligibility_url": "https://www.ycombinator.com/companies/accend/jobs/XxGbYZN-full-stack-engineer",
+      "email": null,
+      "status": "unverified",
+      "notes": "Strong React/TS/API/LLM observability fit; YC role current. No exact publicly verified appropriate founder/hiring mailbox. Do not send; YC apply available.",
+      "source_urls": [
+        "https://www.ycombinator.com/companies/accend/jobs/XxGbYZN-full-stack-engineer"
+      ],
+      "queue_position": 78,
+      "discovered_at": "2026-10-31",
+      "last_checked_at": "2026-10-31T01:02:57.628Z"
+    },
+    {
+      "company": "Runtime (runtm.com)",
+      "role": "Forward Deployed AI Engineer — payment agent harness",
+      "role_url": "https://www.ycombinator.com/companies/runtime/jobs/exm704T-forward-deployed-ai-engineer",
+      "company_hq": "San Francisco, California, USA",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/runtime",
+      "eligibility_evidence": "YC lists Visa: Will sponsor, Remote (geography unspecified); independent Oct 27 employer-indexed listing says Remote (United States), so India remote is NOT verified; relocation may be required.",
+      "eligibility_url": "https://www.ycombinator.com/companies/runtime/jobs/exm704T-forward-deployed-ai-engineer",
+      "email": "gus@runtm.com",
+      "email_evidence_url": "https://github.com/runtm-ai",
+      "status": "needs_fit_review",
+      "notes": "Founder email publicly printed on official GitHub organization and recent PyPI metadata. However role is highly customer-facing, requires fintech/payment domain and public presentation; candidate has expressed discomfort with speaking, so fit/relocation review needed. Do not send.",
+      "source_urls": [
+        "https://www.ycombinator.com/companies/runtime/jobs/exm704T-forward-deployed-ai-engineer",
+        "https://github.com/runtm-ai",
+        "https://alion.io/job/runtime-forward-deployed-ai-engineer"
+      ],
+      "queue_position": 79,
+      "discovered_at": "2026-10-31",
+      "last_checked_at": "2026-10-31T01:02:57.628Z"
+    },
+    {
+      "company": "Drillbit",
+      "role": "Software Engineer, Product — AI office workers",
+      "role_url": "https://www.ycombinator.com/companies/drillbit/jobs/kViPFgN-software-engineer-product",
+      "company_hq": "Austin, Texas, USA",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/drillbit",
+      "eligibility_evidence": "YC job says Visa: Will sponsor; Austin onsite role, 1+ years, not India remote.",
+      "eligibility_url": "https://www.ycombinator.com/companies/drillbit/jobs/kViPFgN-software-engineer-product",
+      "email": null,
+      "status": "unverified",
+      "notes": "Strong TS/React/AI agents and product ownership fit, but exact role-appropriate hiring mailbox not found; sponsorship would require relocation to Austin. No email until exact contact verified.",
+      "source_urls": [
+        "https://www.ycombinator.com/companies/drillbit/jobs/kViPFgN-software-engineer-product"
+      ],
+      "queue_position": 80,
+      "discovered_at": "2026-10-31",
+      "last_checked_at": "2026-10-31T01:02:57.628Z"
     }
   ],
-  "updated_at": "2026-10-31T01:02:27.234Z"
+  "updated_at": "2026-10-31T01:02:57.628Z"
 }
