@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T10:01:40+05:30",
+  "updated_at": "2026-10-31T10:02:35+05:30",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -1560,6 +1560,23 @@
       "email_verification": "official_public_current",
       "delivery_check": "gmail_sent_confirmed",
       "source_url": "https://www.ycombinator.com/companies/trycardinal-ai/jobs/vLd6N4I-founding-engineer"
+    },
+    {
+      "email": "founders@convictiontrade.ai",
+      "person": "Aria Vikram and Tony Yamin",
+      "company": "Conviction",
+      "company_hq": "San Francisco, CA, USA",
+      "role": "Founding Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-31",
+      "subject": "Reliable agent execution at Conviction",
+      "gmail_message_id": "1a1903a16e6288c8",
+      "thread_id": "1a1903a16e6288c8",
+      "source": "outreach_2026-10-31_1000_v8.json",
+      "application_status": "contacted_not_formal_application",
+      "email_verification": "YC_public_founders_email",
+      "delivery_check": "gmail_sent_confirmed",
+      "source_url": "https://www.ycombinator.com/companies/conviction/jobs/dKyC4hT-founding-engineer"
     }
   ],
   "policy_effective_date": "2026-10-09",
