@@ -1841,7 +1841,110 @@
       "thread_id": "1a18fd6e1cbb7542",
       "sent_at": "2026-10-31T08:13:10+05:30",
       "delivery_check": "gmail_sent_confirmed"
+    },
+    {
+      "company": "Rebolt",
+      "role": "Founding Backend Software Engineer",
+      "role_url": "https://www.ycombinator.com/companies/rebolt/jobs/f0qBn0A-founding-backend-software-engineer",
+      "company_hq": "San Francisco, California, USA",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/rebolt",
+      "eligibility_evidence": "YC role says San Francisco / Remote and Visa: Will sponsor, 1+ years; exact India remote eligibility not separately verified but relocation with sponsorship explicit.",
+      "eligibility_url": "https://www.ycombinator.com/companies/rebolt/jobs/f0qBn0A-founding-backend-software-engineer",
+      "email": null,
+      "status": "unverified",
+      "fit_score": 95,
+      "notes": "Strong Next.js, TypeScript, APIs, agentic workflow match; no exact current public hiring/founder mailbox found. YC application form only.",
+      "source_urls": [
+        "https://www.ycombinator.com/companies/rebolt/jobs/f0qBn0A-founding-backend-software-engineer"
+      ],
+      "queue_position": 94,
+      "discovered_at": "2026-10-31",
+      "observed_at": "2026-10-31T08:13:30+05:30",
+      "last_checked_at": "2026-10-31T08:13:30+05:30"
+    },
+    {
+      "company": "Dataleap",
+      "role": "Founding Engineer (Platform/Backend)",
+      "role_url": "https://www.ycombinator.com/companies/dataleap/jobs/cnUB9ED-founding-engineer-platform-backend",
+      "company_hq": "San Francisco, California, USA",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/dataleap",
+      "eligibility_evidence": "YC role explicitly says sponsor visas for US or Europe, with SF or Munich placement; 3+ years and 2-3 years systems design experience.",
+      "eligibility_url": "https://www.ycombinator.com/companies/dataleap/jobs/cnUB9ED-founding-engineer-platform-backend",
+      "email": null,
+      "status": "needs_fit_review",
+      "fit_score": 83,
+      "notes": "Strong Go/Postgres/agents overlap; 2-3 years systems design and 3+ years professional experience may exceed candidate. Old hello@dataleap.xyz in Crunchbase is generic and stale, not appropriate current hiring mailbox. No email send.",
+      "source_urls": [
+        "https://www.ycombinator.com/companies/dataleap/jobs/cnUB9ED-founding-engineer-platform-backend",
+        "https://www.ycombinator.com/companies/dataleap"
+      ],
+      "queue_position": 95,
+      "discovered_at": "2026-10-31",
+      "observed_at": "2026-10-31T08:13:30+05:30",
+      "last_checked_at": "2026-10-31T08:13:30+05:30"
+    },
+    {
+      "company": "Kadoa",
+      "role": "Senior Software Engineer",
+      "role_url": "https://www.kadoa.com/careers/senior-software-engineer",
+      "company_hq": "Zurich, Switzerland",
+      "hq_evidence_url": "https://www.kadoa.com/careers/senior-software-engineer",
+      "eligibility_evidence": "Official page says fully remote, globally distributed, flexible hours, but does not explicitly state India residents can be employed/contracted.",
+      "eligibility_url": "https://www.kadoa.com/careers/senior-software-engineer",
+      "email": "careers@kadoa.com",
+      "email_evidence_url": "https://www.kadoa.com/careers",
+      "status": "needs_eligibility_review",
+      "fit_score": 85,
+      "notes": "Official careers email public but job explicitly asks candidates to use application form because inbox overwhelmed with AI-generated applications. Do not bypass preferred form; India hiring eligibility needs proof.",
+      "source_urls": [
+        "https://www.kadoa.com/careers",
+        "https://www.kadoa.com/careers/senior-software-engineer"
+      ],
+      "queue_position": 96,
+      "discovered_at": "2026-10-31",
+      "observed_at": "2026-10-31T08:13:30+05:30",
+      "last_checked_at": "2026-10-31T08:13:30+05:30"
+    },
+    {
+      "company": "LegalOS",
+      "role": "Founding Engineer",
+      "role_url": "https://www.ycombinator.com/companies/legalos/jobs/jZy2UFU-founding-engineer",
+      "company_hq": "San Francisco, California, USA",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/legalos",
+      "eligibility_evidence": "YC role San Francisco / Remote, Visa: Will sponsor, 3+ years; explicit relocation possible.",
+      "eligibility_url": "https://www.ycombinator.com/companies/legalos/jobs/jZy2UFU-founding-engineer",
+      "email": null,
+      "status": "unverified",
+      "fit_score": 90,
+      "notes": "Strong Next.js, Postgres, Supabase, AI agents/evals fit, but no exact public hiring/founder email verified. ATS form only.",
+      "source_urls": [
+        "https://www.ycombinator.com/companies/legalos/jobs/jZy2UFU-founding-engineer"
+      ],
+      "queue_position": 97,
+      "discovered_at": "2026-10-31",
+      "observed_at": "2026-10-31T08:13:30+05:30",
+      "last_checked_at": "2026-10-31T08:13:30+05:30"
+    },
+    {
+      "company": "Godela",
+      "role": "Founding Engineer (SWE)",
+      "role_url": "https://www.ycombinator.com/companies/godela/jobs/rKMZtYt-founding-engineer-swe-godela",
+      "company_hq": "San Francisco, California, USA",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/godela",
+      "eligibility_evidence": "YC role San Francisco, Visa: Will sponsor, 3+ years; relocation possible.",
+      "eligibility_url": "https://www.ycombinator.com/companies/godela/jobs/rKMZtYt-founding-engineer-swe-godela",
+      "email": null,
+      "status": "needs_fit_review",
+      "fit_score": 79,
+      "notes": "Full-stack ML product fit and user's QPI physics interest, but role requires strong Python/FastAPI/cloud ML inference; exact hiring email not public. Do not send until verified.",
+      "source_urls": [
+        "https://www.ycombinator.com/companies/godela/jobs/rKMZtYt-founding-engineer-swe-godela"
+      ],
+      "queue_position": 98,
+      "discovered_at": "2026-10-31",
+      "observed_at": "2026-10-31T08:13:30+05:30",
+      "last_checked_at": "2026-10-31T08:13:30+05:30"
     }
   ],
-  "updated_at": "2026-10-31T08:13:10+05:30"
+  "updated_at": "2026-10-31T08:13:30+05:30"
 }
