@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "slot": "10:00",
   "timezone": "Asia/Kolkata",
-  "status": "sending_serialized",
+  "status": "preflight_claimed_no_send_yet",
   "writer_id": "international_outreach_batches_2026-10-31_1000_run8",
   "batch_cap": 7,
   "daily_cap": 30,
@@ -40,13 +40,17 @@
       "role_url": "https://www.ycombinator.com/companies/conviction/jobs/dKyC4hT-founding-engineer",
       "eligibility_evidence": "YC: visa will sponsor, any experience, SF onsite; backend multi-agent trading systems.",
       "email_evidence": "YC founders' launch publicly prints founders@convictiontrade.ai for questions.",
-      "status": "send_intent_claimed",
+      "status": "sent_confirmed",
       "claimed_at": "2026-10-31T10:02:00+05:30",
-      "application_status": "contacted_not_formal_application"
+      "application_status": "contacted_not_formal_application",
+      "gmail_message_id": "1a1903a16e6288c8",
+      "thread_id": "1a1903a16e6288c8",
+      "confirmed_at": "2026-10-31T10:02:35+05:30"
     }
   ],
   "confirmed_gmail_message_ids": [
-    "1a19039a192dd281"
+    "1a19039a192dd281",
+    "1a1903a16e6288c8"
   ],
   "research_notes": [
     "Checked authoritative v7/v8/message-quality protocols and latest config",
@@ -55,7 +59,7 @@
     "No overlapping outbound writer observed; 08:00 audit completed"
   ],
   "source_failures": [],
-  "send_attempts": 1,
-  "confirmed_sent_this_run": 1,
-  "current_claim": "outreach-2026-10-31-1000-conviction"
+  "send_attempts": 2,
+  "confirmed_sent_this_run": 2,
+  "current_claim": null
 }
