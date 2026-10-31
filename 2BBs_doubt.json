@@ -2262,13 +2262,17 @@
       "email_evidence_url": "https://www.ycombinator.com/companies/proliferate",
       "verification": "exact_public_founder_email_current_role_and_visa_verified",
       "fit_score": 96,
-      "status": "claimed",
+      "status": "sent_confirmed",
       "notes": "Founder email also printed in official company policy. Sandbox tool access and live preview for verifying agents match Captor runtime policy/traces and full-stack ownership.",
       "discovered_at": "2026-10-31",
       "observed_at": "2026-10-31",
       "queue_position": 114,
       "claimed_at": "2026-10-31T12:08:10+05:30",
-      "claim_id": "outreach-2026-10-31-1200-proliferate"
+      "claim_id": "outreach-2026-10-31-1200-proliferate",
+      "sent_at": "2026-10-31T12:08:28+05:30",
+      "gmail_message_id": "1a190ae5d07510bc",
+      "thread_id": "1a190ae5d07510bc",
+      "application_status": "contacted_not_formal_application"
     },
     {
       "company": "Humwork",
@@ -2385,5 +2389,5 @@
       "queue_position": 120
     }
   ],
-  "updated_at": "2026-10-31T12:08:10+05:30"
+  "updated_at": "2026-10-31T12:08:28+05:30"
 }
