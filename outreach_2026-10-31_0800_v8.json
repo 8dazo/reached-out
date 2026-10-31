@@ -9,7 +9,7 @@
     "MESSAGE_QUALITY_V2.md",
     "outreach_v7_config.json"
   ],
-  "status": "sent_confirmed_replenishment_shortfall",
+  "status": "in_progress",
   "batch_cap": 7,
   "daily_hard_cap": 30,
   "confirmed_new_sends_prior": 1,
@@ -39,6 +39,24 @@
       "gmail_message_id": "1a18fd23d7e11079",
       "thread_id": "1a18fd23d7e11079",
       "confirmed_at": "2026-10-31T08:08:00+05:30"
+    },
+    {
+      "id": "outreach-2026-10-31-0800-fenrock-charu",
+      "company": "Fenrock AI",
+      "to": "charu@fenrock.ai",
+      "status": "claimed",
+      "subject": "Integrations behind Fenrock's bank agents",
+      "body": "Hi Charu,\n\nFenrock's approach of overlaying existing bank systems instead of replacing them caught my attention. The integration boundary seems like the hard part: permissions, auditability, and messy operational workflows.\n\nAt Stride AI, I built a shared authentication service across apps and shipped backend APIs through production tests. I've also built agent tooling, but what I enjoy most is making a useful workflow dependable end to end.\n\nI saw the founding full-stack role offers visa sponsorship. I'm based in India and open to relocating. Would it be useful to share a short walkthrough of the authentication work?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
+      "role": "Founding Engineer (Full stack)",
+      "role_url": "https://www.ycombinator.com/companies/fenrock-ai/jobs/cjkr5RF-founding-engineer-full-stack",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/fenrock-ai",
+      "eligibility_evidence": "YC role lists San Francisco, Visa: Will sponsor, Any experience (new grads ok); international relocation is possible.",
+      "email_source": "https://www.ycombinator.com/companies/fenrock-ai",
+      "email_evidence": "YC Fenrock company launch publicly says 'Email us at charu@fenrock.ai today!' Charu Sharma is founder/CEO.",
+      "message_quality_angle": "Bank legacy integration boundaries and cross-app auth; distinct from recent document extraction, fraud agent reliability and frontend pitches.",
+      "claimed_at": "2026-10-31T08:08:39+05:30",
+      "application_status": "contacted_not_formal_application",
+      "gmail_message_id": null
     }
   ],
   "reconciliation": {
@@ -73,5 +91,5 @@
     "sent_ledger": "46d420febbcb4b261107ac2d8d419cb5d728189a",
     "sent_queue": "9936fc1718b944610430f82d9769f0e55b0baad5"
   },
-  "updated_at": "2026-10-31T08:08:00+05:30"
+  "updated_at": "2026-10-31T08:08:39+05:30"
 }
