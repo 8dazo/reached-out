@@ -11,7 +11,7 @@
   "ready_pool_target": 45,
   "reserve_target": 15,
   "claimed_at": "2026-10-31T12:08:10+05:30",
-  "current_claim": null,
+  "current_claim": "outreach-2026-10-31-1200-paradev",
   "send_intents": [
     {
       "id": "outreach-2026-10-31-1200-proliferate",
@@ -63,6 +63,20 @@
       "gmail_message_id": "1a190afdb9a3653d",
       "thread_id": "1a190afdb9a3653d",
       "sent_at": "2026-10-31T12:10:06+05:30"
+    },
+    {
+      "id": "outreach-2026-10-31-1200-paradev",
+      "company": "Paradev (formerly Superset)",
+      "to": "kiet@superset.sh",
+      "subject": "From PTY streams to agent review at Paradev",
+      "body": "Hi Kiet,\n\nYour October hiring post for Superset, now Paradev, stood out because the founding engineer spans PTY/stream transport through the UI for parallel coding agents. I like that the changelog and source-available repo show how the team actually ships.\n\nAt Stride AI I owned backend APIs, complex React interfaces, and end-to-end tests. I also built Captor, a TypeScript SDK for agent budgets, policies, and traces. Making concurrent agent work observable and reviewable is a problem I'd enjoy tackling.\n\nI'm based in India and open to relocating to SF; your careers page explicitly welcomes visa sponsorship. Could I share a repo and discuss the role?\n\nDevansh\nhttps://devansh.aurat.ai\nhttps://github.com/8dazo",
+      "status": "claimed",
+      "claimed_at": "2026-10-31T12:10:47+05:30",
+      "application_status": "contacted_not_formal_application",
+      "role": "Founding Engineer",
+      "role_url": "https://www.ycombinator.com/companies/paradev/jobs/Nd9luiP-founding-engineer",
+      "email_evidence_url": "https://news.ycombinator.com/item?id=49922569",
+      "quality_angle": "specific PTY/stream transport to UI and public changelog, unlike prior runtime-guardrails messages."
     }
   ],
   "confirmed_gmail_message_ids": [
@@ -81,7 +95,8 @@
     "SingleStore previously contacted on Oct 28; CVector official current visa support limited to candidates already in US; Pax YC visa label contradicts actual TN/transfer-only rule.",
     "Planlab role exact official email and sponsorship verified but CV required and outgoing attachment blocked; retained as needs_attachment.",
     "Terrakotta senior role US authorization only, new-grad role fit unclear; Nessie and Uno lack exact verified mailbox.",
-    "Upgraded existing Salus FIFO record after finding founders@usesalus.ai published in the official YC launch; current Founding SWE/MLE job explicitly offers sponsorship and fits Captor."
+    "Upgraded existing Salus FIFO record after finding founders@usesalus.ai published in the official YC launch; current Founding SWE/MLE job explicitly offers sponsorship and fits Captor.",
+    "Upgraded existing Paradev (formerly Superset) queue record: founder Kiet Ho posted kiet@superset.sh in Oct 7 HN hiring thread; official current Paradev careers page explicitly says applicants do not need US work authorization and visas sponsored."
   ],
   "known_bounces": 0,
   "unknown_delivery_events": 0,
