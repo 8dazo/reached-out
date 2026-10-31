@@ -1414,7 +1414,7 @@
       "eligibility_evidence": "YC job explicitly says Visa: Will sponsor, 2+ years; in-person San Francisco 5 days/week, 5-day paid onsite trial.",
       "eligibility_url": "https://www.ycombinator.com/companies/paradev/jobs/Nd9luiP-founding-engineer",
       "email": "kiet@superset.sh",
-      "status": "claimed",
+      "status": "sent_confirmed",
       "notes": "Oct 7 direct founder hiring email, verified official Paradev current Founding Engineer role and official careers FAQ says no US work authorization required, visa sponsored. Brand renamed Superset to Paradev; old domain redirects but sender explicitly invited this email.",
       "source_urls": [
         "https://paradev.com/blog/superset-is-now-paradev",
@@ -1427,7 +1427,11 @@
       "email_evidence_url": "https://news.ycombinator.com/item?id=49922569",
       "verification": "founder_self_posted_exact_hiring_email_2026_10_07_and_official_visa_support",
       "claimed_at": "2026-10-31T12:10:47+05:30",
-      "claim_id": "outreach-2026-10-31-1200-paradev"
+      "claim_id": "outreach-2026-10-31-1200-paradev",
+      "sent_at": "2026-10-31T12:11:05+05:30",
+      "gmail_message_id": "1a190b0c21c8c0f2",
+      "thread_id": "1a190b0c21c8c0f2",
+      "application_status": "contacted_not_formal_application"
     },
     {
       "company": "Accend",
@@ -2409,5 +2413,5 @@
       "queue_position": 120
     }
   ],
-  "updated_at": "2026-10-31T12:10:47+05:30"
+  "updated_at": "2026-10-31T12:11:05+05:30"
 }
