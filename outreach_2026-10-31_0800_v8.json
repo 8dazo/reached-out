@@ -119,6 +119,24 @@
       "gmail_message_id": "1a18fd53d87b5f00",
       "thread_id": "1a18fd53d87b5f00",
       "confirmed_at": "2026-10-31T08:11:30+05:30"
+    },
+    {
+      "id": "outreach-2026-10-31-0800-balerion-hiring",
+      "company": "Balerion AI",
+      "to": "hiring@balerion.ai",
+      "status": "claimed",
+      "subject": "HN: Building reliable mortgage agents at Balerion",
+      "body": "Hi Balerion team,\n\nYour September HN post described mortgage agents built with PydanticAI, Restate, and Postgres. I liked the emphasis on durable execution: a multi-step loan review shouldn't lose state or duplicate actions when a tool fails.\n\nI've shipped backend APIs and end-to-end features at Stride AI and built Captor, a toolkit for budgets, policies, and tracing around agent calls. I'm interested in the engineering between a convincing demo and a recoverable production workflow.\n\nI'm in India and open to relocating to San Francisco; your post mentioned visa sponsorship. Could I share a short walkthrough of the agent-control work?\n\nDevansh\nGitHub: https://github.com/8dazo\nPortfolio: https://devansh.aurat.ai",
+      "role": "Software Engineer / AI Engineer",
+      "role_url": "https://news.ycombinator.com/item?id=49522897",
+      "hq_evidence_url": "https://www.thesaasnews.com/news/balerion-ai-raises-6m-seed-round/",
+      "eligibility_evidence": "September 2026 HN direct company hiring post explicitly says onsite SF, visa sponsorship yes, full relocation covered. Company still operating as of October 31; official website active.",
+      "email_source": "https://news.ycombinator.com/item?id=49522897",
+      "email_evidence": "September 2026 HN company post explicitly directs 'Email hiring@balerion.ai with HN in subject, plus a resume or GitHub'.",
+      "message_quality_angle": "Durable agent execution (PydanticAI, Restate) and Captor policy/tracing; distinct from research UX and travel search.",
+      "claimed_at": "2026-10-31T08:12:00+05:30",
+      "application_status": "email_application_with_GitHub_link_per_HN_resume_OR_GitHub",
+      "gmail_message_id": null
     }
   ],
   "reconciliation": {
@@ -173,5 +191,5 @@
     "anara_sent_ledger": "63c063485cee17a7bbe3d02cf6a5e65f0959bf6c",
     "anara_sent_queue": "f7423a9cdccb47b839dc97c1a43ac698c7b2cd31"
   },
-  "updated_at": "2026-10-31T08:11:30+05:30"
+  "updated_at": "2026-10-31T08:12:00+05:30"
 }
