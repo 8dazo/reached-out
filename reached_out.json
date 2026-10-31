@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T10:03:35+05:30",
+  "updated_at": "2026-10-31T12:08:28+05:30",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -1594,6 +1594,23 @@
       "email_verification": "YC_public_founder_email",
       "delivery_check": "gmail_sent_confirmed",
       "source_url": "https://www.ycombinator.com/companies/tenor/jobs/GsfaYQE-founding-engineer-agent-and-data-systems"
+    },
+    {
+      "email": "pablo@proliferate.com",
+      "person": "Pablo Hansen (Founder)",
+      "company": "Proliferate",
+      "company_hq": "San Francisco, CA, USA",
+      "role": "Founding Product Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-31",
+      "subject": "Building verifiable agents at Proliferate",
+      "gmail_message_id": "1a190ae5d07510bc",
+      "thread_id": "1a190ae5d07510bc",
+      "source": "outreach_2026-10-31_1200_v8.json",
+      "application_status": "contacted_not_formal_application",
+      "email_verification": "YC_public_founder_email_and_official_site",
+      "delivery_check": "gmail_sent_confirmed",
+      "source_url": "https://www.ycombinator.com/companies/proliferate/jobs/OgpCKYJ-founding-product-engineer"
     }
   ],
   "policy_effective_date": "2026-10-09",
