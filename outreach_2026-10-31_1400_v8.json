@@ -2,12 +2,12 @@
   "date": "2026-10-31",
   "slot": "14:00",
   "timezone": "Asia/Kolkata",
-  "status": "preflight_completed_awaiting_nominal_start",
+  "status": "claimed_pre_send",
   "writer_id": "international_outreach_batches_2026-10-31_1400_run9",
   "batch_cap": 2,
   "daily_cap": 30,
   "confirmed_prior_gmail_sends": 15,
-  "verified_ready_pool_start": 0,
+  "verified_ready_pool_start": 1,
   "verified_ready_pool_after_discovery": 1,
   "ready_pool_target": 45,
   "queue_total_start": 123,
@@ -25,7 +25,7 @@
       "gmail_message_id": "1a0dde3a2b4c428b"
     }
   ],
-  "current_claim": null,
+  "current_claim": "outreach-2026-10-31-1400-rainbrand",
   "send_intents": [
     {
       "id": "outreach-2026-10-31-1400-rainbrand",
@@ -37,10 +37,11 @@
       "eligibility_url": "https://www.rainbrand.com/careers/founding-engineer/",
       "subject": "Versioned brand context at Rainbrand",
       "body": "Hi Ray,\n\nRainbrand's idea of versioned brand context callable through MCP is interesting because agents shouldn't reconstruct identity from scattered assets on every run. Your founding engineer role covers ingestion, retrieval, evaluations, and developer APIs, not just generated creative.\n\nI built Captor, a TypeScript SDK that enforces per-call LLM budgets and tool policies, records traces, and detects loops. I've also owned production backend APIs and React features end to end. I'd enjoy helping make Rainbrand's shared context dependable across agent workflows.\n\nI'm based in India and open to relocating; your role offers visa support. Could I show you Captor?\n\nDevansh\nhttps://devansh.aurat.ai\nhttps://github.com/8dazo",
-      "status": "pending_time_guard",
+      "status": "claimed",
       "quality_angle": "versioned ontology and MCP developer surfaces vs Captor runtime policy; distinct from prior agent evaluation and fintech messages",
       "word_count": 102,
-      "application_status": "contacted_not_formal_application"
+      "application_status": "contacted_not_formal_application",
+      "claimed_at": "2026-10-31T14:00:07+05:30"
     }
   ],
   "confirmed_gmail_message_ids": [],
@@ -57,5 +58,8 @@
     "Conductor and Sourcebot historically sent in Gmail but missing permanent GitHub ledger; repaired ledger and queue before any outbound.",
     "Additional six research-only leads retained, no invented mailboxes; Planlab and other formal CV-required applications remain blocked by attachment access.",
     "14:00 time guard: do not send before local 14:00; intent prepared but not claimed."
-  ]
+  ],
+  "claimed_at": "2026-10-31T14:00:07+05:30",
+  "pre_send_gmail_sent_count": 15,
+  "pre_send_exact_recipient_history_count": 0
 }
