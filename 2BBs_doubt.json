@@ -1957,7 +1957,7 @@
       "email_evidence": "Official company site prints team@trycardinal.ai; founder publicly directs founding-engineer applicants there.",
       "email_evidence_url": "https://www.trycardinal.com/enterprise",
       "verification": "exact_public_email_current_role_and_visa_verified",
-      "status": "claimed",
+      "status": "sent_confirmed",
       "fit_score": 96,
       "discovered_at": "2026-10-31",
       "observed_at": "2026-10-31T10:00:01+05:30",
@@ -1967,7 +1967,12 @@
       "send_intent_id": "outreach-2026-10-31-1000-cardinal",
       "claimed_at": "2026-10-31T10:01:00+05:30",
       "subject": "Agent reliability at Cardinal",
-      "body": "Hi Cardinal team,\n\nYour Founding Engineer role connects two hard problems: orchestrating outbound agents across sender accounts and keeping multi-tenant permissions understandable in the product. I like that the engineering includes both the workflow engine and the UI people actually use.\n\nI built Captor to enforce per-call LLM budgets, policies, and traces, and at Stride AI I shipped React features and a shared authentication service across apps. I'd enjoy owning the messy boundaries between agent execution and product experience.\n\nI'm based in India and open to relocating; your YC listing mentions visa sponsorship. Could I show you a short walkthrough of the relevant work?\n\nDevansh\nhttps://devansh.aurat.ai\nhttps://github.com/8dazo"
+      "body": "Hi Cardinal team,\n\nYour Founding Engineer role connects two hard problems: orchestrating outbound agents across sender accounts and keeping multi-tenant permissions understandable in the product. I like that the engineering includes both the workflow engine and the UI people actually use.\n\nI built Captor to enforce per-call LLM budgets, policies, and traces, and at Stride AI I shipped React features and a shared authentication service across apps. I'd enjoy owning the messy boundaries between agent execution and product experience.\n\nI'm based in India and open to relocating; your YC listing mentions visa sponsorship. Could I show you a short walkthrough of the relevant work?\n\nDevansh\nhttps://devansh.aurat.ai\nhttps://github.com/8dazo",
+      "gmail_message_id": "1a19039a192dd281",
+      "thread_id": "1a19039a192dd281",
+      "sent_at": "2026-10-31T10:01:40+05:30",
+      "delivery_check": "gmail_sent_confirmed",
+      "application_status": "contacted_not_formal_application"
     },
     {
       "company": "Conviction",
@@ -2067,5 +2072,5 @@
       "notes": "Hold until all gates independently verified."
     }
   ],
-  "updated_at": "2026-10-31T10:00:01+05:30"
+  "updated_at": "2026-10-31T10:01:40+05:30"
 }
