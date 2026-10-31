@@ -79,6 +79,24 @@
       "gmail_message_id": "1a18fd3bd932049f",
       "thread_id": "1a18fd3bd932049f",
       "confirmed_at": "2026-10-31T08:09:50+05:30"
+    },
+    {
+      "id": "outreach-2026-10-31-0800-stardrift-leila",
+      "company": "Stardrift",
+      "to": "leila@stardrift.ai",
+      "status": "claimed",
+      "subject": "Search and booking reliability at Stardrift",
+      "body": "Hi Leila,\n\nStardrift's founding engineer role caught my eye because turning scattered travel data into a booking experience people can trust is a hard product and backend problem. Search quality and provider integrations seem especially interesting.\n\nAt Stride AI, I shipped backend APIs and end-to-end features. In a RAG prototype, I spent time testing retrieval quality instead of assuming a model's answer was correct. I'd enjoy working on the evaluation and integration layer behind travel recommendations.\n\nI'm based in India and saw that the role offers visa sponsorship. Are you considering candidates relocating from India?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
+      "role": "Founding Software Engineer",
+      "role_url": "https://www.ycombinator.com/companies/stardrift/jobs/nC7cjhB-founding-software-engineer",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/stardrift",
+      "eligibility_evidence": "YC role San Francisco, Visa: Will sponsor, Any experience (new grads okay); realistic international relocation.",
+      "email_source": "https://stardrift.ai/about",
+      "email_evidence": "Official Stardrift About page lists Leila Clark as founder and prints leila@stardrift.ai.",
+      "message_quality_angle": "Travel provider integrations, search quality and RAG evaluation; distinct from bank auth, document parsing, accounting UX.",
+      "claimed_at": "2026-10-31T08:10:06+05:30",
+      "application_status": "contacted_not_formal_application",
+      "gmail_message_id": null
     }
   ],
   "reconciliation": {
@@ -123,5 +141,5 @@
     "finta_sent_ledger": "e9caf73606f5a2c190451e5396268526810bb584",
     "finta_sent_queue": "d3a5ae3d262e8d6f5fb49bddb5d97fa68414e9a3"
   },
-  "updated_at": "2026-10-31T08:09:50+05:30"
+  "updated_at": "2026-10-31T08:10:06+05:30"
 }
