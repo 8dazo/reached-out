@@ -10,7 +10,7 @@
   "verified_ready_pool_start": 0,
   "ready_pool_target": 45,
   "reserve_target": 15,
-  "claimed_at": "2026-10-31T12:10:00+05:30",
+  "claimed_at": "2026-10-31T12:08:10+05:30",
   "current_claim": "outreach-2026-10-31-1200-proliferate",
   "send_intents": [
     {
@@ -20,7 +20,7 @@
       "subject": "Building verifiable agents at Proliferate",
       "body": "Hi Pablo,\n\nProliferate's background agents run in isolated sandboxes with internal tool access, but the live multiplayer preview is what stood out to me. Letting engineers inspect and steer a result seems as important as getting an agent to execute.\n\nI built Captor to enforce per-call LLM budgets and tool policies, trace execution, and flag repeated loops. At Stride AI, I also owned backend APIs and complex frontend features. I'd enjoy building both the runtime and the interface that makes its decisions legible.\n\nI'm based in India and open to relocating; the YC Founding Product Engineer listing offers sponsorship. Could I show you a short Captor walkthrough?\n\nDevansh\nhttps://devansh.aurat.ai\nhttps://github.com/8dazo",
       "status": "claimed",
-      "claimed_at": "2026-10-31T12:10:00+05:30",
+      "claimed_at": "2026-10-31T12:08:10+05:30",
       "application_status": "contacted_not_formal_application",
       "role": "Founding Product Engineer",
       "role_url": "https://www.ycombinator.com/companies/proliferate/jobs/OgpCKYJ-founding-product-engineer",
