@@ -1453,6 +1453,24 @@
       "delivery_check": "gmail_sent_confirmed",
       "source_url": "https://www.ycombinator.com/companies/fenrock-ai/jobs/cjkr5RF-founding-engineer-full-stack",
       "notes": "102-word role-specific builder-to-builder note on legacy banking integration and cross-app auth; YC visa sponsorship and SF HQ. No CV; networking inquiry, not formal application."
+    },
+    {
+      "email": "andy@finta.com",
+      "person": "Andy Wang",
+      "company": "Finta",
+      "company_hq": "San Francisco, California, USA",
+      "role": "Founding Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-31",
+      "subject": "Making Finta's financial workflows feel simple",
+      "gmail_message_id": "1a18fd3bd932049f",
+      "thread_id": "1a18fd3bd932049f",
+      "source": "outreach_2026-10-31_0800_v8.json",
+      "application_status": "contacted_not_formal_application",
+      "email_verification": "YC company launch public exact founder email",
+      "delivery_check": "gmail_sent_confirmed",
+      "source_url": "https://www.ycombinator.com/companies/finta/jobs/vg5fXEw-founding-engineer",
+      "notes": "108-word tailored founder note about financial product UX and Page Studio. YC job explicitly lists visa sponsorship and relocation. No CV; inquiry, not formal application."
     }
   ],
   "policy_effective_date": "2026-10-09",
