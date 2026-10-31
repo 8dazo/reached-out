@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-31",
+  "slot": "10:00",
+  "timezone": "Asia/Kolkata",
+  "status": "preflight_claimed_no_send_yet",
+  "writer_id": "international_outreach_batches_2026-10-31_1000_run8",
+  "batch_cap": 7,
+  "daily_cap": 30,
+  "confirmed_prior_gmail_sends": 8,
+  "verified_ready_pool_start": 0,
+  "ready_pool_target": 45,
+  "reserve_target": 15,
+  "claimed_at": "2026-10-31T09:59:51+05:30",
+  "send_intents": [],
+  "confirmed_gmail_message_ids": [],
+  "research_notes": [
+    "Checked authoritative v7/v8/message-quality protocols and latest config",
+    "Reconciled 8 Gmail SENT messages Oct 31, no current-day bounces/replies found",
+    "Found three fresh YC visa-sponsored roles and independently documented public email addresses",
+    "No overlapping outbound writer observed; 08:00 audit completed"
+  ],
+  "source_failures": [],
+  "send_attempts": 0,
+  "confirmed_sent_this_run": 0
+}
