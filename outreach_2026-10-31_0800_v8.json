@@ -64,7 +64,7 @@
       "id": "outreach-2026-10-31-0800-finta-andy",
       "company": "Finta",
       "to": "andy@finta.com",
-      "status": "claimed",
+      "status": "sent_confirmed",
       "subject": "Making Finta's financial workflows feel simple",
       "body": "Hi Andy,\n\nI like that Finta is making bookkeeping feel like software founders actually want to use, not another spreadsheet with a login. The tricky part seems to be turning messy financial data into trustworthy, understandable workflows.\n\nAt Stride AI, I built React interfaces and backend APIs, including a schema-driven page studio with preview and publishing, plus authentication shared across apps. I enjoy working across the data model and the product experience.\n\nI noticed the founding engineer role offers visa sponsorship. I'm based in India and open to relocating to San Francisco. Would you be interested in a quick look at my work?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
       "role": "Founding Engineer",
@@ -76,7 +76,9 @@
       "message_quality_angle": "Accounting product UX, messy financial data, schema-driven page studio; distinct from previous security/document/agent pitches.",
       "claimed_at": "2026-10-31T08:09:23+05:30",
       "application_status": "contacted_not_formal_application",
-      "gmail_message_id": null
+      "gmail_message_id": "1a18fd3bd932049f",
+      "thread_id": "1a18fd3bd932049f",
+      "confirmed_at": "2026-10-31T08:09:50+05:30"
     }
   ],
   "reconciliation": {
@@ -93,17 +95,18 @@
     ],
     "prior_morning_sender_completed": true
   },
-  "send_attempts": 2,
+  "send_attempts": 3,
   "confirmed_gmail_message_ids": [
     "1a18fd23d7e11079",
-    "1a18fd315955c63d"
+    "1a18fd315955c63d",
+    "1a18fd3bd932049f"
   ],
   "known_new_bounces": 0,
   "unknown_delivery_this_run": 0,
   "notes": "One new Gmail-confirmed Unsiloed send. Historical Deeptrace previously contacted in September was newly reconciled and suppressed. Remaining leads need exact hiring email, location or HQ evidence; resume attachment block remains.",
-  "confirmed_sent_this_run": 2,
-  "total_confirmed_new_sends_today": 3,
-  "remaining_daily_capacity": 27,
+  "confirmed_sent_this_run": 3,
+  "total_confirmed_new_sends_today": 4,
+  "remaining_daily_capacity": 26,
   "github_checkpoint_shas": {
     "historical_deeptrace_suppression": "30d97dac88800d0309fb9d91813e9a26b2241426",
     "queue_research": "ebc0c8372053170c551ae1753c84f195d97ded48",
@@ -114,7 +117,11 @@
     "fenrock_pre_send_intent": "af45368449235853c066143e22482e9f2dcaed39",
     "fenrock_queue_claim": "836842cfbb19af530b17b146be22c678c07c73f3",
     "fenrock_sent_ledger": "e6d8781dd36c725abd9e9d03715d558617ce7bfc",
-    "fenrock_sent_queue": "2582cf5f8d85e29aba0764d97e901d5aee675633"
+    "fenrock_sent_queue": "2582cf5f8d85e29aba0764d97e901d5aee675633",
+    "finta_pre_send_intent": "598731016221cca1e9ff0cc171d6c3950292d61c",
+    "finta_queue_claim": "53a35bdc2cc1807db34096c4f50b87fc3f26b405",
+    "finta_sent_ledger": "e9caf73606f5a2c190451e5396268526810bb584",
+    "finta_sent_queue": "d3a5ae3d262e8d6f5fb49bddb5d97fa68414e9a3"
   },
-  "updated_at": "2026-10-31T08:09:23+05:30"
+  "updated_at": "2026-10-31T08:09:50+05:30"
 }
