@@ -11,7 +11,7 @@
   "ready_pool_target": 45,
   "reserve_target": 15,
   "claimed_at": "2026-10-31T12:08:10+05:30",
-  "current_claim": "outreach-2026-10-31-1200-salus",
+  "current_claim": null,
   "send_intents": [
     {
       "id": "outreach-2026-10-31-1200-proliferate",
@@ -53,21 +53,25 @@
       "to": "founders@usesalus.ai",
       "subject": "Runtime guardrails and explainable retries at Salus",
       "body": "Hi Kevin and Vedant,\n\nSalus's Founding SWE/MLE opening caught my eye because your runtime checks validate agent actions against evidence and policy before execution. The distinction between blocking a bad action and guiding a safe retry is especially interesting.\n\nI built Captor, an SDK for per-call LLM budgets, tool policies, traces, and loop detection. That taught me how easily a guardrail becomes noisy unless its decision is explainable and cheap. I've also shipped backend APIs and full-stack features in production.\n\nI'm based in India and open to relocating; your YC listing offers sponsorship. Could I share a technical walkthrough and learn which enforcement cases you're prioritizing?\n\nDevansh\nhttps://devansh.aurat.ai\nhttps://github.com/8dazo",
-      "status": "claimed",
+      "status": "sent_confirmed",
       "claimed_at": "2026-10-31T12:09:48+05:30",
       "application_status": "contacted_not_formal_application",
       "role": "Founding SWE / MLE",
       "role_url": "https://www.ycombinator.com/companies/salus/jobs/6xN06s6-founding-swe-mle",
       "email_evidence_url": "https://www.ycombinator.com/companies/salus",
-      "quality_angle": "distinguishes evidence-backed pre-action checks from safe retry; connects candidate's Captor guardrails and low-noise explainability."
+      "quality_angle": "distinguishes evidence-backed pre-action checks from safe retry; connects candidate's Captor guardrails and low-noise explainability.",
+      "gmail_message_id": "1a190afdb9a3653d",
+      "thread_id": "1a190afdb9a3653d",
+      "sent_at": "2026-10-31T12:10:06+05:30"
     }
   ],
   "confirmed_gmail_message_ids": [
     "1a190ae5d07510bc",
-    "1a190aef841ced59"
+    "1a190aef841ced59",
+    "1a190afdb9a3653d"
   ],
-  "send_attempts": 2,
-  "confirmed_sent_this_run": 2,
+  "send_attempts": 3,
+  "confirmed_sent_this_run": 3,
   "new_candidate_records_added": 7,
   "source_failures": [],
   "connector_failures": [],
