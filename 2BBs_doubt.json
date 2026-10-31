@@ -1755,7 +1755,7 @@
       "verification": "official founder email and YC visa-sponsored role",
       "email_evidence_url": "https://anara.com/blog/two-dot-zero",
       "fit_score": 88,
-      "notes": "107-word role-specific founder inquiry. Candidate experience including internships disclosed transparently. No CV for networking inquiry.",
+      "notes": "107-word tailored founder inquiry; Gmail Sent confirmed. Not formal CV application; no attachment.",
       "source_urls": [
         "https://www.ycombinator.com/companies/anara/jobs/gUd2wYA-software-engineer-product",
         "https://www.ycombinator.com/companies/anara",
@@ -1764,13 +1764,17 @@
       "discovered_at": "2026-10-31",
       "observed_at": "2026-10-31T08:11:00+05:30",
       "queue_position": 91,
-      "status": "claimed",
+      "status": "sent_confirmed",
       "send_intent_id": "outreach-2026-10-31-0800-anara-naveed",
       "claimed_at": "2026-10-31T08:11:00+05:30",
       "subject": "Research agents inside Anara's product",
       "body": "Hi Naveed,\n\nI liked Anara 2.0's approach to research agents that work inside a library rather than returning isolated chat answers. Making evidence and multi-step research feel dependable is a product problem as much as a model problem.\n\nAt Stride AI, I built complex React interfaces and backend APIs. I also prototyped RAG evaluation to measure retrieval quality. I'd enjoy building research tools where feedback shapes both the UI and agent behavior.\n\nI saw your Software Engineer, Product role supports visa sponsorship. I'm based in India and open to relocating. Would you consider someone with around three years of experience including internships?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
-      "application_status": "contacted_not_formal_application"
+      "application_status": "contacted_not_formal_application",
+      "gmail_message_id": "1a18fd53d87b5f00",
+      "thread_id": "1a18fd53d87b5f00",
+      "sent_at": "2026-10-31T08:11:30+05:30",
+      "delivery_check": "gmail_sent_confirmed"
     }
   ],
-  "updated_at": "2026-10-31T08:11:00+05:30"
+  "updated_at": "2026-10-31T08:11:30+05:30"
 }
