@@ -1525,6 +1525,24 @@
       "delivery_check": "gmail_sent_confirmed",
       "source_url": "https://news.ycombinator.com/item?id=49522897",
       "notes": "104-word tailored email application; public HN role states visa sponsorship, SF relocation and explicitly accepts resume OR GitHub. Included GitHub and portfolio, no CV. Company site remains active."
+    },
+    {
+      "email": "steve@pango.ai",
+      "person": "Steve Rahimi",
+      "company": "Pango",
+      "company_hq": "Stockholm, Sweden / New York City, USA",
+      "role": "Founding Engineer",
+      "status": "sent",
+      "sent_at": "2026-10-31",
+      "subject": "Reliable logistics workflows at Pango",
+      "gmail_message_id": "1a18fd6e1cbb7542",
+      "thread_id": "1a18fd6e1cbb7542",
+      "source": "outreach_2026-10-31_0800_v8.json",
+      "application_status": "contacted_not_formal_application",
+      "email_verification": "YC company launch public founder email",
+      "delivery_check": "gmail_sent_confirmed",
+      "source_url": "https://www.ycombinator.com/companies/pango/jobs/xXKwYhq-founding-engineer",
+      "notes": "109-word tailored founder note on carrier/warehouse integrations and observability. Stockholm onsite with visa sponsorship. Experience including internships transparently stated. No CV; networking inquiry."
     }
   ],
   "policy_effective_date": "2026-10-09",
