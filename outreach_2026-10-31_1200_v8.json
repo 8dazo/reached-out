@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-31",
+  "slot": "12:00",
+  "timezone": "Asia/Kolkata",
+  "status": "in_progress",
+  "writer_id": "international_outreach_batches_2026-10-31_1200_run9",
+  "batch_cap": 7,
+  "daily_cap": 30,
+  "confirmed_prior_gmail_sends": 11,
+  "verified_ready_pool_start": 0,
+  "ready_pool_target": 45,
+  "reserve_target": 15,
+  "claimed_at": "2026-10-31T12:10:00+05:30",
+  "current_claim": "outreach-2026-10-31-1200-proliferate",
+  "send_intents": [
+    {
+      "id": "outreach-2026-10-31-1200-proliferate",
+      "company": "Proliferate",
+      "to": "pablo@proliferate.com",
+      "subject": "Building verifiable agents at Proliferate",
+      "body": "Hi Pablo,\n\nProliferate's background agents run in isolated sandboxes with internal tool access, but the live multiplayer preview is what stood out to me. Letting engineers inspect and steer a result seems as important as getting an agent to execute.\n\nI built Captor to enforce per-call LLM budgets and tool policies, trace execution, and flag repeated loops. At Stride AI, I also owned backend APIs and complex frontend features. I'd enjoy building both the runtime and the interface that makes its decisions legible.\n\nI'm based in India and open to relocating; the YC Founding Product Engineer listing offers sponsorship. Could I show you a short Captor walkthrough?\n\nDevansh\nhttps://devansh.aurat.ai\nhttps://github.com/8dazo",
+      "status": "claimed",
+      "claimed_at": "2026-10-31T12:10:00+05:30",
+      "application_status": "contacted_not_formal_application",
+      "role": "Founding Product Engineer",
+      "role_url": "https://www.ycombinator.com/companies/proliferate/jobs/OgpCKYJ-founding-product-engineer",
+      "email_evidence_url": "https://www.ycombinator.com/companies/proliferate",
+      "quality_angle": "builder-to-builder; sandbox access vs human verification, runtime policy and product UX; contrasts previous agent-reliability email by focusing on live collaborative review."
+    },
+    {
+      "id": "outreach-2026-10-31-1200-humwork",
+      "company": "Humwork",
+      "to": "founders@humwork.ai",
+      "subject": "The moment an agent needs a human",
+      "body": "Hi Yash and Rohan,\n\nHumwork's MCP escalation path is an interesting answer to a failure I keep seeing: an agent loops on a problem when it should recognize uncertainty and hand off context. Your matching engine and expert session make that handoff real.\n\nI built Captor around agent runtime policies, loop detection, and execution traces. I also ship full-stack features and backend APIs, so the boundary between MCP tools, session state, and user experience is work I'd like to own.\n\nI'm in India and can relocate to SF; your Founding Engineer listing offers sponsorship. Could I share how Captor handles those failure cases?\n\nDevansh\nhttps://devansh.aurat.ai\nhttps://github.com/8dazo",
+      "status": "prepared_not_claimed",
+      "application_status": "contacted_not_formal_application",
+      "role": "Founding Engineer",
+      "role_url": "https://www.ycombinator.com/companies/humwork/jobs/9V8MtEV-founding-engineer",
+      "email_evidence_url": "https://www.ycombinator.com/companies/humwork",
+      "quality_angle": "specific MCP human-escalation and expert matching; loop detection vs previous agent reliability messages, direct question on relevant failure cases."
+    }
+  ],
+  "confirmed_gmail_message_ids": [],
+  "send_attempts": 0,
+  "confirmed_sent_this_run": 0,
+  "new_candidate_records_added": 7,
+  "source_failures": [],
+  "connector_failures": [],
+  "research_notes": [
+    "Read v7/v8 latest config and message-quality protocol; 11 current-day Gmail SENT matched ledger; no new bounces or recruiting replies found.",
+    "Checked current official YC jobs, company launches, company careers and HN employer posts. Proliferate and Humwork meet current role, visa, HQ and public email gates.",
+    "SingleStore previously contacted on Oct 28; CVector official current visa support limited to candidates already in US; Pax YC visa label contradicts actual TN/transfer-only rule.",
+    "Planlab role exact official email and sponsorship verified but CV required and outgoing attachment blocked; retained as needs_attachment.",
+    "Terrakotta senior role US authorization only, new-grad role fit unclear; Nessie and Uno lack exact verified mailbox."
+  ],
+  "known_bounces": 0,
+  "unknown_delivery_events": 0,
+  "queue_total_start": 113
+}
