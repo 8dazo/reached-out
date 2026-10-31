@@ -99,6 +99,24 @@
       "gmail_message_id": "1a18fd461045e9cc",
       "thread_id": "1a18fd461045e9cc",
       "confirmed_at": "2026-10-31T08:10:30+05:30"
+    },
+    {
+      "id": "outreach-2026-10-31-0800-anara-naveed",
+      "company": "Anara",
+      "to": "naveed@anara.com",
+      "status": "claimed",
+      "subject": "Research agents inside Anara's product",
+      "body": "Hi Naveed,\n\nI liked Anara 2.0's approach to research agents that work inside a library rather than returning isolated chat answers. Making evidence and multi-step research feel dependable is a product problem as much as a model problem.\n\nAt Stride AI, I built complex React interfaces and backend APIs. I also prototyped RAG evaluation to measure retrieval quality. I'd enjoy building research tools where feedback shapes both the UI and agent behavior.\n\nI saw your Software Engineer, Product role supports visa sponsorship. I'm based in India and open to relocating. Would you consider someone with around three years of experience including internships?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
+      "role": "Software Engineer, Product",
+      "role_url": "https://www.ycombinator.com/companies/anara/jobs/gUd2wYA-software-engineer-product",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/anara",
+      "eligibility_evidence": "YC role San Francisco, Visa: Will sponsor, in-person with visa attorney support; candidate open to relocation. 3+ years target, transparently notes around three including internships.",
+      "email_source": "https://anara.com/blog/two-dot-zero",
+      "email_evidence": "Official Anara 2.0 founder blog says 'email me (naveed@anara.com) directly'; Naveed Janmohamed current founder CEO.",
+      "message_quality_angle": "Research agent in-library product UX and evidence; not generic RAG backend message.",
+      "claimed_at": "2026-10-31T08:11:00+05:30",
+      "application_status": "contacted_not_formal_application",
+      "gmail_message_id": null
     }
   ],
   "reconciliation": {
@@ -148,5 +166,5 @@
     "stardrift_sent_ledger": "ddcb3cf3c61df2b87d51d9187e6c54cfcae3dfe4",
     "stardrift_sent_queue": "e342cf7f368a61971a7f0158a8e53e388626a433"
   },
-  "updated_at": "2026-10-31T08:10:30+05:30"
+  "updated_at": "2026-10-31T08:11:00+05:30"
 }
