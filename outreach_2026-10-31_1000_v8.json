@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "slot": "10:00",
   "timezone": "Asia/Kolkata",
-  "status": "preflight_claimed_no_send_yet",
+  "status": "sending_serialized",
   "writer_id": "international_outreach_batches_2026-10-31_1000_run8",
   "batch_cap": 7,
   "daily_cap": 30,
@@ -46,6 +46,20 @@
       "gmail_message_id": "1a1903a16e6288c8",
       "thread_id": "1a1903a16e6288c8",
       "confirmed_at": "2026-10-31T10:02:35+05:30"
+    },
+    {
+      "id": "outreach-2026-10-31-1000-tenor",
+      "company": "Tenor",
+      "to": "hamze@heytenor.com",
+      "subject": "Replay and evaluation systems at Tenor",
+      "body": "Hi Hamze,\n\nTenor's founding engineer role mentions replay, simulation, evaluation gates, and evidence-driven learning for agent systems. Those details stood out because I keep running into the same question: how do you make an agent's decisions inspectable after the first successful demo?\n\nI built Captor to enforce LLM call budgets and policies, trace execution, and detect loops. At Stride AI, I also owned backend APIs and full-stack features. I enjoy teams where I can follow a reliability problem from design through deployment.\n\nI'm based in India and open to relocating; the YC role offers visa sponsorship. Could I show you how Captor approaches runtime control?\n\nDevansh\nhttps://devansh.aurat.ai\nhttps://github.com/8dazo",
+      "role": "Founding Engineer, Agent and Data Systems",
+      "role_url": "https://www.ycombinator.com/companies/tenor/jobs/GsfaYQE-founding-engineer-agent-and-data-systems",
+      "eligibility_evidence": "YC: visa will sponsor, any experience, SF onsite; harness replay/evaluation/promotion gates.",
+      "email_evidence": "YC company launch CEO Hamze Al-Zamkan explicitly publishes hamze@heytenor.com.",
+      "status": "send_intent_claimed",
+      "claimed_at": "2026-10-31T10:03:00+05:30",
+      "application_status": "contacted_not_formal_application"
     }
   ],
   "confirmed_gmail_message_ids": [
@@ -61,5 +75,5 @@
   "source_failures": [],
   "send_attempts": 2,
   "confirmed_sent_this_run": 2,
-  "current_claim": null
+  "current_claim": "outreach-2026-10-31-1000-tenor"
 }
