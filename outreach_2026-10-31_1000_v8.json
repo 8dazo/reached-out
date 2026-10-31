@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "slot": "10:00",
   "timezone": "Asia/Kolkata",
-  "status": "preflight_claimed_no_send_yet",
+  "status": "sending_serialized",
   "writer_id": "international_outreach_batches_2026-10-31_1000_run8",
   "batch_cap": 7,
   "daily_cap": 30,
@@ -11,7 +11,23 @@
   "ready_pool_target": 45,
   "reserve_target": 15,
   "claimed_at": "2026-10-31T09:59:51+05:30",
-  "send_intents": [],
+  "send_intents": [
+    {
+      "id": "outreach-2026-10-31-1000-cardinal",
+      "company": "Cardinal",
+      "to": "team@trycardinal.ai",
+      "subject": "Agent reliability at Cardinal",
+      "body": "Hi Cardinal team,\n\nYour Founding Engineer role connects two hard problems: orchestrating outbound agents across sender accounts and keeping multi-tenant permissions understandable in the product. I like that the engineering includes both the workflow engine and the UI people actually use.\n\nI built Captor to enforce per-call LLM budgets, policies, and traces, and at Stride AI I shipped React features and a shared authentication service across apps. I'd enjoy owning the messy boundaries between agent execution and product experience.\n\nI'm based in India and open to relocating; your YC listing mentions visa sponsorship. Could I show you a short walkthrough of the relevant work?\n\nDevansh\nhttps://devansh.aurat.ai\nhttps://github.com/8dazo",
+      "role": "Founding Engineer",
+      "role_url": "https://www.ycombinator.com/companies/trycardinal-ai/jobs/vLd6N4I-founding-engineer",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/trycardinal-ai",
+      "eligibility_evidence": "YC: visa will sponsor, 1–6 years, SF onsite; agentic outbound and multi-tenant controls.",
+      "email_evidence": "Official company site prints team@trycardinal.ai; founder publicly directs founding-engineer applicants there.",
+      "status": "send_intent_claimed",
+      "claimed_at": "2026-10-31T10:01:00+05:30",
+      "application_status": "contacted_not_formal_application"
+    }
+  ],
   "confirmed_gmail_message_ids": [],
   "research_notes": [
     "Checked authoritative v7/v8/message-quality protocols and latest config",
@@ -21,5 +37,6 @@
   ],
   "source_failures": [],
   "send_attempts": 0,
-  "confirmed_sent_this_run": 0
+  "confirmed_sent_this_run": 0,
+  "current_claim": "outreach-2026-10-31-1000-cardinal"
 }
