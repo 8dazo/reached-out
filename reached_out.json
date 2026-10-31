@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29",
+  "updated_at": "2026-10-31",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -1214,12 +1214,16 @@
       "person": null,
       "company": "Wavelet AI",
       "role": "Agentic Systems Engineer",
-      "status": "sent",
+      "status": "bounced",
       "sent_at": "2026-10-27",
       "gmail_message_id": "1a17d35ab455f573",
       "thread_id": "1a17d35ab455f573",
       "contact_source": "v7_verified_official_careers",
-      "role_url": "https://wavelet-ai.com/careers"
+      "role_url": "https://wavelet-ai.com/careers",
+      "bounce_message_id": "1a17d35c8e902584",
+      "bounce_reason": "550 5.1.10 Recipient address not found",
+      "bounce_confirmed_at": "2026-10-31",
+      "suppression": "permanent_exact_mailbox"
     },
     {
       "email": "careers@haired.app",
