@@ -3,7 +3,7 @@
   "slot": "10:00",
   "run_type": "continuation_after_1000_completed_no_send",
   "timezone": "Asia/Kolkata",
-  "status": "pre_send_intent_claimed",
+  "status": "completed_1_of_7_sent_confirmed",
   "writer_id": "international_outreach_batches_2026-11-01_1024_continuation",
   "previous_slot_audit": "outreach_2026-11-01_1000_v8.json",
   "prior_slot_confirmed": 0,
@@ -26,7 +26,7 @@
       "to": "support@databuddy.cc",
       "company": "Databuddy",
       "role": "Founding Engineer",
-      "status": "claimed_not_sent",
+      "status": "sent_confirmed",
       "subject": "Building inspectable analytics at Databuddy",
       "body": "Hi Databuddy team,\n\nYour founding engineer role spans the dashboard, ingestion API, and ClickHouse-backed analytics, not just another Next.js interface. I particularly like that Databunny shows the query behind an answer; that kind of inspectability makes analytics useful rather than opaque.\n\nAt Stride AI, I built React features and backend APIs end to end, including a schema-driven Page Studio with preview and publishing. I enjoy owning the boundary between product UI, data models, and production behavior, and I'm comfortable working asynchronously from India.\n\nCould you consider my work for the founding engineer role?\n\nDevansh\nhttps://devansh.aurat.ai\nhttps://github.com/8dazo",
       "word_count": 96,
@@ -37,11 +37,17 @@
       "fit": "TypeScript monorepo, Next.js, API, ingestion, ClickHouse, observability; user shipped Page Studio, production APIs/UI",
       "message_quality_angle": "Grounded in Databunny SQL transparency and ClickHouse ingestion; Page Studio proof instead of agent-budget proof.",
       "application_status": "contacted_not_formal_cv_application",
-      "claimed_at": "2026-11-01T10:24:47+05:30"
+      "claimed_at": "2026-11-01T10:24:47+05:30",
+      "gmail_message_id": "1a195767f9c66c2d",
+      "thread_id": "1a195767f9c66c2d",
+      "sent_at": "2026-11-01T10:25:33+05:30",
+      "confirmed_by": "direct_Gmail_read_Sent_label_and_exact_recipient_search_and_full_thread"
     }
   ],
-  "send_attempts": 0,
-  "confirmed_gmail_message_ids": [],
+  "send_attempts": 1,
+  "confirmed_gmail_message_ids": [
+    "1a195767f9c66c2d"
+  ],
   "unknown_delivery": 0,
   "known_bounces": 0,
   "connector_failures": [],
@@ -55,5 +61,16 @@
     "SELF_HEALING_V8.md",
     "MESSAGE_QUALITY_V2.md",
     "outreach_v7_config.json"
-  ]
+  ],
+  "confirmed_sent_this_run": 1,
+  "confirmed_new_sends_today": 2,
+  "batch_shortfall": 6,
+  "daily_remaining": 28,
+  "queue_records_end": 142,
+  "verified_ready_end": 0,
+  "ready_pool_shortfall": 45,
+  "github_ledger_commit_sha": "b596ac6462d3a51b9f76de813432709362678b53",
+  "github_queue_commit_sha": "b44361cb8c4e2679573348615f92a50eaf453a93",
+  "completed_at": "2026-11-01T10:26:00+05:30",
+  "notes": "10:00 slot originally completed with zero sends at 10:05; this non-overlapping continuation added one newly verified Databuddy contact. Combined 10:00 slot total 1/7, 2/30 confirmed today. No other sends or retries. No CV attached; networking contact only, not formal application. Other discoveries failed HQ/fit/email gates."
 }
