@@ -2,7 +2,7 @@
   "date": "2026-11-01",
   "slot": "08:00",
   "timezone": "Asia/Kolkata",
-  "status": "preflight_claimed_waiting_for_slot",
+  "status": "sending_one_verified_candidate",
   "writer_id": "international_outreach_batches_2026-11-01_0800",
   "batch_cap": 7,
   "daily_hard_cap": 30,
@@ -14,7 +14,7 @@
   ],
   "queue_file": "2BBs_doubt.json",
   "preflight_started_at": "2026-11-01T07:56:01+05:30",
-  "slot_guard_checked_at": null,
+  "slot_guard_checked_at": "2026-11-01T08:00:10+05:30",
   "queue_records_start": 131,
   "queue_records_after_research": 136,
   "new_candidate_records_added": 5,
@@ -36,7 +36,7 @@
       "id": "outreach-2026-11-01-0800-statsniper-careers",
       "company": "Stat Sniper",
       "to": "careers@statsniper.com",
-      "status": "pre_send_intent_pending_slot",
+      "status": "claimed_pre_send_checkpoint_durable",
       "subject": "Full Stack TypeScript Engineer application",
       "body": "Hi Stat Sniper team,\n\nYour Full Stack TypeScript Engineer role combines Next.js App Router, a headless CMS, Postgres-backed sports data, and Core Web Vitals work. I like that the challenge is not just building pages: the content and data need to stay useful and fast during live games.\n\nAt Stride AI, I owned React interfaces and backend APIs, including a schema-driven Page Studio with preview and publishing flows. I've also shipped production features with CI and end-to-end tests. I'd enjoy owning the web experience and its data boundaries.\n\nCould you consider my GitHub-based application for this role?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
       "word_count": 102,
@@ -49,7 +49,8 @@
       "message_quality_angle": "Specific sports-data/SEO/Core Web Vitals hook, Page Studio CMS and frontend proof; differs from prior 10 agent-centric outreach emails.",
       "application_status": "email_application_with_GitHub_instead_of_resume_per_official_instruction",
       "gmail_message_id": null,
-      "claimed_at": "2026-11-01T07:56:45+05:30"
+      "claimed_at": "2026-11-01T07:56:45+05:30",
+      "pre_send_checked_at": "2026-11-01T08:00:10+05:30"
     }
   ],
   "send_attempts": 0,
@@ -74,7 +75,8 @@
       "careers@enablex.io"
     ],
     "statsniper_prior_gmail_sent_found": false,
-    "statsniper_prior_ledger_found": false
+    "statsniper_prior_ledger_found": false,
+    "statsniper_exact_sent_rechecked_at": "2026-11-01T08:00:10+05:30"
   },
   "remaining_daily_capacity": 30,
   "notes": "Waiting for 08:00 IST before any Gmail send; no other outbound writer permitted."
