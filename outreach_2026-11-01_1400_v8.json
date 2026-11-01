@@ -1,0 +1,130 @@
+{
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "date_ist": "2026-11-01",
+  "batch_at_ist": "14:00",
+  "observed_ist": "2026-11-01T14:05:31+05:30",
+  "status": "completed_zero_sends_due_to_qualification_gates",
+  "batch_cap": 2,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "gmail_sent_confirmed_batch": 0,
+  "batch_shortfall": 2,
+  "daily_hard_cap": 30,
+  "daily_goal": 30,
+  "daily_confirmed_unique_new_contacts": 2,
+  "daily_confirmed_message_ids": [
+    "1a194f18798a42fc",
+    "1a195767f9c66c2d"
+  ],
+  "daily_shortfall": 28,
+  "remaining_daily_quota": 28,
+  "batches_ist": [
+    {
+      "at": "06:30",
+      "target": 7,
+      "confirmed": 0
+    },
+    {
+      "at": "08:00",
+      "target": 7,
+      "confirmed": 1
+    },
+    {
+      "at": "10:00",
+      "target": 7,
+      "confirmed": 1,
+      "includes_continuation": true
+    },
+    {
+      "at": "12:00",
+      "target": 7,
+      "confirmed": 0
+    },
+    {
+      "at": "14:00",
+      "target": 2,
+      "confirmed": 0
+    }
+  ],
+  "candidate_pool_start": 145,
+  "candidate_pool_end": 146,
+  "new_found": 1,
+  "existing_candidates_refreshed": 1,
+  "verified_ready_start": 0,
+  "verified_ready_end": 0,
+  "initial_ready_target": 45,
+  "reserve_target": 15,
+  "ready_pool_shortfall": 45,
+  "source_research": [
+    {
+      "company": "Fluence International, Inc.",
+      "url": "https://remotive.com/remote-jobs/software-development/full-stack-developer-2091165",
+      "result": "Oct 29 worldwide contract, NYC company HQ corroborated by official terms, exact techjobs mailbox printed in employer-listed Remotive role; not send-ready because employer role not confirmed on official company careers and LendLoop take-home Step 1 not completed. Added FIFO position 146."
+    },
+    {
+      "company": "Matcha.fm",
+      "url": "https://matcha.fm/apply/fse",
+      "result": "Official fullstack role has conflicting 'anywhere' language versus explicit region allowlist omitting India; no public exact recruiting email and resume/LinkedIn application form. Existing FIFO #23 already disqualified; preserved."
+    },
+    {
+      "company": "Tether",
+      "url": "https://careers.tether.io/o/ai-harness-engineer-100-remote-worldwide-4",
+      "result": "Official AI harness role requires 5+ years and P2P engineering; current applicant evidence ~3 years incl internships, no public exact recruiting mailbox. Refreshed original FIFO #55 to excluded_fit, duplicate discovery record removed."
+    },
+    {
+      "company": "Trackerbot",
+      "url": "https://news.ycombinator.com/item?id=49922569",
+      "result": "Employer founder offers fully remote from Sofia but prior evidence conflicts on India eligibility; FIFO #15 remains unverified, not contacted."
+    }
+  ],
+  "source_failures": [
+    {
+      "url": "https://careers.tether.io/o/ai-harness-engineer-100-remote-worldwide",
+      "reason": "old URL 404; replaced with current official -4 listing"
+    },
+    {
+      "url": "https://www.fluencetraining.com/careers",
+      "reason": "official company career path unavailable; could not independently verify employer-listed Remotive vacancy"
+    }
+  ],
+  "failures": [
+    {
+      "type": "verified_contact_shortage",
+      "detail": "Zero FIFO contacts satisfy exact mailbox, qualifying HQ, explicit India eligibility, live role, and experience match simultaneously."
+    },
+    {
+      "type": "resume_attachment_blocked",
+      "detail": "Historical BLOCKED_FILE_REFERENCE persists; no attachment attempt or retry this batch."
+    }
+  ],
+  "new_known_bounces": 0,
+  "new_opt_outs_detected": 0,
+  "unknown_delivery_new": 0,
+  "historical_hard_bounces": 2,
+  "historical_unknown_delivery": 1,
+  "followups_sent": 0,
+  "delivery_reconciliation": {
+    "gmail_sent_since_oct31_count": 18,
+    "nov1_ids_directly_read_and_have_sent_label": true,
+    "nov1_ids_match_permanent_ledger_and_queue": true,
+    "nov1_exact_recipients": [
+      "careers@statsniper.com",
+      "support@databuddy.cc"
+    ],
+    "new_mailer_daemon_messages_found": 0,
+    "new_replies_from_today_contacts_found": 0,
+    "historical_full_inbox_reconciliation_repeated": false,
+    "scope_limitation": "No exhaustive reinspection of every older Gmail thread this batch; no sends attempted."
+  },
+  "no_sends_reason": "No newly qualified exact public hiring mailbox that also passes role eligibility and application-process requirements; do not carry missed slots forward.",
+  "queue_checkpoint_commit": "44a0d618db7820ba6b342f091520f438ae4b7c65",
+  "queue_checkpoint_blob_sha": "5032b1086e4a1bfa87725899d3388a31de8ee7e5",
+  "ledger_blob_sha": "184aa5933f7ab11d5b57fb60d5111d80544d65de",
+  "self_healing_result": "Discovery expanded and queue deduplicated; no new verified-ready contacts. No self-repair of attachment blocker claimed.",
+  "carry_forward": "Preserve 146 FIFO records. Tomorrow revalidate old leads and research additional official hiring sources, with a fresh 30 cap and independent slot caps."
+}
