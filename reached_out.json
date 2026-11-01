@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-01T08:00:25+05:30",
+  "updated_at": "2026-11-01T10:25:33+05:30",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -1711,6 +1711,25 @@
       "source": "outreach_2026-11-01_0800_v8.json",
       "source_url": "https://statsniper.com/careers/full-stack-typescript-engineer/",
       "application_status": "email_application_with_GitHub_instead_of_resume_per_official_instruction",
+      "email_verification": "official_current_role_specific_hiring_mailbox",
+      "delivery_check": "gmail_sent_confirmed_not_inbox_guarantee",
+      "followup_count": 0
+    },
+    {
+      "email": "support@databuddy.cc",
+      "person": "Databuddy hiring team",
+      "company": "Databuddy",
+      "company_hq": "San Francisco, California, USA",
+      "role": "Founding Engineer",
+      "status": "sent",
+      "sent_at": "2026-11-01",
+      "sent_at_local": "2026-11-01T10:25:33+05:30",
+      "subject": "Building inspectable analytics at Databuddy",
+      "gmail_message_id": "1a195767f9c66c2d",
+      "thread_id": "1a195767f9c66c2d",
+      "source": "outreach_2026-11-01_1024_continuation_v8.json",
+      "source_url": "https://www.databuddy.cc/careers",
+      "application_status": "contacted_not_formal_cv_application",
       "email_verification": "official_current_role_specific_hiring_mailbox",
       "delivery_check": "gmail_sent_confirmed_not_inbox_guarantee",
       "followup_count": 0
