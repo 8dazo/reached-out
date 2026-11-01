@@ -1023,7 +1023,7 @@
       "discovered_at": "2026-10-30",
       "fit_score": 91,
       "queue_position": 55,
-      "last_checked_at": "2026-11-01T14:20:00+05:30"
+      "last_checked_at": "2026-11-01T14:05:31+05:30"
     },
     {
       "company": "Cyrolo",
@@ -2959,9 +2959,9 @@
       "status": "needs_takehome_and_official_confirmation",
       "notes": "Role requires a full LendLoop take-home project as Step 1, includes mandatory 'pineapple' and LLM-generated-content disclosure. Assignment not completed. Official company careers role not independently located. Do NOT send a formal application or claim completed test. Strong Next.js, TS, auth/RBAC, agent guardrails match; AWS 3+ years needs review.",
       "discovered_at": "2026-11-01",
-      "observed_at": "2026-11-01T14:15:00+05:30",
+      "observed_at": "2026-11-01T14:05:31+05:30",
       "queue_position": 146
     }
   ],
-  "updated_at": "2026-11-01T14:20:00+05:30"
+  "updated_at": "2026-11-01T14:05:31+05:30"
 }
