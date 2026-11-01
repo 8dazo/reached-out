@@ -648,9 +648,10 @@
       "eligibility_url": "https://jobs.digitalinasia.com/jobs/5772dee950976a80/",
       "verification": "unverified",
       "status": "unverified",
-      "notes": "Exact official recruiting mailbox not verified, and role-specific India eligibility must be confirmed on official Greenhouse; no email.",
+      "notes": "Exact official recruiting mailbox not verified, and role-specific India eligibility must be confirmed on official Greenhouse; no email. | Nov 1 official Greenhouse lists current Intermediate Backend Engineer - Database Change Management in Bangalore (https://job-boards.greenhouse.io/gitlab/jobs/8722304002), but Ruby/Rails expertise is a gap and no role-appropriate exact recruiting mailbox. Original queue role kept for historical trace; still unverified.",
       "observed_at": "2026-10-29",
-      "queue_position": 35
+      "queue_position": 35,
+      "last_checked_at": "2026-11-01T06:28:10+05:30"
     },
     {
       "company": "Cadence (withRemote)",
@@ -701,13 +702,14 @@
       "observed_at": "2026-10-29",
       "discovered_at": "2026-10-29",
       "fit_score": 90,
-      "notes": "Ruby/Rails not professionally used, transparently stated. Strong production API and backend overlap. Actual emailed application with resume attachment. Recovery did not send because 10:00 batch writer started at 09:58:52 IST; released to shared FIFO for scheduled writer after dedupe. Two Gmail attachment egress attempts (local path and connector file ID) both BLOCKED_FILE_REFERENCE; exact Gmail Sent search confirmed zero sends. Formal application requires CV; do not send until attachment egress fixed.",
+      "notes": "Ruby/Rails not professionally used, transparently stated. Strong production API and backend overlap. Actual emailed application with resume attachment. Recovery did not send because 10:00 batch writer started at 09:58:52 IST; released to shared FIFO for scheduled writer after dedupe. Two Gmail attachment egress attempts (local path and connector file ID) both BLOCKED_FILE_REFERENCE; exact Gmail Sent search confirmed zero sends. Formal application requires CV; do not send until attachment egress fixed. | Nov 1 preflight: official Junior Fullstack role, worldwide contractor eligibility and exact careers@ mailbox reconfirmed. Fresh Google Drive PDF file reference tested via non-sending Gmail draft; BLOCKED_FILE_REFERENCE. No draft created and no email sent. Formal CV application remains blocked; no further blind attachment retries.",
       "claim_owner": null,
       "claimed_at": null,
       "subject": "Junior Fullstack Engineer — API reliability",
       "draft_body": "Hi SerpApi team,\n\nYour Junior Fullstack Engineer opening appeals to me because the work includes more than building endpoints: monitoring search APIs, debugging customer-reported issues, and shipping well-tested fixes. At Stride AI, I owned production backend APIs and full-stack features; separately, I built a Go email-verification backend where failure handling and observability mattered. I haven't worked professionally with Ruby or Rails yet, but I'm comfortable learning a new stack and taking ownership through deployment.\n\nI've attached my resume. Would you consider my application for the remote role from India?\n\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo\n\nDevansh",
       "checkpoint": "outreach_2026-10-29_0800_recovery_v8.json",
-      "queue_position": 38
+      "queue_position": 38,
+      "last_checked_at": "2026-11-01T06:28:10+05:30"
     },
     {
       "company": "Mpeak",
@@ -2603,7 +2605,30 @@
       "observed_at": "2026-10-31",
       "status": "unverified",
       "queue_position": 130
+    },
+    {
+      "company": "Volga Partners",
+      "company_hq": "Kirkland, Washington, USA",
+      "company_region": "US",
+      "role": "AI Engineer | India",
+      "role_url": "https://apply.workable.com/volga-partners/j/FA6BEA00F4/",
+      "hq_evidence_url": "https://volgapartners.com/careers/",
+      "eligibility_evidence": "Official Workable role: India fully remote; mid-level AI engineer, ₹15–22 LPA; contractor/payment via Deel; requires 7 AM–4 PM Pacific Time overnight shift in India.",
+      "eligibility_url": "https://apply.workable.com/volga-partners/j/FA6BEA00F4/",
+      "email": null,
+      "email_evidence_url": null,
+      "verification": "official_role_and_hq_verified_no_role_appropriate_email",
+      "status": "unverified",
+      "fit_score": 81,
+      "notes": "RAG, agents, evals and guardrails match applied LLM experience, but stronger Python depth and non-negotiable overnight Pacific schedule require fit review. Official contactus@volgapartners.com is generic company contact, not recruiting mailbox; use Workable form, do not guess or email general inbox.",
+      "source_urls": [
+        "https://apply.workable.com/volga-partners/j/FA6BEA00F4/",
+        "https://volgapartners.com/careers/"
+      ],
+      "queue_position": 131,
+      "discovered_at": "2026-11-01",
+      "observed_at": "2026-11-01T06:28:10+05:30"
     }
   ],
-  "updated_at": "2026-10-31T14:00:23+05:30"
+  "updated_at": "2026-11-01T06:28:10+05:30"
 }
