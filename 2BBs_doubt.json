@@ -2941,7 +2941,43 @@
       "discovered_at": "2026-11-01",
       "observed_at": "2026-11-01T12:03:00+05:30",
       "queue_position": 145
+    },
+    {
+      "company": "Fluence International, Inc.",
+      "company_hq": "New York, NY, USA",
+      "company_region": "US",
+      "role": "Full-Stack Developer — B2B healthcare training",
+      "role_url": "https://remotive.com/remote-jobs/software-development/full-stack-developer-2091165",
+      "hq_evidence_url": "https://www.fluencetraining.com/terms-of-use",
+      "eligibility_evidence": "Oct 29, 2026 Remotive employer-listed contract position explicitly Worldwide; India not excluded.",
+      "eligibility_url": "https://remotive.com/remote-jobs/software-development/full-stack-developer-2091165",
+      "email": "techjobs@fluencetraining.com",
+      "email_evidence_url": "https://remotive.com/remote-jobs/software-development/full-stack-developer-2091165",
+      "verification": "email_explicit_in_employer_listed_job_but_not_confirmed_on_company_careers",
+      "fit_score": 83,
+      "status": "needs_takehome_and_official_confirmation",
+      "notes": "Role requires a full LendLoop take-home project as Step 1, includes mandatory 'pineapple' and LLM-generated-content disclosure. Assignment not completed. Official company careers role not independently located. Do NOT send a formal application or claim completed test. Strong Next.js, TS, auth/RBAC, agent guardrails match; AWS 3+ years needs review.",
+      "discovered_at": "2026-11-01",
+      "observed_at": "2026-11-01T14:15:00+05:30",
+      "queue_position": 146
+    },
+    {
+      "company": "Tether Operations Limited",
+      "company_hq": "Qualifying HQ not independently established",
+      "company_region": "unverified",
+      "role": "AI Harness Engineer — remote worldwide",
+      "role_url": "https://careers.tether.io/o/ai-harness-engineer-100-remote-worldwide-4",
+      "hq_evidence_url": "https://careers.tether.io/jobs/",
+      "eligibility_evidence": "Official job explicitly Remote Worldwide but experience minimum is 5+ years.",
+      "eligibility_url": "https://careers.tether.io/o/ai-harness-engineer-100-remote-worldwide-4",
+      "verification": "no_role_appropriate_public_email",
+      "fit_score": 59,
+      "status": "excluded_fit",
+      "notes": "Current official listing requires 5+ years production experience plus P2P networking and AI harness. Candidate's established experience ~3 years including internships, no demonstrated P2P. Do not send; ATS only and employer cautions use official application channels.",
+      "discovered_at": "2026-11-01",
+      "observed_at": "2026-11-01T14:15:00+05:30",
+      "queue_position": 147
     }
   ],
-  "updated_at": "2026-11-01T12:03:00+05:30"
+  "updated_at": "2026-11-01T14:15:00+05:30"
 }
