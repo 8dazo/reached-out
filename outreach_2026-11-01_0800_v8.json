@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-01",
+  "slot": "08:00",
+  "timezone": "Asia/Kolkata",
+  "status": "preflight_claimed_waiting_for_slot",
+  "writer_id": "international_outreach_batches_2026-11-01_0800",
+  "batch_cap": 7,
+  "daily_hard_cap": 30,
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "queue_file": "2BBs_doubt.json",
+  "preflight_started_at": "2026-11-01T07:56:01+05:30",
+  "slot_guard_checked_at": null,
+  "queue_records_start": 131,
+  "queue_records_after_research": 136,
+  "new_candidate_records_added": 5,
+  "verified_ready_after_discovery": 1,
+  "verified_ready_target": 45,
+  "reserve_target": 15,
+  "confirmed_new_sends_prior": 0,
+  "source_urls": [
+    "https://statsniper.com/careers/full-stack-typescript-engineer/",
+    "https://statsniper.com/careers/",
+    "https://statsniper.com/contact/",
+    "https://agentdeploy.io/careers/",
+    "https://spacecapture.ai/careers",
+    "https://voxlinker.com/careers",
+    "https://www.rejoiner.com/careers"
+  ],
+  "send_intents": [
+    {
+      "id": "outreach-2026-11-01-0800-statsniper-careers",
+      "company": "Stat Sniper",
+      "to": "careers@statsniper.com",
+      "status": "pre_send_intent_pending_slot",
+      "subject": "Full Stack TypeScript Engineer application",
+      "body": "Hi Stat Sniper team,\n\nYour Full Stack TypeScript Engineer role combines Next.js App Router, a headless CMS, Postgres-backed sports data, and Core Web Vitals work. I like that the challenge is not just building pages: the content and data need to stay useful and fast during live games.\n\nAt Stride AI, I owned React interfaces and backend APIs, including a schema-driven Page Studio with preview and publishing flows. I've also shipped production features with CI and end-to-end tests. I'd enjoy owning the web experience and its data boundaries.\n\nCould you consider my GitHub-based application for this role?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
+      "word_count": 102,
+      "role": "Full Stack TypeScript Engineer",
+      "role_url": "https://statsniper.com/careers/full-stack-typescript-engineer/",
+      "hq_evidence_url": "https://statsniper.com/contact/",
+      "eligibility_evidence": "Employer explicitly says every role worldwide remote, candidates anywhere in world, no relocation",
+      "email_source": "https://statsniper.com/careers/full-stack-typescript-engineer/",
+      "email_evidence": "Official role page says email careers@statsniper.com and resume or GitHub",
+      "message_quality_angle": "Specific sports-data/SEO/Core Web Vitals hook, Page Studio CMS and frontend proof; differs from prior 10 agent-centric outreach emails.",
+      "application_status": "email_application_with_GitHub_instead_of_resume_per_official_instruction",
+      "gmail_message_id": null,
+      "claimed_at": "2026-11-01T07:56:45+05:30"
+    }
+  ],
+  "send_attempts": 0,
+  "confirmed_gmail_message_ids": [],
+  "known_bounces": 0,
+  "unknown_delivery": 0,
+  "followups_sent": 0,
+  "source_failures": [],
+  "connector_failures": [],
+  "queue_research_commit_sha": "3c15f0ee91f9cc529e4b051ae1e90370c4df9ed4",
+  "github_ledger_mutated": false,
+  "queue_preserved": true,
+  "reconciliation": {
+    "morning_0630_completed": true,
+    "nov_1_confirmed_before_batch": 0,
+    "oct_31_confirmed": 16,
+    "prior_unknown_delivery_quarantined": [
+      "hr@dotcoai.com"
+    ],
+    "prior_hard_bounces": [
+      "careers@wavelet-ai.com",
+      "careers@enablex.io"
+    ],
+    "statsniper_prior_gmail_sent_found": false,
+    "statsniper_prior_ledger_found": false
+  },
+  "remaining_daily_capacity": 30,
+  "notes": "Waiting for 08:00 IST before any Gmail send; no other outbound writer permitted."
+}
