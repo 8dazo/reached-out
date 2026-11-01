@@ -748,10 +748,11 @@
       "status": "unverified",
       "observed_at": "2026-10-29",
       "discovered_at": "2026-10-29",
-      "notes": "Exceptional Captar/observability fit and public exact jobs@ email; official site says CorePillar Inc, founder calls it Silicon Valley startup, but exact qualifying US HQ remains unproven. DO NOT SEND until HQ evidence confirmed. Additional Oct 29: Indian entity Corepillar Ai Private Limited is registered as subsidiary of a foreign company (CIN U62099PN2026FTC258097), but parent corporate HQ still not independently verified. Continue hold.",
+      "notes": "Exceptional Captar/observability fit and public exact jobs@ email; official site says CorePillar Inc, founder calls it Silicon Valley startup, but exact qualifying US HQ remains unproven. DO NOT SEND until HQ evidence confirmed. Additional Oct 29: Indian entity Corepillar Ai Private Limited is registered as subsidiary of a foreign company (CIN U62099PN2026FTC258097), but parent corporate HQ still not independently verified. Continue hold. | Nov 1 recheck: Indian Corepillar Ai Private Limited classified as foreign-company subsidiary, but parent legal entity and US HQ remain unverified. Official job asks CV or LinkedIn; cannot mark formal application with GitHub-only outreach.",
       "fit_score": 96,
       "queue_position": 40,
-      "hq_evidence_url_secondary": "https://www.filesure.in/company/corepillar-ai-private-limited/U62099PN2026FTC258097"
+      "hq_evidence_url_secondary": "https://www.filesure.in/company/corepillar-ai-private-limited/U62099PN2026FTC258097",
+      "last_checked_at": "2026-11-01T10:04:39+05:30"
     },
     {
       "company": "Xsolla",
@@ -2735,7 +2736,114 @@
       "discovered_at": "2026-11-01",
       "observed_at": "2026-11-01T07:56:45+05:30",
       "queue_position": 136
+    },
+    {
+      "company": "BlueMail (Blix Inc.)",
+      "email": "hello@bluemail.me",
+      "company_hq": "Jersey City, NJ, USA (Blix Inc.; official help page dated 2018)",
+      "company_region": "US",
+      "role": "Senior Front End Developer (React/Redux/GraphQL)",
+      "role_url": "https://bluemail.me/careers/senior-front-end-developer/",
+      "hq_evidence_url": "https://bluemail.me/help/who-makes-bluemail/",
+      "eligibility_evidence": "Official careers role says Remote · Worldwide; company says work from anywhere",
+      "eligibility_url": "https://bluemail.me/careers/senior-front-end-developer/",
+      "email_evidence_url": "https://bluemail.me/careers/senior-front-end-developer/",
+      "verification": "explicit_public_email_and_worldwide_but_stale_role",
+      "status": "needs_freshness_review",
+      "fit_score": 75,
+      "notes": "Role is still linked on official careers but is dated 03-11-2022, over four years old; senior title though page mentions junior/mid-level progression. Do not send until vacancy freshness independently confirmed. No CV requirement observed in role text.",
+      "source_urls": [
+        "https://bluemail.me/careers/",
+        "https://bluemail.me/careers/senior-front-end-developer/",
+        "https://bluemail.me/help/who-makes-bluemail/"
+      ],
+      "queue_position": 137,
+      "discovered_at": "2026-11-01",
+      "observed_at": "2026-11-01T10:04:39+05:30"
+    },
+    {
+      "company": "PlayPower Labs",
+      "email": null,
+      "company_hq": "United States (employer Ashby says US-based with India development center)",
+      "company_region": "US",
+      "role": "Senior Software Engineer — Fully Remote India Only",
+      "role_url": "https://jobs.ashbyhq.com/playpowerlabs/ab9231e8-3e3f-41c4-aff2-ff769241a1c7/",
+      "hq_evidence_url": "https://jobs.ashbyhq.com/playpowerlabs/ab9231e8-3e3f-41c4-aff2-ff769241a1c7/",
+      "eligibility_evidence": "Official Ashby result: Fully Remote - India Only; US-based with development center Gandhinagar India",
+      "eligibility_url": "https://jobs.ashbyhq.com/playpowerlabs/ab9231e8-3e3f-41c4-aff2-ff769241a1c7/",
+      "verification": "official_role_india_eligible_no_public_recruiting_email",
+      "status": "unverified",
+      "notes": "Official ATS listing currently indexed; JS-rendered page cannot be read in browser text fetch. Seniority needs full role review; no exact role-appropriate public hiring email verified. Do not guess.",
+      "source_urls": [
+        "https://jobs.ashbyhq.com/playpowerlabs/ab9231e8-3e3f-41c4-aff2-ff769241a1c7/"
+      ],
+      "queue_position": 138,
+      "discovered_at": "2026-11-01",
+      "observed_at": "2026-11-01T10:04:39+05:30"
+    },
+    {
+      "company": "Tempo Labs (tempo.new)",
+      "email": null,
+      "company_hq": "South San Francisco, California, USA (Built In profile)",
+      "company_region": "US",
+      "role": "Full-Stack Engineer — AI visual IDE",
+      "role_url": "https://jobs.ashbyhq.com/tempo/374cb123-0dde-427f-a907-e59b66d14624",
+      "hq_evidence_url": "https://builtin.com/company/tempo-1/jobs",
+      "eligibility_evidence": "Indexed Ashby role listed India (Remote), Philippines, Argentina, Brazil; 2+ years, TypeScript/React/Supabase.",
+      "eligibility_url": "https://jobs.ashbyhq.com/tempo/374cb123-0dde-427f-a907-e59b66d14624",
+      "verification": "role_indexed_but_official_url_404_and_no_exact_hiring_email",
+      "status": "unverified",
+      "fit_score": 90,
+      "notes": "Strong technical match, but live direct ATS fetch returned 404 on 2026-11-01 and no exact public hiring mailbox was found. Treat as source failure/possibly closed; do not send.",
+      "source_urls": [
+        "https://jobs.ashbyhq.com/tempo/374cb123-0dde-427f-a907-e59b66d14624",
+        "https://builtin.com/company/tempo-1/jobs"
+      ],
+      "queue_position": 139,
+      "discovered_at": "2026-11-01",
+      "observed_at": "2026-11-01T10:04:39+05:30"
+    },
+    {
+      "company": "Reveronix Tech Solutions",
+      "email": null,
+      "company_hq": "New Delhi, India (CIN U62099DC2026PTC470975)",
+      "company_region": "India",
+      "role": "AI Engineer — Remote India",
+      "role_url": "https://www.reveronix.com/careers",
+      "hq_evidence_url": "https://www.zaubacorp.com/REVERONIX-TECH-SOLUTIONS-PRIVATE-LIMITED-U62099DC2026PTC470975",
+      "eligibility_evidence": "Official careers lists AI Engineer Remote India",
+      "eligibility_url": "https://www.reveronix.com/careers",
+      "verification": "official_role_and_india_hq_confirmed",
+      "status": "disqualified",
+      "notes": "India-headquartered legal entity verified; excluded by campaign HQ policy. Official careers also requests CV. Do not send.",
+      "source_urls": [
+        "https://www.reveronix.com/careers",
+        "https://www.zaubacorp.com/REVERONIX-TECH-SOLUTIONS-PRIVATE-LIMITED-U62099DC2026PTC470975"
+      ],
+      "queue_position": 140,
+      "discovered_at": "2026-11-01",
+      "observed_at": "2026-11-01T10:04:39+05:30"
+    },
+    {
+      "company": "Propel Labs (propellabs.ai)",
+      "email": "lisa@propellabs.ai",
+      "company_hq": "Unverified qualifying HQ (different similarly named India companies exist)",
+      "role": "Staff Full-Stack Engineer, Quality & Delivery",
+      "role_url": "https://news.ycombinator.com/item?id=49922569",
+      "eligibility_evidence": "Employer HN post says Remote (North America hours), not explicit hiring from India",
+      "eligibility_url": "https://news.ycombinator.com/item?id=49922569",
+      "email_evidence_url": "https://news.ycombinator.com/item?id=49922569",
+      "verification": "exact_public_hiring_email_only",
+      "status": "needs_fit_review",
+      "notes": "Staff role requires lead-level engineering judgment, Terraform/ECS and 70/30 build-lead. Candidate lacks demonstrated staff/lead experience. No explicit India-resident hiring eligibility or qualifying HQ. Do not send.",
+      "source_urls": [
+        "https://news.ycombinator.com/item?id=49922569",
+        "https://propellabs.ai/"
+      ],
+      "queue_position": 141,
+      "discovered_at": "2026-11-01",
+      "observed_at": "2026-11-01T10:04:39+05:30"
     }
   ],
-  "updated_at": "2026-11-01T08:00:30+05:30"
+  "updated_at": "2026-11-01T10:04:39+05:30"
 }
