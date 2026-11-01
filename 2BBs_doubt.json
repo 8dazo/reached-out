@@ -2643,7 +2643,7 @@
       "email_evidence_url": "https://statsniper.com/careers/full-stack-typescript-engineer/",
       "fit_score": 94,
       "notes": "Next.js App Router/React/Tailwind/Postgres/headless CMS, production UI and backend, SEO performance; exact current careers email on role page; official role allows GitHub instead of resume, so no blocked PDF attachment needed. Historical Gmail Sent and GitHub suppression checked 2026-11-01: no prior company or recipient contact. Role source revalidated.",
-      "status": "claimed",
+      "status": "sent_confirmed",
       "discovered_at": "2026-11-01",
       "observed_at": "2026-11-01T07:56:45+05:30",
       "source_urls": [
@@ -2653,7 +2653,12 @@
       ],
       "queue_position": 132,
       "claimed_at": "2026-11-01T07:57:05+05:30",
-      "claim_id": "outreach-2026-11-01-0800-statsniper-careers"
+      "claim_id": "outreach-2026-11-01-0800-statsniper-careers",
+      "gmail_message_id": "1a194f18798a42fc",
+      "thread_id": "1a194f18798a42fc",
+      "sent_at": "2026-11-01T08:00:19+05:30",
+      "application_status": "email_application_with_GitHub_instead_of_resume_per_official_instruction",
+      "delivery_check": "gmail_sent_confirmed_not_inbox_guarantee"
     },
     {
       "company": "AgentDeploy",
@@ -2732,5 +2737,5 @@
       "queue_position": 136
     }
   ],
-  "updated_at": "2026-11-01T07:57:05+05:30"
+  "updated_at": "2026-11-01T08:00:30+05:30"
 }
