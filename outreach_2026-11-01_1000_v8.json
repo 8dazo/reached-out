@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-01",
+  "slot": "10:00",
+  "timezone": "Asia/Kolkata",
+  "status": "completed_no_send_ready_contacts",
+  "batch_cap": 7,
+  "confirmed_sent_this_run": 0,
+  "confirmed_new_sends_today": 1,
+  "batch_shortfall": 7,
+  "daily_remaining": 29,
+  "queue_records_start": 136,
+  "queue_records_end": 141,
+  "verified_ready_end": 0,
+  "verified_ready_target": 45,
+  "new_candidate_records_added": 5,
+  "source_research": [
+    "BlueMail",
+    "PlayPower Labs",
+    "Tempo Labs",
+    "Reveronix",
+    "Propel Labs",
+    "CorePillar"
+  ],
+  "reasons": [
+    "Stale job listing",
+    "No verified recruiting mailbox",
+    "Official role URL unavailable",
+    "India-headquartered company excluded",
+    "Seniority and eligibility unverified",
+    "Qualifying headquarters unverified"
+  ],
+  "gmail_sent_confirmed_message_ids_today": [
+    "1a194f18798a42fc"
+  ],
+  "send_attempts": 0,
+  "known_new_bounces": 0,
+  "unknown_new_deliveries": 0,
+  "followups_sent": 0,
+  "queue_commit": "85f7e6bfe5f751db68f6adf24de6dd0a92e80aff",
+  "attachment_issue": "Unresolved; no retry",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "notes": "No verified-ready unused contacts. Research and queue committed. No outbound sends attempted; no cap carryover.",
+  "completed_at": "2026-11-01T10:05:19+05:30"
+}
