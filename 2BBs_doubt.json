@@ -2861,12 +2861,16 @@
       "discovered_at": "2026-11-01",
       "observed_at": "2026-11-01",
       "queue_position": 142,
-      "status": "claimed",
+      "status": "sent_confirmed",
       "send_intent_id": "outreach-2026-11-01-1024-databuddy-support",
       "claimed_at": "2026-11-01T10:24:47+05:30",
       "claim_checkpoint": "outreach_2026-11-01_1024_continuation_v8.json",
-      "gmail_message_id": null
+      "gmail_message_id": "1a195767f9c66c2d",
+      "thread_id": "1a195767f9c66c2d",
+      "sent_at": "2026-11-01T10:25:33+05:30",
+      "last_checked_at": "2026-11-01T10:25:33+05:30",
+      "application_status": "contacted_not_formal_cv_application"
     }
   ],
-  "updated_at": "2026-11-01T10:24:47+05:30"
+  "updated_at": "2026-11-01T10:25:33+05:30"
 }
