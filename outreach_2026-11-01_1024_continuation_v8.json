@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-01",
+  "slot": "10:00",
+  "run_type": "continuation_after_1000_completed_no_send",
+  "timezone": "Asia/Kolkata",
+  "status": "pre_send_intent_claimed",
+  "writer_id": "international_outreach_batches_2026-11-01_1024_continuation",
+  "previous_slot_audit": "outreach_2026-11-01_1000_v8.json",
+  "prior_slot_confirmed": 0,
+  "slot_cap": 7,
+  "confirmed_today_before": 1,
+  "daily_cap": 30,
+  "candidate_pool_start": 0,
+  "new_found": 1,
+  "verified_ready": 1,
+  "source_research": [
+    "Databuddy official careers and YC headquarters",
+    "SingleStore role already contacted (suppressed)",
+    "FunnelStory requires stronger production ML/stats experience",
+    "Ziploy Nigeria HQ (excluded)",
+    "DOTLABS Pakistan HQ (excluded)"
+  ],
+  "send_intents": [
+    {
+      "id": "outreach-2026-11-01-1024-databuddy-support",
+      "to": "support@databuddy.cc",
+      "company": "Databuddy",
+      "role": "Founding Engineer",
+      "status": "claimed_not_sent",
+      "subject": "Building inspectable analytics at Databuddy",
+      "body": "Hi Databuddy team,\n\nYour founding engineer role spans the dashboard, ingestion API, and ClickHouse-backed analytics, not just another Next.js interface. I particularly like that Databunny shows the query behind an answer; that kind of inspectability makes analytics useful rather than opaque.\n\nAt Stride AI, I built React features and backend APIs end to end, including a schema-driven Page Studio with preview and publishing. I enjoy owning the boundary between product UI, data models, and production behavior, and I'm comfortable working asynchronously from India.\n\nCould you consider my work for the founding engineer role?\n\nDevansh\nhttps://devansh.aurat.ai\nhttps://github.com/8dazo",
+      "word_count": 96,
+      "role_url": "https://www.databuddy.cc/careers",
+      "email_source": "https://www.databuddy.cc/careers",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/databuddy/jobs",
+      "eligibility_evidence": "Official careers says remote, work from anywhere, async team spread across timezones.",
+      "fit": "TypeScript monorepo, Next.js, API, ingestion, ClickHouse, observability; user shipped Page Studio, production APIs/UI",
+      "message_quality_angle": "Grounded in Databunny SQL transparency and ClickHouse ingestion; Page Studio proof instead of agent-budget proof.",
+      "application_status": "contacted_not_formal_cv_application",
+      "claimed_at": "2026-11-01T10:24:47+05:30"
+    }
+  ],
+  "send_attempts": 0,
+  "confirmed_gmail_message_ids": [],
+  "unknown_delivery": 0,
+  "known_bounces": 0,
+  "connector_failures": [],
+  "source_failures": [],
+  "prior_gmail_sent_reconciled": true,
+  "prior_ledger_reconciled": true,
+  "prior_applications_reconciled": true,
+  "single_writer": "No overlapping writer observed; previous 10:00 audit completed; continuation within same 10:00 cap.",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ]
+}
