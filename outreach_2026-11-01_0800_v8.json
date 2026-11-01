@@ -2,7 +2,7 @@
   "date": "2026-11-01",
   "slot": "08:00",
   "timezone": "Asia/Kolkata",
-  "status": "sending_one_verified_candidate",
+  "status": "completed_1_of_7_sent_confirmed",
   "writer_id": "international_outreach_batches_2026-11-01_0800",
   "batch_cap": 7,
   "daily_hard_cap": 30,
@@ -36,7 +36,7 @@
       "id": "outreach-2026-11-01-0800-statsniper-careers",
       "company": "Stat Sniper",
       "to": "careers@statsniper.com",
-      "status": "claimed_pre_send_checkpoint_durable",
+      "status": "sent_confirmed",
       "subject": "Full Stack TypeScript Engineer application",
       "body": "Hi Stat Sniper team,\n\nYour Full Stack TypeScript Engineer role combines Next.js App Router, a headless CMS, Postgres-backed sports data, and Core Web Vitals work. I like that the challenge is not just building pages: the content and data need to stay useful and fast during live games.\n\nAt Stride AI, I owned React interfaces and backend APIs, including a schema-driven Page Studio with preview and publishing flows. I've also shipped production features with CI and end-to-end tests. I'd enjoy owning the web experience and its data boundaries.\n\nCould you consider my GitHub-based application for this role?\n\nDevansh\nPortfolio: https://devansh.aurat.ai\nGitHub: https://github.com/8dazo",
       "word_count": 102,
@@ -48,20 +48,24 @@
       "email_evidence": "Official role page says email careers@statsniper.com and resume or GitHub",
       "message_quality_angle": "Specific sports-data/SEO/Core Web Vitals hook, Page Studio CMS and frontend proof; differs from prior 10 agent-centric outreach emails.",
       "application_status": "email_application_with_GitHub_instead_of_resume_per_official_instruction",
-      "gmail_message_id": null,
+      "gmail_message_id": "1a194f18798a42fc",
       "claimed_at": "2026-11-01T07:56:45+05:30",
-      "pre_send_checked_at": "2026-11-01T08:00:10+05:30"
+      "pre_send_checked_at": "2026-11-01T08:00:10+05:30",
+      "thread_id": "1a194f18798a42fc",
+      "confirmed_at": "2026-11-01T08:00:25+05:30"
     }
   ],
-  "send_attempts": 0,
-  "confirmed_gmail_message_ids": [],
+  "send_attempts": 1,
+  "confirmed_gmail_message_ids": [
+    "1a194f18798a42fc"
+  ],
   "known_bounces": 0,
   "unknown_delivery": 0,
   "followups_sent": 0,
   "source_failures": [],
   "connector_failures": [],
   "queue_research_commit_sha": "3c15f0ee91f9cc529e4b051ae1e90370c4df9ed4",
-  "github_ledger_mutated": false,
+  "github_ledger_mutated": true,
   "queue_preserved": true,
   "reconciliation": {
     "morning_0630_completed": true,
@@ -76,8 +80,25 @@
     ],
     "statsniper_prior_gmail_sent_found": false,
     "statsniper_prior_ledger_found": false,
-    "statsniper_exact_sent_rechecked_at": "2026-11-01T08:00:10+05:30"
+    "statsniper_exact_sent_rechecked_at": "2026-11-01T08:00:10+05:30",
+    "nov_1_confirmed_after_batch": 1,
+    "all_confirmed_today_match_permanent_ledger": true,
+    "all_confirmed_today_match_queue": true,
+    "all_confirmed_today_have_gmail_sent_label": true
   },
-  "remaining_daily_capacity": 30,
-  "notes": "Waiting for 08:00 IST before any Gmail send; no other outbound writer permitted."
+  "remaining_daily_capacity": 29,
+  "notes": "1 exact role application with official GitHub alternative to resume, Gmail Sent directly verified; ledger and queue durable. 6 slot shortfall; no carry-forward. Other researched leads held: 2 resume attachment blocks, 1 missing HQ, 1 acquired/stale. Verified ready pool 0; no other eligible verified contact found. No unverified mailboxes or duplicate sends.",
+  "confirmed_sent_this_run": 1,
+  "confirmed_new_sends_today": 1,
+  "batch_shortfall": 6,
+  "daily_shortfall_as_of_batch": 29,
+  "queue_records_end": 136,
+  "verified_ready_end": 0,
+  "ready_pool_shortfall": 45,
+  "github_sent_ledger_commit_sha": "16ef73c59e7c59ffb0d8fa50c7d130d6c2720f84",
+  "github_sent_queue_commit_sha": "3a1896581da3e8d5f1641ce9f80d7a93127c74cd",
+  "github_claim_queue_commit_sha": "4f0a5ec5c5efc67494a8e06dffc3a0da850dc75f",
+  "github_pre_send_checkpoint_commit_sha": "995b9557c4d2b8dcbc356fb524785adb90493166",
+  "completed_at": "2026-11-01T08:00:40+05:30",
+  "self_healing_status": "discovery_expanded_five_researched_one_verified_and_sent_four_held_by_quality_gates"
 }
