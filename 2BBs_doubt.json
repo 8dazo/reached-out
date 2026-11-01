@@ -2843,7 +2843,30 @@
       "queue_position": 141,
       "discovered_at": "2026-11-01",
       "observed_at": "2026-11-01T10:04:39+05:30"
+    },
+    {
+      "email": "support@databuddy.cc",
+      "company": "Databuddy",
+      "company_region": "US",
+      "company_hq": "San Francisco, California, United States",
+      "role": "Founding Engineer",
+      "role_url": "https://www.databuddy.cc/careers",
+      "hq_evidence_url": "https://www.ycombinator.com/companies/databuddy/jobs",
+      "eligibility_evidence": "Official careers: Work from anywhere; Full-time Remote; team spread across timezones, async by default.",
+      "eligibility_url": "https://www.databuddy.cc/careers",
+      "verification": "official_exact_hiring_mailbox_current_role_eligibility_hq_verified",
+      "email_evidence_url": "https://www.databuddy.cc/careers",
+      "fit_score": 94,
+      "notes": "YC F26 US/SF company. TypeScript monorepo with Next.js/Elysia/Drizzle/ClickHouse/Redis; user built production UI/backend/Page Studio. Official careers explicitly says apply to support@databuddy.cc; no CV requirement on page. Outreach, not formal CV application.",
+      "discovered_at": "2026-11-01",
+      "observed_at": "2026-11-01",
+      "queue_position": 142,
+      "status": "claimed",
+      "send_intent_id": "outreach-2026-11-01-1024-databuddy-support",
+      "claimed_at": "2026-11-01T10:24:47+05:30",
+      "claim_checkpoint": "outreach_2026-11-01_1024_continuation_v8.json",
+      "gmail_message_id": null
     }
   ],
-  "updated_at": "2026-11-01T10:04:39+05:30"
+  "updated_at": "2026-11-01T10:24:47+05:30"
 }
