@@ -45,5 +45,35 @@
     "outreach_v7_config.json"
   ],
   "notes": "No verified-ready unused contacts. Research and queue committed. No outbound sends attempted; no cap carryover.",
-  "completed_at": "2026-11-01T10:05:19+05:30"
+  "completed_at": "2026-11-01T10:05:19+05:30",
+  "candidate_pool_start": 0,
+  "candidate_pool_end": 0,
+  "verified_ready_start": 0,
+  "verified_ready_after_discovery": 0,
+  "send_intents": [],
+  "confirmed_gmail_message_ids": [],
+  "source_failures": [
+    {
+      "source": "Tempo Labs Ashby role",
+      "error": "Official role URL returned 404"
+    }
+  ],
+  "connector_failures": [
+    {
+      "action": "Initial audit creation",
+      "error": "First attempt blocked by connector safety checks; reduced audit successfully committed",
+      "resolved": true
+    }
+  ],
+  "source_urls": [
+    "https://bluemail.me/careers/senior-front-end-developer/",
+    "https://jobs.ashbyhq.com/playpowerlabs/ab9231e8-3e3f-41c4-aff2-ff769241a1c7/",
+    "https://jobs.ashbyhq.com/tempo/374cb123-0dde-427f-a907-e59b66d14624",
+    "https://www.reveronix.com/careers",
+    "https://news.ycombinator.com/item?id=49922569"
+  ],
+  "historical_uncertain_delivery_count": 1,
+  "prior_hard_bounce_count": 2,
+  "github_queue_commit_sha": "85f7e6bfe5f751db68f6adf24de6dd0a92e80aff",
+  "self_healing_status": "Discovery expanded; no verified eligible contacts; no send attempted."
 }
