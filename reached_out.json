@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T14:00:23+05:30",
+  "updated_at": "2026-11-01T08:00:25+05:30",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -1695,6 +1695,25 @@
       "application_status": "contacted_not_formal_application",
       "followup_count": 0,
       "source_url": "https://www.ycombinator.com/companies/rainbrand"
+    },
+    {
+      "email": "careers@statsniper.com",
+      "person": "Stat Sniper hiring team",
+      "company": "Stat Sniper",
+      "company_hq": "Newport Beach, California, USA",
+      "role": "Full Stack TypeScript Engineer",
+      "status": "sent",
+      "sent_at": "2026-11-01",
+      "sent_at_local": "2026-11-01T08:00:19+05:30",
+      "subject": "Full Stack TypeScript Engineer application",
+      "gmail_message_id": "1a194f18798a42fc",
+      "thread_id": "1a194f18798a42fc",
+      "source": "outreach_2026-11-01_0800_v8.json",
+      "source_url": "https://statsniper.com/careers/full-stack-typescript-engineer/",
+      "application_status": "email_application_with_GitHub_instead_of_resume_per_official_instruction",
+      "email_verification": "official_current_role_specific_hiring_mailbox",
+      "delivery_check": "gmail_sent_confirmed_not_inbox_guarantee",
+      "followup_count": 0
     }
   ],
   "policy_effective_date": "2026-10-09",
