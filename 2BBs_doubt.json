@@ -909,16 +909,20 @@
       "company": "Dscout",
       "company_hq": "Chicago, IL, USA (independent company profile; verify)",
       "company_region": "US",
-      "role": "Software Engineer — India",
-      "role_url": "https://jobseek.dev/jobs/669590-software-engineer-india",
-      "eligibility_evidence": "Role aggregator quotes Remote India, 2–7 YOE and AI-native full-stack features; official live role revalidation needed.",
-      "eligibility_url": "https://jobseek.dev/jobs/669590-software-engineer-india",
-      "verification": "unverified",
+      "role": "Applied AI Engineer — India",
+      "role_url": "https://job-boards.greenhouse.io/dscout/jobs/4370258009",
+      "eligibility_evidence": "Official live Greenhouse job lists Remote - India; 2–5 years, production LLM/agent evaluation, monitoring, tool use and RAG.",
+      "eligibility_url": "https://job-boards.greenhouse.io/dscout/jobs/4370258009",
+      "verification": "official_live_role_india_eligible_no_public_hiring_email",
       "status": "unverified",
-      "notes": "Strong fit; no public recruiting-specific exact mailbox found. Listed accommodations email expressly not for applications. Do not send; official role/source required.",
-      "observed_at": "2026-10-29",
+      "notes": "Strong fit to Captor guardrails/evaluation; no exact publicly designated hiring mailbox verified. Do not use accommodation or general support mailboxes. Do not send.",
+      "observed_at": "2026-11-01T12:03:00+05:30",
       "discovered_at": "2026-10-29",
-      "queue_position": 49
+      "queue_position": 49,
+      "source_urls": [
+        "https://job-boards.greenhouse.io/dscout",
+        "https://job-boards.greenhouse.io/dscout/jobs/4370258009"
+      ]
     },
     {
       "company": "StudyTurtle",
@@ -2870,7 +2874,74 @@
       "sent_at": "2026-11-01T10:25:33+05:30",
       "last_checked_at": "2026-11-01T10:25:33+05:30",
       "application_status": "contacted_not_formal_cv_application"
+    },
+    {
+      "company": "Supabase",
+      "email": null,
+      "company_hq": "US-based, headquarters not independently revalidated in this pass",
+      "company_region": "US",
+      "role": "Software Engineer - AI Tooling Infrastructure",
+      "role_url": "https://supabase.com/careers",
+      "hq_evidence_url": "https://supabase.com/careers",
+      "eligibility_evidence": "Official careers lists Software Engineer - AI Tooling Infrastructure as Remote, Global; official policy says hires globally and work from anywhere.",
+      "eligibility_url": "https://supabase.com/careers",
+      "verification": "official_live_global_role_no_exact_hiring_email_hq_pending",
+      "status": "unverified",
+      "fit_score": 83,
+      "notes": "Strong developer tooling/MCP/observability match; official careers uses application form and no exact public engineering recruiter email found. No send.",
+      "source_urls": [
+        "https://supabase.com/careers"
+      ],
+      "discovered_at": "2026-11-01",
+      "observed_at": "2026-11-01T12:03:00+05:30",
+      "queue_position": 143
+    },
+    {
+      "company": "Upstash",
+      "email": "jobs@upstash.com",
+      "company_hq": "California, USA (official careers footer)",
+      "company_region": "US",
+      "role": "Mid/Senior Software Engineer - Cloud/SRE",
+      "role_url": "https://upstash.com/careers/software-engineer-cloud",
+      "hq_evidence_url": "https://upstash.com/careers",
+      "eligibility_evidence": "Official active careers listing says Work from anywhere; work from anywhere in the world, 3+ years.",
+      "eligibility_url": "https://upstash.com/careers/software-engineer-cloud",
+      "email_evidence_url": "https://upstash.com/careers/software-engineer-cloud",
+      "verification": "official_public_current_role_and_email_but_fit_and_application_review",
+      "status": "needs_fit_review",
+      "fit_score": 55,
+      "notes": "Only currently active Upstash engineering role is Cloud/SRE; requires substantial Kubernetes, Terraform and production SRE experience not well evidenced in profile. TypeScript/Frontend/Core openings explicitly not actively hiring. Email applications ask resume or LinkedIn; attachment blocker remains. Do not send.",
+      "source_urls": [
+        "https://upstash.com/careers",
+        "https://upstash.com/careers/software-engineer-cloud"
+      ],
+      "discovered_at": "2026-11-01",
+      "observed_at": "2026-11-01T12:03:00+05:30",
+      "queue_position": 144
+    },
+    {
+      "company": "MacroCoderz",
+      "email": "hello@macrocoderz.com",
+      "company_hq": "Denver, Colorado, USA (official US-registered LLC and listed location)",
+      "company_region": "US",
+      "role": "AI Engineer (2+ years) / AI Agent Developer",
+      "role_url": "https://macrocoderz.com/careers",
+      "hq_evidence_url": "https://macrocoderz.com/about",
+      "eligibility_evidence": "Official careers states 15 remote roles open worldwide; AI Engineer and AI Agent Developer require 2+ years.",
+      "eligibility_url": "https://macrocoderz.com/careers",
+      "email_evidence_url": "https://macrocoderz.com/careers",
+      "verification": "official_role_hq_eligibility_and_public_general_email_not_application_mailbox",
+      "status": "needs_attachment",
+      "fit_score": 90,
+      "notes": "Careers explicitly requires CV through online application; hello@ is for speculative no-role CV and general inquiries, not designated for these active positions. Do not misuse contact; application blocked by resume access. No send.",
+      "source_urls": [
+        "https://macrocoderz.com/careers",
+        "https://macrocoderz.com/about"
+      ],
+      "discovered_at": "2026-11-01",
+      "observed_at": "2026-11-01T12:03:00+05:30",
+      "queue_position": 145
     }
   ],
-  "updated_at": "2026-11-01T10:25:33+05:30"
+  "updated_at": "2026-11-01T12:03:00+05:30"
 }
