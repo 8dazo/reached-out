@@ -1,0 +1,74 @@
+{
+  "protocol": "OUTREACH_V7.md + SELF_HEALING_V8.md + MESSAGE_QUALITY_V2.md",
+  "config": "outreach_v7_config.json",
+  "date_ist": "2026-11-01",
+  "batch_at_ist": "12:00",
+  "observed_ist": "2026-11-01T12:05:00+05:30",
+  "intended_count": 7,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "gmail_sent_confirmed_batch": 0,
+  "batch_shortfall": 7,
+  "today_confirmed_new_contacts": 2,
+  "today_confirmed_message_ids": [
+    "1a194f18798a42fc",
+    "1a195767f9c66c2d"
+  ],
+  "daily_hard_cap": 30,
+  "remaining_daily_quota": 28,
+  "candidate_pool_start": 142,
+  "candidate_pool_end": 145,
+  "new_found": 3,
+  "existing_candidates_refreshed": 1,
+  "verified_ready_end": 0,
+  "ready_target": 45,
+  "ready_target_shortfall": 45,
+  "new_known_bounces": 0,
+  "new_opt_outs": 0,
+  "unknown_delivery_new": 0,
+  "source_evidence": [
+    {
+      "company": "Dscout",
+      "url": "https://job-boards.greenhouse.io/dscout/jobs/4370258009",
+      "status": "live India-remote role, no verified role-appropriate public mailbox"
+    },
+    {
+      "company": "Supabase",
+      "url": "https://supabase.com/careers",
+      "status": "global remote AI tooling role, no verified exact hiring mailbox"
+    },
+    {
+      "company": "Upstash",
+      "url": "https://upstash.com/careers/software-engineer-cloud",
+      "status": "active worldwide role and public email, but Cloud/SRE experience mismatch; frontend/TS roles not actively hiring"
+    },
+    {
+      "company": "MacroCoderz",
+      "url": "https://macrocoderz.com/careers",
+      "status": "worldwide remote AI role, application CV mandatory, general email not designated role inbox"
+    },
+    {
+      "company": "SingleStore",
+      "url": "https://www.singlestore.com/careers/jobs/",
+      "status": "AI Platform role no longer listed; previously contacted Oct 28; suppressed"
+    }
+  ],
+  "failures": [
+    {
+      "type": "lead_shortage",
+      "detail": "No qualified, verified, unsent lead passes all gates. No send attempted."
+    },
+    {
+      "type": "resume_attachment_blocked",
+      "detail": "Prior BLOCKED_FILE_REFERENCE persists; not retried."
+    }
+  ],
+  "historical_suppression": "reached_out.json + applications.json + Gmail Sent + historical outreach_queue.json; no historical sends reset",
+  "gmail_reconciliation": "Gmail Sent search includes 18 messages from Oct 31 onward, two correspond to Nov 1 IST and both match ledger IDs; inbox keyword searches show no new DSN and no attributable opt-out; broad historical reconciliation not exhaustively repeated in this batch.",
+  "queue_checkpoint_commit": "f6b1bf9eb2addb3915be64d27e850d672b292686",
+  "queue_checkpoint_blob_sha": "6cb6d0b54023dbc470866a50c66eb079b84582bd",
+  "ledger_blob_sha": "184aa5933f7ab11d5b57fb60d5111d80544d65de",
+  "no_sends_reason": "All previously verified leads already sent or disqualified; new official roles lack verified mailbox, matching qualifications, or CV-accessible application path.",
+  "carry_forward": "Preserve all 145 FIFO records and revalidate on next batch; do not increase 14:00 cap above two.",
+  "status": "complete_zero_sends_due_to_verification_gate"
+}
