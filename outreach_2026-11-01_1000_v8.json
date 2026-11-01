@@ -75,5 +75,14 @@
   "historical_uncertain_delivery_count": 1,
   "prior_hard_bounce_count": 2,
   "github_queue_commit_sha": "85f7e6bfe5f751db68f6adf24de6dd0a92e80aff",
-  "self_healing_status": "Discovery expanded; no verified eligible contacts; no send attempted."
+  "self_healing_status": "Discovery expanded; no verified eligible contacts; no send attempted.",
+  "continuation_audit": "outreach_2026-11-01_1024_continuation_v8.json",
+  "original_run_confirmed_sent": 0,
+  "combined_slot_confirmed_sent": 1,
+  "combined_slot_shortfall": 6,
+  "confirmed_new_sends_today_after_continuation": 2,
+  "combined_slot_message_ids": [
+    "1a195767f9c66c2d"
+  ],
+  "continuation_note": "10:00 initial run ended 10:05 with no verified contacts. At 10:25 a separate non-overlapping continuation found and sent one newly verified Databuddy contact. See supplemental audit; original run metrics preserved."
 }
