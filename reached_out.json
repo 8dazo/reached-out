@@ -14,9 +14,11 @@
       "email": "recruiting@starbridge.ai",
       "person": null,
       "company": "Starbridge",
-      "status": "sent",
+      "status": "replied",
       "sent_at": "2026-09-14",
-      "contact_source": "previous_outreach"
+      "contact_source": "previous_outreach",
+      "reply_message_id": "1a09ef78c5b8357f",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
     },
     {
       "email": "julian@astronomer.io",
@@ -718,13 +720,15 @@
       "email": "sajid@dextr.ai",
       "company": "Dextr AI",
       "role": "Software / AI Engineering",
-      "status": "sent",
+      "status": "replied",
       "sent_at": "2026-09-27",
       "gmail_message_id": "1a0e12263cddd6b3",
       "company_region": "US",
       "role_eligibility": "current location-agnostic hiring signal",
       "email_confidence": "explicit_public_current",
-      "source_reconciliation": "ledger_reconciliation_2026-09-27.json"
+      "source_reconciliation": "ledger_reconciliation_2026-09-27.json",
+      "reply_message_id": "1a0e2b539b7de12d",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
     },
     {
       "email": "jonathan@baselayer.com",
@@ -1918,6 +1922,78 @@
       "bounce_message_id": "1a0a3770409909f3",
       "bounce_reason": "550 5.1.1 Address does not exist. VPjCYevO6O4A",
       "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "careers@solvitrontech.com",
+      "company": "Solvitron Tech",
+      "status": "replied",
+      "gmail_message_id": "1a0a7ba495109550",
+      "reply_message_id": "1a14695f54872e19",
+      "contact_source": "historical_gmail_thread_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "careers@sgp-india.com",
+      "company": "SGP India",
+      "status": "replied",
+      "gmail_message_id": "1a0c17bf9715e049",
+      "reply_message_id": "1a0ebd6450346f10",
+      "contact_source": "historical_gmail_thread_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "talent@vapi.ai",
+      "company": "Vapi",
+      "status": "replied",
+      "gmail_message_id": "1a0ddd9f5d559383",
+      "reply_message_id": "1a0de6af720d8641",
+      "contact_source": "historical_gmail_thread_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "hr@inventcolabs.com",
+      "company": "InventColabs",
+      "status": "replied",
+      "gmail_message_id": "1a0cbc9071df7146",
+      "reply_message_id": "1a0d718991d743ea",
+      "contact_source": "historical_gmail_thread_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "hr@jusbid.in",
+      "company": "Jusbid",
+      "status": "replied",
+      "gmail_message_id": "1a0bc5302bb91a26",
+      "reply_message_id": "1a0c36ee8cbe7029",
+      "contact_source": "historical_gmail_thread_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "bhavana@techjays.com",
+      "company": "Techjays",
+      "status": "replied",
+      "gmail_message_id": "1a0b72ba593a45fc",
+      "reply_message_id": "1a0c2791fe1261d1",
+      "contact_source": "historical_gmail_thread_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "career@orbisystechnology.com",
+      "company": "Orbisys Technology",
+      "status": "replied",
+      "gmail_message_id": "1a0b72c5058a1f67",
+      "reply_message_id": "1a0b9bb7d5be9b46",
+      "contact_source": "historical_gmail_thread_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "arbazk@opexil.com",
+      "company": "Opexil",
+      "status": "replied",
+      "gmail_message_id": "1a0b72bd2289ab92",
+      "reply_message_id": "1a0b90c60f6f4e58",
+      "contact_source": "historical_gmail_thread_reconciliation",
       "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
     }
   ],
