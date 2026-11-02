@@ -59,7 +59,8 @@
       "company": "Ema",
       "role": "Forward Deployed Builder — India Remote",
       "role_url": "https://jobs.ashbyhq.com/ema/8e8544c8-95ff-460b-a73b-aa029fb12bdb",
-      "finding": "Silicon Valley HQ and India remote confirmed; no exact public hiring mailbox, role also customer-facing. Held."
+      "finding": "Silicon Valley HQ and India remote confirmed; no exact public hiring mailbox, role also customer-facing. Held. Employer's current careers page does not list this specific role; status needs_freshness_review.",
+      "employer_careers_url": "https://www.ema.ai/careers"
     },
     {
       "company": "SingleStore",
@@ -96,8 +97,8 @@
   "optouts_this_batch": 0,
   "unknown_delivery_this_batch": 0,
   "followups_sent": 0,
-  "queue_checkpoint_commit": "2d766d41e9e979ec09709af2b1b492684f72297d",
-  "queue_checkpoint_blob_sha": "5867e79ff4a373ccec55ca9f595972f81125e4db",
+  "queue_checkpoint_commit": "5a05f5d31ac02d7512e6757ea41fb14156c06094",
+  "queue_checkpoint_blob_sha": "e5d73817845312a2516a0747e5b51aa7e9ee499e",
   "no_sends_reason": "No verified eligible unsent contacts after expanded official/ATS/HN research. Did not relax requirements or retry uncertain delivery.",
   "carry_forward": "158 FIFO records; 0 verified ready; 14:00 independent cap 2; daily hard cap 30; no catch-up."
 }
