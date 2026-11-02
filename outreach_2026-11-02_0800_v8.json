@@ -1,0 +1,108 @@
+{
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "date_ist": "2026-11-02",
+  "batch_at_ist": "08:00",
+  "observed_ist": "2026-11-02T08:06:27.245+05:30",
+  "status": "completed_zero_sends_quality_gates_preserved",
+  "batch_cap": 7,
+  "send_attempts": 0,
+  "gmail_sent_confirmed_batch": 0,
+  "confirmed_sent_message_ids": [],
+  "batch_shortfall": 7,
+  "daily_hard_cap": 30,
+  "daily_confirmed_unique_new_contacts": 0,
+  "remaining_daily_quota": 30,
+  "candidate_pool_start": 149,
+  "candidate_pool_end": 153,
+  "new_found": 4,
+  "verified_ready_start": 0,
+  "verified_ready_end": 0,
+  "initial_ready_target": 45,
+  "reserve_target": 15,
+  "ready_pool_shortfall": 45,
+  "lead_store": "2BBs_doubt.json",
+  "old_queue": "outreach_queue.json (historical only)",
+  "reconciliation": {
+    "morning_audit": "outreach_2026-11-02_0630_v8.json",
+    "morning_gmail_sent_since_2026_09_01_inspected": 287,
+    "morning_gmail_inbox_since_2026_09_01_scanned": 946,
+    "nov2_sent_search_count": 0,
+    "nov1_sent_reconfirmed_count": 2,
+    "new_dsn_found_since_nov1": 0,
+    "new_opt_outs_found_since_nov1": 0,
+    "exact_candidate_sent_checks": 4,
+    "exact_candidate_sent_hits": 0,
+    "historical_suppression_ledger_count": 153,
+    "applications_count": 49,
+    "full_historical_threads_reread_this_batch": false,
+    "notes": "Relied on completed 06:30 full-history reconciliation; rechecked recent Gmail Sent, inbox, DSN and exact newly researched addresses. Gmail Sent remains permanent suppression. No outbound attempts."
+  },
+  "research": [
+    {
+      "company": "ADEL",
+      "role": "Forward Deployed Engineer (Mid-Level) — India Remote",
+      "role_url": "https://www.weareadel.ai/careers/forward-deployed-engineer-mid-level-india-remote",
+      "finding": "Current role, exact official careers mailbox and India eligibility verified; company lists global network locations but no independently established qualifying legal HQ. Held unverified."
+    },
+    {
+      "company": "Bullwhip",
+      "role": "AI-Native Fullstack SDE — India Remote",
+      "role_url": "https://wellfound.com/jobs/4230970-ai-native-fullstack-sde",
+      "finding": "New York and India engineering presence, talent mailbox on official careers; engineering vacancy absent from current official careers page, and older listing asks for resume. Held freshness/attachment."
+    },
+    {
+      "company": "PeopleGrove",
+      "role": "Full-Stack NodeJS Software Engineer — India Remote",
+      "role_url": "https://www.codingjobboard.com/job/full-stack-nodejs-software-engineer-at-peoplegrove-remote/11288",
+      "finding": "US HQ and historic India-remote role verified; archived posting indicates closed September 3; official current job not verified, accommodation mailbox not suitable for applications. Held."
+    },
+    {
+      "company": "Ternuvo AI",
+      "role": "AI Engineer — India Remote",
+      "role_url": "https://ternuvoai.com/careers",
+      "finding": "Role and email on official careers; HQ missing, homepage contradicts careers about mailbox readiness. Held unverified."
+    },
+    {
+      "company": "Fluid AI",
+      "role": "Python AI Engineer — India Remote",
+      "role_url": "https://fluid.ai/careers/python-ai-engineer-autonomous-agents",
+      "finding": "Excluded: official company careers explicitly states Mumbai, India HQ."
+    },
+    {
+      "company": "SecurityAudit360",
+      "role": "Full Stack Engineer (Security Platform) — India Remote",
+      "role_url": "https://athen360.com/careers/full-stack-engineer-security-platform",
+      "finding": "Excluded: official contact office Bangalore, India; not qualifying HQ."
+    }
+  ],
+  "source_failures": [
+    {
+      "url": "https://www.peoplegrove.com/careers",
+      "reason": "Direct careers URL inaccessible via web search; archived role evidence indicates expiry."
+    }
+  ],
+  "failures": [
+    {
+      "type": "verified_contact_shortage",
+      "detail": "Zero candidates pass exact current role, permitted HQ, explicit India-resident eligibility, appropriate exact public hiring mailbox, and fit/application constraints simultaneously."
+    },
+    {
+      "type": "resume_attachment_blocked",
+      "detail": "Prior BLOCKED_FILE_REFERENCE remains unresolved; no new attempt, no incomplete formal application."
+    }
+  ],
+  "known_bounces_this_batch": 0,
+  "optouts_this_batch": 0,
+  "unknown_delivery_this_batch": 0,
+  "followups_sent": 0,
+  "queue_checkpoint_commit": "de0d8c69bcbc74524808e2fad2800a176c1407db",
+  "queue_checkpoint_blob_sha": "141acceccbd0de5aa6875bd1057c7d764e83a116",
+  "no_sends_reason": "No verified-ready unused eligible contacts. Expanded official and ATS discovery without relaxing gates; no missed batch capacity carried forward.",
+  "self_healing_result": "Replenishment research added four held candidates; no send-ready leads found, no attachment repair claimed.",
+  "carry_forward": "Preserve 153 FIFO records; independent 10:00 batch cap seven, daily cap thirty. Revalidate and discover further before any send."
+}
