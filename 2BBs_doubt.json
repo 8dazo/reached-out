@@ -3185,16 +3185,17 @@
       "hq_evidence_url": "https://jobs.ashbyhq.com/ema/8e8544c8-95ff-460b-a73b-aa029fb12bdb",
       "eligibility_evidence": "Official Ashby: India - remote, full time; enterprise agentic AI deployment and customer problem solving.",
       "eligibility_url": "https://jobs.ashbyhq.com/ema/8e8544c8-95ff-460b-a73b-aa029fb12bdb",
-      "verification": "official_live_role_hq_and_india_eligibility_but_no_exact_recruiting_email",
+      "verification": "official_ashby_indexed_role_not_on_current_employer_careers_page",
       "email": null,
       "email_evidence_url": null,
       "fit_score": 81,
-      "status": "unverified",
-      "notes": "Agent/backend delivery match, but role requires substantial customer-facing interaction; user prefers developer-only role. No exact role-appropriate public hiring mailbox, official form only. Do not send.",
+      "status": "needs_freshness_review",
+      "notes": "Agent/backend delivery match, but role requires substantial customer-facing interaction; user prefers developer-only role. No exact role-appropriate public hiring mailbox, official form only. Do not send. | Follow-up source check 2026-11-02: Ema official careers https://www.ema.ai/careers does NOT list Forward Deployed Builder among current openings, despite indexed Ashby page. Must confirm vacancy is open before outreach. No send.",
       "source_type": "official_ats",
       "queue_position": 158,
       "discovered_at": "2026-11-02",
-      "observed_at": "2026-11-02T12:05:32+05:30"
+      "observed_at": "2026-11-02T12:05:32+05:30",
+      "last_checked_at": "2026-11-02T12:05:32+05:30"
     }
   ],
   "updated_at": "2026-11-02T12:05:32+05:30"
