@@ -2987,7 +2987,7 @@
       "company_hq": "Unverified; similarly named entities in US, UK and India not attributable to thunderclap.com",
       "role": "Full-Stack Engineer (Next.js / TypeScript)",
       "role_url": "https://thunderclap.com/careers/",
-      "hq_evidence_url": "https://thunderclap.com/aboutus/",
+      "hq_evidence_url": "https://thunderclap.com/careers/",
       "eligibility_evidence": "Official careers: Remote · Worldwide, full-time, async with some European overlap",
       "eligibility_url": "https://thunderclap.com/careers/",
       "email": "careers@thunderclap.com",
@@ -2995,10 +2995,11 @@
       "verification": "official_exact_hiring_email_and_global_eligibility_hq_unverified",
       "fit_score": 88,
       "status": "unverified",
-      "notes": "Excellent Next.js/React/TS/SEO/performance fit; official role allows portfolio link in lieu of CV. Must establish qualifying non-India HQ and entity before send; same-name unrelated Indian/UK companies are not proof.",
+      "notes": "Excellent Next.js/React/TS/SEO/performance fit; official role allows portfolio link in lieu of CV. Must establish qualifying non-India HQ and entity before send; same-name unrelated Indian/UK companies are not proof. | 2026-11-02 10:00 recheck: Official careers still lists Next.js/TypeScript Full-Stack Engineer, worldwide remote and careers@thunderclap.com, portfolio link accepted. Footer names Thunderclap LLC / Strocil LLC and Dubai UAE address; neither establishes allowed-region HQ. Remains held.",
       "discovered_at": "2026-11-02",
       "observed_at": "2026-11-02T06:29:00+05:30",
-      "queue_position": 148
+      "queue_position": 148,
+      "last_checked_at": "2026-11-02T10:05:01+05:30"
     },
     {
       "company": "Namespace (namespacelabs.com)",
@@ -3033,10 +3034,11 @@
       "verification": "role_india_eligibility_and_exact_hiring_email_verified_hq_unverified",
       "fit_score": 90,
       "status": "unverified",
-      "notes": "Excellent agent/backend/API/infrastructure fit; DO NOT SEND until independently confirmed legal HQ is in allowed region, not India. Multiple global network locations do not prove HQ.",
+      "notes": "Excellent agent/backend/API/infrastructure fit; DO NOT SEND until independently confirmed legal HQ is in allowed region, not India. Multiple global network locations do not prove HQ. | 2026-11-02 10:00 recheck: Official about/contact list India, Europe and US expertise; director contact is +91 but no legal corporate headquarters established in allowed region. Hold.",
       "discovered_at": "2026-11-02",
       "observed_at": "2026-11-02T02:36:07.821Z",
-      "queue_position": 150
+      "queue_position": 150,
+      "last_checked_at": "2026-11-02T10:05:01+05:30"
     },
     {
       "company": "Bullwhip",
@@ -3087,14 +3089,53 @@
       "eligibility_url": "https://ternuvoai.com/careers",
       "email": "careers@ternuvoai.com",
       "email_evidence_url": "https://ternuvoai.com/careers",
-      "verification": "role_and_email_page_verified_hq_unknown_official_homepage_mailbox_setup_conflict",
+      "verification": "official_questions_mailbox_not_application_and_hq_unverified",
       "fit_score": 86,
       "status": "unverified",
-      "notes": "HQ unverified; homepage says application mailbox still being set up while careers page lists address. Treat contradictory readiness as blocker; don't send.",
+      "notes": "HQ unverified; homepage says application mailbox still being set up while careers page lists address. Treat contradictory readiness as blocker; don't send. | 2026-11-02 10:00 recheck: Official careers states careers@ternuvoai.com for QUESTIONS; actual applications use a resume-upload form. Exact mailbox is not confirmed as email application channel; HQ unknown. Hold.",
       "discovered_at": "2026-11-02",
       "observed_at": "2026-11-02T02:36:07.821Z",
-      "queue_position": 153
+      "queue_position": 153,
+      "last_checked_at": "2026-11-02T10:05:01+05:30"
+    },
+    {
+      "company": "Finn (hirefinn.ai)",
+      "company_region": "unverified",
+      "company_hq": "Not verified; official footer identifies AIforge Tech Pvt. Ltd. (India legal entity), no qualifying HQ evidence",
+      "role": "Senior Full-Stack Engineer — Voice AI",
+      "role_url": "https://www.hirefinn.ai/careers/founding-full-stack-engineer",
+      "hq_evidence_url": "https://www.hirefinn.ai/careers/founding-full-stack-engineer",
+      "eligibility_evidence": "Official role explicitly Remote (US / India), full-time, 3+ years Next.js/TypeScript production experience",
+      "eligibility_url": "https://www.hirefinn.ai/careers/founding-full-stack-engineer",
+      "email": null,
+      "email_evidence_url": "https://www.hirefinn.ai/careers/founding-full-stack-engineer",
+      "verification": "email_obfuscated_hq_unverified_and_resume_requested",
+      "fit_score": 88,
+      "status": "unverified",
+      "notes": "Role technically matches Next.js/TS ownership and LLM agents; official Apply by email is Cloudflare-obfuscated, no exact public recipient verified; asks for LinkedIn or resume, neither safely available for formal email application. Footer © AIforge Tech Pvt Ltd; qualifying HQ not established. No send.",
+      "queue_position": 154,
+      "discovered_at": "2026-11-02",
+      "observed_at": "2026-11-02T10:05:01+05:30"
+    },
+    {
+      "company": "ByteHubble",
+      "company_region": "unverified",
+      "company_hq": "Official about lists Sterling VA, USA and Hyderabad, India as dual headquarters; Indian incorporated entity exists; primary legal HQ unverified",
+      "role": "Full-Stack Engineer (Next.js + Python)",
+      "role_url": "https://www.bytehubble.ai/careers",
+      "hq_evidence_url": "https://www.bytehubble.ai/about",
+      "eligibility_evidence": "Official careers Full-Stack role Hyderabad / Remote; separate LLM/Agentic role Remote India / Global; no unambiguous non-India corporate HQ",
+      "eligibility_url": "https://www.bytehubble.ai/careers",
+      "email": "careers@bytehubble.ai",
+      "email_evidence_url": "https://www.bytehubble.ai/careers",
+      "verification": "official_role_email_but_hq_ambiguous_and_resume_required",
+      "fit_score": 78,
+      "status": "unverified",
+      "notes": "Official careers explicitly requires attached resume PDF plus CTC/location; connector BLOCKED_FILE_REFERENCE unresolved. Indian company incorporation and Hyderabad corporate HQ listed, so non-India HQ not independently established. No send.",
+      "queue_position": 155,
+      "discovered_at": "2026-11-02",
+      "observed_at": "2026-11-02T10:05:01+05:30"
     }
   ],
-  "updated_at": "2026-11-02T06:29:00+05:30"
+  "updated_at": "2026-11-02T10:05:01+05:30"
 }
