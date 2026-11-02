@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-01T10:25:33+05:30",
+  "updated_at": "2026-11-02T06:30:00+05:30",
   "contacts": [
     {
       "email": "vishnu.swaroop@aimi.technology",
@@ -67,10 +67,13 @@
       "person": "Jayanth Babu",
       "company": "Avaamo",
       "role": "Forward Deployed Engineer",
-      "status": "sent",
+      "status": "bounced",
       "sent_at": "2026-09-14",
       "gmail_message_id": "1a09e98b22dbad14",
-      "application_status": "applied_by_email"
+      "application_status": "applied_by_email",
+      "bounce_message_id": "1a0ae7ab067eec02",
+      "bounce_reason": "The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
     },
     {
       "email": "careers@pingaura.ai",
@@ -334,13 +337,16 @@
       "email": "info@frontcrewtech.com",
       "company": "FrontCrew Technologies",
       "role": "AI Engineer",
-      "status": "sent",
+      "status": "bounced",
       "sent_at": "2026-09-15",
       "gmail_message_id": "1a0a2946774effbe",
       "job_source": "https://www.frontcrewtech.com/careers/ai-engineer",
       "contact_source": "explicit current role page application email",
       "email_confidence": "explicit-public",
-      "application_status": "applied_by_email"
+      "application_status": "applied_by_email",
+      "bounce_message_id": "1a0b249005b9ea83",
+      "bounce_reason": "The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
     },
     {
       "email": "piyush@smartaudit.co",
@@ -1062,13 +1068,16 @@
       "email": "careers@shoppyji.com",
       "company": "ShoppyJi",
       "role": "Full-Stack Engineer",
-      "status": "delivery_delayed",
+      "status": "bounced",
       "sent_at": "2026-10-06",
       "gmail_message_id": "1a10f645d7bf576b",
       "contact_source": "2026-10-06 qualified outreach checkpoint",
       "delivery_delay_message_id": "1a11520bb74ca223",
       "delivery_delay_seen_at": "2026-10-07",
-      "notes": "Gmail reports temporary delivery problem and is still retrying."
+      "notes": "Gmail reports temporary delivery problem and is still retrying.",
+      "bounce_message_id": "1a11fbed354fa032",
+      "bounce_reason": "The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
     },
     {
       "email": "support@kenerateai.com",
@@ -1126,13 +1135,16 @@
       "email": "careers@paperloom.io",
       "company": "Paperloom",
       "role": "AI / ML Engineer",
-      "status": "delivery_delayed",
+      "status": "bounced",
       "sent_at": "2026-10-06",
       "gmail_message_id": "1a10f64fa424e9ad",
       "contact_source": "2026-10-06 qualified outreach checkpoint",
       "delivery_delay_message_id": "1a11508fa7be5ffc",
       "delivery_delay_seen_at": "2026-10-07",
-      "notes": "Gmail reports temporary delivery problem and is still retrying."
+      "notes": "Gmail reports temporary delivery problem and is still retrying.",
+      "bounce_message_id": "1a12006a81da1f1e",
+      "bounce_reason": "The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
     },
     {
       "email": "hello@cedel.in",
@@ -1197,7 +1209,7 @@
       "email": "info@ahlending.com",
       "company": "AHL / Saaf AI",
       "role": "Forward-Deployed AI Engineer",
-      "status": "sent",
+      "status": "bounced",
       "sent_at": "2026-10-08",
       "gmail_message_id": "1a119b6e73e1aeda",
       "company_region": "US",
@@ -1207,7 +1219,10 @@
       "contact_type": "published_company_inbox",
       "role_eligibility": "Active Remote India role on Ashby",
       "notes": "Role-specific contact inquiry only; ATS job application not submitted.",
-      "followup_1_due": "2026-10-13"
+      "followup_1_due": "2026-10-13",
+      "bounce_message_id": "1a1293219e4ea494",
+      "bounce_reason": "The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
     },
     {
       "email": "careers@wavelet-ai.com",
@@ -1733,6 +1748,177 @@
       "email_verification": "official_current_role_specific_hiring_mailbox",
       "delivery_check": "gmail_sent_confirmed_not_inbox_guarantee",
       "followup_count": 0
+    },
+    {
+      "email": "hello@hmlet.com",
+      "company": "hmlet.com",
+      "status": "bounced",
+      "bounce_message_id": "1a0d35913958e857",
+      "bounce_reason": "550 5.1.1 The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces. For more information, go to https://support.google.com/mail/?p=NoSuchUser 00721157ae682-8a4663d418esor62162107b3.9 - gsmtp",
+      "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "careers@kaarta.in",
+      "company": "kaarta.in",
+      "status": "bounced",
+      "bounce_message_id": "1a0d0ed42ee420f4",
+      "bounce_reason": "550 5.1.1 The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces. For more information, go to https://support.google.com/mail/?p=NoSuchUser 956f58d0204a3-672d6038e8bsor2264495d50.4 - gsmtp",
+      "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "careers@decisioai.in",
+      "company": "decisioai.in",
+      "status": "bounced",
+      "bounce_message_id": "1a0c17c562fd228e",
+      "bounce_reason": "550 5.1.0 Recipient not found.",
+      "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "abhinav@yarnit.app",
+      "company": "yarnit.app",
+      "status": "bounced",
+      "bounce_message_id": "1a0bc54c70a1fb05",
+      "bounce_reason": "554 5.4.14 Hop count exceeded - possible mail loop ATTR34 [PN2PEPF00000190.INDPRD01.PROD.OUTLOOK.COM 2026-09-20T01:01:07.303Z 08DF14438FA760E0]",
+      "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "careers@nextgendigitalcraft.com",
+      "company": "nextgendigitalcraft.com",
+      "status": "bounced",
+      "bounce_message_id": "1a0b3c11f1621e34",
+      "bounce_reason": "The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720",
+      "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "careers@fyord.io",
+      "company": "fyord.io",
+      "status": "bounced",
+      "bounce_message_id": "1a0b388a8addb72b",
+      "bounce_reason": "The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720",
+      "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "careers@jsmon.sh",
+      "company": "jsmon.sh",
+      "status": "bounced",
+      "bounce_message_id": "1a0b209a2b748d0e",
+      "bounce_reason": "The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces. For more information, go to https://support.google.com/mail/?p=NoSuchUser",
+      "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "careers@sparrowhost.in",
+      "company": "sparrowhost.in",
+      "status": "bounced",
+      "bounce_message_id": "1a0b209781be8f35",
+      "bounce_reason": "550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [PN1PEPF000062B9.INDPRD01.PROD.OUTLOOK.COM 2026-09-18T01:02:40.015Z 08DF145A6600A005]",
+      "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "careers@securewithtechies.com",
+      "company": "securewithtechies.com",
+      "status": "bounced",
+      "bounce_message_id": "1a0b2096ad963f19",
+      "bounce_reason": "550 5.1.1 : Recipient address rejected: User unknown in virtual mailbox table",
+      "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "careers@servsy.in",
+      "company": "servsy.in",
+      "status": "bounced",
+      "bounce_message_id": "1a0b209370f5203a",
+      "bounce_reason": "550 5.1.0 Recipient not found.",
+      "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "careers@devanlabs.com",
+      "company": "devanlabs.com",
+      "status": "bounced",
+      "bounce_message_id": "1a0ace4881a697af",
+      "bounce_reason": "550 5.1.1 : Recipient address rejected: undeliverable address: host fr-int-smtpin20.hostinger.io[private/dovecot-lmtp] said: 550 5.1.1 User doesn't exist: careers@devanlabs.com (in reply to RCPT TO command)",
+      "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "karthik.kirupanithi@gitlab.com",
+      "company": "gitlab.com",
+      "status": "bounced",
+      "bounce_message_id": "1a0a80fd7c349ba5",
+      "bounce_reason": "The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces. For more information, go to https://support.google.com/mail/?p=NoSuchUser",
+      "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "careers@saaya.ai",
+      "company": "saaya.ai",
+      "status": "bounced",
+      "bounce_message_id": "1a0a7ba3cda3971a",
+      "bounce_reason": "550 5.1.1 The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces. For more information, go to https://support.google.com/mail/?p=NoSuchUser 00721157ae682-891ed41966fsor6240577b3.5 - gsmtp",
+      "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "contact@flyhii.in",
+      "company": "flyhii.in",
+      "status": "bounced",
+      "bounce_message_id": "1a0a7ba1df902ddd",
+      "bounce_reason": "550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [MA1PEPF000072B3.INDPRD01.PROD.OUTLOOK.COM 2026-09-16T00:59:46.679Z 08DF103F794AFA6D]",
+      "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "info@sharonaiinfotech.com",
+      "company": "sharonaiinfotech.com",
+      "status": "bounced",
+      "bounce_message_id": "1a0a7b9fe0c909d6",
+      "bounce_reason": "DNS Error: DNS type 'mx' lookup of sharonaiinfotech.com responded with code NXDOMAIN",
+      "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "careers@electricpe.com",
+      "company": "electricpe.com",
+      "status": "bounced",
+      "bounce_message_id": "1a0a7b9728f46a97",
+      "bounce_reason": "550 5.1.1 The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces. For more information, go to https://support.google.com/mail/?p=NoSuchUser 00721157ae682-891ee4acb80sor4936437b3.4 - gsmtp",
+      "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "careers@webuildtech.in",
+      "company": "webuildtech.in",
+      "status": "bounced",
+      "bounce_message_id": "1a0a7b9616497e8b",
+      "bounce_reason": "The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces. For more information, go to https://support.google.com/mail/?p=NoSuchUser",
+      "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "careers@hibilter.com",
+      "company": "hibilter.com",
+      "status": "bounced",
+      "bounce_message_id": "1a0a3774bebfbe96",
+      "bounce_reason": "550 5.1.1 : Recipient address rejected: undeliverable address: host fr-int-smtpin14.hostinger.io[private/dovecot-lmtp] said: 550 5.1.1 User doesn't exist: careers@hibilter.com (in reply to RCPT TO command)",
+      "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
+    },
+    {
+      "email": "careers@pebb.dev",
+      "company": "pebb.dev",
+      "status": "bounced",
+      "bounce_message_id": "1a0a3770409909f3",
+      "bounce_reason": "550 5.1.1 Address does not exist. VPjCYevO6O4A",
+      "contact_source": "historical_gmail_dsn_reconciliation",
+      "delivery_reconciled_at": "2026-11-02T06:30:00+05:30"
     }
   ],
   "policy_effective_date": "2026-10-09",
