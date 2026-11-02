@@ -1,0 +1,155 @@
+{
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "date_ist": "2026-11-02",
+  "batch_at_ist": "14:00",
+  "observed_ist": "2026-11-02T14:09:44+05:30",
+  "status": "completed_zero_sends_quality_gates_preserved_final_daily_reconciliation",
+  "batch_cap": 2,
+  "send_attempts": 0,
+  "gmail_sent_confirmed_batch": 0,
+  "confirmed_sent_message_ids": [],
+  "batch_shortfall": 2,
+  "daily_hard_cap": 30,
+  "daily_confirmed_unique_new_contacts": 0,
+  "remaining_daily_quota": 30,
+  "daily_shortfall": 30,
+  "batches_ist": [
+    {
+      "at": "06:30",
+      "cap": 7,
+      "confirmed": 0,
+      "audit": "outreach_2026-11-02_0630_v8.json"
+    },
+    {
+      "at": "08:00",
+      "cap": 7,
+      "confirmed": 0,
+      "audit": "outreach_2026-11-02_0800_v8.json"
+    },
+    {
+      "at": "10:00",
+      "cap": 7,
+      "confirmed": 0,
+      "audit": "outreach_2026-11-02_1000_v8.json"
+    },
+    {
+      "at": "12:00",
+      "cap": 7,
+      "confirmed": 0,
+      "audit": "outreach_2026-11-02_1200_v8.json"
+    },
+    {
+      "at": "14:00",
+      "cap": 2,
+      "confirmed": 0,
+      "audit": "outreach_2026-11-02_1400_v8.json"
+    }
+  ],
+  "candidate_pool_start": 158,
+  "candidate_pool_end": 160,
+  "new_found": 2,
+  "verified_ready_start": 0,
+  "verified_ready_end": 0,
+  "initial_ready_target": 45,
+  "ready_pool_shortfall": 45,
+  "ready_pool_reserve_shortfall": 15,
+  "reconciliation": {
+    "morning_audit": "outreach_2026-11-02_0630_v8.json",
+    "gmail_sent_since_2026_09_01_messages_inspected_at_morning": 287,
+    "gmail_inbox_since_2026_09_01_messages_scanned_at_morning": 946,
+    "gmail_sent_since_nov1_rechecked_at_1400": 2,
+    "nov2_ist_sent_confirmed": 0,
+    "nov1_sent_messages_reconfirmed": [
+      "1a195767f9c66c2d",
+      "1a194f18798a42fc"
+    ],
+    "new_dsn_since_nov1": 0,
+    "new_optouts_since_nov1": 0,
+    "recent_inbox_messages_reviewed": 7,
+    "recent_optout_keyword_search": "No attributable recruiting opt-out; keyword hits were unrelated newsletters/automated mail.",
+    "historical_bounce_ledger_corrections_at_morning": 5,
+    "historical_bounced_contacts_added_at_morning": 19,
+    "historical_reply_ledger_corrections_at_morning": 2,
+    "historical_replied_contacts_added_at_morning": 8,
+    "historical_unknown_delivery_quarantined": "hr@dotcoai.com",
+    "full_historical_threads_reread_this_batch": false,
+    "notes": "Relied on morning broad historical reconciliation and separately rechecked all recent Sent, inbox, DSN and opt-out searches; no new sends, so no per-recipient thread transaction was initiated. No evidence of a new 2026-11-02 outbound message."
+  },
+  "research": [
+    {
+      "company": "Netomi",
+      "role": "Agentic Engineer Level II/III",
+      "role_url": "https://jobs.lever.co/netomi?workplaceType=remote",
+      "hq_url": "https://www.employbl.com/jobs/agentic-engineer-level-iiiii-netomi-1680271",
+      "finding": "Official ATS confirms Remote India and US HQ; 4–7 YOE required vs user approximately 3 including internships, and no current exact role-appropriate public mailbox verified. Added FIFO needs_fit_review; not ready."
+    },
+    {
+      "company": "The Humanoid Group (THG)",
+      "role": "Senior Frontend Engineer",
+      "role_url": "https://thehumanoidgroup.com/careers",
+      "hq_url": "https://thehumanoidgroup.com/legal",
+      "finding": "Official employer careers explicitly mentions India/global teams and publishes careers@thehumanoidgroup.com, but incorporation/HQ country not disclosed. Do not confuse with distinct UK firm thehumanoid.ai. Added FIFO unverified; not ready."
+    },
+    {
+      "company": "Toku",
+      "role": "Applied AI Engineer — LLM & NLP",
+      "role_url": "https://careers.toku.co/o/applied-ai-engineer-llm-nlp-1",
+      "finding": "Singapore HQ verified; location selector lists Bangalore but actual job description limits base to Rotterdam, Singapore or Hong Kong and asks about relocation/visa. Not eligible as verified India-remote, and model training depth exceeds profile; excluded from send-ready."
+    },
+    {
+      "company": "Superwaba",
+      "role": "Senior Full-Stack Engineer",
+      "role_url": "https://www.superwaba.com/careers",
+      "hq_url": "https://www.superwaba.com/terms",
+      "finding": "Official careers says work anywhere, but terms identify operator Cloudzies Technologies LLP as registered in India. Excluded India HQ."
+    },
+    {
+      "company": "Hasamex",
+      "role": "AI Engineer/Gen AI Engineer",
+      "role_url": "https://www.hasamex.com/",
+      "finding": "Singapore HQ indicated in third-party profiles but no current official job page; former job listing marked no longer accepting applications. Not added to ready pool; no LinkedIn-dependent send."
+    }
+  ],
+  "quality_gate_rejections": [
+    "no_exact_public_role_appropriate_hiring_email",
+    "HQ_unverified",
+    "current_role_unverified_or_closed",
+    "India_eligibility_conflict",
+    "experience_mismatch",
+    "India_HQ_excluded"
+  ],
+  "source_failures": [],
+  "connector_failures": [],
+  "failures": [
+    {
+      "type": "verified_contact_shortage",
+      "detail": "Zero FIFO or researched contacts passed simultaneous HQ, explicit India-resident eligibility, current role, fit, exact appropriate public mailbox and application channel gates."
+    },
+    {
+      "type": "resume_attachment_blocked",
+      "detail": "Prior Gmail BLOCKED_FILE_REFERENCE remains unresolved. No unsafe retry; no formal CV-required application sent."
+    }
+  ],
+  "known_bounces_this_batch": 0,
+  "optouts_this_batch": 0,
+  "unknown_delivery_this_batch": 0,
+  "followups_sent": 0,
+  "daily_known_bounces_new": 0,
+  "daily_optouts_new": 0,
+  "daily_unknown_new": 0,
+  "problems_auto_recovered_this_batch": 0,
+  "unresolved_blockers": [
+    "zero verified-ready leads",
+    "resume attachment inaccessible",
+    "one historical unknown-delivery quarantined"
+  ],
+  "queue_checkpoint_commit": "f47c9e3a72feaabf38c007e2ea6f7bf648c3ba03",
+  "queue_checkpoint_blob_sha": "ff249c79a1b02626a22ad06a845b37f1ebe8309f",
+  "no_sends_reason": "No qualified verified unused contacts despite additional official career/ATS discovery. No cap compensation or unsafe retry.",
+  "carry_forward": "160 FIFO records, 0 verified ready, 1 historical unknown delivery quarantined. Future batches require fresh qualification; daily quota resets only on a new India day."
+}
