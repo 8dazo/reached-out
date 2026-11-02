@@ -1,0 +1,128 @@
+{
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "date_ist": "2026-11-02",
+  "batch_at_ist": "06:30",
+  "observed_ist": "2026-11-02T06:32:06+05:30",
+  "status": "completed_zero_sends_quality_gates_preserved",
+  "batch_cap": 7,
+  "send_attempts": 0,
+  "gmail_sent_confirmed_batch": 0,
+  "confirmed_sent_message_ids": [],
+  "batch_shortfall": 7,
+  "daily_hard_cap": 30,
+  "daily_confirmed_unique_new_contacts": 0,
+  "remaining_daily_quota": 30,
+  "candidate_pool_start": 146,
+  "candidate_pool_end": 149,
+  "new_found": 3,
+  "verified_ready_start": 0,
+  "verified_ready_end": 0,
+  "initial_ready_target": 45,
+  "reserve_target": 15,
+  "ready_pool_shortfall": 45,
+  "lead_store": "2BBs_doubt.json",
+  "historical_suppression": [
+    "reached_out.json",
+    "applications.json",
+    "Gmail Sent"
+  ],
+  "old_queue": "outreach_queue.json (historical only)",
+  "reconciliation": {
+    "gmail_sent_since_2026_09_01_messages_inspected": 287,
+    "gmail_sent_unique_recipients_observed": 250,
+    "gmail_inbox_since_2026_09_01_messages_scanned": 946,
+    "delivery_status_notifications_read": 50,
+    "final_delivery_failures_seen": 36,
+    "non_dsn_inbound_thread_responses_seen": 19,
+    "historical_bounces_existing_ledger_corrected": 5,
+    "historical_bounces_added_to_suppression_ledger": 19,
+    "unparsed_group_failure_requires_manual_review": 1,
+    "historical_replies_existing_ledger_corrected": 2,
+    "historical_replied_contacts_added_to_suppression_ledger": 8,
+    "gmail_sent_today_ist": 0,
+    "new_bounces_today": 0,
+    "new_opt_outs_today": 0,
+    "unknown_delivery_new": 0,
+    "unknown_delivery_historical": 1,
+    "historical_unknown_delivery": "hr@dotcoai.com remains quarantined: no matching Gmail Sent or received found; no automatic retry.",
+    "notes": "Gmail Sent is authoritative for all historical recipients, including emails absent from GitHub. Historical DSNs and replies were reconciled into permanent ledger. Full text of every historical thread was not reread, but inbox-to-Sent thread IDs and final DSNs were cross-checked."
+  },
+  "research": [
+    {
+      "company": "Service Robot Co.",
+      "role": "AI-Native Full-Stack Engineer",
+      "url": "https://servicerobotco.com/careers/ai-native-full-stack-engineer",
+      "finding": "Official India-remote full-stack role and exact careers@ contact; disqualified as duplicate because Gmail Sent on 2026-09-17 to hiring@servicerobotco.com, ID 1a0ace3303edebbb; permanent ledger already has it."
+    },
+    {
+      "company": "SwanTech AI",
+      "role": "Full Stack Software Engineer",
+      "url": "https://swantech.ai/jobs/full-stack-software-engineer.html",
+      "finding": "US San Jose and India remote verified; 4+ years experience and no exact public recruiting mailbox (info@ general). Preserved as needs_fit_review."
+    },
+    {
+      "company": "Thunderclap (thunderclap.com)",
+      "role": "Full-Stack Engineer (Next.js / TypeScript)",
+      "url": "https://thunderclap.com/careers/",
+      "finding": "Official worldwide remote, role and careers@ email verified; qualifying corporate HQ not attributable to this domain. Held unverified."
+    },
+    {
+      "company": "Namespace",
+      "role": "Product Engineer",
+      "url": "https://namespace.so/careers",
+      "finding": "Official role geography restricted to US, Switzerland, Germany, UK; India-resident eligibility absent. Marked disqualified."
+    },
+    {
+      "company": "AnyPlace",
+      "url": "https://www.anyplacehub.com/locations/",
+      "finding": "India-HQ Hisar, Haryana; excluded despite India-remote roles."
+    },
+    {
+      "company": "JobOptix",
+      "url": "https://joboptix-web.pages.dev/contact",
+      "finding": "Registered office Bengaluru, India; excluded."
+    },
+    {
+      "company": "CreloAI",
+      "url": "https://creloai.com/careers",
+      "finding": "Already contacted contact@creloai.com (Gmail 1a0e5a8f06b45856); suppressed."
+    },
+    {
+      "company": "Porter",
+      "url": "https://www.ycombinator.com/companies/porter/jobs/Fc0Rzny-devops-support-engineer",
+      "finding": "Kubernetes support role with East Coast hours and resume email; India-resident eligibility not explicit, experience mismatch; held."
+    }
+  ],
+  "source_failures": [],
+  "failures": [
+    {
+      "type": "verified_contact_shortage",
+      "detail": "No current candidate satisfies all of qualifying HQ, explicit India-resident hiring, exact appropriate public recruiting mailbox, role fit, and application requirements."
+    },
+    {
+      "type": "resume_attachment_blocked",
+      "detail": "Prior BLOCKED_FILE_REFERENCE unresolved; no new attachment attempt or unsafe retry."
+    }
+  ],
+  "checkpoint_commits": {
+    "fifo_queue": "f34e2c1c4cb9cdd9e5a6a120b06f645365685a71",
+    "historical_bounce_reconciliation": "7c1270e486fe8daa5d080a58efc3dd5cc5cbe710",
+    "historical_reply_reconciliation": "2d08fd7c9c49c43e4f6865f275b5948e9295e1a9"
+  },
+  "checkpoint_blobs": {
+    "fifo_queue": "0eedccfd65197d25342a75a327999e5ac8255a60",
+    "permanent_ledger": "a653e0c76c72f4d69e519490fdaf9453e0d3017a"
+  },
+  "followups_sent": 0,
+  "known_bounces_this_batch": 0,
+  "optouts_this_batch": 0,
+  "unknown_delivery_this_batch": 0,
+  "no_sends_reason": "Zero verified-ready unsent leads; no contact eligibility, mailbox verification, or experience gates relaxed. Morning slot 7 unused; do not roll forward.",
+  "self_healing_result": "Historical suppression repaired and discovery expanded; no verified-ready lead or resume attachment recovery. No self-repair of unresolved blocker claimed.",
+  "carry_forward": "Preserve 149 FIFO entries; next independent 08:00 slot may send at most 7 if qualified leads become available and must recheck all ledgers/Gmail before each recipient."
+}
