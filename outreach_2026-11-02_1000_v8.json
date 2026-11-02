@@ -1,0 +1,109 @@
+{
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "date_ist": "2026-11-02",
+  "batch_at_ist": "10:00",
+  "observed_ist": "2026-11-02T10:05:01+05:30",
+  "status": "completed_zero_sends_quality_gates_preserved",
+  "batch_cap": 7,
+  "send_attempts": 0,
+  "gmail_sent_confirmed_batch": 0,
+  "confirmed_sent_message_ids": [],
+  "batch_shortfall": 7,
+  "daily_hard_cap": 30,
+  "daily_confirmed_unique_new_contacts": 0,
+  "remaining_daily_quota": 30,
+  "candidate_pool_start": 153,
+  "candidate_pool_end": 155,
+  "new_found": 2,
+  "existing_revalidated": 3,
+  "verified_ready_start": 0,
+  "verified_ready_end": 0,
+  "initial_ready_target": 45,
+  "ready_pool_shortfall": 45,
+  "reconciliation": {
+    "morning_audit": "outreach_2026-11-02_0630_v8.json",
+    "previous_batch": "outreach_2026-11-02_0800_v8.json",
+    "nov2_sent_confirmed": 0,
+    "nov1_sent_messages_seen": [
+      "1a195767f9c66c2d",
+      "1a194f18798a42fc"
+    ],
+    "exact_candidate_sent_checks": [
+      "careers@thunderclap.com",
+      "careers@weareadel.ai",
+      "careers@ternuvoai.com"
+    ],
+    "exact_candidate_sent_hits": 0,
+    "nov2_new_dsn_found": 0,
+    "nov2_new_optouts_found": 0,
+    "full_historical_threads_reread_this_batch": false,
+    "notes": "Relied on 06:30 full-history reconciliation and rechecked all recent Gmail Sent and exact three recipients. Search for recent DSNs returned none. No sends attempted; no durable ledger changes needed."
+  },
+  "research": [
+    {
+      "company": "Thunderclap",
+      "role": "Full-Stack Engineer (Next.js/TypeScript)",
+      "role_url": "https://thunderclap.com/careers/",
+      "finding": "Official role and careers@thunderclap.com with worldwide eligibility verified. Official footer shows Dubai UAE business address and Strocil LLC, no independently confirmed qualifying HQ. Held."
+    },
+    {
+      "company": "ADEL",
+      "role": "Forward Deployed Engineer India Remote",
+      "role_url": "https://www.weareadel.ai/careers/forward-deployed-engineer-mid-level-india-remote",
+      "finding": "Role and exact mailbox documented, but official About gives distributed India/Europe/US presence without legal HQ. Held."
+    },
+    {
+      "company": "Ternuvo AI",
+      "role": "AI Engineer India Remote",
+      "role_url": "https://ternuvoai.com/careers",
+      "finding": "Careers@ mailbox is listed for questions while formal application uses resume-upload form; qualifying HQ not established. Held."
+    },
+    {
+      "company": "Finn",
+      "role": "Senior Full-Stack Engineer",
+      "role_url": "https://www.hirefinn.ai/careers/founding-full-stack-engineer",
+      "finding": "Current US/India remote role and 3+ years fit; Apply-by-email address Cloudflare-obfuscated, resume/LinkedIn requested, footer identifies India private limited company; allowed HQ not verified. Held."
+    },
+    {
+      "company": "ByteHubble",
+      "role": "Full-Stack Engineer Next.js/Python",
+      "role_url": "https://www.bytehubble.ai/careers",
+      "finding": "Exact careers mailbox and remote role, but mandatory resume PDF and official dual US/India HQ with Indian incorporation. Held."
+    },
+    {
+      "company": "Sofueled",
+      "role": "Full-Stack Engineer AI-Native Development",
+      "role_url": "https://flexstack.online/job/full-stack-engineer-ai-native-development",
+      "finding": "Excluded: India-headquartered Sofueled Media Private Limited; listing also requires resume and offers ₹4.2–6 LPA."
+    }
+  ],
+  "source_failures": [
+    {
+      "url": "https://www.hirefinn.ai/careers/founding-full-stack-engineer",
+      "reason": "Cloudflare-obfuscated apply-by-email address could not be recovered as an exact publicly verified recipient; no bypass attempted."
+    }
+  ],
+  "failures": [
+    {
+      "type": "verified_contact_shortage",
+      "detail": "Zero FIFO or new leads pass all HQ, India eligibility, role freshness, exact recipient, fit and application-channel checks."
+    },
+    {
+      "type": "resume_attachment_blocked",
+      "detail": "Prior Gmail BLOCKED_FILE_REFERENCE persists; no retry; no formal CV-required application sent."
+    }
+  ],
+  "known_bounces_this_batch": 0,
+  "optouts_this_batch": 0,
+  "unknown_delivery_this_batch": 0,
+  "followups_sent": 0,
+  "queue_checkpoint_commit": "017bacc869c3f1e3541e8ed74faa6ebf47e91111",
+  "queue_checkpoint_blob_sha": "e05d6d9f2ea48117319a30080b3afcb82b2ceff6",
+  "no_sends_reason": "No verified eligible unsent contacts; expanded official-source research but did not relax requirements.",
+  "carry_forward": "155 FIFO records, zero verified-ready; 12:00 cap seven, 14:00 cap two, daily cap thirty. Do not carry forward missed slots."
+}
