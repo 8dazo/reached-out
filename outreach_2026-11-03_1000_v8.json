@@ -1,0 +1,38 @@
+{
+  "protocol": "OUTREACH_V7.md + SELF_HEALING_V8.md",
+  "date_ist": "2026-11-03",
+  "batch": "10:00",
+  "checked_at_ist": "2026-11-03T10:04:16+05:30",
+  "intended_count": 7,
+  "confirmed_sent": 0,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "daily_confirmed_sent_observed": 0,
+  "remaining_daily_cap": 30,
+  "candidate_pool_start": 161,
+  "candidate_pool_end": 161,
+  "verified_ready": 0,
+  "new_found": 0,
+  "shortfall": 7,
+  "readiness_target_shortfall": 45,
+  "queue_modified": false,
+  "observations": [
+    "Fetched latest authoritative protocols, quality policy, config, candidate queue, reached_out and applications ledgers.",
+    "FIFO statuses: zero verified_ready; no outbound attempt was safe.",
+    "Gmail Sent query after 2026-11-02 returned zero messages; full historical thread audit not repeated.",
+    "Official ATS research surfaced India-remote roles at Certa, CSC Generation, and Pragmatike, but no exact publicly verified hiring mailbox; not promoted to verified_ready."
+  ],
+  "source_urls": [
+    "https://jobs.ashbyhq.com/certa/da4d5879-d94d-4f8c-ada4-24bd955520e3",
+    "https://jobs.lever.co/cscgeneration-2/d0df490d-99cd-4795-98aa-65ec290e95e0",
+    "https://jobs.ashbyhq.com/pragmatike/a4cac55a-bb8b-467c-8063-aadc5dc4a341"
+  ],
+  "blockers": [
+    "No verified-ready FIFO contact",
+    "No new researched role with confirmed exact hiring mailbox",
+    "Full historical Gmail reconciliation not repeated"
+  ],
+  "known_bounces_new": 0,
+  "unknown_delivery_new": 0,
+  "followups_sent": 0
+}
