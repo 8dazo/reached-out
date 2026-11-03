@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-03",
+  "batch": "14:00",
+  "timezone": "Asia/Kolkata",
+  "intended_count": 2,
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "candidate_pool_start": 161,
+  "candidate_pool_end": 161,
+  "verified_ready": 0,
+  "new_found": 0,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "known_bounces_new": 0,
+  "unknown_delivery_new": 0,
+  "shortfall": 2,
+  "remaining_daily_quota": 30,
+  "discovery_review": [
+    {
+      "company": "FirstWork",
+      "role_url": "https://jobs.ashbyhq.com/firstwork/75ed42df-9999-4cf1-a610-45133fe4df0e/",
+      "reason": "Official India-remote engineering vacancy; already researched earlier; no exact publicly verified hiring mailbox."
+    },
+    {
+      "company": "Deductive AI",
+      "role_url": "https://jobs.ashbyhq.com/deductive/124b540e-f84f-46d5-9752-f151361b8223",
+      "reason": "Official India-remote FDE role; exact recruiting email not verified."
+    },
+    {
+      "company": "ElevenLabs",
+      "role_url": "https://jobs.ashbyhq.com/elevenlabs/c25e27d5-71ff-4763-ae7b-137d0c252efa",
+      "reason": "Official India-remote FDE role; exact recruiting email not verified."
+    },
+    {
+      "company": "Sardine",
+      "role_url": "https://jobs.ashbyhq.com/sardine/2524d206-42cb-4202-8d85-59e47c72d704",
+      "reason": "India remote restricted to listed cities; residence eligibility not independently established; no exact recruiting email."
+    }
+  ],
+  "gmail_reconciliation": {
+    "sent_query": "in:sent after:2026/11/02 before:2026/11/05",
+    "results": 0,
+    "scope": "Date-scoped Gmail Sent only; not exhaustive historical threads",
+    "failure_query": "newer_than:7d (mailer-daemon OR delivery failure OR unsubscribe OR opt out)",
+    "new_attributable_bounces": 0
+  },
+  "daily_summary": {
+    "scheduled_maxima": {
+      "06:30": 7,
+      "08:00": 7,
+      "10:00": 7,
+      "12:00": 7,
+      "14:00": 2
+    },
+    "confirmed_new_sends": 0,
+    "goal": 30,
+    "shortfall": 30,
+    "ready_for_tomorrow": 0,
+    "fifo_total": 161,
+    "known_unresolved": [
+      "No verified eligible exact hiring mailbox",
+      "Resume attachment blocked for formal applications",
+      "Historical unknown delivery remains quarantined",
+      "Exhaustive historical Gmail/thread reconciliation not repeated"
+    ]
+  },
+  "notes": "No Gmail send attempted; no claim of self-repair. Existing FIFO and suppression unchanged. Earlier batch audits report zero sends."
+}
