@@ -3234,6 +3234,22 @@
       "observed_at": "2026-11-02",
       "status": "unverified",
       "queue_position": 160
+    },
+    {
+      "company": "Trail",
+      "role": "Forward Deployed Engineer (Contract)",
+      "role_url": "https://jobs.ashbyhq.com/trailhq/a076abe8-4442-46ae-b10e-1d82fc440ab8",
+      "eligibility_evidence": "Official Ashby role states India, Remote, Contract, third-party payroll, 2+ years engineering",
+      "eligibility_url": "https://jobs.ashbyhq.com/trailhq/a076abe8-4442-46ae-b10e-1d82fc440ab8",
+      "company_hq": "unverified",
+      "email": null,
+      "verification": "unverified",
+      "status": "unverified",
+      "notes": "Relevant AI-native workflows, RAG, APIs and full-stack; exact public hiring mailbox and qualifying non-India HQ not yet verified. No outreach.",
+      "observed_at": "2026-11-03",
+      "discovered_at": "2026-11-03",
+      "queue_position": 161,
+      "fit_score": 91
     }
   ],
   "updated_at": "2026-11-02T12:05:32+05:30"
