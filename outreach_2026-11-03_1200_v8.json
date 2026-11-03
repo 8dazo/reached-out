@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-03",
+  "batch": "12:00",
+  "timezone": "Asia/Kolkata",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "intended_count": 7,
+  "candidate_pool_start": 161,
+  "candidate_pool_end": 161,
+  "verified_ready": 0,
+  "new_found": 0,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "known_bounces_new": 0,
+  "unknown_delivery_new": 0,
+  "remaining_daily_quota": 30,
+  "shortfall": 7,
+  "source_failures": [],
+  "discovery_review": [
+    {
+      "company": "Kestra",
+      "role_url": "https://jobs.ashbyhq.com/kestra/74c49954-a9a0-46d6-a9e8-bbb9e972fb40",
+      "reason": "India remote but 4+ years Java/Vue required; exact hiring mailbox not verified; not queued as qualified"
+    },
+    {
+      "company": "Zapier",
+      "role_url": "https://jobs.ashbyhq.com/zapier/6948a0e6-a580-4e9d-b109-20652d9a1507",
+      "reason": "India remote but senior release engineering and older posting; exact hiring mailbox unverified"
+    },
+    {
+      "company": "SentiLink",
+      "role_url": "https://jobs.ashbyhq.com/sentilink/cbeda58b-9a35-4c75-a89a-5fa2c6dd83c1/",
+      "reason": "Explicit US-based role excludes India resident"
+    }
+  ],
+  "gmail_reconciliation": {
+    "sent_query": "in:sent after:2026/11/02 before:2026/11/04",
+    "results": 0,
+    "scope": "recent Gmail Sent only, not exhaustive all-history scan",
+    "new_bounce_search": "one previously known October 27 enablex failure, no fresh attributable bounces"
+  },
+  "blockers": [
+    "No verified_ready candidates",
+    "No exact publicly verified appropriate hiring mailbox for newly researched roles"
+  ],
+  "single_writer": "No outbound attempted",
+  "notes": "Historical suppression ledgers read. No unsafe retries. Existing FIFO unchanged. Zero sends verified by Gmail search, not a full historical audit."
+}
