@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-03",
+  "batch": "08:00",
+  "timezone": "Asia/Kolkata",
+  "observed_at": "2026-11-03T07:56:44+05:30",
+  "status": "preflight_completed_no_send",
+  "intended_count": 7,
+  "confirmed_sent": 0,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "candidate_pool_start": 161,
+  "candidate_pool_end": 161,
+  "verified_ready": 0,
+  "new_found": 0,
+  "remaining_daily_quota_at_check": 30,
+  "known_bounces_new": 0,
+  "unknown_delivery_new": 0,
+  "discovery_sources_checked": [
+    "official Ashby role listings",
+    "official Greenhouse role listings"
+  ],
+  "discovery_findings": [
+    {
+      "company": "Bottomline",
+      "role": "Forward-Deployed AI Engineer",
+      "url": "https://job-boards.greenhouse.io/bottomlinetechnologies/jobs/8860076002",
+      "status": "not_ready",
+      "reason": "No exact publicly verified hiring mailbox; fit requires review"
+    },
+    {
+      "company": "Arcana Analytics",
+      "role": "Senior AI Engineer — Inference & Agent Systems",
+      "url": "https://job-boards.greenhouse.io/arcanaanalytics/jobs/4169688009",
+      "status": "not_ready",
+      "reason": "HQ and fit not independently confirmed; application requires specific latency evidence"
+    },
+    {
+      "company": "Dscout",
+      "role": "Applied AI Engineer - India",
+      "url": "https://job-boards.greenhouse.io/dscout",
+      "status": "not_ready",
+      "reason": "No exact public recruiting mailbox verified"
+    }
+  ],
+  "blockers": [
+    "No verified_ready candidates in FIFO",
+    "No safe eligible exact mailbox found in this preflight",
+    "Preflight clock before 08:00 IST; no outbound allowed"
+  ],
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "note": "No Gmail sends attempted. Historical suppression retained; this preflight did not exhaustively reconcile full historical Gmail threads. No FIFO mutations."
+}
