@@ -1,0 +1,58 @@
+{
+  "version": 8,
+  "local_date": "2026-11-04",
+  "batch": "12:00",
+  "timezone": "Asia/Kolkata",
+  "intended_count": 7,
+  "confirmed_sent": 0,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "candidate_pool_start": 162,
+  "candidate_pool_end": 162,
+  "verified_ready": 0,
+  "ready_target": 45,
+  "shortfall": 7,
+  "ready_shortfall": 45,
+  "gmail_sent_date_search_count": 0,
+  "known_new_bounces": 0,
+  "unknown_new_deliveries": 0,
+  "queue_changed": false,
+  "discovery": [
+    {
+      "company": "Mem0",
+      "role": "Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/mem0/55436c97-b5cf-4666-aa38-9256b1a8565b",
+      "status": "held_no_verified_exact_hiring_mailbox"
+    },
+    {
+      "company": "FurtherAI",
+      "role": "Senior Software Engineer Backend/Fullstack India",
+      "url": "https://jobs.ashbyhq.com/furtherai/fdbf6b32-97e5-49a7-9296-d7f38f265b1a",
+      "status": "held_no_verified_exact_hiring_mailbox"
+    },
+    {
+      "company": "Weave",
+      "role": "Senior Backend Engineer Users Infrastructure",
+      "url": "https://jobs.ashbyhq.com/weave/3f582000-b557-48c5-b8d3-530cc53e8988",
+      "status": "held_seniority_and_no_verified_exact_mailbox"
+    },
+    {
+      "company": "Pragmatike",
+      "role": "Backend Engineer Go AI Security",
+      "url": "https://jobs.ashbyhq.com/pragmatike/65546cc8-9599-440d-903b-5297fbdca81f/",
+      "status": "held_client_hq_unverified_and_no_exact_mailbox"
+    },
+    {
+      "company": "PlayPower Labs",
+      "role": "Senior Software Engineer",
+      "url": "https://jobs.ashbyhq.com/playpowerlabs/ab9231e8-3e3f-41c4-aff2-ff769241a1c7",
+      "status": "held_no_verified_exact_mailbox"
+    }
+  ],
+  "blockers": [
+    "No verified_ready FIFO leads",
+    "No independently verified current exact hiring mailbox for newly researched roles",
+    "Historical Gmail full-thread reconciliation not exhaustive; pre-send per-recipient reconciliation not triggered"
+  ],
+  "notes": "Read V7, V8, latest configuration, quality policy, FIFO and permanent suppression files. Gmail Sent date-scoped search returned zero; recent mailer-daemon search returned zero. No outbound attempted; no carry-forward of missed capacity."
+}
