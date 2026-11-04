@@ -1,0 +1,46 @@
+{
+  "version": 8,
+  "local_date": "2026-11-04",
+  "batch": "10:00",
+  "timezone": "Asia/Kolkata",
+  "intended_count": 7,
+  "confirmed_sent": 0,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "candidate_pool_start": 162,
+  "candidate_pool_end": 162,
+  "verified_ready": 0,
+  "ready_target": 45,
+  "shortfall": 7,
+  "ready_shortfall": 45,
+  "gmail_sent_date_search_count": 0,
+  "known_new_bounces": 0,
+  "unknown_new_deliveries": 0,
+  "queue_changed": false,
+  "discovery": [
+    {
+      "company": "Tolken",
+      "role": "Senior Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/tolken/4d20e930-c496-4c80-bbb6-faee103f951d",
+      "status": "held_no_exact_verified_mailbox_or_hq_proof"
+    },
+    {
+      "company": "Emergence Software",
+      "role": "Fullstack Developer Node/TypeScript/Python",
+      "url": "https://jobs.ashbyhq.com/emergence/db73e66d-4a7a-4274-aff7-ed98e2977a1c/",
+      "status": "held_no_exact_verified_mailbox"
+    },
+    {
+      "company": "True Talent Solutions Partners",
+      "role": "Senior Full-Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/true-talent-solutions-partners/de5194e4-59f3-4673-a14b-7388395748b2",
+      "status": "held_5_plus_years_and_unverified_contact"
+    }
+  ],
+  "blockers": [
+    "No verified-ready candidates in authoritative FIFO",
+    "Full historical Gmail thread reconciliation not completed; no send permissible without per-recipient verification",
+    "No exact verified hiring mailbox for newly found roles"
+  ],
+  "notes": "Preflight started before 10:00 IST. No Gmail outbound action taken. No missed slot capacity carried forward. Existing FIFO and suppressions unchanged."
+}
