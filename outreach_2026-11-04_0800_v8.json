@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-04",
+  "slot": "08:00",
+  "phase": "preflight_before_window",
+  "observed_local_time": "2026-11-04T07:56:14+05:30",
+  "batch_cap": 7,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "confirmed_sent": 0,
+  "shortfall": 7,
+  "queue_count": 162,
+  "queue_verified_ready": 0,
+  "ready_target": 45,
+  "ready_shortfall": 45,
+  "queue_mutated": false,
+  "gmail_sent_search": "in:sent after:2026/11/03 before:2026/11/06",
+  "gmail_sent_search_ids": [],
+  "historical_full_thread_reconciliation_complete": false,
+  "discovery": [
+    {
+      "company": "Deel",
+      "role": "AI Engineer (Backend)",
+      "role_url": "https://jobs.ashbyhq.com/deel/6e93f93c-dcde-42c1-9b61-9a542de8cdbe",
+      "india_eligibility": "India explicitly listed",
+      "contact_status": "recruiting@deel.com is designated for accommodations, not verified as appropriate outreach mailbox",
+      "status": "unverified_do_not_send"
+    }
+  ],
+  "blockers": [
+    "No verified_ready FIFO contacts",
+    "Preflight before 08:00 India local start",
+    "No appropriate verified contact for newly researched role"
+  ],
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "outreach_v7_config.json",
+    "MESSAGE_QUALITY_V2.md"
+  ],
+  "note": "No send attempted; historical reconciliation incomplete; do not represent this as completed 08:00 sending batch."
+}
