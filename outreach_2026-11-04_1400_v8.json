@@ -1,0 +1,58 @@
+{
+  "version": 8,
+  "local_date": "2026-11-04",
+  "batch": "14:00",
+  "timezone": "Asia/Kolkata",
+  "intended_count": 2,
+  "confirmed_sent": 0,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "candidate_pool_start": 162,
+  "candidate_pool_end": 162,
+  "verified_ready": 0,
+  "ready_target": 45,
+  "ready_shortfall": 45,
+  "shortfall": 2,
+  "gmail_sent_date_search_count": 0,
+  "known_new_bounces": 0,
+  "unknown_new_deliveries": 0,
+  "queue_changed": false,
+  "daily_summary": {
+    "batch_confirmed": {
+      "06:30": 0,
+      "08:00": 0,
+      "10:00": 0,
+      "12:00": 0,
+      "14:00": 0
+    },
+    "confirmed_total": 0,
+    "daily_goal": 30,
+    "daily_shortfall": 30
+  },
+  "discovery": [
+    {
+      "company": "Zimperium",
+      "role": "Senior AI Engineer/Python Developer Bangalore India Remote",
+      "url": "https://jobs.lever.co/zimperium/6e0239b1-9fa6-4967-89a3-f90889dde23b",
+      "status": "held_no_verified_exact_recruiting_mailbox_and_seniority_review"
+    },
+    {
+      "company": "Lingaro",
+      "role": "ML/AI Engineer Classical ML India Remote",
+      "url": "https://jobs.lever.co/lingarogroup/553e0c1b-895e-401c-824b-e83bb983f225",
+      "status": "held_no_verified_exact_mailbox_and_classical_ML_fit"
+    },
+    {
+      "company": "Netomi",
+      "role": "Agentic Engineer Level II/III India Remote",
+      "url": "https://jobs.lever.co/netomi/?workplaceType=remote",
+      "status": "held_no_verified_exact_mailbox_and_4plus_YOE"
+    }
+  ],
+  "blockers": [
+    "Zero verified_ready leads in authoritative FIFO",
+    "Exact public hiring mailbox not established for researched live roles",
+    "Historical Gmail full-thread reconciliation not exhaustive; no recipient-specific send initiated"
+  ],
+  "notes": "Read V7, V8, latest config, message quality, FIFO and suppression ledgers. Date-scoped Gmail Sent search returned zero. No sending without verification, no missed capacity carry-forward. FIFO retained unchanged. Daily report reflects confirmed prior batch audits."
+}
