@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-05",
+  "batch": "10:00",
+  "timezone": "Asia/Kolkata",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "batch_cap": 7,
+  "confirmed_sent": 0,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "today_sent_search_count": 0,
+  "ready_confirmed": 0,
+  "ready_target": 45,
+  "queue_previous_reported": 162,
+  "queue_mutated": false,
+  "discovery": [
+    {
+      "company": "Mem0",
+      "role_url": "https://jobs.ashbyhq.com/mem0/55436c97-b5cf-4666-aa38-9256b1a8565b",
+      "status": "held_no_verified_exact_mailbox"
+    },
+    {
+      "company": "Infisical",
+      "role_url": "https://jobs.ashbyhq.com/infisical/782b9da8-20e1-48b2-919e-6c5430c58628",
+      "status": "held_no_verified_exact_mailbox"
+    },
+    {
+      "company": "Tempo",
+      "role_url": "https://jobs.ashbyhq.com/tempo/374cb123-0dde-427f-a907-e59b66d14624",
+      "status": "held_no_verified_exact_mailbox"
+    },
+    {
+      "company": "BJAK",
+      "role_url": "https://jobs.ashbyhq.com/bjakcareer/38dec656-2a11-42c6-b904-5f353d2c84e2/",
+      "status": "held_no_verified_exact_mailbox"
+    }
+  ],
+  "blockers": [
+    "No exact independently verified current recruitment mailbox for discovered roles",
+    "Exhaustive historical Gmail Sent/thread reconciliation incomplete"
+  ],
+  "notes": "No send attempted; FIFO untouched. Do not treat date-scoped Sent as full reconciliation."
+}
