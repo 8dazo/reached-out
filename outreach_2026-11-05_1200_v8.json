@@ -1,0 +1,54 @@
+{
+  "date_ist": "2026-11-05",
+  "batch": "12:00",
+  "run_type": "preflight_and_discovery",
+  "intended_count": 7,
+  "confirmed_sent": 0,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "candidate_pool_start": 162,
+  "candidate_pool_end": 162,
+  "verified_ready": 0,
+  "new_verified": 0,
+  "readiness_target": 45,
+  "shortfall": 7,
+  "source_findings": [
+    {
+      "company": "Mem0",
+      "role": "Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/mem0/55436c97-b5cf-4666-aa38-9256b1a8565b",
+      "result": "India remote; no exact verified recruiting mailbox"
+    },
+    {
+      "company": "Infisical",
+      "role": "Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/infisical/782b9da8-20e1-48b2-919e-6c5430c58628",
+      "result": "India eligible; no exact verified recruiting mailbox"
+    },
+    {
+      "company": "Tempo",
+      "role": "Full-Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/tempo/374cb123-0dde-427f-a907-e59b66d14624",
+      "result": "India remote; no exact verified recruiting mailbox"
+    },
+    {
+      "company": "BJAK",
+      "role": "Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/38dec656-2a11-42c6-b904-5f353d2c84e2/",
+      "result": "India remote; HQ and exact mailbox verification incomplete"
+    }
+  ],
+  "gmail_sent_date_scoped_count": 0,
+  "gmail_query": "in:sent after:2026/11/04 before:2026/11/07",
+  "full_historical_gmail_reconciliation_complete": false,
+  "unknown_delivery_new": 0,
+  "known_bounces_new": 0,
+  "queue_modified": false,
+  "blocker": "No verified_ready leads; missing verified current exact recruiting mailbox; exhaustive Gmail historical reconciliation incomplete",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "outreach_v7_config.json"
+  ],
+  "note": "No sends attempted. No quota carryover; no self-healing claimed."
+}
