@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-05",
+  "slot": "08:00",
+  "phase": "preflight_before_start",
+  "checked_at_local": "2026-11-05T07:56:23+05:30",
+  "intended_count": 7,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "known_new_bounces": 0,
+  "unknown_new_delivery": 0,
+  "queue_candidates_last_reported": 162,
+  "verified_ready_last_reported": 0,
+  "verified_ready_this_run": 0,
+  "new_verified": 0,
+  "shortfall": 7,
+  "reason": "Authoritative India clock before nominal slot; no eligible verified exact mailbox confirmed. Historical Gmail exhaustive reconciliation incomplete.",
+  "sources_reviewed": [
+    "https://jobs.ashbyhq.com/tempo/374cb123-0dde-427f-a907-e59b66d14624",
+    "https://jobs.ashbyhq.com/mem0/55436c97-b5cf-4666-aa38-9256b1a8565b",
+    "https://jobs.lever.co/tryjeeves"
+  ],
+  "gmail_date_scoped_sent_count": 0,
+  "discovery_note": "Roles found with India eligibility, but no independently verified appropriate exact recruiting mailbox; none promoted.",
+  "queue_mutated": false
+}
