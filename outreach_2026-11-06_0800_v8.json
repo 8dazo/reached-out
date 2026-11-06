@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-06",
+  "batch": "08:00",
+  "timezone": "Asia/Kolkata",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "intended_count": 7,
+  "confirmed_sent": 0,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "candidate_pool_start": 162,
+  "candidate_pool_end": 162,
+  "verified_ready_start": 0,
+  "verified_ready_end": 0,
+  "new_verified": 0,
+  "new_found_roles": 4,
+  "known_new_bounces": 0,
+  "unknown_new_deliveries": 0,
+  "remaining_daily_quota_based_on_today_sent_search": 30,
+  "shortfall": 7,
+  "source_review": [
+    {
+      "company": "Mem0",
+      "url": "https://jobs.ashbyhq.com/mem0/55436c97-b5cf-4666-aa38-9256b1a8565b",
+      "result": "India-remote; no exact verified recruiting mailbox"
+    },
+    {
+      "company": "Emergence",
+      "url": "https://jobs.ashbyhq.com/emergence/db73e66d-4a7a-4274-aff7-ed98e2977a1c/",
+      "result": "India-remote; no exact verified recruiting mailbox"
+    },
+    {
+      "company": "Saaf AI",
+      "url": "https://jobs.ashbyhq.com/AHL-SaafAI/bb430fe0-d65b-48cd-9648-9f9ea7c82969",
+      "result": "India-remote; no exact verified recruiting mailbox"
+    },
+    {
+      "company": "ElevenLabs",
+      "url": "https://jobs.ashbyhq.com/elevenlabs/3abf96ca-2937-4290-9d23-5208aece08b2",
+      "result": "India timezone eligibility indicated but role deadline Oct 26; no exact recruiting mailbox"
+    }
+  ],
+  "gmail_checks": {
+    "sent_today": 0,
+    "recent_bounce_search": 0,
+    "broad_optout_keyword_matches": 14,
+    "individual_optout_review": "not completed",
+    "full_historical_thread_reconciliation": "not completed"
+  },
+  "blockers": [
+    "No verified-ready contacts in FIFO",
+    "New roles lack verified exact appropriate public mailbox",
+    "Historical thread/optout reconciliation incomplete"
+  ],
+  "action": "No sends; preserve FIFO; no self-healing claim"
+}
