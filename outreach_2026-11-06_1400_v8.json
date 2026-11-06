@@ -1,0 +1,42 @@
+{
+  "date_ist": "2026-11-06",
+  "slot_ist": "14:00",
+  "run_started_ist": "2026-11-06T13:56:55+05:30",
+  "status": "preflight_no_send",
+  "batch_limit": 2,
+  "confirmed_sent": 0,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "queue_count": 162,
+  "verified_ready": 0,
+  "readiness_target": 45,
+  "readiness_shortfall": 45,
+  "new_verified": 0,
+  "queue_mutated": false,
+  "gmail_date_scoped_sent_ids": 0,
+  "full_historical_reconciliation_complete": false,
+  "known_bounces_new": 0,
+  "unknown_delivery_new": 0,
+  "notes": "Read V7, V8, current config, message quality, FIFO, suppression ledgers. Gmail date-scoped Sent returned zero. Queue has no verified_ready records. No eligible publicly verified recipient. Slot nominal start not reached at preflight; no outbound attempt. Historical Gmail reconciliation incomplete; cannot assert independently verified daily total.",
+  "source_review": [
+    {
+      "url": "https://jobs.ashbyhq.com/bjakcareer/38dec656-2a11-42c6-b904-5f353d2c84e2/",
+      "status": "India eligible; exact public recruiting mailbox not verified"
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/playpowerlabs/ab9231e8-3e3f-41c4-aff2-ff769241a1c7",
+      "status": "US company, India eligible; exact public recruiting mailbox not verified"
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/tempo/374cb123-0dde-427f-a907-e59b66d14624",
+      "status": "India eligible; exact public recruiting mailbox not verified"
+    }
+  ],
+  "blockers": [
+    "zero verified_ready leads",
+    "no exact verified recruiting mailbox",
+    "historical Gmail reconciliation incomplete"
+  ],
+  "daily_prior_reported_sends": 0,
+  "daily_total_independently_verified": false
+}
