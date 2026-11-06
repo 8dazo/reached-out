@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-06",
+  "batch": "06:30",
+  "timezone": "Asia/Kolkata",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md"
+  ],
+  "config_sha": "de10c0799dcd36be6485d0fd62b006cea3eff252",
+  "queue_sha": "b0f496826777916c3e205dd66e0eff205a9d8df9",
+  "candidate_pool_start": 162,
+  "candidate_pool_end": 162,
+  "queue_status_counts": {
+    "unknown_delivery": 1,
+    "bounced": 2,
+    "sent_confirmed": 28,
+    "needs_fit_review": 19,
+    "unverified": 79,
+    "disqualified": 11,
+    "needs_attachment": 6,
+    "excluded_fit": 2,
+    "needs_eligibility_review": 1,
+    "application_attachment_blocked": 1,
+    "excluded_visa": 3,
+    "excluded_acquired": 2,
+    "disqualified_historical_sent": 2,
+    "needs_freshness_review": 4,
+    "needs_takehome_and_official_confirmation": 1
+  },
+  "verified_ready": 0,
+  "ready_target": 45,
+  "ready_shortfall": 45,
+  "intended_count": 7,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "confirmed_sent": 0,
+  "batch_shortfall": 7,
+  "known_new_bounces": 0,
+  "unknown_new_delivery": 0,
+  "today_gmail_sent_ids": [],
+  "today_confirmed_new": 0,
+  "remaining_daily_cap": 30,
+  "discovery": [
+    {
+      "company": "Infisical",
+      "role": "Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/infisical/782b9da8-20e1-48b2-919e-6c5430c58628",
+      "eligibility": "India listed; must work US hours",
+      "status": "hold_no_verified_public_exact_recruiting_mailbox"
+    },
+    {
+      "company": "Weave",
+      "role": "Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/weave/726f150c-2176-4af6-ad99-0debe9d2952b",
+      "eligibility": "India remote",
+      "status": "hold_5_to_9_years_required_and_no_verified_mailbox"
+    }
+  ],
+  "new_verified": 0,
+  "source_failures": [],
+  "connector_failures": [],
+  "limitations": [
+    "No verified-ready FIFO entries; no eligible verified exact mailbox found in fresh research.",
+    "Full historical Gmail thread and opt-out reconciliation not completed; broad keyword search has false positives and is not treated as confirmed opt-outs.",
+    "No single-writer claim required because no send attempted."
+  ],
+  "recovery": "Discovery attempted; no safe promotion or sends; no self-repair claimed."
+}
