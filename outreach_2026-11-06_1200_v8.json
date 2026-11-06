@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-06",
+  "batch": "12:00",
+  "timezone": "Asia/Kolkata",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "intended_count": 7,
+  "candidate_pool_start": 162,
+  "candidate_pool_end": 162,
+  "verified_ready": 0,
+  "new_verified": 0,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "known_new_bounces": 0,
+  "unknown_new_delivery": 0,
+  "batch_shortfall": 7,
+  "remaining_daily_quota": "not fully reconciled; date-scoped Sent search returned zero",
+  "gmail_today_sent_search_count": 0,
+  "historical_gmail_full_reconciliation": "incomplete; no sending permitted",
+  "discovery": [
+    {
+      "company": "Lingaro",
+      "role": "ML/AI Engineer - Peepal Consulting",
+      "url": "https://jobs.lever.co/lingarogroup/6adf8593-2a35-44d0-9400-0ced651fd403",
+      "status": "hold: exact recruiting mailbox not verified"
+    },
+    {
+      "company": "Kestra",
+      "role": "Senior Full-Stack Software Engineer",
+      "url": "https://jobs.ashbyhq.com/kestra/74c49954-a9a0-46d6-a9e8-bbb9e972fb40",
+      "status": "hold: exact recruiting mailbox not verified; seniority/fit review"
+    },
+    {
+      "company": "Netomi",
+      "role": "Agentic Engineer Level II/III",
+      "url": "https://jobs.lever.co/netomi?workplaceType=remote",
+      "status": "hold: exact recruiting mailbox not verified"
+    }
+  ],
+  "source_failures": [],
+  "connector_failures": [],
+  "blockers": [
+    "zero verified_ready FIFO leads",
+    "no newly verified exact contact email",
+    "full historical Gmail reconciliation incomplete"
+  ],
+  "queue_modified": false,
+  "recovery_claimed": false
+}
