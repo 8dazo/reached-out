@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-07",
+  "batch": "10:00",
+  "timezone": "Asia/Kolkata",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md"
+  ],
+  "config_sha": "de10c0799dcd36be6485d0fd62b006cea3eff252",
+  "status": "preflight_no_send",
+  "intended_count": 7,
+  "queue_count": 162,
+  "queue_statuses": {
+    "unknown_delivery": 1,
+    "bounced": 2,
+    "sent_confirmed": 28,
+    "needs_fit_review": 19,
+    "unverified": 79,
+    "disqualified": 11,
+    "needs_attachment": 6,
+    "excluded_fit": 2,
+    "needs_eligibility_review": 1,
+    "application_attachment_blocked": 1,
+    "excluded_visa": 3,
+    "excluded_acquired": 2,
+    "disqualified_historical_sent": 2,
+    "needs_freshness_review": 4,
+    "needs_takehome_and_official_confirmation": 1
+  },
+  "verified_ready": 0,
+  "new_verified": 0,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "known_new_bounces": 0,
+  "new_unknown_deliveries": 0,
+  "shortfall": 7,
+  "gmail_today_search": {
+    "query": "in:sent after:2026/11/06 before:2026/11/09",
+    "count": 0
+  },
+  "historical_gmail_full_reconciliation": "incomplete; no recipients sent",
+  "discovery": [
+    {
+      "company": "BJAK",
+      "role": "Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/38dec656-2a11-42c6-b904-5f353d2c84e2/",
+      "status": "hold_no_verified_exact_mailbox"
+    },
+    {
+      "company": "Infisical",
+      "role": "Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/infisical/782b9da8-20e1-48b2-919e-6c5430c58628",
+      "status": "hold_no_verified_exact_mailbox"
+    },
+    {
+      "company": "Mem0",
+      "role": "Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/mem0/55436c97-b5cf-4666-aa38-9256b1a8565b",
+      "status": "hold_no_verified_exact_mailbox"
+    },
+    {
+      "company": "Tolken",
+      "role": "Senior Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/tolken/4d20e930-c496-4c80-bbb6-faee103f951d",
+      "status": "hold_mailbox_and_HQ_fit_unverified"
+    }
+  ],
+  "blockers": [
+    "no verified_ready contacts",
+    "historical Gmail full-thread reconciliation incomplete"
+  ],
+  "queue_mutated": false,
+  "no_self_repair_claimed": true
+}
