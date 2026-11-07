@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-07",
+  "slot": "08:00",
+  "status": "preflight_no_send",
+  "observed_ist": "2026-11-07T07:57:16+05:30",
+  "intended_count": 7,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "known_bounces_new": 0,
+  "unknown_delivery_new": 0,
+  "ready_verified": 0,
+  "queue_candidates_last_known": 162,
+  "readiness_target": 45,
+  "ready_shortfall": 45,
+  "gmail_today_date_scoped_count": 0,
+  "gmail_historical_full_reconciliation": "incomplete: pagination required",
+  "blockers": [
+    "before authorized 08:00 IST send boundary at observed clock",
+    "no revalidated verified-ready contacts",
+    "full historical Gmail suppression reconciliation incomplete"
+  ],
+  "discovery_reviewed": [
+    {
+      "company": "BJAK",
+      "role_url": "https://jobs.ashbyhq.com/bjakcareer/38dec656-2a11-42c6-b904-5f353d2c84e2/",
+      "status": "no verified exact recipient"
+    },
+    {
+      "company": "Symmetry",
+      "role_url": "https://jobs.ashbyhq.com/symmetry/0fba1d57-6c6d-49d1-a029-74b7f2532bc1",
+      "status": "no verified exact recipient"
+    },
+    {
+      "company": "Tempo",
+      "role_url": "https://jobs.ashbyhq.com/tempo/374cb123-0dde-427f-a907-e59b66d14624",
+      "status": "no verified exact recipient"
+    }
+  ],
+  "queue_modified": false,
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ]
+}
