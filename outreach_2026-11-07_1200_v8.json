@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-07",
+  "slot": "12:00",
+  "timezone": "Asia/Kolkata",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "status": "no_send_verified_ready_zero",
+  "intended_count": 7,
+  "queue_total": 162,
+  "queue_ready": 0,
+  "queue_statuses": {
+    "unknown_delivery": 1,
+    "bounced": 2,
+    "sent_confirmed": 28,
+    "needs_fit_review": 19,
+    "unverified": 79,
+    "disqualified": 11,
+    "needs_attachment": 6,
+    "excluded_fit": 2,
+    "needs_eligibility_review": 1,
+    "application_attachment_blocked": 1,
+    "excluded_visa": 3,
+    "excluded_acquired": 2,
+    "disqualified_historical_sent": 2,
+    "needs_freshness_review": 4,
+    "needs_takehome_and_official_confirmation": 1
+  },
+  "gmail_sent_nov7_search_ids": 0,
+  "gmail_sent_nov7_search_query": "in:sent after:2026/11/06 before:2026/11/09",
+  "historical_full_thread_reconciliation": "incomplete",
+  "new_found": 0,
+  "new_verified": 0,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "known_new_bounces": 0,
+  "unknown_new_deliveries": 0,
+  "batch_shortfall": 7,
+  "remaining_daily_quota": "unverified; no sending",
+  "source_findings": [
+    {
+      "company": "Mem0",
+      "role": "Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/mem0/55436c97-b5cf-4666-aa38-9256b1a8565b",
+      "reason": "India remote but no verified exact recruiting mailbox"
+    },
+    {
+      "company": "Tempo",
+      "role": "Full-Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/tempo/374cb123-0dde-427f-a907-e59b66d14624",
+      "reason": "India remote but no verified exact recruiting mailbox"
+    },
+    {
+      "company": "ElevenLabs",
+      "role": "Full-Stack Engineer Ads Engine",
+      "url": "https://jobs.ashbyhq.com/elevenlabs/3abf96ca-2937-4290-9d23-5208aece08b2",
+      "reason": "Explicit India-compatible remote; no verified exact recruiting mailbox"
+    },
+    {
+      "company": "Infisical",
+      "role": "Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/infisical/351240fc-0dd3-48c3-a46e-e8861cae27cd",
+      "reason": "Listing location excludes India though body includes India; eligibility inconsistent; no verified mailbox"
+    }
+  ],
+  "blockers": [
+    "zero verified-ready FIFO contacts",
+    "no independently verified exact contact for researched roles",
+    "historical Gmail thread and opt-out reconciliation incomplete"
+  ],
+  "queue_mutated": false,
+  "recovery_claimed": false
+}
