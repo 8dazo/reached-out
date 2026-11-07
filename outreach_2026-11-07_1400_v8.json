@@ -1,0 +1,71 @@
+{
+  "date_ist": "2026-11-07",
+  "slot_ist": "14:00",
+  "execution_phase": "preflight_before_authorized_window",
+  "observed_local_time_ist": "13:57:19",
+  "intended_count": 2,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "known_new_bounces": 0,
+  "new_unknown_delivery": 0,
+  "queue_count": 162,
+  "queue_verified_ready": 0,
+  "queue_status_breakdown": {
+    "unknown_delivery": 1,
+    "bounced": 2,
+    "sent_confirmed": 28,
+    "needs_fit_review": 19,
+    "unverified": 79,
+    "disqualified": 11,
+    "needs_attachment": 6,
+    "excluded_fit": 2,
+    "needs_eligibility_review": 1,
+    "application_attachment_blocked": 1,
+    "excluded_visa": 3,
+    "excluded_acquired": 2,
+    "disqualified_historical_sent": 2,
+    "needs_freshness_review": 4,
+    "needs_takehome_and_official_confirmation": 1
+  },
+  "gmail_sent_date_scoped_count": 0,
+  "gmail_sent_query": "in:sent after:2026/11/06 before:2026/11/09",
+  "historical_gmail_reconciliation_complete": false,
+  "discovery": [
+    {
+      "company": "Jeeves",
+      "url": "https://jobs.lever.co/tryjeeves",
+      "role": "AI Engineer",
+      "eligibility": "Remote India",
+      "contact": "not_verified"
+    },
+    {
+      "company": "BJAK",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/38dec656-2a11-42c6-b904-5f353d2c84e2/",
+      "role": "Full Stack Engineer",
+      "eligibility": "Remote India explicitly",
+      "contact": "not_verified"
+    },
+    {
+      "company": "Tempo",
+      "url": "https://jobs.ashbyhq.com/tempo/374cb123-0dde-427f-a907-e59b66d14624",
+      "role": "Full-Stack Engineer",
+      "eligibility": "India remote",
+      "contact": "not_verified"
+    },
+    {
+      "company": "Symmetry",
+      "url": "https://jobs.ashbyhq.com/symmetry/0fba1d57-6c6d-49d1-a029-74b7f2532bc1",
+      "role": "Senior Full Stack Engineer",
+      "eligibility": "India remote",
+      "contact": "not_verified"
+    }
+  ],
+  "blockers": [
+    "No independently verified exact recruiting mailbox",
+    "Historical Gmail thread/bounce/opt-out reconciliation incomplete",
+    "Outbound not permitted before 14:00 IST"
+  ],
+  "queue_modified": false,
+  "final_reconciliation_complete": false,
+  "notes": "Preflight audit only; no sends and no claim of completed 14:00 batch. No carry-forward of missed capacity."
+}
