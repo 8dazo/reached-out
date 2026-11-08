@@ -1,0 +1,56 @@
+{
+  "protocol": "OUTREACH_V7.md + SELF_HEALING_V8.md",
+  "date_ist": "2026-11-08",
+  "slot_ist": "10:00",
+  "status": "blocked_no_verified_ready_and_incomplete_historical_gmail_reconciliation",
+  "intended_count": 7,
+  "confirmed_sent": 0,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "candidate_pool_start": 162,
+  "candidate_pool_end": 162,
+  "verified_ready": 0,
+  "new_verified": 0,
+  "readiness_target": 45,
+  "readiness_shortfall": 45,
+  "batch_shortfall": 7,
+  "queue_mutated": false,
+  "github_ledger_mutated": false,
+  "gmail_sent_date_scoped_count": 0,
+  "gmail_sent_query": "in:sent after:2026/11/07 before:2026/11/09",
+  "bounce_optout_signal_matches_since_nov1": 62,
+  "historical_reconciliation_complete": false,
+  "source_findings": [
+    {
+      "company": "Mem0",
+      "role": "Full Stack Engineer",
+      "role_url": "https://jobs.ashbyhq.com/mem0/55436c97-b5cf-4666-aa38-9256b1a8565b",
+      "eligibility": "India remote",
+      "hold": "no independently verified exact hiring mailbox"
+    },
+    {
+      "company": "Tempo",
+      "role": "Full-Stack Engineer",
+      "role_url": "https://jobs.ashbyhq.com/tempo/374cb123-0dde-427f-a907-e59b66d14624",
+      "eligibility": "India remote",
+      "hold": "no independently verified exact hiring mailbox"
+    },
+    {
+      "company": "Symmetry AI",
+      "role": "Senior Full Stack Engineer",
+      "role_url": "https://jobs.ashbyhq.com/symmetry/0fba1d57-6c6d-49d1-a029-74b7f2532bc1",
+      "eligibility": "India remote",
+      "hold": "no independently verified exact hiring mailbox"
+    },
+    {
+      "company": "Tolken",
+      "role": "Senior Full Stack Engineer",
+      "role_url": "https://jobs.ashbyhq.com/tolken/4d20e930-c496-4c80-bbb6-faee103f951d",
+      "eligibility": "India remote",
+      "hold": "HQ/fit and exact mailbox not verified"
+    }
+  ],
+  "remaining_daily_cap": "not independently established due to incomplete historical reconciliation",
+  "no_retry": true,
+  "notes": "No sends; historical 62 bounce/opt-out search hits not individually reviewed; no queue promotions without exact mailbox verification. Other scheduled runs must independently reconcile."
+}
