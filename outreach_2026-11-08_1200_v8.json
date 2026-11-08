@@ -1,0 +1,48 @@
+{
+  "date_ist": "2026-11-08",
+  "slot": "12:00",
+  "preflight_time_ist": "2026-11-08T11:55:15+05:30",
+  "status": "preflight_no_send_before_window",
+  "intended_count": 7,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "verified_ready": 0,
+  "candidate_pool_last_known": 162,
+  "queue_modified": false,
+  "gmail_sent_date_search_count": 0,
+  "gmail_sent_date_search_next_page": false,
+  "delivery_failure_search_count": 0,
+  "discovery": [
+    {
+      "company": "Mem0",
+      "role": "Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/mem0/55436c97-b5cf-4666-aa38-9256b1a8565b",
+      "blocker": "no verified exact mailbox"
+    },
+    {
+      "company": "Tempo",
+      "role": "Full-Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/tempo/374cb123-0dde-427f-a907-e59b66d14624",
+      "blocker": "no verified exact mailbox"
+    },
+    {
+      "company": "PlayPower Labs",
+      "role": "Senior Software Engineer",
+      "url": "https://jobs.ashbyhq.com/playpowerlabs/ab9231e8-3e3f-41c4-aff2-ff769241a1c7/",
+      "blocker": "no verified exact mailbox"
+    },
+    {
+      "company": "Symmetry",
+      "role": "Senior Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/symmetry/0fba1d57-6c6d-49d1-a029-74b7f2532bc1",
+      "blocker": "no verified exact mailbox"
+    }
+  ],
+  "blockers": [
+    "No verified-ready leads in last known FIFO assessment; fresh complete queue status not independently computed",
+    "No independently verified appropriate exact recruiting mailbox",
+    "Historical Gmail Sent/thread and opt-out reconciliation incomplete",
+    "Outbound slot not yet open"
+  ],
+  "notes": "No Gmail send call made. No self-healing claimed. Historical suppression and FIFO preserved."
+}
