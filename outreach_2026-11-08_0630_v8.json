@@ -1,0 +1,68 @@
+{
+  "date_ist": "2026-11-08",
+  "batch": "06:30",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md"
+  ],
+  "status": "preflight_no_send",
+  "intended_count": 7,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "candidate_pool_start": 162,
+  "candidate_pool_end": 162,
+  "verified_ready": 0,
+  "new_verified": 0,
+  "readiness_target": 45,
+  "readiness_shortfall": 45,
+  "batch_shortfall": 7,
+  "queue_status_counts": {
+    "unknown_delivery": 1,
+    "bounced": 2,
+    "sent_confirmed": 28,
+    "needs_fit_review": 19,
+    "unverified": 79,
+    "disqualified": 11,
+    "needs_attachment": 6,
+    "excluded_fit": 2,
+    "needs_eligibility_review": 1,
+    "application_attachment_blocked": 1,
+    "excluded_visa": 3,
+    "excluded_acquired": 2,
+    "disqualified_historical_sent": 2,
+    "needs_freshness_review": 4,
+    "needs_takehome_and_official_confirmation": 1
+  },
+  "gmail_today_sent_search_count": 0,
+  "gmail_bounce_optout_search_since_nov1": 62,
+  "gmail_historical_full_reconciliation": "incomplete",
+  "daily_total_confirmed": "not fully reconciled",
+  "new_discovery": [
+    {
+      "company": "BJAK",
+      "role": "Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/38dec656-2a11-42c6-b904-5f353d2c84e2/",
+      "status": "no_verified_exact_contact"
+    },
+    {
+      "company": "Mem0",
+      "role": "Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/mem0/55436c97-b5cf-4666-aa38-9256b1a8565b",
+      "status": "no_verified_exact_contact"
+    },
+    {
+      "company": "Jeeves",
+      "role": "AI Engineer",
+      "url": "https://jobs.lever.co/tryjeeves",
+      "status": "no_verified_exact_contact"
+    }
+  ],
+  "blockers": [
+    "zero verified-ready candidates",
+    "no exact public verified recruiting mailboxes for researched roles",
+    "full historical Gmail threads and suppression reconciliation incomplete"
+  ],
+  "queue_modified": false,
+  "notes": "No outbound sends; no self-repair claimed. No duplicate-risk actions taken."
+}
