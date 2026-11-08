@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-08",
+  "slot": "08:00",
+  "timezone": "Asia/Kolkata",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md"
+  ],
+  "status": "no_send_insufficient_verified_contacts_and_incomplete_historical_reconciliation",
+  "intended_count": 7,
+  "confirmed_sent": 0,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "candidate_pool_start": 162,
+  "candidate_pool_end": 162,
+  "verified_ready": 0,
+  "ready_target": 45,
+  "ready_shortfall": 45,
+  "batch_shortfall": 7,
+  "new_verified": 0,
+  "queue_statuses": {
+    "unknown_delivery": 1,
+    "bounced": 2,
+    "sent_confirmed": 28,
+    "needs_fit_review": 19,
+    "unverified": 79,
+    "disqualified": 11,
+    "needs_attachment": 6,
+    "excluded_fit": 2,
+    "needs_eligibility_review": 1,
+    "application_attachment_blocked": 1,
+    "excluded_visa": 3,
+    "excluded_acquired": 2,
+    "disqualified_historical_sent": 2,
+    "needs_freshness_review": 4,
+    "needs_takehome_and_official_confirmation": 1
+  },
+  "gmail_today_sent_search_count": 0,
+  "gmail_bounce_optout_signal_count_since_nov1": 62,
+  "gmail_signal_review": "not individually reconciled",
+  "source_research": [
+    {
+      "company": "Mem0",
+      "role": "Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/mem0/55436c97-b5cf-4666-aa38-9256b1a8565b",
+      "status": "hold_no_verified_exact_mailbox"
+    },
+    {
+      "company": "Tempo",
+      "role": "Full-Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/tempo/374cb123-0dde-427f-a907-e59b66d14624",
+      "status": "hold_no_verified_exact_mailbox"
+    },
+    {
+      "company": "Symmetry AI",
+      "role": "Senior Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/symmetry/0fba1d57-6c6d-49d1-a029-74b7f2532bc1",
+      "status": "hold_no_verified_exact_mailbox"
+    },
+    {
+      "company": "Netomi",
+      "role": "Agentic Engineer Level II/III",
+      "url": "https://jobs.lever.co/netomi/?workplaceType=remote",
+      "status": "hold_no_verified_exact_mailbox"
+    }
+  ],
+  "blockers": [
+    "No verified_ready candidate",
+    "No independently verified exact contact email from fresh discovery",
+    "Full historical Gmail thread and opt-out reconciliation incomplete"
+  ],
+  "queue_mutated": false,
+  "unknown_delivery_new": 0
+}
