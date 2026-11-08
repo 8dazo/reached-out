@@ -1,0 +1,48 @@
+{
+  "date_ist": "2026-11-08",
+  "slot": "14:00",
+  "status": "preflight_no_send",
+  "observed_ist": "2026-11-08T13:55:34+05:30",
+  "intended_count": 2,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "new_verified": 0,
+  "ready_contacts": 0,
+  "queue_candidates_last_known": 162,
+  "known_today_sent_gmail_search": 0,
+  "full_history_reconciled": false,
+  "bounce_optout_search_matches": 64,
+  "known_bounces_new": 0,
+  "unknown_delivery_new": 0,
+  "remaining_quota_unverified": true,
+  "blockers": [
+    "Before authorized 14:00 window",
+    "No verified-ready recipients",
+    "Full historical thread/bounce/optout reconciliation unfinished"
+  ],
+  "source_research": [
+    {
+      "company": "Mem0",
+      "role_url": "https://jobs.ashbyhq.com/mem0/55436c97-b5cf-4666-aa38-9256b1a8565b",
+      "reason": "No verified exact mailbox"
+    },
+    {
+      "company": "Tempo",
+      "role_url": "https://jobs.ashbyhq.com/tempo/374cb123-0dde-427f-a907-e59b66d14624",
+      "reason": "No verified exact mailbox"
+    },
+    {
+      "company": "Symmetry AI",
+      "role_url": "https://jobs.ashbyhq.com/symmetry/0fba1d57-6c6d-49d1-a029-74b7f2532bc1",
+      "reason": "No verified exact mailbox"
+    },
+    {
+      "company": "Infisical",
+      "role_url": "https://jobs.ashbyhq.com/infisical/3b1dd1a3-e5e7-46e5-b1d2-862f672d8878",
+      "reason": "No verified exact mailbox"
+    }
+  ],
+  "queue_mutated": false,
+  "daily_summary_status": "incomplete_preflight",
+  "note": "Do not treat as completed 14:00 batch. No outbound sends attempted. No self-repair claimed."
+}
