@@ -1,0 +1,63 @@
+{
+  "date_ist": "2026-11-09",
+  "slot_ist": "08:00",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md"
+  ],
+  "status": "blocked_no_verified_ready",
+  "intended_count": 7,
+  "confirmed_sent": 0,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "candidate_pool_start": 162,
+  "candidate_pool_end": 162,
+  "verified_ready": 0,
+  "new_verified": 0,
+  "known_bounces_new": 0,
+  "unknown_delivery_new": 0,
+  "shortfall": 7,
+  "readiness_target": 45,
+  "readiness_shortfall": 45,
+  "queue_preserved": true,
+  "gmail_sent_date_scoped_count": 0,
+  "signal_messages_since_nov1": 66,
+  "historical_thread_reconciliation": "incomplete",
+  "discovery": [
+    {
+      "company": "Outmarket AI",
+      "role": "Full Stack AI Engineer",
+      "role_url": "https://jobs.ashbyhq.com/outmarket/716e3319-1d72-4f8d-b5d9-efb9de1cf72f",
+      "eligibility": "Remote India",
+      "contact": "not verified"
+    },
+    {
+      "company": "AHL - Saaf AI",
+      "role": "Forward-Deployed AI Engineer",
+      "role_url": "https://jobs.ashbyhq.com/ahl-saafai/cf683b2f-f1db-4ca0-9bac-57eb64827c0a",
+      "eligibility": "India Remote",
+      "contact": "not verified"
+    },
+    {
+      "company": "BJAK",
+      "role": "Applied AI Engineer",
+      "role_url": "https://jobs.ashbyhq.com/bjakcareer/d6c58233-5692-4820-8b86-52dade2e7e19",
+      "eligibility": "India remote",
+      "contact": "not verified"
+    },
+    {
+      "company": "Deductive AI",
+      "role": "AI Engineer - FDE",
+      "role_url": "https://jobs.ashbyhq.com/deductive/124b540e-f84f-46d5-9752-f151361b8223",
+      "eligibility": "India remote",
+      "contact": "not verified"
+    }
+  ],
+  "blockers": [
+    "No verified_ready FIFO entries",
+    "No exact independently verified recruiting email for new roles",
+    "Historical Gmail thread and opt-out/bounce reconciliation incomplete"
+  ],
+  "note": "No emails sent; no lead queue changes. Discovery is preliminary and not verified-ready. Daily cap not inferred from incomplete reconciliation."
+}
