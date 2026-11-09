@@ -1,0 +1,71 @@
+{
+  "date_ist": "2026-11-09",
+  "slot_ist": "10:00",
+  "observed_run_start_ist": "2026-11-09T10:02:13+05:30",
+  "status": "no_send_quality_and_reconciliation_blocked",
+  "intended_count": 7,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "confirmed_new_sends": 0,
+  "batch_shortfall": 7,
+  "queue_total": 162,
+  "queue_status_counts": {
+    "unknown_delivery": 1,
+    "bounced": 2,
+    "sent_confirmed": 28,
+    "needs_fit_review": 19,
+    "unverified": 79,
+    "disqualified": 11,
+    "needs_attachment": 6,
+    "excluded_fit": 2,
+    "needs_eligibility_review": 1,
+    "application_attachment_blocked": 1,
+    "excluded_visa": 3,
+    "excluded_acquired": 2,
+    "disqualified_historical_sent": 2,
+    "needs_freshness_review": 4,
+    "needs_takehome_and_official_confirmation": 1
+  },
+  "verified_ready": 0,
+  "readiness_target": 45,
+  "new_verified_mailboxes": 0,
+  "discovery_roles": [
+    {
+      "company": "Symmetry AI",
+      "role": "Senior Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/symmetry/0fba1d57-6c6d-49d1-a029-74b7f2532bc1",
+      "result": "India remote; exact recruiter mailbox not verified"
+    },
+    {
+      "company": "AHL - Saaf AI",
+      "role": "Senior Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/AHL-SaafAI/bb430fe0-d65b-48cd-9648-9f9ea7c82969",
+      "result": "India remote; exact recruiter mailbox not verified"
+    },
+    {
+      "company": "Outmarket AI",
+      "role": "Front End AI Engineer",
+      "url": "https://jobs.ashbyhq.com/outmarket/80670027-3c1e-478c-ab2c-590be7194330",
+      "result": "India remote; exact recruiter mailbox not verified"
+    },
+    {
+      "company": "BJAK",
+      "role": "Applied AI Engineer",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/416c3505-bc04-4b6e-8c60-fae0ea8b947e",
+      "result": "India eligible; exact recruiter mailbox not verified"
+    }
+  ],
+  "gmail_checks": {
+    "sent_nov9_count": 0,
+    "sent_nov1_to_nov9_count": 2,
+    "bounce_optout_query_matches_since_nov1": 67,
+    "full_thread_reconciliation_complete": false
+  },
+  "queue_mutated": false,
+  "blockers": [
+    "No verified_ready leads",
+    "No independently verified exact recruiting mailbox for fresh roles",
+    "Full historical Gmail thread/bounce/opt-out reconciliation incomplete"
+  ],
+  "notes": "No send attempted. Prior suppression retained. No self-repair claimed. This audit does not assert total daily sent across all workflows."
+}
