@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-09",
+  "slot": "12:00",
+  "timezone": "Asia/Kolkata",
+  "status": "completed_no_send_verification_blocked",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "intended_count": 7,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "confirmed_sent_count": 0,
+  "shortfall": 7,
+  "candidate_pool_start": 162,
+  "candidate_pool_end": 162,
+  "verified_ready_start": 0,
+  "verified_ready_end": 0,
+  "new_verified_contacts": 0,
+  "new_queue_additions": 0,
+  "known_bounces_new": 0,
+  "unknown_delivery_new": 0,
+  "gmail_sent_nov9_search_count": 0,
+  "gmail_sent_search_query": "in:sent after:2026/11/08 before:2026/11/11",
+  "historical_gmail_reconciliation": "incomplete; full historical threads and suppression signals not exhaustively reviewed",
+  "daily_unique_new_contacts": "not independently established",
+  "sources_reviewed": [
+    {
+      "company": "Playpower Labs",
+      "role": "Senior Software Engineer",
+      "role_url": "https://jobs.ashbyhq.com/playpowerlabs/ab9231e8-3e3f-41c4-aff2-ff769241a1c7/",
+      "finding": "US HQ and India remote supported; public contact@playpowerlabs.com is general contact, not verified recruiting mailbox; hold"
+    },
+    {
+      "company": "Infisical",
+      "role": "Full Stack Engineer",
+      "role_url": "https://infisical.com/careers/full-stack-engineer",
+      "finding": "Official careers currently excludes India; disqualify despite stale ATS result"
+    },
+    {
+      "company": "Mem0",
+      "role": "Full Stack Engineer",
+      "role_url": "https://jobs.ashbyhq.com/mem0/55436c97-b5cf-4666-aa38-9256b1a8565b",
+      "finding": "India remote; no exact public hiring email verified"
+    },
+    {
+      "company": "BJAK",
+      "role": "Applied AI Engineer",
+      "role_url": "https://jobs.ashbyhq.com/bjakcareer/d6c58233-5692-4820-8b86-52dade2e7e19",
+      "finding": "India remote; no exact public hiring email verified"
+    },
+    {
+      "company": "Symmetry AI",
+      "role": "Senior Full Stack Engineer",
+      "role_url": "https://jobs.ashbyhq.com/symmetry/0fba1d57-6c6d-49d1-a029-74b7f2532bc1",
+      "finding": "India remote; no exact public hiring email verified"
+    }
+  ],
+  "blockers": [
+    "zero verified-ready contacts",
+    "no independently verified exact recruiting mailbox",
+    "historical Gmail reconciliation incomplete"
+  ],
+  "queue_unchanged": true,
+  "self_repair_claimed": false
+}
