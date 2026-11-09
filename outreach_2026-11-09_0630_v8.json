@@ -1,0 +1,80 @@
+{
+  "date_ist": "2026-11-09",
+  "slot_ist": "06:30",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "status": "blocked_no_verified_ready_and_incomplete_historical_thread_reconciliation",
+  "intended_count": 7,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "confirmed_sent_count": 0,
+  "batch_shortfall": 7,
+  "candidate_pool_start": 162,
+  "candidate_pool_end": 162,
+  "verified_ready": 0,
+  "initial_ready_target": 45,
+  "readiness_shortfall": 45,
+  "queue_statuses": {
+    "unknown_delivery": 1,
+    "bounced": 2,
+    "sent_confirmed": 28,
+    "needs_fit_review": 19,
+    "unverified": 79,
+    "disqualified": 11,
+    "needs_attachment": 6,
+    "excluded_fit": 2,
+    "needs_eligibility_review": 1,
+    "application_attachment_blocked": 1,
+    "excluded_visa": 3,
+    "excluded_acquired": 2,
+    "disqualified_historical_sent": 2,
+    "needs_freshness_review": 4,
+    "needs_takehome_and_official_confirmation": 1
+  },
+  "gmail_today_sent_query": "in:sent after:2026/11/08 before:2026/11/11",
+  "gmail_today_sent_matches": 0,
+  "gmail_bounce_optout_signal_matches": 66,
+  "gmail_bounce_optout_signals_individually_reconciled": false,
+  "historical_thread_reconciliation_complete": false,
+  "new_verified_contacts": 0,
+  "discovery": [
+    {
+      "company": "Mem0",
+      "role": "Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/mem0/55436c97-b5cf-4666-aa38-9256b1a8565b",
+      "outcome": "India-remote role; no verified exact public recruiting mailbox"
+    },
+    {
+      "company": "Symmetry AI",
+      "role": "Senior Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/Symmetry/0fba1d57-6c6d-49d1-a029-74b7f2532bc1/",
+      "outcome": "India-remote role; no verified exact public recruiting mailbox"
+    },
+    {
+      "company": "Infisical",
+      "role": "Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/infisical/782b9da8-20e1-48b2-919e-6c5430c58628",
+      "outcome": "India eligible; no verified exact public recruiting mailbox"
+    },
+    {
+      "company": "ElevenLabs",
+      "role": "Full-Stack Engineer - Ads Engine",
+      "url": "https://jobs.ashbyhq.com/elevenlabs/3abf96ca-2937-4290-9d23-5208aece08b2",
+      "outcome": "India eligible; no verified exact public recruiting mailbox"
+    },
+    {
+      "company": "PlayPower Labs",
+      "role": "Senior Software Engineer",
+      "url": "https://jobs.ashbyhq.com/playpowerlabs/ab9231e8-3e3f-41c4-aff2-ff769241a1c7/",
+      "outcome": "US-based India-remote role; no verified exact public recruiting mailbox"
+    }
+  ],
+  "fifo_modified": false,
+  "suppression_modified": false,
+  "unknown_delivery_new": 0,
+  "notes": "No outbound action permitted without verified mailbox and full suppression/thread checks. Existing unknown-delivery candidate remains quarantined. No self-healing success claimed."
+}
