@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-09",
+  "slot": "14:00",
+  "timezone": "Asia/Kolkata",
+  "status": "completed_no_send_verification_blocked",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "intended_count": 2,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "confirmed_sent_count": 0,
+  "shortfall": 2,
+  "candidate_pool_start": 162,
+  "candidate_pool_end": 162,
+  "verified_ready_start": 0,
+  "verified_ready_end": 0,
+  "new_verified_contacts": 0,
+  "new_queue_additions": 0,
+  "known_bounces_new": 0,
+  "unknown_delivery_new": 0,
+  "gmail_sent_nov9_search_count": 0,
+  "gmail_sent_search_query": "in:sent after:2026/11/08 before:2026/11/11",
+  "potential_bounce_optout_matches_since_nov1": 68,
+  "historical_gmail_reconciliation": "incomplete: 68 broad signal matches not individually reviewed against all threads",
+  "daily_unique_new_contacts": "0 observed in date-scoped Gmail Sent; full historical reconciliation incomplete",
+  "daily_summary": {
+    "morning_0630_confirmed": 0,
+    "batch_0800_confirmed": 0,
+    "batch_1000_confirmed": 0,
+    "batch_1200_confirmed": 0,
+    "batch_1400_confirmed": 0,
+    "total_reported_confirmed": 0,
+    "goal": 30,
+    "shortfall_against_goal": 30,
+    "remaining_verified_ready": 0,
+    "prior_queue_bounced": 2,
+    "prior_queue_unknown_delivery": 1
+  },
+  "sources_reviewed": [
+    {
+      "company": "BJAK",
+      "role": "Applied AI Engineer",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/d6c58233-5692-4820-8b86-52dade2e7e19",
+      "finding": "India explicitly eligible, no exact verified recruiting mailbox"
+    },
+    {
+      "company": "Deel",
+      "role": "AI Engineer (Backend)",
+      "url": "https://jobs.ashbyhq.com/deel/6e93f93c-dcde-42c1-9b61-9a542de8cdbe",
+      "finding": "India eligible; recruiting@deel.com explicitly for accommodation/application difficulty, not validated as ordinary role outreach channel"
+    },
+    {
+      "company": "Pulsora",
+      "role": "Applied AI Engineer - India",
+      "url": "https://jobs.ashbyhq.com/Pulsora%20Inc/9ca9c174-6b07-4373-b255-ee526d27a986/",
+      "finding": "India in title but location says Remote Canada; conflicting geography; hold"
+    },
+    {
+      "company": "Emergence Software",
+      "role": "Senior AI Engineer",
+      "url": "https://jobs.ashbyhq.com/emergence/d91a1451-a6a4-46b5-9b92-04d38e0062da/",
+      "finding": "India remote; senior experience fit and exact hiring mailbox unverified"
+    }
+  ],
+  "blockers": [
+    "zero verified-ready contacts",
+    "no independently verified exact recruiting mailbox",
+    "historical Gmail thread reconciliation incomplete"
+  ],
+  "queue_unchanged": true,
+  "self_repair_claimed": false
+}
