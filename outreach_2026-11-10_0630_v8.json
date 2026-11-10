@@ -1,0 +1,74 @@
+{
+  "date_ist": "2026-11-10",
+  "slot": "06:30",
+  "phase": "preflight_no_send",
+  "checked_at_ist": "2026-11-10T06:25:45+05:30",
+  "protocols": [
+    "OUTREACH_V7.md",
+    "SELF_HEALING_V8.md",
+    "MESSAGE_QUALITY_V2.md",
+    "outreach_v7_config.json"
+  ],
+  "batch_limit": 7,
+  "confirmed_sent": 0,
+  "send_attempts": 0,
+  "confirmed_gmail_message_ids": [],
+  "queue_total": 162,
+  "queue_statuses": {
+    "unknown_delivery": 1,
+    "bounced": 2,
+    "sent_confirmed": 28,
+    "needs_fit_review": 19,
+    "unverified": 79,
+    "disqualified": 11,
+    "needs_attachment": 6,
+    "excluded_fit": 2,
+    "needs_eligibility_review": 1,
+    "application_attachment_blocked": 1,
+    "excluded_visa": 3,
+    "excluded_acquired": 2,
+    "disqualified_historical_sent": 2,
+    "needs_freshness_review": 4,
+    "needs_takehome_and_official_confirmation": 1
+  },
+  "verified_ready": 0,
+  "readiness_shortfall": 45,
+  "slot_shortfall": 7,
+  "gmail_sent_search": "after:2026/11/09 before:2026/11/12",
+  "gmail_sent_matches": 0,
+  "possible_bounce_optout_search_matches": 77,
+  "full_thread_reconciliation_complete": false,
+  "discovery_reviewed": [
+    {
+      "company": "Mem0",
+      "role": "Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/mem0/55436c97-b5cf-4666-aa38-9256b1a8565b",
+      "status": "exact recruiting mailbox unverified"
+    },
+    {
+      "company": "Symmetry AI",
+      "role": "Senior Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/Symmetry/0fba1d57-6c6d-49d1-a029-74b7f2532bc1/",
+      "status": "exact recruiting mailbox unverified"
+    },
+    {
+      "company": "BJAK",
+      "role": "Applied AI Engineer",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/d6c58233-5692-4820-8b86-52dade2e7e19/",
+      "status": "exact recruiting mailbox unverified"
+    },
+    {
+      "company": "ElevenLabs",
+      "role": "Full-Stack Engineer - Ads Engine",
+      "url": "https://jobs.ashbyhq.com/elevenlabs/3abf96ca-2937-4290-9d23-5208aece08b2",
+      "status": "exact recruiting mailbox unverified"
+    }
+  ],
+  "blockers": [
+    "No verified-ready candidate",
+    "Full historical Gmail thread and bounce reconciliation incomplete",
+    "Preflight before nominal 06:30 window"
+  ],
+  "queue_modified": false,
+  "notes": "No sending authorized before slot. No self-healing claimed."
+}
