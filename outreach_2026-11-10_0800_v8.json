@@ -1,0 +1,81 @@
+{
+  "protocol": "OUTREACH_V7.md + SELF_HEALING_V8.md",
+  "config": "outreach_v7_config.json",
+  "date_ist": "2026-11-10",
+  "batch": "08:00",
+  "observed_run_local": "2026-11-10 08:01 IST",
+  "intended_count": 7,
+  "confirmed_sent": 0,
+  "send_attempts": 0,
+  "confirmed_sent_message_ids": [],
+  "shortfall": 7,
+  "queue_total": 162,
+  "queue_statuses": {
+    "unknown_delivery": 1,
+    "bounced": 2,
+    "sent_confirmed": 28,
+    "needs_fit_review": 19,
+    "unverified": 79,
+    "disqualified": 11,
+    "needs_attachment": 6,
+    "excluded_fit": 2,
+    "needs_eligibility_review": 1,
+    "application_attachment_blocked": 1,
+    "excluded_visa": 3,
+    "excluded_acquired": 2,
+    "disqualified_historical_sent": 2,
+    "needs_freshness_review": 4,
+    "needs_takehome_and_official_confirmation": 1
+  },
+  "verified_ready_start": 0,
+  "verified_ready_end": 0,
+  "ready_pool_target": 45,
+  "new_verified": 0,
+  "unknown_delivery_new": 0,
+  "gmail_sent_date_search_count": 0,
+  "gmail_failure_signal_search_count": 6,
+  "full_historical_reconciliation_complete": false,
+  "discovery": [
+    {
+      "company": "Mem0",
+      "role": "Full Stack Engineer",
+      "url": "https://jobs.ashbyhq.com/mem0/55436c97-b5cf-4666-aa38-9256b1a8565b",
+      "result": "India remote verified; exact appropriate public recruiting mailbox not verified"
+    },
+    {
+      "company": "ElevenLabs",
+      "role": "Full-Stack Engineer Ads Engine",
+      "url": "https://jobs.ashbyhq.com/elevenlabs/3abf96ca-2937-4290-9d23-5208aece08b2/",
+      "result": "India eligible; exact appropriate recruiting mailbox not verified"
+    },
+    {
+      "company": "AHL Saaf AI",
+      "role": "Forward-Deployed AI Engineer",
+      "url": "https://jobs.ashbyhq.com/AHL-SaafAI/cf683b2f-f1db-4ca0-9bac-57eb64827c0a",
+      "result": "India remote verified; exact appropriate recruiting mailbox not verified"
+    },
+    {
+      "company": "Outmarket AI",
+      "role": "Full Stack AI Engineer",
+      "url": "https://jobs.ashbyhq.com/outmarket/716e3319-1d72-4f8d-b5d9-efb9de1cf72f/",
+      "result": "India remote; historical company outreach suppressed"
+    },
+    {
+      "company": "Trail",
+      "role": "Forward Deployed Engineer Contract",
+      "url": "https://jobs.ashbyhq.com/trailhq/a076abe8-4442-46ae-b10e-1d82fc440ab8",
+      "result": "India contract eligible; non-India HQ and exact mailbox unverified"
+    }
+  ],
+  "source_failures": [],
+  "connector_failures": [],
+  "blockers": [
+    "No verified_ready FIFO contacts",
+    "No independently verified exact appropriate mailbox found in discovery",
+    "Complete historical Gmail thread/bounce/opt-out reconciliation unfinished"
+  ],
+  "recovery_claimed": false,
+  "queue_mutated": false,
+  "send_halted_for_safety": true,
+  "notes": "No sending attempted. FIFO retained unchanged. Date-scoped Gmail Sent search zero; six potential failure signals returned for query since Nov 1, not fully reconciled. No previous batch shortfall carried forward."
+}
